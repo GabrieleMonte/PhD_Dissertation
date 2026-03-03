@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: chapters/04-warmspy.aux
+The style file: styles/JHEP.bst
+jhep is an illegal style-file command---line 1 of file styles/JHEP.bst
+ : jhep
+ :      bibliography style ver. 2.18
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: ../arXiv-2306.16190v2/bibl.bib
+Warning--entry type for "rosati_robert_2020_4708348" isn't style-file defined
+--line 55 of file ../arXiv-2306.16190v2/bibl.bib
+You've used 83 entries,
+            2316 wiz_defined-function locations,
+            1183 strings with 18408 characters,
+and the built_in function-call counts, 34501 in all, are:
+= -- 3810
+> -- 881
+< -- 0
++ -- 268
+- -- 185
+* -- 3290
+:= -- 4321
+add.period$ -- 84
+call.type$ -- 83
+change.case$ -- 80
+chr.to.int$ -- 0
+cite$ -- 83
+duplicate$ -- 2631
+empty$ -- 3140
+format.name$ -- 555
+if$ -- 8833
+int.to.chr$ -- 0
+int.to.str$ -- 83
+missing$ -- 321
+newline$ -- 254
+num.names$ -- 74
+pop$ -- 204
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1214
+stack$ -- 0
+substring$ -- 2088
+swap$ -- 700
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 356
+width$ -- 85
+write$ -- 877
+(There was 1 error message)

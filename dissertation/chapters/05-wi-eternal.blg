@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: chapters/05-wi-eternal.aux
+The style file: styles/JHEP.bst
+jhep is an illegal style-file command---line 1 of file styles/JHEP.bst
+ : jhep
+ :      bibliography style ver. 2.18
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: ../arXiv-2311.03487v2/bibl.bib
+You've used 50 entries,
+            2316 wiz_defined-function locations,
+            941 strings with 12218 characters,
+and the built_in function-call counts, 21100 in all, are:
+= -- 2344
+> -- 526
+< -- 0
++ -- 161
+- -- 111
+* -- 1951
+:= -- 2667
+add.period$ -- 50
+call.type$ -- 50
+change.case$ -- 50
+chr.to.int$ -- 0
+cite$ -- 50
+duplicate$ -- 1595
+empty$ -- 1893
+format.name$ -- 333
+if$ -- 5412
+int.to.chr$ -- 0
+int.to.str$ -- 50
+missing$ -- 197
+newline$ -- 154
+num.names$ -- 48
+pop$ -- 113
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 778
+stack$ -- 0
+substring$ -- 1324
+swap$ -- 441
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 224
+width$ -- 52
+write$ -- 525
+(There was 1 error message)
