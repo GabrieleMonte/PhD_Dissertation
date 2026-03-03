@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2024.11.5)  3 MAR 2026 02:32
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2024.11.5)  3 MAR 2026 02:41
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -2973,11 +2973,8 @@ Underfull \hbox (badness 1102) in paragraph at lines 102--102
 . [][]12.2[][] for the lensed CMB temperature-polarization cross-
  []
 
-
-Overfull \hbox (25.63446pt too wide) in paragraph at lines 113--130
- [][] 
- []
-
+LaTeX Font Info:    Font shape `TU/XCharter(4)/m/n' will be
+(Font)              scaled to size 10.95pt on input line 113.
 [244] [245<../arXiv-2501.13788v2/figures/phase-shift_ee.pdf>] [246<../arXiv-2501
 .13788v2/figures/phase-shift_te.pdf>] [247] [248]
 <../arXiv-2501.13788v2/figures/2_sbt_template.pdf, id=5859, 320.19624pt x 203.7
@@ -3124,9 +3121,9 @@ Overfull \hbox (37.8151pt too wide) in paragraph at lines 426--436
 
 
 Underfull \hbox (badness 3029) in paragraph at lines 436--436
-[]\TU/XCharter(2)/b/n/10.95 Ta-ble 12.4: |\TU/XCharter(2)/m/n/10.95 Con-straints
- on $\TU/XCharter-Math.otf(1)/m/n/10.95 𝑁[]$ \TU/XCharter(2)/m/n/10.95 and $
-\TU/XCharter-Math.otf(1)/m/n/10.95 𝑁[]$ \TU/XCharter(2)/m/n/10.95 at 68% (95%
+[]\TU/XCharter(2)/b/n/10.95 Ta-ble 12.4: |\TU/XCharter(4)/m/n/10.95 Con-straints
+ on $\TU/XCharter-Math.otf(1)/m/n/10.95 𝑁[]$ \TU/XCharter(4)/m/n/10.95 and $
+\TU/XCharter-Math.otf(1)/m/n/10.95 𝑁[]$ \TU/XCharter(4)/m/n/10.95 at 68% (95%
 ) c.l. us-ing the up-dated
  []
 
@@ -3181,54 +3178,10 @@ Overfull \hbox (5.55598pt too wide) in paragraph at lines 545--553
 asets to val-i-date the perturbation-
  []
 
-
-Overfull \hbox (34.67421pt too wide) in paragraph at lines 568--581
- [][] 
- []
-
-
-Overfull \hbox (34.67421pt too wide) in paragraph at lines 588--602
- [][] 
- []
-
-
-Overfull \hbox (34.67421pt too wide) in paragraph at lines 609--624
- [][] 
- []
-
-
-Overfull \hbox (41.3462pt too wide) in paragraph at lines 637--650
- [][] 
- []
-
-
-Overfull \hbox (34.67421pt too wide) in paragraph at lines 657--671
- [][] 
- []
-
-
-Overfull \hbox (34.67421pt too wide) in paragraph at lines 678--693
- [][] 
- []
-
 [287] [288<../arXiv-2501.13788v2/figures/sbt-pbt_validation_2d.pdf>] [289]
 [290] [291] [292]
-Overfull \hbox (6.70271pt too wide) in paragraph at lines 744--758
- [][] 
- []
 
-
-Overfull \hbox (13.37471pt too wide) in paragraph at lines 764--778
- [][] 
- []
-
-
-Overfull \hbox (20.0467pt too wide) in paragraph at lines 784--798
- [][] 
- []
-
-
-LaTeX Warning: Float too large for page by 52.9467pt on input line 803.
+LaTeX Warning: Float too large for page by 24.83781pt on input line 803.
 
 [293] [294] [295]) [296]
 \openout2 = chapters/13-neutrino-interactions.aux
@@ -3544,24 +3497,20 @@ LaTeX Font Info:    Font shape `TU/XCharter(2)/m/sc' will be
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 966B5FC049E0DAE844602658C556AD9B;27100.
 )
 
 Here is how much of LuaTeX's memory you used:
- 44985 strings out of 476553
- 156277,1977958 words of node,token memory allocated
+ 44986 strings out of 476553
+ 156277,2373549 words of node,token memory allocated
  5940 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 118 glue, 4 kern, 14 sub_mlist, 1 glyph, 796 attrib
 ute, 92 glue_spec, 796 attribute_list, 2 write, 205 pdf_action nodes
    avail lists: 1:10,2:1826,3:1079,4:256,5:1438,6:59,7:13166,8:93,9:1826,10:28,1
 1:861
- 63445 multiletter control sequences out of 65536+600000
- 283 fonts using 59579847 bytes
+ 63446 multiletter control sequences out of 65536+600000
+ 285 fonts using 60020823 bytes
  95i,19n,118p,3060b,3193s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/opentype/public/xcharter/XCharter-Italic.ot
 f></usr/share/texlive/texmf-dist/fonts/opentype/adobe/sourcecodepro/SourceCodePr
@@ -3578,7 +3527,7 @@ onts/opentype/public/xcharter/XCharter-Italic.otf></usr/share/texlive/texmf-dist
 /fonts/opentype/public/xcharter/XCharter-Roman.otf></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/euler/eusm10.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/latxfont/line10.pfb>
-Output written on main.pdf (457 pages, 32688124 bytes).
+Output written on main.pdf (457 pages, 32688498 bytes).
 
 PDF statistics: 10958 PDF objects out of 12825 (max. 8388607)
  9456 compressed objects within 95 object streams
