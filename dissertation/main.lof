@@ -1,13 +1,13 @@
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Spectral index and tensor-to-scalar ratio vs.\ dissipation strength}}{39}{figure.caption.7}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Warm natural inflation predictions in the $r$--$n_s$ plane}}{41}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Spectral index and tensor-to-scalar ratio vs.\ dissipation strength}}{40}{figure.caption.7}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Warm natural inflation predictions in the $r$--$n_s$ plane}}{42}{figure.caption.9}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Evolution of dissipation strength and temperature-to-Hubble ratio}}{43}{figure.caption.10}%
 \addvspace {10pt}
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Validation of $G(Q)$ against existing literature}}{77}{figure.caption.11}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Numerical fits of the scalar dissipation function $G(Q)$}}{79}{figure.caption.12}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Independence of $G(Q)$ from the field-dependence index $m$}}{82}{figure.caption.14}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Numerical fits of the scalar dissipation function $G(Q)$}}{80}{figure.caption.12}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Independence of $G(Q)$ from the field-dependence index $m$}}{83}{figure.caption.14}%
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Independence of $G(Q)$ from the inflaton potential}}{91}{figure.caption.16}%
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Robustness of $G(Q)$ to inflationary history}}{92}{figure.caption.18}%
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Independence of $G(Q)$ from metric perturbations and slow-roll corrections}}{93}{figure.caption.21}%
@@ -69,24 +69,24 @@
 \contentsline {figure}{\numberline {12.13}{\ignorespaces Redshift evolution of perturbation-based template parameters}}{289}{figure.caption.82}%
 \contentsline {figure}{\numberline {12.14}{\ignorespaces Joint mock-data constraints on radiation and phase shift parameters}}{291}{figure.caption.83}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {13.1}{\ignorespaces Neutrino phase shift in the undamped EE power spectrum for interacting neutrinos}}{303}{figure.caption.87}%
-\contentsline {figure}{\numberline {13.2}{\ignorespaces Phase-shift templates for interacting neutrinos}}{305}{figure.caption.88}%
-\contentsline {figure}{\numberline {13.3}{\ignorespaces Phase-shift amplitude ratio as a function of neutrino decoupling redshift}}{309}{figure.caption.89}%
-\contentsline {figure}{\numberline {13.4}{\ignorespaces Posterior distributions for the phase-shift amplitude and neutrino decoupling redshift}}{313}{figure.caption.90}%
-\contentsline {figure}{\numberline {13.5}{\ignorespaces Neutrino decoupling constraints for flavor-dependent interactions}}{318}{figure.caption.92}%
-\contentsline {figure}{\numberline {13.6}{\ignorespaces Comparison of phase-shift templates for free-streaming and fluid-like neutrinos}}{326}{figure.caption.94}%
-\contentsline {figure}{\numberline {13.7}{\ignorespaces Validation of the constant-amplitude phase-shift approximation}}{330}{figure.caption.95}%
-\contentsline {figure}{\numberline {13.8}{\ignorespaces Phase-shift amplitude from TE and EE spectra only}}{332}{figure.caption.96}%
-\contentsline {figure}{\numberline {13.9}{\ignorespaces Comparison of phase-shift amplitude constraints from different parameterizations}}{334}{figure.caption.97}%
-\contentsline {figure}{\numberline {13.10}{\ignorespaces Comparison of Planck 2018 and Planck 2021 phase-shift constraints}}{337}{figure.caption.98}%
-\contentsline {figure}{\numberline {13.11}{\ignorespaces Phase-shift constraints from various CMB dataset combinations}}{339}{figure.caption.100}%
+\contentsline {figure}{\numberline {13.1}{\ignorespaces Neutrino phase shift in the undamped EE power spectrum for interacting neutrinos}}{304}{figure.caption.87}%
+\contentsline {figure}{\numberline {13.2}{\ignorespaces Phase-shift templates for interacting neutrinos}}{306}{figure.caption.88}%
+\contentsline {figure}{\numberline {13.3}{\ignorespaces Phase-shift amplitude ratio as a function of neutrino decoupling redshift}}{310}{figure.caption.89}%
+\contentsline {figure}{\numberline {13.4}{\ignorespaces Posterior distributions for the phase-shift amplitude and neutrino decoupling redshift}}{314}{figure.caption.90}%
+\contentsline {figure}{\numberline {13.5}{\ignorespaces Neutrino decoupling constraints for flavor-dependent interactions}}{319}{figure.caption.92}%
+\contentsline {figure}{\numberline {13.6}{\ignorespaces Comparison of phase-shift templates for free-streaming and fluid-like neutrinos}}{327}{figure.caption.94}%
+\contentsline {figure}{\numberline {13.7}{\ignorespaces Validation of the constant-amplitude phase-shift approximation}}{331}{figure.caption.95}%
+\contentsline {figure}{\numberline {13.8}{\ignorespaces Phase-shift amplitude from TE and EE spectra only}}{333}{figure.caption.96}%
+\contentsline {figure}{\numberline {13.9}{\ignorespaces Comparison of phase-shift amplitude constraints from different parameterizations}}{335}{figure.caption.97}%
+\contentsline {figure}{\numberline {13.10}{\ignorespaces Comparison of Planck 2018 and Planck 2021 phase-shift constraints}}{338}{figure.caption.98}%
+\contentsline {figure}{\numberline {13.11}{\ignorespaces Phase-shift constraints from various CMB dataset combinations}}{340}{figure.caption.100}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {14.1}{\ignorespaces Phase shift in the matter and relative-velocity power spectra as a function of $N_{\rm eff}$}}{347}{figure.caption.102}%
-\contentsline {figure}{\numberline {14.2}{\ignorespaces BAO and VAO phase-shift templates as a function of wavenumber}}{358}{figure.caption.104}%
-\contentsline {figure}{\numberline {14.3}{\ignorespaces Phase shift in the 21-cm power spectrum at redshift $z=23$}}{360}{figure.caption.105}%
-\contentsline {figure}{\numberline {14.4}{\ignorespaces Redshift evolution of the 21-cm phase-shift template across cosmic dawn}}{363}{figure.caption.106}%
-\contentsline {figure}{\numberline {14.5}{\ignorespaces Impact of enhanced Pop III star formation on the 21-cm phase shift}}{366}{figure.caption.108}%
-\contentsline {figure}{\numberline {14.6}{\ignorespaces Phase shift extraction from the baryon-DM relative velocity power spectrum}}{372}{figure.caption.109}%
-\contentsline {figure}{\numberline {14.7}{\ignorespaces Spline interpolations of the 21-cm phase shift across cosmic dawn}}{373}{figure.caption.110}%
-\contentsline {figure}{\numberline {14.8}{\ignorespaces BAO and VAO amplitude evolution for fiducial and enhanced Pop III models}}{374}{figure.caption.111}%
+\contentsline {figure}{\numberline {14.1}{\ignorespaces Phase shift in the matter and relative-velocity power spectra as a function of $N_{\rm eff}$}}{348}{figure.caption.102}%
+\contentsline {figure}{\numberline {14.2}{\ignorespaces BAO and VAO phase-shift templates as a function of wavenumber}}{359}{figure.caption.104}%
+\contentsline {figure}{\numberline {14.3}{\ignorespaces Phase shift in the 21-cm power spectrum at redshift $z=23$}}{361}{figure.caption.105}%
+\contentsline {figure}{\numberline {14.4}{\ignorespaces Redshift evolution of the 21-cm phase-shift template across cosmic dawn}}{364}{figure.caption.106}%
+\contentsline {figure}{\numberline {14.5}{\ignorespaces Impact of enhanced Pop III star formation on the 21-cm phase shift}}{367}{figure.caption.108}%
+\contentsline {figure}{\numberline {14.6}{\ignorespaces Phase shift extraction from the baryon-DM relative velocity power spectrum}}{373}{figure.caption.109}%
+\contentsline {figure}{\numberline {14.7}{\ignorespaces Spline interpolations of the 21-cm phase shift across cosmic dawn}}{374}{figure.caption.110}%
+\contentsline {figure}{\numberline {14.8}{\ignorespaces BAO and VAO amplitude evolution for fiducial and enhanced Pop III models}}{375}{figure.caption.111}%
 \addvspace {10pt}

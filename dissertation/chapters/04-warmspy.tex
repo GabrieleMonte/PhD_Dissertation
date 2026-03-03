@@ -193,7 +193,8 @@ In this notation, the complete system of perturbation equations reads:
 \begin{align}
     &\delta \hat{\phi}^{\prime\prime}-3 (1+Q) \delta \hat{\phi}^\prime+\left(e^{2\tau}+\frac{V_{, \phi \phi}}{H^2}-\frac{3mQ \dot{\phi}}{\phi H}\right) \delta \hat{\phi} +\frac{ c}{4 H \dot{\phi}} \delta \hat{\rho}_r -4\frac{\dot{\phi}}{H}\hat{\varphi}^{\prime}  \nonumber \\
     &+\left[3H(1+2Q)\dot{\phi}+2\Ddot{\phi}\right]\frac{\hat{\varphi}}{H^2}=e^{3\tau/2}\sum_{j=\{q,T\}} \Xi_j \hat{\xi}_j\,, \label{eq:ch4-Gab2.1} \\
-    &\delta \hat{\rho}^\prime_r+\left(\frac{3c Q \dot{\phi}^2}{4 \rho_r}-4\right) \delta \hat{\rho_r}+He^{2\tau}\hat{\Psi}_r-6 H Q \dot{\phi} \delta \hat{\phi}^\prime -\frac{3m Q \dot{\phi}^2}{\phi} \delta \hat{\phi}-3HQ\dot{\phi}^2\hat{\varphi}-4H\rho_r\hat{\varphi}^\prime=0, \label{eq:ch4-Gab2.2}\\ 
+    &\delta \hat{\rho}^\prime_r+\left(\frac{3c Q \dot{\phi}^2}{4 \rho_r}-4\right) \delta \hat{\rho_r}+He^{2\tau}\hat{\Psi}_r-6 H Q \dot{\phi} \delta \hat{\phi}^\prime \nonumber \\
+    &\quad -\frac{3m Q \dot{\phi}^2}{\phi} \delta \hat{\phi}-3HQ\dot{\phi}^2\hat{\varphi}-4H\rho_r\hat{\varphi}^\prime=0, \label{eq:ch4-Gab2.2}\\
     &\hat{\Psi}^\prime_r-3 \hat{\Psi}_r-3Q \dot{\phi} \delta \hat{\phi}-\frac{1}{3H} \delta \hat{\rho}_r+4 \rho_r \frac{\hat{\varphi}}{3H}=0, \label{eq:ch4-Gab2.3} \\
       &\hat{\varphi}^\prime - \hat{\varphi}+ \frac{1}{2H M_{\mathrm{Pl}}^2}\left(\hat{\Psi}_r- \dot{\phi} \delta \hat{\phi}\right)=0. \label{eq:ch4-Gab2.4}
 \end{align}
@@ -253,7 +254,8 @@ Q}{1+Q}- \eta\right)}\,. \label{eq:ch4-alpha}
 Using Eq.~\eqref{eq:ch4-dphi1} and the definition of the inflaton power spectrum $\Delta^2_{\delta\phi}$ in terms of the two-point correlation function for the scalar field perturbations, we obtain:
 \begin{align}
     \Delta^2_{\delta\phi}&\equiv \frac{k^3}{2 \pi^2} \int \frac{{\rm d}^3 k^{\prime}}{(2 \pi)^3}\left\langle\delta \varphi(\mathbf{k}, z) \delta \varphi\left(\mathbf{k}^{\prime}, z^\prime\right)\right\rangle \\
-    &=\frac{k^3}{2 \pi^2} \int \frac{{\rm d}^3 k^{\prime}}{(2 \pi)^3} \frac{1}{H^4} \int_z^{\infty} {\rm d} z_2 \int_z^{\infty} {\rm d} z_1 G\left(z, z_1\right) G\left(z, z_2\right) \frac{\left(z_1\right)^{1-2 \nu}}{z_1^2} \frac{\left(z_2\right)^{1-2 \nu}}{z_2^2}\left[\left\langle\xi_q \xi_q\right\rangle +\left\langle\xi_T\xi_T\right\rangle \right] \nonumber \\
+    &=\frac{k^3}{2 \pi^2} \int \frac{{\rm d}^3 k^{\prime}}{(2 \pi)^3} \frac{1}{H^4} \int_z^{\infty} {\rm d} z_2 \int_z^{\infty} {\rm d} z_1\, G\left(z, z_1\right) G\left(z, z_2\right) \nonumber \\
+    &\qquad\qquad \times \frac{\left(z_1\right)^{1-2 \nu}}{z_1^2} \frac{\left(z_2\right)^{1-2 \nu}}{z_2^2}\left[\left\langle\xi_q \xi_q\right\rangle +\left\langle\xi_T\xi_T\right\rangle \right] \nonumber \\
     &=\left[\frac{\Upsilon T}{16\pi^2}+\frac{H^2\sqrt{9+12\pi Q}}{ 32\pi^3}\cdot(1+2n_{*}) \right]\int_z^{\infty} {\rm d} z^{\prime} z^{\prime 2-4 \nu} G\left(z, z^{\prime}\right)^2. \label{eq:ch4-dphi2}
 \end{align}
 In the last line, we use the expressions for the two-point correlation functions of the thermal and quantum noises in eqs.~\eqref{eq:ch4-2.7} and~\eqref{eq:ch4-2.8}, and we assume that $\Upsilon$, $T$, $H$ and $Q$ are approximately constant with respect to $z$. Since $z\ll 1$ for the relevant observational scales for the inflaton perturbations, we can approximate the integral

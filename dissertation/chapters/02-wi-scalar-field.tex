@@ -106,10 +106,7 @@ We further derive the overdamping constraint on the potential to be:
 \end{equation}
 Note, Eq.~\ref{eq:ch2-3.2} is valid for any value of $Q\geq 0$ and in fact, for $Q=0$ (standard cold inflation) it reduces to the overdamping constraint derived in~\citep{Adams:1990pn}. Since in this Letter we are only interested in the strong dissipative regime ($Q\gg1$), we can always safely take $1+Q\simeq Q$ in Eq.~\ref{eq:ch2-3.2}.
 
-We assume that both constraints in Eqs.~\ref{eq:ch2-3.1}--\ref{eq:ch2-3.2} hold for the relevant period of $N\approx8$ $e$-foldings that can be probed in the CMB. In addition, we adopt a new time variable $x$ defined in Eq.~\ref{eq:ch2-3.4} in terms of the number $n$ of $e$-foldings since the beginning of the epoch,
-and in this new notation rewrite the overdamping
-constraint  as Eq.~\ref{eq:ch2-3.5}
-and density perturbation constraint as Eq.~\ref{eq:ch2-3.6}:
+We assume that both constraints in Eqs.~\ref{eq:ch2-3.1}--\ref{eq:ch2-3.2} hold for the relevant period of $N\approx8$ $e$-foldings that can be probed in the CMB. In addition, we adopt a new time variable $x$ defined in Eq.~\ref{eq:ch2-3.4} in terms of the number $n$ of $e$-foldings since the beginning of the epoch, and in this new notation rewrite the overdamping constraint as Eq.~\ref{eq:ch2-3.5} and the density perturbation constraint as Eq.~\ref{eq:ch2-3.6}:
 \begin{align}
     &{\rm d}x\equiv \frac{{\rm d}n}{N}=\frac{H{\rm d}t}{N}, \label{eq:ch2-3.4} \\
     &\left|H \frac{{\rm d}}{{\rm d} x}\left[\frac{F}{QH}\right]\right| \leq \frac{3 N F}{Q}, \label{eq:ch2-3.5} \\
@@ -126,9 +123,10 @@ relevant time period and
     \Delta \phi&=\frac{N}{3} \int_{0}^{1}\left(F / QH^{2}\right) {\rm d} x =\frac{N\bar{F}}{3\Bar{Q}\Bar{H}^2}\int^1_0\frac{f}{qh^2}{\rm d} x, \label{eq:ch2-3.8}
 \end{align}
 where we introduced the dimensionless functions:
-\begin{equation}
-    f(x)\equiv F(x)/\Bar{F}, \quad h(x)\equiv H(x)/\Bar{H}, \quad q(x)\equiv Q(x)/\Bar{Q}. \label{eq:ch2-3.9}
-\end{equation}
+\begin{align}
+    f(x)&\equiv F(x)/\Bar{F}, \qquad h(x)\equiv H(x)/\Bar{H}, \nonumber\\
+    q(x)&\equiv Q(x)/\Bar{Q}. \label{eq:ch2-3.9}
+\end{align}
 Here, the bar refers to the value of the functions evaluated at $x=\Bar{x}$, which denotes the value of $x$ such that the quantity $QH^3/F$, that appears in the density perturbation constraint in Eq.~\ref{eq:ch2-3.6}, is maximized.\footnote{If the maximum is not unique, we can choose $x$ to be any of the maxima.} It is useful to note that in Eqs.~\ref{eq:ch2-3.7}--\ref{eq:ch2-3.8} we chose the same sign convention as in~\citep{Adams:1990pn} such that $\Delta V$ is a positive quantity and $x=0$ at the beginning of the constrained time period.
 
 Using the definition of $\lambda$ in Eq.~\ref{eq:ch2-1.1} and Eqs.~\ref{eq:ch2-3.7}--\ref{eq:ch2-3.8}, we can write the fine-tuning parameter as:
@@ -254,7 +252,9 @@ We again note that the explicit $Q$ dependence in Eq.~\ref{eq:ch2-4.2.8} is the 
 
 \section{Summary} \label{sec:ch2-5}
 
-In this Letter, we have studied the bounds on the fine-tuning parameter $\lambda$ in Eq.~\ref{eq:ch2-1.1} for a large class of strongly dissipative warm inflationary models, defined through the temperature dependence of the dissipation rate $\Gamma$ at which the inflaton decays into particles in the radiation bath. The constraints have been derived for the general case in which both the Hubble rate and the dissipation strength evolve with time, as well as for the case in which the Hubble rate is assumed to be a constant. We find that in most cases, the fine-tuning parameter is confined to be smaller than the corresponding cold inflationary models. More precisely, if the dissipation rate $\Gamma$ has a non-negative temperature dependence ($\Gamma \propto T^c$ with $c\geq 0$), the bounds on $\lambda$ are at least 3 orders of magnitude more stringent than those derived in standard cold inflation. Additionally, for a strictly positive coefficient $c>0$, we have an explicit negative dependence of the bound on $\lambda$ on the parameter $Q$, which implies that for large values of the dissipation strength $Q$ our constraints become significantly tighter, i.e.\ $\lambda\lesssim 10^{-15}-10^{-20}$ for $Q\sim 10^{2}-10^{4}$ when $b_G\sim \mathcal{O}(1)$, as in Eq.~\ref{eq:ch2-4.1.5}. In the case of a constant value of the Hubble parameter, the constraints on $\lambda$ are around 2 orders of magnitude even more stringent than those obtained in the general case, similarly to what is found for cold inflation.
+In this Letter, we have studied the bounds on the fine-tuning parameter $\lambda$ in Eq.~\ref{eq:ch2-1.1} for a large class of strongly dissipative warm inflationary models, defined through the temperature dependence of the dissipation rate $\Gamma$ at which the inflaton decays into particles in the radiation bath. The constraints have been derived for the general case in which both the Hubble rate and the dissipation strength evolve with time, as well as for the case in which the Hubble rate is assumed to be a constant.
+
+We find that in most cases, the fine-tuning parameter is confined to be smaller than the corresponding cold inflationary models. More precisely, if the dissipation rate $\Gamma$ has a non-negative temperature dependence ($\Gamma \propto T^c$ with $c\geq 0$), the bounds on $\lambda$ are at least 3 orders of magnitude more stringent than those derived in standard cold inflation. Additionally, for a strictly positive coefficient $c>0$, we have an explicit negative dependence of the bound on $\lambda$ on the parameter $Q$, which implies that for large values of the dissipation strength $Q$ our constraints become significantly tighter, i.e.\ $\lambda\lesssim 10^{-15}\text{--}10^{-20}$ for $Q\sim 10^{2}\text{--}10^{4}$ when $b_G\sim \mathcal{O}(1)$, as in Eq.~\ref{eq:ch2-4.1.5}. In the case of a constant value of the Hubble parameter, the constraints on $\lambda$ are around 2 orders of magnitude even more stringent than those obtained in the general case, similarly to what is found for cold inflation.
 
 Overall, for all the models mentioned above the scalar field potential has to be flatter than what is required for cold inflation in order to build a successful warm inflationary model. The only exception is for models characterized by a dissipation rate with negative temperature dependence $(c<0)$, for which the bound on $\lambda$ shows a positive dependence on $Q$. In this case, at large  values of the dissipation strength the bound on $\lambda$ substantially relaxes, implying that we can accommodate much steeper potentials that are otherwise ruled out in standard cold inflation.
 

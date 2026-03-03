@@ -247,8 +247,9 @@
 % French Spacing - single spacing between sentences
 \frenchspacing
 
-% Avoid inline math protruding past the right margin
-\emergencystretch=1.5em
+% Avoid inline math and long captions protruding past the right margin
+\emergencystretch=2em
+\tolerance=1500
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	Some math support.					     %
@@ -327,7 +328,8 @@
 
 % Captions (JCAP-style: small font, bold labels, justified text)
 \usepackage{caption}
-\captionsetup{font=small, labelfont=bf, format=plain, justification=justified}
+\DeclareCaptionFont{tolerant}{\tolerance=2000\emergencystretch=2em}
+\captionsetup{font={small,tolerant}, labelfont=bf, format=plain, justification=justified}
 
 % List and Linguex settings
 \renewcommand{\firstrefdash}{}
