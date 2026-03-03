@@ -25,9 +25,34 @@
 \contentsline {figure}{\numberline {7.3}{\ignorespaces Thermal vs.\ vacuum tensor contributions in the $H$--$T$ plane}}{143}{figure.caption.30}%
 \contentsline {figure}{\numberline {7.4}{\ignorespaces $\mitDelta N_{\rm eff}$ constraints on thermal gravitons from warm inflation}}{147}{figure.caption.31}%
 \addvspace {10pt}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces DM yield evolution for different reheating temperatures}}{162}{figure.caption.34}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Freeze-in direct detection cross sections for DM-electron scattering}}{166}{figure.caption.35}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Freeze-in portal coupling constraints from nuclear-recoil experiments}}{167}{figure.caption.36}%
 \addvspace {10pt}
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Feynman diagram for the one-loop decay of spin-zero DM into two photons}}{171}{figure.caption.37}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Cosmology-driven residuals in the hydrogen ionization energy deposition function}}{185}{figure.caption.38}%
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Planck upper limits on DM-electron coupling for scalar, pseudo-scalar, and ALP dark matter}}{186}{figure.caption.39}%
+\contentsline {figure}{\numberline {9.4}{\ignorespaces CMB and astrophysical bounds on scalar DM-electron coupling}}{187}{figure.caption.40}%
+\contentsline {figure}{\numberline {9.5}{\ignorespaces CMB and experimental bounds on pseudo-scalar DM-electron coupling}}{188}{figure.caption.41}%
+\contentsline {figure}{\numberline {9.6}{\ignorespaces CMB and experimental bounds on ALP-electron coupling}}{189}{figure.caption.42}%
+\contentsline {figure}{\numberline {9.7}{\ignorespaces Cosmology-driven residuals in energy deposition for various DM masses}}{190}{figure.caption.43}%
+\contentsline {figure}{\numberline {9.8}{\ignorespaces Posterior distributions for cosmological and DM-electron coupling parameters}}{191}{figure.caption.44}%
+\contentsline {figure}{\numberline {9.9}{\ignorespaces Parameter degeneracies in PR4 fixed-cosmology and PR3 cosmology-consistent analyses}}{192}{figure.caption.45}%
 \addvspace {10pt}
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Evaporation rate of a memory-burdened black hole}}{198}{figure.caption.46}%
+\contentsline {figure}{\numberline {10.2}{\ignorespaces Time profile of Hawking radiation with smooth memory-burden transition}}{199}{figure.caption.47}%
+\contentsline {figure}{\numberline {10.3}{\ignorespaces Upper limits on primordial black hole abundance with memory burden}}{201}{figure.caption.48}%
+\contentsline {figure}{\numberline {10.4}{\ignorespaces PBH abundance limits for varying transition width $\mitdelta $}}{204}{figure.caption.49}%
+\contentsline {figure}{\numberline {10.5}{\ignorespaces PBH abundance limits for varying memory-burden exponent $k$}}{205}{figure.caption.50}%
+\contentsline {figure}{\numberline {10.6}{\ignorespaces PBH abundance limits for early onset memory burden}}{206}{figure.caption.51}%
 \addvspace {10pt}
+\contentsline {figure}{\numberline {11.1}{\ignorespaces Posterior distributions in the $w_0$--$w_a$ plane under uniform and theory-informed priors}}{210}{figure.caption.52}%
+\contentsline {figure}{\numberline {11.2}{\ignorespaces Inverse-variance weighted mapping from hilltop quintessence to the $(w_0, w_a)$ plane}}{231}{figure.caption.53}%
+\contentsline {figure}{\numberline {11.3}{\ignorespaces Theory-informed prior distributions for hilltop quintessence via normalizing flows}}{232}{figure.caption.54}%
+\contentsline {figure}{\numberline {11.4}{\ignorespaces Posterior distributions in $w_0$--$w_a$ including Type Ia supernovae}}{233}{figure.caption.55}%
+\contentsline {figure}{\numberline {11.5}{\ignorespaces Training and validation loss for the normalizing flow models}}{233}{figure.caption.57}%
+\contentsline {figure}{\numberline {11.6}{\ignorespaces Inverse-variance weighted mapping from exponential quintessence to the $(w_0, w_a)$ plane}}{234}{figure.caption.58}%
+\contentsline {figure}{\numberline {11.7}{\ignorespaces Theory-informed prior distributions for exponential quintessence via normalizing flows}}{235}{figure.caption.59}%
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}

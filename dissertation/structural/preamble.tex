@@ -129,6 +129,10 @@
 \usepackage{pdflscape}
 \usepackage{layout}
 \usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{tikz-feynman}
+\tikzfeynmanset{compat=1.1.0}
+\tikzset{every path/.append style={thick}}
 \usepackage{amsmath,amsthm,amsfonts,amscd}
 \usepackage{unicode-math}
 \usepackage{eucal}
@@ -237,6 +241,23 @@
 
 % Common physics macros
 \newcommand{\Mpl}{M_{\mathrm{pl}}}
+
+% Journal abbreviations (used in .bib files)
+\newcommand{\prd}{Phys.\ Rev.\ D}
+\newcommand{\prl}{Phys.\ Rev.\ Lett.}
+\newcommand{\mnras}{Mon.\ Not.\ Roy.\ Astron.\ Soc.}
+\newcommand{\apj}{Astrophys.\ J.}
+\newcommand{\apjl}{Astrophys.\ J.\ Lett.}
+\newcommand{\apjs}{Astrophys.\ J.\ Suppl.}
+\newcommand{\jcap}{JCAP}
+\newcommand{\aap}{Astron.\ Astrophys.}
+\newcommand{\araa}{Ann.\ Rev.\ Astron.\ Astrophys.}
+\newcommand{\physrep}{Phys.\ Rept.}
+\newcommand{\pasp}{Publ.\ Astron.\ Soc.\ Pac.}
+\newcommand{\pasj}{Publ.\ Astron.\ Soc.\ Jpn.}
+\newcommand{\pasa}{Publ.\ Astron.\ Soc.\ Austral.}
+\newcommand{\nat}{Nature}
+\newcommand{\aj}{Astron.\ J.}
 \providecommand{\eprint}[1]{\href{http://arxiv.org/abs/#1}{arXiv:#1}}
 \DeclareRobustCommand{\VAN}[3]{#2}
 

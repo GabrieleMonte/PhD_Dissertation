@@ -21,49 +21,57 @@ jhep is an illegal style-file command---line 1 of file styles/JHEP.bst
  : jhep
  :      bibliography style ver. 2.18
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 10490 items from 5000.
+Reallocated field_info (elt_size=4) to 18890 items from 5000.
 Database file #1: references.bib
 Warning--entry type for "rosati_robert_2020_4708348" isn't style-file defined
 --line 1022 of file references.bib
-You've used 183 entries,
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Warning--entry type for "nflows" isn't style-file defined
+--line 19063 of file references.bib
+Warning--entry type for "Herold:2025hkb" isn't style-file defined
+--line 19451 of file references.bib
+Warning--empty author in PANCI2023137919
+Warning--empty booktitle in Trotta:2017wnx
+Warning--empty booktitle in Kingma:2014vow
+You've used 463 entries,
             2316 wiz_defined-function locations,
-            1874 strings with 36650 characters,
-and the built_in function-call counts, 76565 in all, are:
-= -- 8344
-> -- 2155
+            3739 strings with 88792 characters,
+and the built_in function-call counts, 193483 in all, are:
+= -- 21022
+> -- 5699
 < -- 0
-+ -- 641
-- -- 458
-* -- 7348
-:= -- 9562
-add.period$ -- 184
-call.type$ -- 183
-change.case$ -- 178
++ -- 1682
+- -- 1219
+* -- 18718
+:= -- 24002
+add.period$ -- 466
+call.type$ -- 463
+change.case$ -- 458
 chr.to.int$ -- 0
-cite$ -- 183
-duplicate$ -- 5907
-empty$ -- 6977
-format.name$ -- 1374
-if$ -- 19469
+cite$ -- 466
+duplicate$ -- 14955
+empty$ -- 17404
+format.name$ -- 3657
+if$ -- 49102
 int.to.chr$ -- 0
-int.to.str$ -- 183
-missing$ -- 668
-newline$ -- 554
-num.names$ -- 173
-pop$ -- 483
+int.to.str$ -- 463
+missing$ -- 1690
+newline$ -- 1396
+num.names$ -- 428
+pop$ -- 1030
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2590
+skip$ -- 6652
 stack$ -- 0
-substring$ -- 4554
-swap$ -- 1498
+substring$ -- 11354
+swap$ -- 3895
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 819
-width$ -- 186
-write$ -- 1893
+warning$ -- 3
+while$ -- 2086
+width$ -- 466
+write$ -- 4706
 (There was 1 error message)

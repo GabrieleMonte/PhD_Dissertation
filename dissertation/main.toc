@@ -78,15 +78,52 @@
 \contentsline {part}{Part~II\hspace {1em}Probing the Dark Universe with Cosmological and Terrestrial Observations}{156}{part.2}%
 \contentsline {chapter}{Introduction to Part~II}{157}{appendix*.33}%
 \contentsline {chapter}{Chapter 8:\hspace *{1em}Minimal Dark Matter Freeze-in with Low Reheating Temperatures and Implications for Direct Detection}{158}{appendix.8}%
-\contentsline {chapter}{Chapter 9:\hspace *{1em}CMB Constraints on Loop-Induced Decays of Leptophilic Dark Matter}{159}{appendix.9}%
-\contentsline {chapter}{Chapter 10:\hspace *{1em}Does Memory Burden Open a New Mass Window for Primordial Black Holes as Dark Matter?}{160}{appendix.10}%
-\contentsline {chapter}{Chapter 11:\hspace *{1em}How Theory-Informed Priors Affect DESI Evidence for Evolving Dark Energy}{161}{appendix.11}%
-\contentsline {chapter}{Conclusions of Part~II}{162}{appendix*.34}%
-\contentsline {part}{Part~III\hspace {1em}Cosmological Probes of Neutrinos and Free-Streaming Radiation}{163}{part.3}%
-\contentsline {chapter}{Introduction to Part~III}{164}{appendix*.35}%
-\contentsline {chapter}{Chapter 12:\hspace *{1em}Free-Streaming Neutrinos and Their Phase Shift in Current and Future CMB Power Spectra}{165}{appendix.12}%
-\contentsline {chapter}{Chapter 13:\hspace *{1em}Directly Probing Neutrino Interactions through CMB Phase Shift Measurements}{166}{appendix.13}%
-\contentsline {chapter}{Chapter 14:\hspace *{1em}Tracing the Neutrino-Induced Phase Shift in the 21-cm Spectrum}{167}{appendix.14}%
-\contentsline {chapter}{Conclusions of Part~III}{168}{appendix*.36}%
-\contentsline {chapter}{Chapter 15:\hspace *{1em}Conclusions and Outlook}{169}{appendix.15}%
-\contentsline {chapter}{References}{170}{appendix.15}%
+\contentsline {section}{\numberline {8.1}Introduction}{158}{section.8.1}%
+\contentsline {section}{\numberline {8.2}General Set-Up}{160}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Impact of Low Reheating Temperatures}{161}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Implications for Direct Detection}{163}{section.8.4}%
+\contentsline {section}{\numberline {8.5}Discussion}{165}{section.8.5}%
+\contentsline {chapter}{Chapter 9:\hspace *{1em}CMB Constraints on Loop-Induced Decays of Leptophilic Dark Matter}{168}{appendix.9}%
+\contentsline {section}{\numberline {9.1}Introduction}{168}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Models}{170}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}Scalar}{171}{subsection.9.2.1}%
+\contentsline {subsection}{\numberline {9.2.2}Pseudo-scalar Particles}{172}{subsection.9.2.2}%
+\contentsline {subsection}{\numberline {9.2.3}Axion-Like Particles}{172}{subsection.9.2.3}%
+\contentsline {section}{\numberline {9.3}Energy injection and deposition}{173}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Analysis}{175}{section.9.4}%
+\contentsline {section}{\numberline {9.5}Results}{177}{section.9.5}%
+\contentsline {subsection}{\numberline {9.5.1}Flavorful Variations}{178}{subsection.9.5.1}%
+\contentsline {section}{\numberline {9.6}Comparison with other constraints}{179}{section.9.6}%
+\contentsline {section}{\numberline {9.7}Conclusions}{180}{section.9.7}%
+\contentsline {section}{\numberline {9.A}Cosmology Dependence of the energy deposition functions}{182}{section.c.9.A}%
+\contentsline {section}{\numberline {9.B}Posterior Distributions and Parameter Degeneracies}{182}{section.c.9.B}%
+\contentsline {chapter}{Chapter 10:\hspace *{1em}Does Memory Burden Open a New Mass Window for Primordial Black Holes as Dark Matter?}{193}{appendix.10}%
+\contentsline {section}{\numberline {10.1}Introduction}{193}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Memory Burden and Primordial Black Holes}{195}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Constraints from BBN and the CMB}{197}{section.10.3}%
+\contentsline {section}{\numberline {10.4}Early Onset Memory Burden}{200}{section.10.4}%
+\contentsline {section}{\numberline {10.5}Summary and Conclusions}{202}{section.10.5}%
+\contentsline {section}{\numberline {10.A}Methodology}{202}{section.d.10.A}%
+\contentsline {section}{\numberline {10.B}Results for Other Choices of $q$, $\mitdelta $, and $k$}{204}{section.d.10.B}%
+\contentsline {section}{\numberline {10.C}Early Onset Memory Burden}{205}{section.d.10.C}%
+\contentsline {chapter}{Chapter 11:\hspace *{1em}How Theory-Informed Priors Affect DESI Evidence for Evolving Dark Energy}{207}{appendix.11}%
+\contentsline {section}{\numberline {11.1}Introduction}{207}{section.11.1}%
+\contentsline {section}{\numberline {11.2}Constructing Theory-Informed Priors}{211}{section.11.2}%
+\contentsline {subsection}{\numberline {11.2.1}Quintessence Models and Theoretical Priors}{212}{subsection.11.2.1}%
+\contentsline {subsection}{\numberline {11.2.2}Mapping from Theory Parameters to $(w_0,\,w_a)$}{215}{subsection.11.2.2}%
+\contentsline {subsection}{\numberline {11.2.3}Obtaining $(w_0, w_a)$ Priors with Normalizing Flows}{218}{subsection.11.2.3}%
+\contentsline {section}{\numberline {11.3}Analysis \& Data sets}{221}{section.11.3}%
+\contentsline {section}{\numberline {11.4}Updated CMB, BAO constraints with physical prior}{223}{section.11.4}%
+\contentsline {section}{\numberline {11.5}Discussion \& Conclusion}{227}{section.11.5}%
+\contentsline {section}{\numberline {11.A}Normalizing Flow Architecture \& Training}{229}{section.e.11.A}%
+\contentsline {section}{\numberline {11.B}Mapping to $(w_0,\,w_a)$ for Exponential Quintessence}{230}{section.e.11.B}%
+\contentsline {section}{\numberline {11.C}Comprehensive Summary of Cosmological Constraints}{230}{section.e.11.C}%
+\contentsline {chapter}{Conclusions of Part~II}{237}{appendix*.61}%
+\contentsline {part}{Part~III\hspace {1em}Cosmological Probes of Neutrinos and Free-Streaming Radiation}{238}{part.3}%
+\contentsline {chapter}{Introduction to Part~III}{239}{appendix*.62}%
+\contentsline {chapter}{Chapter 12:\hspace *{1em}Free-Streaming Neutrinos and Their Phase Shift in Current and Future CMB Power Spectra}{240}{appendix.12}%
+\contentsline {chapter}{Chapter 13:\hspace *{1em}Directly Probing Neutrino Interactions through CMB Phase Shift Measurements}{241}{appendix.13}%
+\contentsline {chapter}{Chapter 14:\hspace *{1em}Tracing the Neutrino-Induced Phase Shift in the 21-cm Spectrum}{242}{appendix.14}%
+\contentsline {chapter}{Conclusions of Part~III}{243}{appendix*.63}%
+\contentsline {chapter}{Chapter 15:\hspace *{1em}Conclusions and Outlook}{244}{appendix.15}%
+\contentsline {chapter}{References}{245}{appendix.15}%
