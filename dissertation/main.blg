@@ -21,7 +21,7 @@ jhep is an illegal style-file command---line 1 of file styles/JHEP.bst
  : jhep
  :      bibliography style ver. 2.18
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 18890 items from 5000.
+Reallocated field_info (elt_size=4) to 25520 items from 5000.
 Database file #1: references.bib
 Warning--entry type for "rosati_robert_2020_4708348" isn't style-file defined
 --line 1022 of file references.bib
@@ -30,48 +30,51 @@ Warning--entry type for "nflows" isn't style-file defined
 --line 19063 of file references.bib
 Warning--entry type for "Herold:2025hkb" isn't style-file defined
 --line 19451 of file references.bib
+Warning--entry type for "2019ascl.soft10019T" isn't style-file defined
+--line 21612 of file references.bib
+Reallocated str_pool (elt_size=1) to 195000 items from 130000.
 Warning--empty author in PANCI2023137919
 Warning--empty booktitle in Trotta:2017wnx
 Warning--empty booktitle in Kingma:2014vow
-You've used 463 entries,
+You've used 684 entries,
             2316 wiz_defined-function locations,
-            3739 strings with 88792 characters,
-and the built_in function-call counts, 193483 in all, are:
-= -- 21022
-> -- 5699
+            5128 strings with 132159 characters,
+and the built_in function-call counts, 286276 in all, are:
+= -- 30855
+> -- 8790
 < -- 0
-+ -- 1682
-- -- 1219
-* -- 18718
-:= -- 24002
-add.period$ -- 466
-call.type$ -- 463
-change.case$ -- 458
++ -- 2573
+- -- 1889
+* -- 27952
+:= -- 35606
+add.period$ -- 687
+call.type$ -- 684
+change.case$ -- 673
 chr.to.int$ -- 0
-cite$ -- 466
-duplicate$ -- 14955
-empty$ -- 17404
-format.name$ -- 3657
-if$ -- 49102
+cite$ -- 687
+duplicate$ -- 22047
+empty$ -- 25713
+format.name$ -- 5667
+if$ -- 72434
 int.to.chr$ -- 0
-int.to.str$ -- 463
-missing$ -- 1690
-newline$ -- 1396
-num.names$ -- 428
-pop$ -- 1030
+int.to.str$ -- 684
+missing$ -- 2471
+newline$ -- 2061
+num.names$ -- 645
+pop$ -- 1440
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 6652
+skip$ -- 9739
 stack$ -- 0
-substring$ -- 11354
-swap$ -- 3895
+substring$ -- 16522
+swap$ -- 5678
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 2086
-width$ -- 466
-write$ -- 4706
+while$ -- 3160
+width$ -- 687
+write$ -- 6928
 (There was 1 error message)

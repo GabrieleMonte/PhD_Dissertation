@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2024.11.5)  3 MAR 2026 01:10
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2024.11.5)  3 MAR 2026 02:32
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -130,6 +130,30 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count276
 )
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen140
+\ar@mcellbox=\box53
+\extrarowheight=\dimen141
+\NC@list=\toks22
+\extratabsurround=\skip67
+\backup@length=\skip68
+\ar@cellbox=\box54
+)
+\TX@col@width=\dimen142
+\TX@old@table=\dimen143
+\TX@old@col=\dimen144
+\TX@target=\dimen145
+\TX@delta=\dimen146
+\TX@cols=\count277
+\TX@ftn=\toks23
+)
+
+Package array Warning: Column W is already defined on input line 7.
+
 (/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
 
@@ -161,58 +185,58 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/tools/layout.sty
 Package: layout 2023-08-20 v1.2e Show layout parameters
-\oneinch=\count277
-\cnt@paperwidth=\count278
-\cnt@paperheight=\count279
-\cnt@hoffset=\count280
-\cnt@voffset=\count281
-\cnt@textheight=\count282
-\cnt@textwidth=\count283
-\cnt@topmargin=\count284
-\cnt@oddsidemargin=\count285
-\cnt@evensidemargin=\count286
-\cnt@headheight=\count287
-\cnt@headsep=\count288
-\cnt@marginparsep=\count289
-\cnt@marginparwidth=\count290
-\cnt@marginparpush=\count291
-\cnt@footskip=\count292
-\fheight=\count293
-\ref@top=\count294
-\ref@hoffset=\count295
-\ref@voffset=\count296
-\ref@head=\count297
-\ref@body=\count298
-\ref@foot=\count299
-\ref@margin=\count300
-\ref@marginwidth=\count301
-\ref@marginpar=\count302
-\Interval=\count303
-\ExtraYPos=\count304
-\PositionX=\count305
-\PositionY=\count306
-\ArrowLength=\count307
+\oneinch=\count278
+\cnt@paperwidth=\count279
+\cnt@paperheight=\count280
+\cnt@hoffset=\count281
+\cnt@voffset=\count282
+\cnt@textheight=\count283
+\cnt@textwidth=\count284
+\cnt@topmargin=\count285
+\cnt@oddsidemargin=\count286
+\cnt@evensidemargin=\count287
+\cnt@headheight=\count288
+\cnt@headsep=\count289
+\cnt@marginparsep=\count290
+\cnt@marginparwidth=\count291
+\cnt@marginparpush=\count292
+\cnt@footskip=\count293
+\fheight=\count294
+\ref@top=\count295
+\ref@hoffset=\count296
+\ref@voffset=\count297
+\ref@head=\count298
+\ref@body=\count299
+\ref@foot=\count300
+\ref@margin=\count301
+\ref@marginwidth=\count302
+\ref@marginpar=\count303
+\Interval=\count304
+\ExtraYPos=\count305
+\PositionX=\count306
+\PositionY=\count307
+\ArrowLength=\count308
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks22
+\KV@toks@=\toks24
 )
-\Gin@req@height=\dimen140
-\Gin@req@width=\dimen141
+\Gin@req@height=\dimen147
+\Gin@req@width=\dimen148
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks23
-\pgfutil@tempdima=\dimen142
-\pgfutil@tempdimb=\dimen143
+\pgfutil@everybye=\toks25
+\pgfutil@tempdima=\dimen149
+\pgfutil@tempdimb=\dimen150
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box53
+\pgfutil@abb=\box55
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
@@ -226,33 +250,33 @@ Package: pgf 2023-01-15 v3.1.10 (3.1.10)
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks24
-\pgfkeys@temptoks=\toks25
+\pgfkeys@pathtoks=\toks26
+\pgfkeys@temptoks=\toks27
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered
 .code.tex
-\pgfkeys@tmptoks=\toks26
+\pgfkeys@tmptoks=\toks28
 ))
-\pgf@x=\dimen144
-\pgf@y=\dimen145
-\pgf@xa=\dimen146
-\pgf@ya=\dimen147
-\pgf@xb=\dimen148
-\pgf@yb=\dimen149
-\pgf@xc=\dimen150
-\pgf@yc=\dimen151
-\pgf@xd=\dimen152
-\pgf@yd=\dimen153
+\pgf@x=\dimen151
+\pgf@y=\dimen152
+\pgf@xa=\dimen153
+\pgf@ya=\dimen154
+\pgf@xb=\dimen155
+\pgf@yb=\dimen156
+\pgf@xc=\dimen157
+\pgf@yc=\dimen158
+\pgf@xd=\dimen159
+\pgf@yd=\dimen160
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count308
-\c@pgf@countb=\count309
-\c@pgf@countc=\count310
-\c@pgf@countd=\count311
-\t@pgf@toka=\toks27
-\t@pgf@tokb=\toks28
-\t@pgf@tokc=\toks29
-\pgf@sys@id@count=\count312
+\c@pgf@counta=\count309
+\c@pgf@countb=\count310
+\c@pgf@countc=\count311
+\c@pgf@countd=\count312
+\t@pgf@toka=\toks29
+\t@pgf@tokb=\toks30
+\t@pgf@tokc=\toks31
+\pgf@sys@id@count=\count313
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
@@ -267,8 +291,8 @@ File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count313
-\pgfsyssoftpath@bigbuffer@items=\count314
+\pgfsyssoftpath@smallbuffer@items=\count314
+\pgfsyssoftpath@bigbuffer@items=\count315
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -298,12 +322,12 @@ Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen154
-\pgfmath@count=\count315
-\pgfmath@box=\box54
-\pgfmath@toks=\toks30
-\pgfmath@stack@operand=\toks31
-\pgfmath@stack@operation=\toks32
+\pgfmath@dimen=\dimen161
+\pgfmath@count=\count316
+\pgfmath@box=\box56
+\pgfmath@toks=\toks32
+\pgfmath@stack@operand=\toks33
+\pgfmath@stack@operation=\toks34
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
@@ -324,58 +348,58 @@ tex)
 thmetics.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count316
+\c@pgfmathroundto@lastzeros=\count317
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
 x
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@picminx=\dimen155
-\pgf@picmaxx=\dimen156
-\pgf@picminy=\dimen157
-\pgf@picmaxy=\dimen158
-\pgf@pathminx=\dimen159
-\pgf@pathmaxx=\dimen160
-\pgf@pathminy=\dimen161
-\pgf@pathmaxy=\dimen162
-\pgf@xx=\dimen163
-\pgf@xy=\dimen164
-\pgf@yx=\dimen165
-\pgf@yy=\dimen166
-\pgf@zx=\dimen167
-\pgf@zy=\dimen168
+\pgf@picminx=\dimen162
+\pgf@picmaxx=\dimen163
+\pgf@picminy=\dimen164
+\pgf@picmaxy=\dimen165
+\pgf@pathminx=\dimen166
+\pgf@pathmaxx=\dimen167
+\pgf@pathminy=\dimen168
+\pgf@pathmaxy=\dimen169
+\pgf@xx=\dimen170
+\pgf@xy=\dimen171
+\pgf@yx=\dimen172
+\pgf@yy=\dimen173
+\pgf@zx=\dimen174
+\pgf@zy=\dimen175
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
 code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@path@lastx=\dimen169
-\pgf@path@lasty=\dimen170
+\pgf@path@lastx=\dimen176
+\pgf@path@lasty=\dimen177
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
 .tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@shorten@end@additional=\dimen171
-\pgf@shorten@start@additional=\dimen172
+\pgf@shorten@end@additional=\dimen178
+\pgf@shorten@start@additional=\dimen179
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
 x
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfpic=\box55
-\pgf@hbox=\box56
-\pgf@layerbox@main=\box57
-\pgf@picture@serial@count=\count317
+\pgfpic=\box57
+\pgf@hbox=\box58
+\pgf@layerbox@main=\box59
+\pgf@picture@serial@count=\count318
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgflinewidth=\dimen173
+\pgflinewidth=\dimen180
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
 s.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@pt@x=\dimen174
-\pgf@pt@y=\dimen175
-\pgf@pt@temp=\dimen176
+\pgf@pt@x=\dimen181
+\pgf@pt@y=\dimen182
+\pgf@pt@temp=\dimen183
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -391,13 +415,13 @@ File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
 x
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowsep=\dimen177
+\pgfarrowsep=\dimen184
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@max=\dimen178
-\pgf@sys@shading@range@num=\count318
-\pgf@shadingcount=\count319
+\pgf@max=\dimen185
+\pgf@sys@shading@range@num=\count319
+\pgf@shadingcount=\count320
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -405,7 +429,7 @@ File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
 tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfexternal@startupbox=\box58
+\pgfexternal@startupbox=\box60
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
 x
@@ -424,15 +448,15 @@ File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box59
+\pgfnodeparttextbox=\box61
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
 .sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen179
-\pgf@nodesepend=\dimen180
+\pgf@nodesepstart=\dimen186
+\pgf@nodesepend=\dimen187
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
 .sty
@@ -444,10 +468,10 @@ Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen181
-\pgffor@skip=\dimen182
-\pgffor@stack=\toks33
-\pgffor@toks=\toks34
+\pgffor@iter=\dimen188
+\pgffor@skip=\dimen189
+\pgffor@stack=\toks35
+\pgffor@toks=\toks36
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
@@ -455,33 +479,33 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count320
-\pgfplotmarksize=\dimen183
+\pgf@plot@mark@count=\count321
+\pgfplotmarksize=\dimen190
 )
-\tikz@lastx=\dimen184
-\tikz@lasty=\dimen185
-\tikz@lastxsaved=\dimen186
-\tikz@lastysaved=\dimen187
-\tikz@lastmovetox=\dimen188
-\tikz@lastmovetoy=\dimen189
-\tikzleveldistance=\dimen190
-\tikzsiblingdistance=\dimen191
-\tikz@figbox=\box60
-\tikz@figbox@bg=\box61
-\tikz@tempbox=\box62
-\tikz@tempbox@bg=\box63
-\tikztreelevel=\count321
-\tikznumberofchildren=\count322
-\tikznumberofcurrentchild=\count323
-\tikz@fig@count=\count324
+\tikz@lastx=\dimen191
+\tikz@lasty=\dimen192
+\tikz@lastxsaved=\dimen193
+\tikz@lastysaved=\dimen194
+\tikz@lastmovetox=\dimen195
+\tikz@lastmovetoy=\dimen196
+\tikzleveldistance=\dimen197
+\tikzsiblingdistance=\dimen198
+\tikz@figbox=\box62
+\tikz@figbox@bg=\box63
+\tikz@tempbox=\box64
+\tikz@tempbox@bg=\box65
+\tikztreelevel=\count322
+\tikznumberofchildren=\count323
+\tikznumberofcurrentchild=\count324
+\tikz@fig@count=\count325
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count325
-\pgfmatrixcurrentcolumn=\count326
-\pgf@matrix@numberofcolumns=\count327
+\pgfmatrixcurrentrow=\count326
+\pgfmatrixcurrentcolumn=\count327
+\pgf@matrix@numberofcolumns=\count328
 )
-\tikz@expandcount=\count328
+\tikz@expandcount=\count329
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -495,18 +519,18 @@ Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgfopts/pgfopts.sty
 Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
-\pgfopts@list@add@a@toks=\toks35
-\pgfopts@list@add@b@toks=\toks36
+\pgfopts@list@add@a@toks=\toks37
+\pgfopts@list@add@b@toks=\toks38
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tikz-feynman/tikzlibraryfeynman.code.t
 ex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.
 code.tex
 File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowinset=\dimen192
-\pgfarrowlength=\dimen193
-\pgfarrowwidth=\dimen194
-\pgfarrowlinewidth=\dimen195
+\pgfarrowinset=\dimen199
+\pgfarrowlength=\dimen256
+\pgfarrowwidth=\dimen257
+\pgfarrowlinewidth=\dimen258
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarycalc.code.tex
@@ -516,16 +540,16 @@ File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 zlibrarydecorations.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
 e.tex
-\pgfdecoratedcompleteddistance=\dimen196
-\pgfdecoratedremainingdistance=\dimen197
-\pgfdecoratedinputsegmentcompleteddistance=\dimen198
-\pgfdecoratedinputsegmentremainingdistance=\dimen199
-\pgf@decorate@distancetomove=\dimen256
-\pgf@decorate@repeatstate=\count329
-\pgfdecorationsegmentamplitude=\dimen257
-\pgfdecorationsegmentlength=\dimen258
+\pgfdecoratedcompleteddistance=\dimen259
+\pgfdecoratedremainingdistance=\dimen260
+\pgfdecoratedinputsegmentcompleteddistance=\dimen261
+\pgfdecoratedinputsegmentremainingdistance=\dimen262
+\pgf@decorate@distancetomove=\dimen263
+\pgf@decorate@repeatstate=\count330
+\pgfdecorationsegmentamplitude=\dimen264
+\pgfdecorationsegmentlength=\dimen265
 )
-\tikz@lib@dec@box=\box64
+\tikz@lib@dec@box=\box66
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarydecorations.markings.code.tex
@@ -542,8 +566,8 @@ decorations.pathreplacing.code.tex))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/gra
 phs/tikzlibrarygraphs.code.tex
 File: tikzlibrarygraphs.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\tikz@lib@auto@number=\count330
-\tikz@qnode@count=\count331
+\tikz@lib@auto@number=\count331
+\tikz@qnode@count=\count332
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarypatterns.code.tex
@@ -572,16 +596,16 @@ File: tikzlibrarygraphdrawing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/graphdrawing/tex/pgflibrarygraph
 drawing.code.tex
 File: pgflibrarygraphdrawing.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@gd@parameter@stack@height=\count332
-\pgf@gd@node@box=\box65
-\pgf@gd@edge@box=\box66
-\pgf@gd@prekind@box=\box67
-\pgf@gd@postkind@box=\box68
+\pgf@gd@parameter@stack@height=\count333
+\pgf@gd@node@box=\box67
+\pgf@gd@edge@box=\box68
+\pgf@gd@prekind@box=\box69
+\pgf@gd@postkind@box=\box70
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/tikz-feynman/tikzfeynman.keys.code.tex
 ))) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2023/05/13 v2.17o AMS math features
-\@mathmargin=\skip67
+\@mathmargin=\skip69
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -589,75 +613,75 @@ Package: amstext 2021/08/26 v2.01 AMS text
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks37
-\ex@=\dimen259
+\@emptytoks=\toks39
+\ex@=\dimen266
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen260
+\pmbraise@=\dimen267
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count333
+\inf@bad=\count334
 LaTeX Info: Redefining \frac on input line 236.
-\uproot@=\count334
-\leftroot@=\count335
+\uproot@=\count335
+\leftroot@=\count336
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count336
-\DOTSCASE@=\count337
+\classnum@=\count337
+\DOTSCASE@=\count338
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box69
-\strutbox@=\box70
+\Mathstrutbox@=\box71
+\strutbox@=\box72
 LaTeX Info: Redefining \big on input line 722.
 LaTeX Info: Redefining \Big on input line 723.
 LaTeX Info: Redefining \bigg on input line 724.
 LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen261
+\big@size=\dimen268
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count338
+\macc@depth=\count339
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count339
+\c@MaxMatrixCols=\count340
 \dotsspace@=\muskip16
-\c@parentequation=\count340
-\dspbrk@lvl=\count341
-\tag@help=\toks38
-\row@=\count342
-\column@=\count343
-\maxfields@=\count344
-\andhelp@=\toks39
-\eqnshift@=\dimen262
-\alignsep@=\dimen263
-\tagshift@=\dimen264
-\tagwidth@=\dimen265
-\totwidth@=\dimen266
-\lineht@=\dimen267
-\@envbody=\toks40
-\multlinegap=\skip68
-\multlinetaggap=\skip69
-\mathdisplay@stack=\toks41
+\c@parentequation=\count341
+\dspbrk@lvl=\count342
+\tag@help=\toks40
+\row@=\count343
+\column@=\count344
+\maxfields@=\count345
+\andhelp@=\toks41
+\eqnshift@=\dimen269
+\alignsep@=\dimen270
+\tagshift@=\dimen271
+\tagwidth@=\dimen272
+\totwidth@=\dimen273
+\lineht@=\dimen274
+\@envbody=\toks42
+\multlinegap=\skip70
+\multlinetaggap=\skip71
+\mathdisplay@stack=\toks43
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks42
-\thm@bodyfont=\toks43
-\thm@headfont=\toks44
-\thm@notefont=\toks45
-\thm@headpunct=\toks46
-\thm@preskip=\skip70
-\thm@postskip=\skip71
-\thm@headsep=\skip72
-\dth@everypar=\toks47
+\thm@style=\toks44
+\thm@bodyfont=\toks45
+\thm@headfont=\toks46
+\thm@notefont=\toks47
+\thm@headpunct=\toks48
+\thm@preskip=\skip72
+\thm@postskip=\skip73
+\thm@headsep=\skip74
+\dth@everypar=\toks49
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
@@ -669,10 +693,10 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amscd.sty
 Package: amscd 2017/04/14 v2.1 AMS Commutative Diagrams
-\athelp@=\toks48
-\minaw@=\dimen268
-\bigaw@=\dimen269
-\minCDarrowwidth=\dimen270
+\athelp@=\toks50
+\minaw@=\dimen275
+\bigaw@=\dimen276
+\minCDarrowwidth=\dimen277
 )
 (/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
@@ -680,9 +704,9 @@ Package: expl3 2024-01-22 L3 programming layer (loader)
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
 File: l3backend-luatex.def 2024-01-04 L3 backend support: PDF output (LuaTeX)
-\l__color_backend_stack_int=\count345
+\l__color_backend_stack_int=\count346
 Inserting `l3color' in `luaotfload.parse_color'.
-\l__pdf_internal_box=\box71
+\l__pdf_internal_box=\box73
 ))
 Package: unicode-math 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLaTeX
 
@@ -702,20 +726,20 @@ Lua module: fontspec 2022/01/15 2.8a Font selection for XeLaTeX and LuaLaTeX
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaT
 eX
-\l__fontspec_script_int=\count346
-\l__fontspec_language_int=\count347
-\l__fontspec_strnum_int=\count348
-\l__fontspec_tmp_int=\count349
-\l__fontspec_tmpa_int=\count350
-\l__fontspec_tmpb_int=\count351
-\l__fontspec_tmpc_int=\count352
-\l__fontspec_em_int=\count353
-\l__fontspec_emdef_int=\count354
-\l__fontspec_strong_int=\count355
-\l__fontspec_strongdef_int=\count356
-\l__fontspec_tmpa_dim=\dimen271
-\l__fontspec_tmpb_dim=\dimen272
-\l__fontspec_tmpc_dim=\dimen273
+\l__fontspec_script_int=\count347
+\l__fontspec_language_int=\count348
+\l__fontspec_strnum_int=\count349
+\l__fontspec_tmp_int=\count350
+\l__fontspec_tmpa_int=\count351
+\l__fontspec_tmpb_int=\count352
+\l__fontspec_tmpc_int=\count353
+\l__fontspec_em_int=\count354
+\l__fontspec_emdef_int=\count355
+\l__fontspec_strong_int=\count356
+\l__fontspec_strongdef_int=\count357
+\l__fontspec_tmpa_dim=\dimen278
+\l__fontspec_tmpb_dim=\dimen279
+\l__fontspec_tmpc_dim=\dimen280
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
@@ -734,13 +758,13 @@ h LuaLaTeX
 
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count357
+\etb@tempcnta=\count358
 )
 Lua module: lualatex-math 2013/08/03 1.3 Patches for mathematics typesetting wit
 h LuaLaTeX)
-\g__um_fam_int=\count358
-\g__um_fonts_used_int=\count359
-\l__um_primecount_int=\count360
+\g__um_fam_int=\count359
+\g__um_fonts_used_int=\count360
+\l__um_primecount_int=\count361
 \g__um_primekern_muskip=\muskip17
 
 (/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex))) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/eucal.sty
@@ -750,8 +774,8 @@ LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks49
-\verbatim@line=\toks50
+\every@verbatim=\toks51
+\verbatim@line=\toks52
 \verbatim@in@stream=\read3
 )
 (/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithm.sty
@@ -761,17 +785,17 @@ nment
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-\@float@every@algorithm=\toks51
-\c@algorithm=\count361
+\@float@every@algorithm=\toks53
+\c@algorithm=\count362
 )
 (/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
-\c@ALC@unique=\count362
-\c@ALC@line=\count363
-\c@ALC@rem=\count364
-\c@ALC@depth=\count365
-\ALC@tlm=\skip73
-\algorithmicindent=\skip74
+\c@ALC@unique=\count363
+\c@ALC@line=\count364
+\c@ALC@rem=\count365
+\c@ALC@depth=\count366
+\ALC@tlm=\skip75
+\algorithmicindent=\skip76
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
 Package: bm 2023/07/08 v1.2f Bold Symbol Support (DPC/FMi)
@@ -783,19 +807,12 @@ Package bm Info: No bold for \U/msa/m/n, using \pmb.
 Package bm Info: No bold for \U/msb/m/n, using \pmb.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
 )
+(/usr/share/texlive/texmf-dist/tex/latex/cancel/cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
 (/usr/share/texlive/texmf-dist/tex/latex/tools/dcolumn.sty
 Package: dcolumn 2023/07/08 v1.06 decimal alignment package (DPC)
-
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen274
-\ar@mcellbox=\box72
-\extrarowheight=\dimen275
-\NC@list=\toks52
-\extratabsurround=\skip75
-\backup@length=\skip76
-\ar@cellbox=\box73
-))
+)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 
@@ -804,35 +821,35 @@ Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen276
-\captionmargin=\dimen277
-\caption@leftmargin=\dimen278
-\caption@rightmargin=\dimen279
-\caption@width=\dimen280
-\caption@indent=\dimen281
-\caption@parindent=\dimen282
-\caption@hangindent=\dimen283
+\caption@tempdima=\dimen281
+\captionmargin=\dimen282
+\caption@leftmargin=\dimen283
+\caption@rightmargin=\dimen284
+\caption@width=\dimen285
+\caption@indent=\dimen286
+\caption@parindent=\dimen287
+\caption@hangindent=\dimen288
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count366
-\c@continuedfloat=\count367
+\c@caption@flags=\count367
+\c@continuedfloat=\count368
 Package caption Info: float package is loaded.
 )
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count368
+\c@subfigure=\count369
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count369
+\c@subtable=\count370
 )
 (/usr/share/texlive/texmf-dist/tex/latex/markdown/markdown.sty
 (/usr/share/texlive/texmf-dist/tex/generic/markdown/markdown.tex
-\markdownOptionFrozenCacheCounter=\count370
+\markdownOptionFrozenCacheCounter=\count371
 \markdownInputFileStream=\read4
 \markdownOutputFileStream=\write4
 Package markdown Info: Using mode 3: The lt3luabridge package on input line 266
 7.
 
 (/usr/share/texlive/texmf-dist/tex/generic/lt3luabridge/lt3luabridge.tex
-\g_luabridge_method_int=\count371
+\g_luabridge_method_int=\count372
 
 Package luabridge Info: Using direct Lua access as the bridging method
 
@@ -845,7 +862,7 @@ Package: paralist 2017/01/22 v2.7 Extended list environments
 \plpartopsep=\skip78
 \plitemsep=\skip79
 \plparsep=\skip80
-\pl@lab=\toks53
+\pl@lab=\toks54
 )
 (/usr/share/texlive/texmf-dist/tex/latex/csvsimple/csvsimple.sty
 Package: csvsimple 2024/01/19 v2.6.0 LaTeX CSV file processing
@@ -858,24 +875,24 @@ Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 )
 \csv@file=\read5
-\c@csvinputline=\count372
-\c@csvrow=\count373
-\c@csvcol=\count374
+\c@csvinputline=\count373
+\c@csvrow=\count374
+\c@csvcol=\count375
 \csv@out=\write5
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
-\FV@CodeLineNo=\count375
+\FV@CodeLineNo=\count376
 \FV@InFile=\read6
 \FV@TabBox=\box74
-\c@FancyVerbLine=\count376
-\FV@StepNumber=\count377
+\c@FancyVerbLine=\count377
+\FV@StepNumber=\count378
 \FV@OutFile=\write6
 )
 (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
-\markdownLaTeXCitationsCounter=\count378
+\markdownLaTeXCitationsCounter=\count379
 
 (/usr/share/texlive/texmf-dist/tex/generic/gobble/gobble.sty
 Package: gobble 2019/01/04 v0.2 Provides more gobble macros
@@ -885,33 +902,33 @@ Package: gobble 2019/01/04 v0.2 Provides more gobble macros
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\markdownLaTeXRowCounter=\count379
-\markdownLaTeXRowTotal=\count380
-\markdownLaTeXColumnCounter=\count381
-\markdownLaTeXColumnTotal=\count382
-\markdownLaTeXTable=\toks54
-\markdownLaTeXTableAlignment=\toks55
-\markdownLaTeXTableEnd=\toks56
+\markdownLaTeXRowCounter=\count380
+\markdownLaTeXRowTotal=\count381
+\markdownLaTeXColumnCounter=\count382
+\markdownLaTeXColumnTotal=\count383
+\markdownLaTeXTable=\toks55
+\markdownLaTeXTableAlignment=\toks56
+\markdownLaTeXTableEnd=\toks57
 )
 (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen284
-\lightrulewidth=\dimen285
-\cmidrulewidth=\dimen286
-\belowrulesep=\dimen287
-\belowbottomsep=\dimen288
-\aboverulesep=\dimen289
-\abovetopsep=\dimen290
-\cmidrulesep=\dimen291
-\cmidrulekern=\dimen292
-\defaultaddspace=\dimen293
-\@cmidla=\count383
-\@cmidlb=\count384
-\@aboverulesep=\dimen294
-\@belowrulesep=\dimen295
-\@thisruleclass=\count385
-\@lastruleclass=\count386
-\@thisrulewidth=\dimen296
+\heavyrulewidth=\dimen289
+\lightrulewidth=\dimen290
+\cmidrulewidth=\dimen291
+\belowrulesep=\dimen292
+\belowbottomsep=\dimen293
+\aboverulesep=\dimen294
+\abovetopsep=\dimen295
+\cmidrulesep=\dimen296
+\cmidrulekern=\dimen297
+\defaultaddspace=\dimen298
+\@cmidla=\count384
+\@cmidlb=\count385
+\@aboverulesep=\dimen299
+\@belowrulesep=\dimen300
+\@thisruleclass=\count386
+\@lastruleclass=\count387
+\@thisrulewidth=\dimen301
 )
 (/usr/share/texlive/texmf-dist/tex/latex/xurl/xurl.sty
 Package: xurl 2022/01/09 v 0.10 modify URL breaks
@@ -919,25 +936,15 @@ Package: xurl 2022/01/09 v 0.10 modify URL breaks
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip81
-\multirow@cntb=\count387
+\multirow@cntb=\count388
 \multirow@dima=\skip82
-\bigstrutjot=\dimen297
+\bigstrutjot=\dimen302
 )
 (/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-\rotheadsize=\dimen298
-\c@nlinenum=\count388
-\TeXr@lab=\toks57
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
-Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
-\TX@col@width=\dimen299
-\TX@old@table=\dimen300
-\TX@old@col=\dimen301
-\TX@target=\dimen302
-\TX@delta=\dimen303
-\TX@cols=\count389
-\TX@ftn=\toks58
+\rotheadsize=\dimen303
+\c@nlinenum=\count389
+\TeXr@lab=\toks58
 )
 (/usr/share/texlive/texmf-dist/tex/latex/diagbox/diagbox.sty
 Package: diagbox 2020/02/09 v2.3 Making table heads with diagonal lines
@@ -1162,8 +1169,8 @@ LaTeX Info: Redefining \c on input line 311.
 LaTeX Info: Redefining \d on input line 313.
 \c@tmpaEx=\count411
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 163.
-Package hyperref Info: Option `breaklinks' set `true' on input line 163.
+Package hyperref Info: Option `colorlinks' set `true' on input line 217.
+Package hyperref Info: Option `breaklinks' set `true' on input line 217.
 
 (/usr/share/texlive/texmf-dist/tex/latex/xcharter/XCharter.sty
 Package: XCharter 2023/07/21 v1.25
@@ -1626,10 +1633,10 @@ atn;language=dflt;+tlig;"
 
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 (Font)                  OT1/cmtt/m/n --> TU/SourceCodePro-Regular(1)/m/n on inp
-ut line 169.
+ut line 223.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/SourceCodePro-Regular(1)/b/n on inp
-ut line 169.
+ut line 223.
 luaotfload | aux : font no 80 (nil) does not define feature smcp for script latn
  with language dflt
 
@@ -1692,10 +1699,10 @@ guage=dflt;+tlig;"
 
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/cmss/m/n --> TU/SourceSansPro-Regular(1)/m/n on inp
-ut line 170.
+ut line 224.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/SourceSansPro-Regular(1)/b/n on in
-put line 170.
+put line 224.
 
 Package fontspec Info: Font family 'CharisSIL-Regular(0)' created for font
 (fontspec)             'CharisSIL-Regular' with options [Ligatures =
@@ -1819,12 +1826,21 @@ LaTeX Font Info:    Font shape `TU/XCharter(2)/b/n' will be
 
 ]
 LaTeX Font Info:    Font shape `TU/XCharter(2)/m/n' will be
+(Font)              scaled to size 24.88pt on input line 11.
+LaTeX Font Info:    Font shape `TU/XCharter(2)/b/n' will be
+(Font)              scaled to size 24.88pt on input line 11.
+LaTeX Font Info:    Font shape `TU/XCharter(2)/m/n' will be
 (Font)              scaled to size 14.4pt on input line 11.
 LaTeX Font Info:    Font shape `TU/XCharter(2)/b/n' will be
 (Font)              scaled to size 14.4pt on input line 11.
+<ut_logo.png, id=463, 1204.5pt x 1204.5pt>
+File: ut_logo.png Graphic file (type png)
+<use ut_logo.png>
+Package luatex.def Info: ut_logo.png  used on input line 11.
+(luatex.def)             Requested size: 99.57832pt x 99.58464pt.
  [3
 
-]
+<./ut_logo.png>]
 LaTeX Font Info:    Font shape `TU/XCharter(2)/m/it' will be
 (Font)              scaled to size 12.0pt on input line 19.
 LaTeX Font Info:    Font shape `TU/XCharter(2)/m/n' will be
@@ -1840,440 +1856,54 @@ LaTeX Font Info:    Font shape `TU/XCharter(2)/b/n' will be
  [5
 
 
-] (./chapters/00-abstract.tex) [6
-
-
 ]
-(./main.toc
+(./chapters/00-abstract.tex) [6
+
+
+] (./main.toc
 LaTeX Font Info:    Font shape `TU/SourceCodePro-Regular(0)/m/n' will be
 (Font)              scaled to size 10.79993pt on input line 51.
+ [7
 
-Overfull \hbox (1.41595pt too wide) detected at line 54
- []\TU/XCharter(2)/m/n/12 100
- []
-
-[7
-
-]
-Overfull \hbox (1.41595pt too wide) detected at line 55
- []\TU/XCharter(2)/m/n/12 103
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 56
- []\TU/XCharter(2)/m/n/12 108
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 57
- []\TU/XCharter(2)/m/n/12 112
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 59
- []\TU/XCharter(2)/m/n/12 114
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 60
- []\TU/XCharter(2)/m/n/12 115
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 61
- []\TU/XCharter(2)/m/n/12 118
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 62
- []\TU/XCharter(2)/m/n/12 122
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 63
- []\TU/XCharter(2)/m/n/12 124
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 65
- []\TU/XCharter(2)/m/n/12 125
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 66
- []\TU/XCharter(2)/m/n/12 128
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 67
- []\TU/XCharter(2)/m/n/12 129
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 70
- []\TU/XCharter(2)/m/n/12 141
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 73
- []\TU/XCharter(2)/m/n/12 149
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 74
- []\TU/XCharter(2)/m/n/12 150
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 81
- []\TU/XCharter(2)/m/n/12 158
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 82
- []\TU/XCharter(2)/m/n/12 160
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 83
- []\TU/XCharter(2)/m/n/12 161
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 84
- []\TU/XCharter(2)/m/n/12 163
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 85
- []\TU/XCharter(2)/m/n/12 165
- []
-
-[8]
-Overfull \hbox (1.41595pt too wide) detected at line 87
- []\TU/XCharter(2)/m/n/12 168
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 88
- []\TU/XCharter(2)/m/n/12 170
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 92
- []\TU/XCharter(2)/m/n/12 173
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 93
- []\TU/XCharter(2)/m/n/12 175
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 94
- []\TU/XCharter(2)/m/n/12 177
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 96
- []\TU/XCharter(2)/m/n/12 179
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 97
- []\TU/XCharter(2)/m/n/12 180
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 98
- []\TU/XCharter(2)/m/n/12 182
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 99
- []\TU/XCharter(2)/m/n/12 182
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 101
- []\TU/XCharter(2)/m/n/12 193
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 102
- []\TU/XCharter(2)/m/n/12 195
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 103
- []\TU/XCharter(2)/m/n/12 197
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 104
- []\TU/XCharter(2)/m/n/12 200
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 105
- []\TU/XCharter(2)/m/n/12 202
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 106
- []\TU/XCharter(2)/m/n/12 202
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 107
- []\TU/XCharter(2)/m/n/12 204
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 108
- []\TU/XCharter(2)/m/n/12 205
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 110
- []\TU/XCharter(2)/m/n/12 207
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 111
- []\TU/XCharter(2)/m/n/12 211
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 115
- []\TU/XCharter(2)/m/n/12 221
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 116
- []\TU/XCharter(2)/m/n/12 223
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 117
- []\TU/XCharter(2)/m/n/12 227
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 118
- []\TU/XCharter(2)/m/n/12 229
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 119
- []\TU/XCharter(2)/m/n/12 230
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 120
- []\TU/XCharter(2)/m/n/12 230
- []
-
-[9])
+] [8] [9])
 \tf@toc=\write8
 
 \openout8 = main.toc
- [10] (./main.lot
-Overfull \hbox (1.41595pt too wide) detected at line 14
- []\TU/XCharter(2)/m/n/12 223
- []
-
-
-Overfull \hbox (13.00804pt too wide) in paragraph at lines 14--14
- [][] [][][]\TU/XCharter(2)/m/n/12 Cos-mo-log-i-cal pa-ram-e-ter con-straints un
--der uni-form and theory-informed 
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 15
- []\TU/XCharter(2)/m/n/12 236
- []
-
-)
+ [10] (./main.lot)
 \tf@lot=\write9
 
 \openout9 = main.lot
- [11
+
+[11
 
 ] (./main.lof
-Overfull \hbox (1.41595pt too wide) detected at line 18
- []\TU/XCharter(2)/m/n/12 119
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 19
- []\TU/XCharter(2)/m/n/12 120
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 20
- []\TU/XCharter(2)/m/n/12 123
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 21
- []\TU/XCharter(2)/m/n/12 124
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 23
- []\TU/XCharter(2)/m/n/12 135
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 24
- []\TU/XCharter(2)/m/n/12 140
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 25
- []\TU/XCharter(2)/m/n/12 143
- []
-
 LaTeX Font Info:    Font shape `TU/XCharter(1)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 26.
 LaTeX Font Info:    Font shape `TU/XCharter(1)/m/n' will be
 (Font)              scaled to size 8.4pt on input line 26.
 LaTeX Font Info:    Font shape `TU/XCharter(1)/m/n' will be
 (Font)              scaled to size 6.6pt on input line 26.
-
-Overfull \hbox (1.41595pt too wide) detected at line 26
- []\TU/XCharter(2)/m/n/12 147
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 28
- []\TU/XCharter(2)/m/n/12 162
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 29
- []\TU/XCharter(2)/m/n/12 166
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 30
- []\TU/XCharter(2)/m/n/12 167
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 32
- []\TU/XCharter(2)/m/n/12 171
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 33
- []\TU/XCharter(2)/m/n/12 185
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 34
- []\TU/XCharter(2)/m/n/12 186
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 35
- []\TU/XCharter(2)/m/n/12 187
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 36
- []\TU/XCharter(2)/m/n/12 188
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 37
- []\TU/XCharter(2)/m/n/12 189
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 38
- []\TU/XCharter(2)/m/n/12 190
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 39
- []\TU/XCharter(2)/m/n/12 191
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 40
- []\TU/XCharter(2)/m/n/12 192
- []
-
-[12
+ [12
 
 ]
-Overfull \hbox (1.41595pt too wide) detected at line 42
- []\TU/XCharter(2)/m/n/12 198
+Underfull \hbox (badness 4144) in paragraph at lines 40--40
+ [][] [][][]\TU/XCharter(2)/m/n/12 Pa-ram-e-ter de-gen-era-cies in PR4 fixed-cos
+mology and PR3 
  []
 
 
-Overfull \hbox (1.41595pt too wide) detected at line 43
- []\TU/XCharter(2)/m/n/12 199
+Overfull \hbox (10.53194pt too wide) in paragraph at lines 54--54
+ [][] [][][]\TU/XCharter(2)/m/n/12 Inverse-variance weighted map-ping from ex-po
+-nen-tial quintessence 
  []
 
 
-Overfull \hbox (1.41595pt too wide) detected at line 44
- []\TU/XCharter(2)/m/n/12 201
+Overfull \hbox (0.30794pt too wide) in paragraph at lines 55--55
+ [][] [][][]\TU/XCharter(2)/m/n/12 Theory-informed prior dis-tri-bu-tions for ex
+-po-nen-tial quintessence 
  []
 
-
-Overfull \hbox (1.41595pt too wide) detected at line 45
- []\TU/XCharter(2)/m/n/12 204
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 46
- []\TU/XCharter(2)/m/n/12 205
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 47
- []\TU/XCharter(2)/m/n/12 206
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 49
- []\TU/XCharter(2)/m/n/12 210
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 50
- []\TU/XCharter(2)/m/n/12 231
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 51
- []\TU/XCharter(2)/m/n/12 232
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 52
- []\TU/XCharter(2)/m/n/12 233
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 53
- []\TU/XCharter(2)/m/n/12 233
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 54
- []\TU/XCharter(2)/m/n/12 234
- []
-
-
-Overfull \hbox (1.41595pt too wide) detected at line 55
- []\TU/XCharter(2)/m/n/12 235
- []
-
-)
+[13])
 \tf@lof=\write10
 
 \openout10 = main.lof
@@ -2284,12 +1914,7 @@ Chapter 1:
 ) [2
 
 
-]
-LaTeX Font Info:    Font shape `TU/XCharter(2)/m/n' will be
-(Font)              scaled to size 24.88pt on input line 61.
-LaTeX Font Info:    Font shape `TU/XCharter(2)/b/n' will be
-(Font)              scaled to size 24.88pt on input line 61.
- [3
+] [3
 
 
 
@@ -2427,15 +2052,8 @@ Overfull \hbox (18.78899pt too wide) detected at line 131
 []
  []
 
-[30] [31] [32] [33] [34] [35]
-Overfull \hbox (1.96774pt too wide) in paragraph at lines 250--252
-\TU/XCharter(2)/m/n/12 where we pa-ram-e-ter-ized $\TU/XCharter-Math.otf(1)/m/n
-/12 𝐺(𝑄) ≈ 𝑎[]𝑄[]$ \TU/XCharter(2)/m/n/12 and used the iden-ti-tie
-s from Eq. [][]3.13[][] to [][]3.16[][].
- []
-
-[36] [37]
-<../arXiv-2212.04482v2/figures/r-ns_vs_Q_summary.png, id=1353, 346.896pt x 252.
+[30] [31] [32] [33] [34] [35] [36] [37]
+<../arXiv-2212.04482v2/figures/r-ns_vs_Q_summary.png, id=1575, 346.896pt x 252.
 945pt>
 File: ../arXiv-2212.04482v2/figures/r-ns_vs_Q_summary.png Graphic file (type pn
 g)
@@ -2533,7 +2151,7 @@ n;language=dflt;+tlig;+cv01=0;+lnum;+tnum;+smcp;"
 
 LaTeX Font Info:    Font shape `TU/XCharter(4)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 279.
-<../arXiv-2212.04482v2/figures/r-ns_plane_summary.png, id=1360, 346.896pt x 274
+<../arXiv-2212.04482v2/figures/r-ns_plane_summary.png, id=1582, 346.896pt x 274
 .626pt>
 File: ../arXiv-2212.04482v2/figures/r-ns_plane_summary.png Graphic file (type p
 ng)
@@ -2541,9 +2159,9 @@ ng)
 Package luatex.def Info: ../arXiv-2212.04482v2/figures/r-ns_plane_summary.png  
 used on input line 302.
 (luatex.def)             Requested size: 433.62pt x 343.2984pt.
- [38] [39<../arXiv-2212.04482v2/figures/r-ns_vs_Q_summary.png>]
-[40] [41<../arXiv-2212.04482v2/figures/r-ns_plane_summary.png>]
-<../arXiv-2212.04482v2/figures/Q-HoverT_ev_summary.png, id=1396, 325.215pt x 21
+ [38] [39<../arXiv-2212.04482v2/figures/r-ns_vs_Q_summary.png>] [40] [41<../arXi
+v-2212.04482v2/figures/r-ns_plane_summary.png>]
+<../arXiv-2212.04482v2/figures/Q-HoverT_ev_summary.png, id=1618, 325.215pt x 21
 6.81pt>
 File: ../arXiv-2212.04482v2/figures/Q-HoverT_ev_summary.png Graphic file (type 
 png)
@@ -2551,9 +2169,8 @@ png)
 Package luatex.def Info: ../arXiv-2212.04482v2/figures/Q-HoverT_ev_summary.png 
  used on input line 322.
 (luatex.def)             Requested size: 325.2142pt x 216.80946pt.
- [42<../arXiv-2212.04482v2/figures/Q-HoverT_ev_summary.png>] [43] [44] [45] [46
-] [47] [48])
-[49]
+ [42<../arXiv-2212.04482v2/figures/Q-HoverT_ev_summary.png>] [43]
+[44] [45] [46] [47] [48]) [49]
 \openout2 = chapters/04-warmspy.aux
  (./chapters/04-warmspy.tex
 Chapter 4:
@@ -2563,18 +2180,16 @@ Chapter 4:
 
 
 ] [51]
-Overfull \hbox (50.77647pt too wide) in paragraph at lines 38--39
-\TU/XCharter(4)/m/n/12 field in-fla-tion mod-els in-clude \TU/SourceCodePro-Reg
-ular(0)/m/n/12 Pyflation \TU/XCharter(4)/m/n/12 [[]], \TU/SourceCodePro-Regular
-(0)/m/n/12 Inflation.jl \TU/XCharter(4)/m/n/12 [[]], and \TU/SourceCodePro-Regu
-lar(0)/m/n/12 MultiModeCode \TU/XCharter(4)/m/n/12 [[]].
+Underfull \hbox (badness 1092) in paragraph at lines 38--39
+\TU/XCharter(4)/m/n/12 for multi-field in-fla-tion mod-els in-clude \TU/SourceC
+odePro-Regular(0)/m/n/12 Pyflation \TU/XCharter(4)/m/n/12 [[]], \TU/SourceCodeP
+ro-Regular(0)/m/n/12 Inflation.jl \TU/XCharter(4)/m/n/12 [[]],
  []
 
 
-Overfull \hbox (18.30104pt too wide) in paragraph at lines 38--39
-\TU/XCharter(4)/m/n/12 tion func-tions for single-field mod-els, in-clud-ing \T
-U/SourceCodePro-Regular(0)/m/n/12 CppTransport \TU/XCharter(4)/m/n/12 [[]], \TU
-/SourceCodePro-Regular(0)/m/n/12 PyTransport \TU/XCharter(4)/m/n/12 [[]],
+Underfull \hbox (badness 1360) in paragraph at lines 38--39
+\TU/XCharter(4)/m/n/12 and \TU/SourceCodePro-Regular(0)/m/n/12 MultiModeCode \T
+U/XCharter(4)/m/n/12 [[]]. Var-i-ous codes have been im-ple-mented to nu-mer-i-
  []
 
 [52] [53] [54] [55] [56]
@@ -2596,53 +2211,23 @@ Overfull \hbox (11.12888pt too wide) detected at line 199
 []
  []
 
-[60]
-Overfull \hbox (9.00787pt too wide) in paragraph at lines 214--215
-\TU/XCharter(4)/m/n/12 rescal-ing all the dy-nam-i-cal vari-ables by $\TU/XChar
-ter-Math.otf(1)/m/n/12 𝑘[]$\TU/XCharter(4)/m/n/12 , we ef-fec-tively elim-i-n
-ate the $\TU/XCharter-Math.otf(1)/m/n/12 𝑘$\TU/XCharter(4)/m/n/12 -dependence
-
- []
-
-[61] [62] [63] [64]
+[60] [61] [62] [63] [64]
 Overfull \hbox (49.06775pt too wide) detected at line 258
 []
  []
 
 [65] [66] [67]
-Overfull \hbox (25.57968pt too wide) in paragraph at lines 302--303
-\TU/XCharter(4)/m/n/12 is struc-tured in four mod-ules: (1) \TU/SourceCodePro-R
-egular(0)/m/n/12 Inflaton_Model\TU/XCharter(4)/m/n/12 , (2) \TU/SourceCodePro-R
-egular(0)/m/n/12 Background\TU/XCharter(4)/m/n/12 , (3) \TU/SourceCodePro-Regul
-ar(0)/m/n/12 Perturbations
- []
-
 LaTeX Font Info:    Font shape `TU/SourceCodePro-Regular(0)/b/n' will be
 (Font)              scaled to size 10.79993pt on input line 304.
-[68] [69]
-Overfull \hbox (0.16539pt too wide) in paragraph at lines 334--335
-[]$\TU/XCharter-Math.otf(1)/m/n/12 𝛽$\TU/XCharter(2)/b/n/12 -exponential po-t
-en-tial. \TU/XCharter(4)/m/n/12 A gen-er-al-iza-tion of power-law (run-away) in-
-fla-tion mod-
- []
-
-
-Overfull \hbox (22.03972pt too wide) in paragraph at lines 338--340
-\TU/XCharter(4)/m/n/12 Kaluza-Klein mod-els. Here, $\TU/XCharter-Math.otf(1)/m/
-n/12 𝜆$ \TU/XCharter(4)/m/n/12 is a di-men-sion-less cou-pling and the con-st
-ant $\TU/XCharter-Math.otf(1)/m/n/12 𝛽$ \TU/XCharter(4)/m/n/12 parametrizes
- []
-
-[70] [71] [72] [73] [74]
-Overfull \hbox (19.5879pt too wide) in paragraph at lines 396--397
-\TU/XCharter(4)/m/n/12 tions’ evo-lu-tion as in-puts, com-puted re-spec-tively
- in the \TU/SourceCodePro-Regular(0)/m/n/12 Background \TU/XCharter(4)/m/n/12 an
-d \TU/SourceCodePro-Regular(0)/m/n/12 Perturbations
+ [68] [69] [70] [71] [72] [73] [74]
+Underfull \hbox (badness 1824) in paragraph at lines 396--397
+\TU/XCharter(4)/m/n/12 The \TU/SourceCodePro-Regular(0)/m/n/12 Scalar_Dissipatio
+n_function \TU/XCharter(4)/m/n/12 mod-ule takes the back-ground and per-
  []
 
 [75]
 <../arXiv-2306.16190v2/figures/GQ_comparison_with_literature_Qconst-vs-varying.
-png, id=2004, 346.896pt x 274.626pt>
+png, id=2226, 346.896pt x 274.626pt>
 File: ../arXiv-2306.16190v2/figures/GQ_comparison_with_literature_Qconst-vs-var
 ying.png Graphic file (type png)
 <use ../arXiv-2306.16190v2/figures/GQ_comparison_with_literature_Qconst-vs-vary
@@ -2658,7 +2243,7 @@ LaTeX Font Info:    Font shape `TU/XCharter(1)/b/n' will be
 (Font)              scaled to size 6.0pt on input line 422.
  [76] [77<../arXiv-2306.16190v2/figures/GQ_comparison_with_literature_Qconst-vs-
 varying.png>] [78]
-<../arXiv-2306.16190v2/figures/GQ_quartic_fits.png, id=2050, 325.215pt x 274.62
+<../arXiv-2306.16190v2/figures/GQ_quartic_fits.png, id=2273, 325.215pt x 274.62
 6pt>
 File: ../arXiv-2306.16190v2/figures/GQ_quartic_fits.png Graphic file (type png)
 
@@ -2729,13 +2314,8 @@ n;language=dflt;+tlig;+cv01=0;+lnum;+tnum;+smcp;"
 
 LaTeX Font Info:    Font shape `TU/XCharter(5)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 467.
-
-Overfull \hbox (49.6807pt too wide) in paragraph at lines 463--482
- [][] 
- []
-
 [80]
-<../arXiv-2306.16190v2/figures/GQ_fits_quartic-varying_m_study.png, id=2091, 32
+<../arXiv-2306.16190v2/figures/GQ_fits_quartic-varying_m_study.png, id=2314, 32
 5.215pt x 252.945pt>
 File: ../arXiv-2306.16190v2/figures/GQ_fits_quartic-varying_m_study.png Graphic
  file (type png)
@@ -2744,7 +2324,7 @@ Package luatex.def Info: ../arXiv-2306.16190v2/figures/GQ_fits_quartic-varying_
 m_study.png  used on input line 495.
 (luatex.def)             Requested size: 433.62pt x 337.2849pt.
  [81] [82<../arXiv-2306.16190v2/figures/GQ_fits_quartic-varying_m_study.png>]
-<../arXiv-2306.16190v2/figures/GQ_fits_multiple_potentials.png, id=2118, 1208.5
+<../arXiv-2306.16190v2/figures/GQ_fits_multiple_potentials.png, id=2340, 1208.5
 15pt x 1896.08376pt>
 File: ../arXiv-2306.16190v2/figures/GQ_fits_multiple_potentials.png Graphic fil
 e (type png)
@@ -2756,29 +2336,16 @@ als.png  used on input line 510.
 
 LaTeX Warning: Float too large for page by 30.69174pt on input line 513.
 
-[83]
-Overfull \hbox (3.11192pt too wide) in paragraph at lines 518--519
-[]\TU/XCharter(5)/m/n/12 The re-sults ob-tained are pre-sented in fig-ure [][]4.
-4[][] which is di-vided in 3 self-contained
- []
-
-[84]
+[83] [84]
 <../arXiv-2306.16190v2/figures/GQ_fits_quartic-Neinfl-vs-taumax_study.png, id=2
-145, 1237.62375pt x 1512.65125pt>
+367, 1237.62375pt x 1512.65125pt>
 File: ../arXiv-2306.16190v2/figures/GQ_fits_quartic-Neinfl-vs-taumax_study.png 
 Graphic file (type png)
 <use ../arXiv-2306.16190v2/figures/GQ_fits_quartic-Neinfl-vs-taumax_study.png>
 Package luatex.def Info: ../arXiv-2306.16190v2/figures/GQ_fits_quartic-Neinfl-v
 s-taumax_study.png  used on input line 526.
 (luatex.def)             Requested size: 390.25534pt x 476.97237pt.
-
-Overfull \hbox (2.05077pt too wide) in paragraph at lines 532--533
-[]\TU/XCharter(2)/b/n/12 Num-ber of $\TU/XCharter-Math.otf(1)/m/n/12 𝑒$\TU/X
-Charter(2)/b/n/12 -folds be-fore and af-ter CMB hori-zon cross-ing:[] \TU/XChar
-ter(5)/m/n/12 We as-sess the changes
- []
-
-[85]
+ [85]
 Missing character: There is no 𝜏 (U+1D70F) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
 Missing character: There is no 𝜏 (U+1D70F) in font [XCharter-Roman.otf]:mode=
@@ -2795,7 +2362,7 @@ Missing character: There is no 𝜏 (U+1D70F) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
 Missing character: There is no 𝜏 (U+1D70F) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
-<../arXiv-2306.16190v2/figures/GQ_fits_quartic-MPs_study.png, id=2156, 325.215p
+<../arXiv-2306.16190v2/figures/GQ_fits_quartic-MPs_study.png, id=2378, 325.215p
 t x 252.945pt>
 File: ../arXiv-2306.16190v2/figures/GQ_fits_quartic-MPs_study.png Graphic file 
 (type png)
@@ -2804,7 +2371,7 @@ Package luatex.def Info: ../arXiv-2306.16190v2/figures/GQ_fits_quartic-MPs_stud
 y.png  used on input line 544.
 (luatex.def)             Requested size: 433.62pt x 337.2849pt.
 [86] [87]
-<../arXiv-2306.16190v2/figures/DeltaR2_analytical_vs_numerical.png, id=2173, 32
+<../arXiv-2306.16190v2/figures/DeltaR2_analytical_vs_numerical.png, id=2396, 32
 5.215pt x 252.945pt>
 File: ../arXiv-2306.16190v2/figures/DeltaR2_analytical_vs_numerical.png Graphic
  file (type png)
@@ -2816,7 +2383,7 @@ merical.png  used on input line 561.
 g>] [92<../arXiv-2306.16190v2/figures/GQ_fits_quartic-Neinfl-vs-taumax_study.png
 >] [93<../arXiv-2306.16190v2/figures/GQ_fits_quartic-MPs_study.png>] [94<../arXi
 v-2306.16190v2/figures/DeltaR2_analytical_vs_numerical.png>]
-<../arXiv-2306.16190v2/figures/GQ_fits_monomial-parameters_study.png, id=2236, 
+<../arXiv-2306.16190v2/figures/GQ_fits_monomial-parameters_study.png, id=2459, 
 325.215pt x 252.945pt>
 File: ../arXiv-2306.16190v2/figures/GQ_fits_monomial-parameters_study.png Graph
 ic file (type png)
@@ -2857,7 +2424,7 @@ TU/XCharter-Math.otf(1)/m/n/12 𝑠 = (2𝜋[]/45)𝑔[](𝑇)𝑇[]$
  []
 
 [116] [117]
-<../arXiv-2401.17371v2/letter_figures/Background_dynamics_letter.pdf, id=2606, 
+<../arXiv-2401.17371v2/letter_figures/Background_dynamics_letter.pdf, id=2829, 
 220.6391pt x 132.17766pt>
 File: ../arXiv-2401.17371v2/letter_figures/Background_dynamics_letter.pdf Graph
 ic file (type pdf)
@@ -2866,7 +2433,7 @@ Package luatex.def Info: ../arXiv-2401.17371v2/letter_figures/Background_dynami
 cs_letter.pdf  used on input line 112.
 (luatex.def)             Requested size: 303.53267pt x 181.84666pt.
  [118]
-<../arXiv-2401.17371v2/letter_figures/Yield_main_plot_letter_new.pdf, id=2615, 
+<../arXiv-2401.17371v2/letter_figures/Yield_main_plot_letter_new.pdf, id=2839, 
 354.4296pt x 131.44814pt>
 File: ../arXiv-2401.17371v2/letter_figures/Yield_main_plot_letter_new.pdf Graph
 ic file (type pdf)
@@ -2877,7 +2444,7 @@ etter_new.pdf  used on input line 129.
  [119<../arXiv-2401.17371v2/letter_figures/Background_dynamics_letter.pdf>] [12
 0<../arXiv-2401.17371v2/letter_figures/Yield_main_plot_letter_new.pdf>] [121]
 <../arXiv-2401.17371v2/letter_figures/Yield_Gain_semianalytic_vs_numerical_v3.p
-df, id=2705, 243.58197pt x 120.31865pt>
+df, id=2928, 243.58197pt x 120.31865pt>
 File: ../arXiv-2401.17371v2/letter_figures/Yield_Gain_semianalytic_vs_numerical
 _v3.pdf Graphic file (type pdf)
 <use ../arXiv-2401.17371v2/letter_figures/Yield_Gain_semianalytic_vs_numerical_
@@ -2887,7 +2454,7 @@ alytic_vs_numerical_v3.pdf  used on input line 159.
 (luatex.def)             Requested size: 346.89731pt x 171.36401pt.
  [122] [123<../arXiv-2401.17371v2/letter_figures/Yield_Gain_semianalytic_vs_nume
 rical_v3.pdf>]
-<../arXiv-2401.17371v2/letter_figures/Yield_vs_mchi-Lambda_v3.pdf, id=2773, 330
+<../arXiv-2401.17371v2/letter_figures/Yield_vs_mchi-Lambda_v3.pdf, id=2997, 330
 .52785pt x 184.90784pt>
 File: ../arXiv-2401.17371v2/letter_figures/Yield_vs_mchi-Lambda_v3.pdf Graphic 
 file (type pdf)
@@ -2906,70 +2473,36 @@ Chapter 7:
 
 
 ]
-Overfull \hbox (0.26286pt too wide) in paragraph at lines 27--29
+Underfull \hbox (badness 1603) in paragraph at lines 27--29
 []\TU/XCharter(5)/m/n/12 Ex-ten-sive stud-ies have ex-plored the ir-re-ducible 
-stochas-tic GW back-ground sourced
+stochas-tic GW back-ground
  []
 
 [126] [127] [128]
-Overfull \hbox (5.75996pt too wide) in paragraph at lines 55--57
+Underfull \hbox (badness 1881) in paragraph at lines 55--57
 \TU/XCharter(5)/m/n/12 We con-sider two rep-re-sen-ta-tive sce-nar-ios char-ac-t
-er-ized by ini-tial dis-si-pa-tion strengths
+er-ized by ini-tial dis-si-pa-tion
  []
 
-[129]
-Overfull \hbox (1.6079pt too wide) in paragraph at lines 75--77
-[]\TU/XCharter(5)/m/n/12 The pro-duc-tion of ther-mal gravi-tons can be un-der-s
-tood as a freeze-in pro-cess [[],
- []
-
-[130]
-Overfull \hbox (6.37941pt too wide) in paragraph at lines 90--93
-\U/eus/m/n/12 I[]\TU/XCharter-Math.otf(1)/m/n/12 (𝑁[])$ \TU/XCharter(5)/m/n/
-12 is sharply peaked at some e-fold, $\TU/XCharter-Math.otf(1)/m/n/12 𝑁[]$\T
-U/XCharter(5)/m/n/12 , which is the so-lu-tion of $\TU/XCharter-Math.otf(1)/m/n
-/12 𝑑\U/eus/m/n/12 I[]\TU/XCharter-Math.otf(1)/m/n/12 (𝑁[])/𝑑𝑁[] =
- []
-
-[131] [132]
-Overfull \hbox (11.6108pt too wide) in paragraph at lines 126--128
-\TU/XCharter(5)/m/n/12 where the nu-mer-a-tor refers to the gravi-ton pro-duc-ti
-on in WI set-ting given by Eq. [],
- []
-
-[133]
-<../arXiv-2507.08739v2/WIFI_GW_example1.pdf, id=2955, 200.96509pt x 252.14621pt
+[129] [130] [131] [132] [133]
+<../arXiv-2507.08739v2/WIFI_GW_example1.pdf, id=3179, 200.96509pt x 252.14621pt
 >
 File: ../arXiv-2507.08739v2/WIFI_GW_example1.pdf Graphic file (type pdf)
 <use ../arXiv-2507.08739v2/WIFI_GW_example1.pdf>
 Package luatex.def Info: ../arXiv-2507.08739v2/WIFI_GW_example1.pdf  used on in
 put line 139.
 (luatex.def)             Requested size: 260.17464pt x 326.47804pt.
- [134]
-Overfull \vbox (32.31088pt too high) has occurred while \output is active []
-
-
-[135<../arXiv-2507.08739v2/WIFI_GW_example1.pdf>] [136] [137] [138]
-Overfull \hbox (12.70795pt too wide) in paragraph at lines 218--219
-\TU/XCharter(5)/m/n/12 pected to be higher than the cor-re-spond-ing ther-mal gr
-avi-ton spec-trum from a radiation-
- []
-
-
-Overfull \hbox (17.85616pt too wide) in paragraph at lines 218--219
-\TU/XCharter(5)/m/n/12 from a radiation-dominated era due to the fac-tor $\TU/X
-Charter-Math.otf(1)/m/n/12 [𝑇(𝑁[])𝑒[]]/[𝑇(𝑁[])𝑒[]]$ \TU/XChar
-ter(5)/m/n/12 in Eq. [].
- []
-
-<../arXiv-2507.08739v2/OGW_vs_f_vF.pdf, id=3056, 201.63708pt x 132.38148pt>
+ [134] [135<../arXiv-2507.08739v2/WIFI_GW_example1.pdf>] [136] [137] [138] [139
+]
+<../arXiv-2507.08739v2/OGW_vs_f_vF.pdf, id=3287, 201.63708pt x 132.38148pt>
 File: ../arXiv-2507.08739v2/OGW_vs_f_vF.pdf Graphic file (type pdf)
 <use ../arXiv-2507.08739v2/OGW_vs_f_vF.pdf>
 Package luatex.def Info: ../arXiv-2507.08739v2/OGW_vs_f_vF.pdf  used on input l
 ine 225.
 (luatex.def)             Requested size: 303.53267pt x 199.2888pt.
-[139] [140<../arXiv-2507.08739v2/OGW_vs_f_vF.pdf>] [141]
-<../arXiv-2507.08739v2/RGW_table_plot_new.pdf, id=3119, 201.22108pt x 145.0902p
+ [140<../arXiv-2507.08739v2/OGW_vs_f_vF.pdf>]
+[141]
+<../arXiv-2507.08739v2/RGW_table_plot_new.pdf, id=3343, 201.22108pt x 145.0902p
 t>
 File: ../arXiv-2507.08739v2/RGW_table_plot_new.pdf Graphic file (type pdf)
 <use ../arXiv-2507.08739v2/RGW_table_plot_new.pdf>
@@ -2980,15 +2513,17 @@ LaTeX Font Info:    Font shape `TU/XCharter(2)/m/n' will be
 (Font)              scaled to size 8.0pt on input line 248.
 LaTeX Font Info:    Font shape `TU/XCharter(2)/m/n' will be
 (Font)              scaled to size 6.0pt on input line 248.
- [142] [143<../arXiv-2507.08739v2/RGW_table_plot_new.pdf>] [144] [145] [146]
-<../arXiv-2507.08739v2/dNeff_table_plot.pdf, id=3222, 200.25995pt x 145.3924pt>
+ [142<../arXiv-2507.08739v2/RGW_table_plot_new.pdf>] [143] [144] [145]
+<../arXiv-2507.08739v2/dNeff_table_plot.pdf, id=3439, 200.25995pt x 145.3924pt>
 
 File: ../arXiv-2507.08739v2/dNeff_table_plot.pdf Graphic file (type pdf)
 <use ../arXiv-2507.08739v2/dNeff_table_plot.pdf>
 Package luatex.def Info: ../arXiv-2507.08739v2/dNeff_table_plot.pdf  used on in
 put line 296.
 (luatex.def)             Requested size: 303.53267pt x 220.37975pt.
- [147<../arXiv-2507.08739v2/dNeff_table_plot.pdf>] [148] [149] [150] [151]
+
+[146] [147<../arXiv-2507.08739v2/dNeff_table_plot.pdf>] [148] [149] [150]
+[151]
 Missing character: There is no 𝜌 (U+1D70C) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
 Missing character: There is no 𝜌 (U+1D70C) in font [XCharter-Roman.otf]:mode=
@@ -3007,65 +2542,47 @@ base;script=latn;language=dflt;!
 
 (./chapters/08-minimal-dm-freezein.tex
 Chapter 8:
-
-Overfull \hbox (1.5148pt too wide) in paragraph at lines 16--17
-\TU/XCharter(5)/m/n/12 Dark mat-ter (DM) con-sti-tutes roughly 84% of the mat-te
-r con-tent in the uni-verse [[]].
- []
-
 [158
 
 
 ] [159] [160] [161]
-<../arXiv-2405.06226v2/figures/Yield_vs_x_v1_mDM_30MeV.png, id=3441, 197.538pt 
+<../arXiv-2405.06226v2/figures/Yield_vs_x_v1_mDM_30MeV.png, id=3665, 197.538pt 
 x 128.0785pt>
 File: ../arXiv-2405.06226v2/figures/Yield_vs_x_v1_mDM_30MeV.png Graphic file (t
 ype png)
 <use ../arXiv-2405.06226v2/figures/Yield_vs_x_v1_mDM_30MeV.png>
 Package luatex.def Info: ../arXiv-2405.06226v2/figures/Yield_vs_x_v1_mDM_30MeV.
 png  used on input line 69.
-(luatex.def)             Requested size: 433.62pt x 281.15596pt.
+(luatex.def)             Requested size: 303.53267pt x 196.80762pt.
  [162<../arXiv-2405.06226v2/figures/Yield_vs_x_v1_mDM_30MeV.png>]
-Overfull \hbox (1.8239pt too wide) in paragraph at lines 78--79
-[]\TU/XCharter(5)/m/n/12 We can un-der-stand the re-quired en-hance-ment in $\T
-U/XCharter-Math.otf(1)/m/n/12 𝜅$ \TU/XCharter(5)/m/n/12 an-a-lyt-i-cally by 
-solv-ing Eq. []
- []
-
-<../arXiv-2405.06226v2/figures/sigmaDDes_limit_plot_vG.png, id=3458, 198.0198pt
+<../arXiv-2405.06226v2/figures/sigmaDDes_limit_plot_vG.png, id=3682, 198.0198pt
  x 154.8987pt>
 File: ../arXiv-2405.06226v2/figures/sigmaDDes_limit_plot_vG.png Graphic file (t
 ype png)
 <use ../arXiv-2405.06226v2/figures/sigmaDDes_limit_plot_vG.png>
 Package luatex.def Info: ../arXiv-2405.06226v2/figures/sigmaDDes_limit_plot_vG.
 png  used on input line 86.
-(luatex.def)             Requested size: 433.62pt x 339.22528pt.
-<../arXiv-2405.06226v2/figures/kappa_limit_plot.png, id=3474, 196.5744pt x 152.
+(luatex.def)             Requested size: 303.53267pt x 237.45746pt.
+<../arXiv-2405.06226v2/figures/kappa_limit_plot.png, id=3698, 196.5744pt x 152.
 7306pt>
 File: ../arXiv-2405.06226v2/figures/kappa_limit_plot.png Graphic file (type png
 )
 <use ../arXiv-2405.06226v2/figures/kappa_limit_plot.png>
 Package luatex.def Info: ../arXiv-2405.06226v2/figures/kappa_limit_plot.png  us
 ed on input line 99.
-(luatex.def)             Requested size: 433.62pt x 336.92422pt.
-[163]
-Overfull \hbox (24.27676pt too wide) in paragraph at lines 112--113
-\TU/XCharter(5)/m/n/12 der con-sid-er-a-tion. We show the freeze-in bench-marks for $\TU/XCharter-Math.otf(1)/m/n/12 
-𝑇[] = {30 [],  100 [],  1 []}$
- []
-
-[164]) [165] [166<../arXiv-2405.06226v2/figures/sigmaDDes_limit_plot_vG.png>]
-[167<../arXiv-2405.06226v2/figures/kappa_limit_plot.png>]
+(luatex.def)             Requested size: 303.53267pt x 235.84439pt.
+ [163] [164<../arXiv-2405.06226v2/figures/sigmaDDes_limit_plot_vG.png>] [165<../
+arXiv-2405.06226v2/figures/kappa_limit_plot.png>]) [166]
 \openout2 = chapters/09-cmb-leptophilic-dm.aux
 
 (./chapters/09-cmb-leptophilic-dm.tex
 Chapter 9:
-[168
+[167
 
 
 
 
-] [169] [170] [171] [172]
+] [168] [169] [170] [171]
 Missing character: There is no 𝛾 (U+1D6FE) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
 Missing character: There is no 𝛾 (U+1D6FE) in font [XCharter-Roman.otf]:mode=
@@ -3084,18 +2601,18 @@ Missing character: There is no 𝛾 (U+1D6FE) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
 Missing character: There is no 𝛾 (U+1D6FE) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
-[173]
+[172]
 LaTeX Font Info:    Font shape `TU/SourceCodePro-Regular(0)/m/n' will be
 (Font)              scaled to size 8.99994pt on input line 184.
-<../arXiv-2503.00110v2/main_figures/fs_cosmo_change_mDM10keV_v3.pdf, id=3650, 1
+<../arXiv-2503.00110v2/main_figures/fs_cosmo_change_mDM10keV_v3.pdf, id=3869, 1
 93.42052pt x 192.40727pt>
 File: ../arXiv-2503.00110v2/main_figures/fs_cosmo_change_mDM10keV_v3.pdf Graphi
 c file (type pdf)
 <use ../arXiv-2503.00110v2/main_figures/fs_cosmo_change_mDM10keV_v3.pdf>
 Package luatex.def Info: ../arXiv-2503.00110v2/main_figures/fs_cosmo_change_mDM
 10keV_v3.pdf  used on input line 188.
-(luatex.def)             Requested size: 433.62pt x 431.37688pt.
- [174]
+(luatex.def)             Requested size: 303.53267pt x 301.96265pt.
+ [173] [174<../arXiv-2503.00110v2/main_figures/fs_cosmo_change_mDM10keV_v3.pdf>]
 Overfull \hbox (2.94165pt too wide) in paragraph at lines 213--214
 []\TU/XCharter(5)/m/n/12 Re-gard-ing as-pect \TU/XCharter(2)/m/it/12 (i)\TU/XCh
 arter(5)/m/n/12 , as we dis-cuss in Sec. [][]9.3[][], pre-vi-ous stud-ies us-ing
@@ -3103,13 +2620,7 @@ arter(5)/m/n/12 , as we dis-cuss in Sec. [][]9.3[][], pre-vi-ous stud-ies us-ing
  []
 
 [175]
-Overfull \hbox (7.34622pt too wide) in paragraph at lines 228--232
-[]\TU/XCharter(5)/m/n/12 We use the lat-est \TU/SourceCodePro-Regular(0)/m/n/12
- NPIPE \TU/XCharter(2)/m/it/12 Planck \TU/XCharter(5)/m/n/12 data re-lease and 
-use the cor-re-spond-ing \TU/XCharter(2)/m/it/12 Planck
- []
-
-<../arXiv-2503.00110v2/main_figures/CLs_DM_decay_v1.pdf, id=3682, 401.80896pt x
+<../arXiv-2503.00110v2/main_figures/CLs_DM_decay_v1.pdf, id=3938, 401.80896pt x
  132.38873pt>
 File: ../arXiv-2503.00110v2/main_figures/CLs_DM_decay_v1.pdf Graphic file (type
  pdf)
@@ -3118,21 +2629,9 @@ Package luatex.def Info: ../arXiv-2503.00110v2/main_figures/CLs_DM_decay_v1.pdf
   used on input line 236.
 (luatex.def)             Requested size: 433.62pt x 142.8787pt.
 
-Overfull \hbox (79.77779pt too wide) in paragraph at lines 242--245
-\TU/XCharter(5)/m/n/12 ple $[][] []$ with a flat prior for fixed DM masses $\TU
-/XCharter-Math.otf(1)/m/n/12 𝑚[] = {100 [],  \TU/XCharter(1)/m/n/12 1 []\TU/
-XCharter-Math.otf(1)/m/n/12 ,  \TU/XCharter(1)/m/n/12 10 []\TU/XCharter-Math.ot
-f(1)/m/n/12 ,  \TU/XCharter(1)/m/n/12 100 []\TU/XCharter-Math.otf(1)/m/n/12 ,  
-\TU/XCharter(1)/m/n/12 1 []\TU/XCharter-Math.otf(1)/m/n/12 }$\TU/XCharter(5)/m/
-n/12 .
- []
-
-
-Overfull \hbox (86.46848pt too wide) in paragraph at lines 242--245
-\TU/XCharter(5)/m/n/12 scalar and ALP lim-its via the rescal-ings $\TU/XCharter
--Math.otf(1)/m/n/12 𝑔[] → [] 𝑔[]$ \TU/XCharter(5)/m/n/12 and $\TU/XChar
-ter-Math.otf(1)/m/n/12 𝑔[] → [] 𝑚[]/(12 𝑚[]) 𝑔[]$\TU/XCharter(5)/
-m/n/12 ,
+Underfull \hbox (badness 2134) in paragraph at lines 242--245
+[]\TU/XCharter(5)/m/n/12 For each dataset, we sam-ple the fol-low-ing cos-mo-log
+-i-cal pa-ram-e-ters with
  []
 
 [176]
@@ -3142,52 +2641,40 @@ S v3.2.5 \TU/XCharter(5)/m/n/12 with the pub-licly avail-able sam-pler \TU/Sour
 ceCodePro-Regular(0)/m/n/12 MontePython \TU/XCharter(5)/m/n/12 [[],
  []
 
-
-Overfull \hbox (4.3615pt too wide) in paragraph at lines 246--249
-[]\TU/XCharter(5)/m/n/12 ] to per-form the MCMC anal-y-ses. Chain con-ver-gence is reached when the Gelman-
- []
-
-[177] [178]
-<../arXiv-2503.00110v2/main_figures/scalar_summary_bounds_plot_v0.pdf, id=3741,
+[177<../arXiv-2503.00110v2/main_figures/CLs_DM_decay_v1.pdf>] [178]
+<../arXiv-2503.00110v2/main_figures/scalar_summary_bounds_plot_v0.pdf, id=4022,
  199.47624pt x 147.55385pt>
 File: ../arXiv-2503.00110v2/main_figures/scalar_summary_bounds_plot_v0.pdf Grap
 hic file (type pdf)
 <use ../arXiv-2503.00110v2/main_figures/scalar_summary_bounds_plot_v0.pdf>
 Package luatex.def Info: ../arXiv-2503.00110v2/main_figures/scalar_summary_boun
 ds_plot_v0.pdf  used on input line 300.
-(luatex.def)             Requested size: 433.62pt x 320.76265pt.
+(luatex.def)             Requested size: 303.53267pt x 224.53183pt.
+ [179]
 <../arXiv-2503.00110v2/main_figures/pseudoscalar_summary_bounds_plot_v0.pdf, id
-=3756, 199.47624pt x 145.2969pt>
+=4051, 199.47624pt x 145.2969pt>
 File: ../arXiv-2503.00110v2/main_figures/pseudoscalar_summary_bounds_plot_v0.pd
 f Graphic file (type pdf)
 <use ../arXiv-2503.00110v2/main_figures/pseudoscalar_summary_bounds_plot_v0.pdf
 >
 Package luatex.def Info: ../arXiv-2503.00110v2/main_figures/pseudoscalar_summar
 y_bounds_plot_v0.pdf  used on input line 315.
-(luatex.def)             Requested size: 433.62pt x 315.85635pt.
- [179]
-Overfull \hbox (2.34065pt too wide) in paragraph at lines 325--330
-\TU/XCharter(5)/m/n/12 scales as $\TU/XCharter-Math.otf(1)/m/n/12 Γ[] ∼ (
-𝑚[]/𝑚[])[]$\TU/XCharter(5)/m/n/12 , whereas the pseudo-scalar de-cay width
- scales as $\TU/XCharter-Math.otf(1)/m/n/12 Γ[] ∼
- []
+(luatex.def)             Requested size: 303.53267pt x 221.09744pt.
 
-<../arXiv-2503.00110v2/main_figures/axion_summary_bounds_plot_v0.pdf, id=3802, 
+[180<../arXiv-2503.00110v2/main_figures/scalar_summary_bounds_plot_v0.pdf>]
+[181<../arXiv-2503.00110v2/main_figures/pseudoscalar_summary_bounds_plot_v0.pdf>
+]
+<../arXiv-2503.00110v2/main_figures/axion_summary_bounds_plot_v0.pdf, id=4175, 
 199.47624pt x 147.55385pt>
 File: ../arXiv-2503.00110v2/main_figures/axion_summary_bounds_plot_v0.pdf Graph
 ic file (type pdf)
 <use ../arXiv-2503.00110v2/main_figures/axion_summary_bounds_plot_v0.pdf>
 Package luatex.def Info: ../arXiv-2503.00110v2/main_figures/axion_summary_bound
 s_plot_v0.pdf  used on input line 333.
-(luatex.def)             Requested size: 433.62pt x 320.76265pt.
-[180]
-Overfull \hbox (10.71997pt too wide) in paragraph at lines 357--360
-[]\TU/XCharter(5)/m/n/12 We com-pare our de-rived con-straints with ex-ist-ing 
-bounds from as-tro-phys-i-cal sources
- []
-
-[181]
-<../arXiv-2503.00110v2/main_figures/fs_cosmo_change_mDMs_v0.pdf, id=3858, 351.0
+(luatex.def)             Requested size: 303.53267pt x 224.53183pt.
+ [182<../arXiv-2503.00110v2/main_figures/axion_summary_bounds_plot_v0.pdf>]
+[183]
+<../arXiv-2503.00110v2/main_figures/fs_cosmo_change_mDMs_v0.pdf, id=4259, 351.0
 1137pt x 360.13129pt>
 File: ../arXiv-2503.00110v2/main_figures/fs_cosmo_change_mDMs_v0.pdf Graphic fi
 le (type pdf)
@@ -3199,8 +2686,8 @@ s_v0.pdf  used on input line 378.
 
 LaTeX Warning: Float too large for page by 14.20367pt on input line 381.
 
-[182]
-<../arXiv-2503.00110v2/main_figures/triangle_plot_mDM1e3.pdf, id=3871, 378.4347
+[184]
+<../arXiv-2503.00110v2/main_figures/triangle_plot_mDM1e3.pdf, id=4272, 378.4347
 4pt x 357.2385pt>
 File: ../arXiv-2503.00110v2/main_figures/triangle_plot_mDM1e3.pdf Graphic file 
 (type pdf)
@@ -3208,16 +2695,9 @@ File: ../arXiv-2503.00110v2/main_figures/triangle_plot_mDM1e3.pdf Graphic file
 Package luatex.def Info: ../arXiv-2503.00110v2/main_figures/triangle_plot_mDM1e
 3.pdf  used on input line 398.
 (luatex.def)             Requested size: 411.93767pt x 388.89163pt.
-
-Overfull \hbox (45.46962pt too wide) in paragraph at lines 403--406
-\TU/XCharter(5)/m/n/12 pling for each mass by the re-spec-tive 95% C.L. up-per 
-limit [i.e., we show $[][]\TU/XCharter-Math.otf(1)/m/n/12 (𝑔[]/𝑔[])$\TU/X
-Charter(5)/m/n/12 ],
- []
-
-[183]
+ [185]
 <../arXiv-2503.00110v2/main_figures/triangle_plot_PR4_FC_vs_PR3_CC_small.pdf, i
-d=3882, 435.32957pt x 206.30536pt>
+d=4283, 435.32957pt x 206.30536pt>
 File: ../arXiv-2503.00110v2/main_figures/triangle_plot_PR4_FC_vs_PR3_CC_small.p
 df Graphic file (type pdf)
 <use ../arXiv-2503.00110v2/main_figures/triangle_plot_PR4_FC_vs_PR3_CC_small.pd
@@ -3225,60 +2705,49 @@ f>
 Package luatex.def Info: ../arXiv-2503.00110v2/main_figures/triangle_plot_PR4_F
 C_vs_PR3_CC_small.pdf  used on input line 411.
 (luatex.def)             Requested size: 411.93767pt x 195.22401pt.
-) [184] [185<../arXiv-2503.00110v2/main_figures/fs_cosmo_change_mDM10keV_v3.pdf>
-] [186<../arXiv-2503.00110v2/main_figures/CLs_DM_decay_v1.pdf>] [187<../arXiv-25
-03.00110v2/main_figures/scalar_summary_bounds_plot_v0.pdf>] [188<../arXiv-2503.0
-0110v2/main_figures/pseudoscalar_summary_bounds_plot_v0.pdf>] [189<../arXiv-2503
-.00110v2/main_figures/axion_summary_bounds_plot_v0.pdf>] [190<../arXiv-2503.0011
-0v2/main_figures/fs_cosmo_change_mDMs_v0.pdf>] [191<../arXiv-2503.00110v2/main_f
-igures/triangle_plot_mDM1e3.pdf>] [192<../arXiv-2503.00110v2/main_figures/triang
-le_plot_PR4_FC_vs_PR3_CC_small.pdf>]
+) [186] [187<../arXiv-2503.00110v2/main_figures/fs_cosmo_change_mDMs_v0.pdf>] [
+188<../arXiv-2503.00110v2/main_figures/triangle_plot_mDM1e3.pdf>]
+[189<../arXiv-2503.00110v2/main_figures/triangle_plot_PR4_FC_vs_PR3_CC_small.pdf
+>]
 \openout2 = chapters/10-pbh-memory-burden.aux
-
-(./chapters/10-pbh-memory-burden.tex
+ (./chapters/10-pbh-memory-burden.tex
 Chapter 10:
-[193
+[190
 
 
 
 
-] [194] [195]
-Overfull \hbox (7.15195pt too wide) in paragraph at lines 101--103
-\TU/XCharter(5)/m/n/12 stan-ta-neous na-ture of the tran-si-tion be-tween the se
-mi-classical and memory-burdened
- []
-
-<../arXiv-2503.21005v1/letter_figures/dMdt_SC_vs_smoothMB_letter_v1.pdf, id=426
-0, 199.16176pt x 154.40698pt>
+] [191] [192]
+<../arXiv-2503.21005v1/letter_figures/dMdt_SC_vs_smoothMB_letter_v1.pdf, id=446
+9, 199.16176pt x 154.40698pt>
 File: ../arXiv-2503.21005v1/letter_figures/dMdt_SC_vs_smoothMB_letter_v1.pdf Gr
 aphic file (type pdf)
 <use ../arXiv-2503.21005v1/letter_figures/dMdt_SC_vs_smoothMB_letter_v1.pdf>
 Package luatex.def Info: ../arXiv-2503.21005v1/letter_figures/dMdt_SC_vs_smooth
 MB_letter_v1.pdf  used on input line 122.
-(luatex.def)             Requested size: 411.93767pt x 319.3754pt.
-[196]
-<../arXiv-2503.21005v1/letter_figures/tdEdt_SC_vs_smoothMB_letter_v1.pdf, id=42
-81, 185.93004pt x 154.40698pt>
+(luatex.def)             Requested size: 303.53267pt x 235.32776pt.
+ [193] [194<../arXiv-2503.21005v1/letter_figures/dMdt_SC_vs_smoothMB_letter_v1.p
+df>]
+<../arXiv-2503.21005v1/letter_figures/tdEdt_SC_vs_smoothMB_letter_v1.pdf, id=45
+32, 185.93004pt x 154.40698pt>
 File: ../arXiv-2503.21005v1/letter_figures/tdEdt_SC_vs_smoothMB_letter_v1.pdf G
 raphic file (type pdf)
 <use ../arXiv-2503.21005v1/letter_figures/tdEdt_SC_vs_smoothMB_letter_v1.pdf>
 Package luatex.def Info: ../arXiv-2503.21005v1/letter_figures/tdEdt_SC_vs_smoot
 hMB_letter_v1.pdf  used on input line 142.
-(luatex.def)             Requested size: 411.93767pt x 342.13727pt.
- [197] [198<../arXiv-2503.21005v1/letter_figures/dMdt_SC_vs_smoothMB_letter_v1.p
-df>] [199<../arXiv-2503.21005v1/letter_figures/tdEdt_SC_vs_smoothMB_letter_v1.pd
-f>]
+(luatex.def)             Requested size: 303.53267pt x 252.10052pt.
 <../arXiv-2503.21005v1/letter_figures/fXfEM_combined_constraints_k2_v1.pdf, id=
-4385, 194.02248pt x 156.66393pt>
+4546, 194.02248pt x 156.66393pt>
 File: ../arXiv-2503.21005v1/letter_figures/fXfEM_combined_constraints_k2_v1.pdf
  Graphic file (type pdf)
 <use ../arXiv-2503.21005v1/letter_figures/fXfEM_combined_constraints_k2_v1.pdf>
 
 Package luatex.def Info: ../arXiv-2503.21005v1/letter_figures/fXfEM_combined_co
 nstraints_k2_v1.pdf  used on input line 153.
-(luatex.def)             Requested size: 411.93767pt x 332.6566pt.
- [200] [201<../arXiv-2503.21005v1/letter_figures/fXfEM_combined_constraints_k2_v
-1.pdf>] [202]
+(luatex.def)             Requested size: 303.53267pt x 245.11426pt.
+ [195] [196<../arXiv-2503.21005v1/letter_figures/tdEdt_SC_vs_smoothMB_letter_v1.
+pdf>] [197<../arXiv-2503.21005v1/letter_figures/fXfEM_combined_constraints_k2_v1
+.pdf>] [198] [199]
 LaTeX Font Info:    Font shape `TU/XCharter-Math.otf(1)/m/n' will be
 (Font)              scaled to size 14.4pt on input line 197.
 LaTeX Font Info:    Font shape `TU/XCharter(1)/m/n' will be
@@ -3289,9 +2758,8 @@ LaTeX Font Info:    Font shape `TU/XCharter-Math.otf(3)/m/n' will be
 (Font)              scaled to size 14.4pt on input line 197.
 LaTeX Font Info:    Font shape `TU/XCharter(1)/b/n' will be
 (Font)              scaled to size 14.4pt on input line 197.
- [203]
 <../arXiv-2503.21005v1/letter_figures/fXfEM_combined_constraints_varying_delta_
-v1.pdf, id=4486, 377.7921pt x 253.87956pt>
+v1.pdf, id=4691, 377.7921pt x 253.87956pt>
 File: ../arXiv-2503.21005v1/letter_figures/fXfEM_combined_constraints_varying_d
 elta_v1.pdf Graphic file (type pdf)
 <use ../arXiv-2503.21005v1/letter_figures/fXfEM_combined_constraints_varying_de
@@ -3300,18 +2768,19 @@ Package luatex.def Info: ../arXiv-2503.21005v1/letter_figures/fXfEM_combined_co
 nstraints_varying_delta_v1.pdf  used on input line 204.
 (luatex.def)             Requested size: 433.62pt x 291.40138pt.
 <../arXiv-2503.21005v1/letter_figures/fXfEM_combined_constraints_varying_k_v1.p
-df, id=4489, 194.02248pt x 156.66393pt>
+df, id=4694, 194.02248pt x 156.66393pt>
 File: ../arXiv-2503.21005v1/letter_figures/fXfEM_combined_constraints_varying_k
 _v1.pdf Graphic file (type pdf)
 <use ../arXiv-2503.21005v1/letter_figures/fXfEM_combined_constraints_varying_k_
 v1.pdf>
 Package luatex.def Info: ../arXiv-2503.21005v1/letter_figures/fXfEM_combined_co
 nstraints_varying_k_v1.pdf  used on input line 214.
-(luatex.def)             Requested size: 216.81pt x 175.06795pt.
- [204<../arXiv-2503.21005v1/letter_figures/fXfEM_combined_constraints_varying_de
-lta_v1.pdf>]
+(luatex.def)             Requested size: 303.53267pt x 245.11426pt.
+ [200] [201<../arXiv-2503.21005v1/letter_figures/fXfEM_combined_constraints_vary
+ing_delta_v1.pdf>] [202<../arXiv-2503.21005v1/letter_figures/fXfEM_combined_cons
+traints_varying_k_v1.pdf>]
 <../arXiv-2503.21005v1/letter_figures/fXfEM_combined_constraints_varying_1mq_v1
-.pdf, id=4532, 377.44208pt x 252.87956pt>
+.pdf, id=4778, 377.44208pt x 252.87956pt>
 File: ../arXiv-2503.21005v1/letter_figures/fXfEM_combined_constraints_varying_1
 mq_v1.pdf Graphic file (type pdf)
 <use ../arXiv-2503.21005v1/letter_figures/fXfEM_combined_constraints_varying_1m
@@ -3319,58 +2788,35 @@ q_v1.pdf>
 Package luatex.def Info: ../arXiv-2503.21005v1/letter_figures/fXfEM_combined_co
 nstraints_varying_1mq_v1.pdf  used on input line 230.
 (luatex.def)             Requested size: 433.62pt x 290.51984pt.
-) [205<../arXiv-2503.21005v1/letter_figures/fXfEM_combined_constraints_varying_k
-_v1.pdf>] [206<../arXiv-2503.21005v1/letter_figures/fXfEM_combined_constraints_v
-arying_1mq_v1.pdf>]
+)
+[203<../arXiv-2503.21005v1/letter_figures/fXfEM_combined_constraints_varying_1mq
+_v1.pdf>]
 \openout2 = chapters/11-desi-dark-energy.aux
-
-(./chapters/11-desi-dark-energy.tex
+ (./chapters/11-desi-dark-energy.tex
 Chapter 11:
-[207
+[204
 
 
 
 
-] [208]
-<../arXiv-2509.13318v1/fig0_v0.pdf, id=4663, 253.56273pt x 205.51103pt>
+] [205]
+<../arXiv-2509.13318v1/fig0_v0.pdf, id=4871, 253.56273pt x 205.51103pt>
 File: ../arXiv-2509.13318v1/fig0_v0.pdf Graphic file (type pdf)
 <use ../arXiv-2509.13318v1/fig0_v0.pdf>
 Package luatex.def Info: ../arXiv-2509.13318v1/fig0_v0.pdf  used on input line 
 41.
-(luatex.def)             Requested size: 433.62pt x 351.48706pt.
- [209] [210<../arXiv-2509.13318v1/fig0_v0.pdf>]
-Overfull \hbox (3.8946pt too wide) in paragraph at lines 68--70
-\TU/XCharter(5)/m/n/12 min-i-mally cou-pled to grav-ity. The evo-lu-tion of this
- ho-mo-ge-neous field in a Friedmann-
- []
-
+(luatex.def)             Requested size: 303.53267pt x 246.04126pt.
+ [206] [207<../arXiv-2509.13318v1/fig0_v0.pdf>] [208] [209] [210]
 [211] [212]
-Overfull \hbox (29.00613pt too wide) in paragraph at lines 93--95
-\TU/XCharter(5)/m/n/12 tions near the top of a pe-ri-odic po-ten-tial, and more gen-er-ally, to pseudo--Nambu--Goldstone
- []
-
-[213] [214] [215]
-Overfull \hbox (16.87817pt too wide) in paragraph at lines 124--127
-\TU/XCharter(5)/m/n/12 duce smooth, phys-i-cally mo-ti-vated tra-jec-to-ries de-
-ter-mined by field dy-nam-ics, Eq. [],
- []
-
-
-Overfull \hbox (8.01752pt too wide) in paragraph at lines 129--132
-\TU/XCharter-Math.otf(1)/m/n/12 𝐻(𝑧)$ \TU/XCharter(5)/m/n/12 [[]]. This de
--gen-er-acy re-flects a fun-da-men-tal lim-i-ta-tion of the CPL parametriza-
- []
-
-[216]
-<../arXiv-2509.13318v1/hilltop_example_fit.pdf, id=4829, 257.75146pt x 186.6734
+<../arXiv-2509.13318v1/hilltop_example_fit.pdf, id=5024, 257.75146pt x 186.6734
 8pt>
 File: ../arXiv-2509.13318v1/hilltop_example_fit.pdf Graphic file (type pdf)
 <use ../arXiv-2509.13318v1/hilltop_example_fit.pdf>
 Package luatex.def Info: ../arXiv-2509.13318v1/hilltop_example_fit.pdf  used on
  input line 136.
-(luatex.def)             Requested size: 433.62pt x 314.04507pt.
- [217]
-<../arXiv-2509.13318v1/fig_1_v0.pdf, id=4843, 493.31775pt x 276.6206pt>
+(luatex.def)             Requested size: 303.53267pt x 219.82841pt.
+ [213] [214<../arXiv-2509.13318v1/hilltop_example_fit.pdf>]
+<../arXiv-2509.13318v1/fig_1_v0.pdf, id=5104, 493.31775pt x 276.6206pt>
 File: ../arXiv-2509.13318v1/fig_1_v0.pdf Graphic file (type pdf)
 <use ../arXiv-2509.13318v1/fig_1_v0.pdf>
 Package luatex.def Info: ../arXiv-2509.13318v1/fig_1_v0.pdf  used on input line
@@ -3382,146 +2828,687 @@ Underfull \hbox (badness 1205) in paragraph at lines 153--153
 rmed prior dis-tri-bu-tions for the hill-top quintessence model,
  []
 
-[218] [219]
-Overfull \hbox (1.90337pt too wide) in paragraph at lines 173--174
-\TU/XCharter(5)/m/n/12 space to peaked pri-ors in $\TU/XCharter-Math.otf(1)/m/n
-/12 (𝑤[], 𝑤[])$ \TU/XCharter(5)/m/n/12 space demon-strates that uni-form 
-pri-ors on $\TU/XCharter-Math.otf(1)/m/n/12 (𝑤[], 𝑤[])$
- []
-
-[220]
-Overfull \hbox (0.52792pt too wide) in paragraph at lines 175--179
-\TU/XCharter(5)/m/n/12 We pro-vide fur-ther de-tails on the NFs im-ple-men-ta-ti
-on and train-ing in Ap-pendix [][]11.A[][]. 
- []
-
-<../arXiv-2509.13318v1/fig3_v0.pdf, id=4884, 477.59972pt x 166.99167pt>
+[215] [216<../arXiv-2509.13318v1/fig_1_v0.pdf>] [217] [218]
+<../arXiv-2509.13318v1/fig3_v0.pdf, id=5187, 477.59972pt x 166.99167pt>
 File: ../arXiv-2509.13318v1/fig3_v0.pdf Graphic file (type pdf)
 <use ../arXiv-2509.13318v1/fig3_v0.pdf>
 Package luatex.def Info: ../arXiv-2509.13318v1/fig3_v0.pdf  used on input line 
 186.
 (luatex.def)             Requested size: 433.62pt x 151.61356pt.
-[221]
-Overfull \hbox (100.23141pt too wide) in paragraph at lines 212--223
- [][] 
+ [219] [220<../arXiv-2509.13318v1/fig3_v0.pdf>]
+LaTeX Font Info:    Font shape `TU/XCharter(2)/b/n' will be
+(Font)              scaled to size 10.0pt on input line 210.
+
+Underfull \hbox (badness 10000) in alignment at lines 222--222
+[][][][][]
  []
 
 
-Overfull \hbox (100.23141pt too wide) in paragraph at lines 229--240
- [][] 
+Underfull \hbox (badness 10000) in alignment at lines 238--238
+[][][][][]
  []
 
 
-Overfull \hbox (100.23141pt too wide) in paragraph at lines 246--257
- [][] 
+Underfull \hbox (badness 10000) in alignment at lines 254--254
+[][][][][]
  []
 
-[222] [223]
-Overfull \hbox (15.4pt too wide) in paragraph at lines 273--275
-\TU/XCharter(5)/m/n/12 of this pa-per is to ar-gue that the choice of uni-form 
-pri-ors is ill-suited for this parametriza-
- []
-
-[224] [225] [226] [227]
-Overfull \hbox (6.90907pt too wide) in paragraph at lines 332--333
-[]\TU/XCharter(5)/m/n/12 As a prac-ti-cal point, we em-pha-size that our NF-base
-d frame-work for post-processing
- []
-
-[228]
-Overfull \hbox (2.41994pt too wide) in paragraph at lines 335--336
-[]\TU/XCharter(5)/m/n/12 In con-clu-sion, our re-anal-y-sis of DESI DR2 data wit
-h theory-informed pri-ors demon-
- []
-
-<../arXiv-2509.13318v1/fig_App4_v0.pdf, id=5013, 254.2278pt x 205.51103pt>
+[221] [222] [223] [224] [225] [226] [227]
+<../arXiv-2509.13318v1/fig_App4_v0.pdf, id=5358, 254.2278pt x 205.51103pt>
 File: ../arXiv-2509.13318v1/fig_App4_v0.pdf Graphic file (type pdf)
 <use ../arXiv-2509.13318v1/fig_App4_v0.pdf>
 Package luatex.def Info: ../arXiv-2509.13318v1/fig_App4_v0.pdf  used on input l
-ine 345.
-(luatex.def)             Requested size: 281.85034pt x 227.8471pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[229]
-Overfull \hbox (31.8763pt too wide) in paragraph at lines 355--357
+ine 343.
+(luatex.def)             Requested size: 303.53267pt x 245.37332pt.
+ [228<../arXiv-2509.13318v1/fig_App4_v0.pdf>]
+Overfull \hbox (31.8763pt too wide) in paragraph at lines 353--355
 \TU/XCharter(5)/m/n/12 us-ing the Adam op-ti-mizer [[]] with a learn-ing rate of
  $\TU/XCharter-Math.otf(1)/m/n/12 3 × 10[]$ \TU/XCharter(5)/m/n/12 and a \TU/S
 ourceCodePro-Regular(0)/m/n/12 ReduceLROnPlateau
  []
 
-<../arXiv-2509.13318v1/exponential_example_fit.pdf, id=5030, 257.75146pt x 186.
+[229]
+<../arXiv-2509.13318v1/exponential_example_fit.pdf, id=5402, 257.75146pt x 186.
 67348pt>
 File: ../arXiv-2509.13318v1/exponential_example_fit.pdf Graphic file (type pdf)
 
 <use ../arXiv-2509.13318v1/exponential_example_fit.pdf>
 Package luatex.def Info: ../arXiv-2509.13318v1/exponential_example_fit.pdf  use
-d on input line 363.
-(luatex.def)             Requested size: 281.85034pt x 204.12517pt.
-<../arXiv-2509.13318v1/fig_App1_v0.pdf, id=5035, 493.31775pt x 284.95683pt>
+d on input line 361.
+(luatex.def)             Requested size: 303.53267pt x 219.82841pt.
+<../arXiv-2509.13318v1/fig_App1_v0.pdf, id=5407, 493.31775pt x 284.95683pt>
 File: ../arXiv-2509.13318v1/fig_App1_v0.pdf Graphic file (type pdf)
 <use ../arXiv-2509.13318v1/fig_App1_v0.pdf>
 Package luatex.def Info: ../arXiv-2509.13318v1/fig_App1_v0.pdf  used on input l
-ine 369.
+ine 367.
 (luatex.def)             Requested size: 411.93767pt x 237.94897pt.
+ [230
 
-Overfull \hbox (157.53664pt too wide) in paragraph at lines 383--400
- [][] 
+<../arXiv-2509.13318v1/exponential_example_fit.pdf>] [231<../arXiv-2509.13318v1/
+fig_App1_v0.pdf>]
+LaTeX Font Info:    Font shape `TU/XCharter(2)/b/n' will be
+(Font)              scaled to size 8.0pt on input line 378.
+
+Underfull \hbox (badness 10000) in alignment at lines 396--396
+[][][][][]
  []
 
 
-Overfull \hbox (157.53664pt too wide) in paragraph at lines 406--423
- [][] 
+Underfull \hbox (badness 10000) in alignment at lines 419--419
+[][][][][]
  []
 
 
-Overfull \hbox (157.53664pt too wide) in paragraph at lines 429--446
- [][] 
+Underfull \hbox (badness 10000) in alignment at lines 442--442
+[][][][][]
  []
 
+) [232
 
-LaTeX Warning: Float too large for page by 193.02045pt on input line 449.
-
-) [230] [231<../arXiv-2509.13318v1/hilltop_example_fit.pdf>] [232<../arXiv-2509.
-13318v1/fig_1_v0.pdf>] [233<../arXiv-2509.13318v1/fig3_v0.pdf><../arXiv-2509.133
-18v1/fig_App4_v0.pdf>] [234<../arXiv-2509.13318v1/exponential_example_fit.pdf>]
- [235<../arXiv-2509.13318v1/fig_App1_v0.pdf>] [236]
-(./chapters/part2-conclusions.tex) [237
+] (./chapters/part2-conclusions.tex) [233
 
 
 
-] [238
+] [234
 
 ]
-(./chapters/part3-introduction.tex) [239
+(./chapters/part3-introduction.tex) [235
 
 ]
 \openout2 = chapters/12-neutrino-phase-shift.aux
 
 (./chapters/12-neutrino-phase-shift.tex
 Chapter 12:
-) [240
+[236
 
 
 ]
+Overfull \hbox (13.35698pt too wide) in paragraph at lines 36--37
+[]\TU/XCharter(5)/m/n/12 In ad-di-tion to pho-tons and neu-tri-nos, any par-ti-c
+le be-yond the Stan-dard Model (BSM)
+ []
+
+[237]
+<../arXiv-2501.13788v2/figures/1_phase-shift.pdf, id=5559, 455.7025pt x 277.035
+pt>
+File: ../arXiv-2501.13788v2/figures/1_phase-shift.pdf Graphic file (type pdf)
+<use ../arXiv-2501.13788v2/figures/1_phase-shift.pdf>
+Package luatex.def Info: ../arXiv-2501.13788v2/figures/1_phase-shift.pdf  used 
+on input line 49.
+(luatex.def)             Requested size: 455.70137pt x 277.03432pt.
+
+Overfull \hbox (22.08138pt too wide) in paragraph at lines 49--50
+ [][] 
+ []
+
+[238] [239<../arXiv-2501.13788v2/figures/1_phase-shift.pdf>] [240] [241]
+[242] [243]
+<../arXiv-2501.13788v2/figures/phase-shift_ee.pdf, id=5706, 452.69125pt x 279.0
+425pt>
+File: ../arXiv-2501.13788v2/figures/phase-shift_ee.pdf Graphic file (type pdf)
+<use ../arXiv-2501.13788v2/figures/phase-shift_ee.pdf>
+Package luatex.def Info: ../arXiv-2501.13788v2/figures/phase-shift_ee.pdf  used
+ on input line 94.
+(luatex.def)             Requested size: 452.69014pt x 279.04181pt.
+
+Overfull \hbox (19.07014pt too wide) in paragraph at lines 94--95
+ [][] 
+ []
+
+<../arXiv-2501.13788v2/figures/phase-shift_te.pdf, id=5720, 452.69125pt x 279.0
+425pt>
+File: ../arXiv-2501.13788v2/figures/phase-shift_te.pdf Graphic file (type pdf)
+<use ../arXiv-2501.13788v2/figures/phase-shift_te.pdf>
+Package luatex.def Info: ../arXiv-2501.13788v2/figures/phase-shift_te.pdf  used
+ on input line 101.
+(luatex.def)             Requested size: 452.69014pt x 279.04181pt.
+
+Overfull \hbox (19.07014pt too wide) in paragraph at lines 101--102
+ [][] 
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 102--102
+[]\TU/XCharter(2)/b/n/10.95 Fig-ure 12.3: |\TU/XCharter(2)/m/n/10.95 Same as Fig
+. [][]12.2[][] for the lensed CMB temperature-polarization cross-
+ []
+
+
+Overfull \hbox (25.63446pt too wide) in paragraph at lines 113--130
+ [][] 
+ []
+
+[244] [245<../arXiv-2501.13788v2/figures/phase-shift_ee.pdf>] [246<../arXiv-2501
+.13788v2/figures/phase-shift_te.pdf>] [247] [248]
+<../arXiv-2501.13788v2/figures/2_sbt_template.pdf, id=5859, 320.19624pt x 203.7
+6125pt>
+File: ../arXiv-2501.13788v2/figures/2_sbt_template.pdf Graphic file (type pdf)
+<use ../arXiv-2501.13788v2/figures/2_sbt_template.pdf>
+Package luatex.def Info: ../arXiv-2501.13788v2/figures/2_sbt_template.pdf  used
+ on input line 162.
+(luatex.def)             Requested size: 320.19545pt x 203.76074pt.
+ [249] [250<../arXiv-2501.13788v2/figures/2_sbt_template.pdf>] [251] [252] [253
+]
+<../arXiv-2501.13788v2/figures/phase-shift_perturbations.pdf, id=5953, 454.6987
+5pt x 279.0425pt>
+File: ../arXiv-2501.13788v2/figures/phase-shift_perturbations.pdf Graphic file 
+(type pdf)
+<use ../arXiv-2501.13788v2/figures/phase-shift_perturbations.pdf>
+Package luatex.def Info: ../arXiv-2501.13788v2/figures/phase-shift_perturbation
+s.pdf  used on input line 203.
+(luatex.def)             Requested size: 454.69763pt x 279.04181pt.
+
+Overfull \hbox (21.07764pt too wide) in paragraph at lines 203--204
+ [][] 
+ []
+
+[254] [255<../arXiv-2501.13788v2/figures/phase-shift_perturbations.pdf>]
+<../arXiv-2501.13788v2/figures/pbt_template.pdf, id=6011, 354.32375pt x 204.765
+pt>
+File: ../arXiv-2501.13788v2/figures/pbt_template.pdf Graphic file (type pdf)
+<use ../arXiv-2501.13788v2/figures/pbt_template.pdf>
+Package luatex.def Info: ../arXiv-2501.13788v2/figures/pbt_template.pdf  used o
+n input line 220.
+(luatex.def)             Requested size: 354.32288pt x 204.76448pt.
+
+[256] [257<../arXiv-2501.13788v2/figures/pbt_template.pdf>] [258] [259]
+[260]
+Underfull \hbox (badness 1231) in paragraph at lines 284--285
+[]\TU/XCharter(5)/m/n/12 We con-sid-ered three mock datasets, each gen-er-ated 
+based on the fidu-cial
+ []
+
+[261]
+<../arXiv-2501.13788v2/figures/sbt-pbt_validation.pdf, id=6129, 458.71375pt x 1
+74.6525pt>
+File: ../arXiv-2501.13788v2/figures/sbt-pbt_validation.pdf Graphic file (type p
+df)
+<use ../arXiv-2501.13788v2/figures/sbt-pbt_validation.pdf>
+Package luatex.def Info: ../arXiv-2501.13788v2/figures/sbt-pbt_validation.pdf  
+used on input line 291.
+(luatex.def)             Requested size: 458.71263pt x 174.65207pt.
+
+Overfull \hbox (25.09264pt too wide) in paragraph at lines 291--292
+ [][] 
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 288--296
+[]\TU/XCharter(5)/m/n/12 We dis-play the re-sult-ing one-dimensional pos-te-rior
+ dis-tri-bu-tions [][][][][] for $\TU/XCharter-Math.otf(1)/m/n/12 𝑁[]$\TU/XC
+harter(5)/m/n/12 ,
+ []
+
+[262] [263<../arXiv-2501.13788v2/figures/sbt-pbt_validation.pdf>] [264]
+[265]
+<../arXiv-2501.13788v2/figures/sbt_neff.pdf, id=6215, 456.70625pt x 163.61125pt
+>
+File: ../arXiv-2501.13788v2/figures/sbt_neff.pdf Graphic file (type pdf)
+<use ../arXiv-2501.13788v2/figures/sbt_neff.pdf>
+Package luatex.def Info: ../arXiv-2501.13788v2/figures/sbt_neff.pdf  used on in
+put line 330.
+(luatex.def)             Requested size: 456.70512pt x 163.61084pt.
+
+Overfull \hbox (23.08513pt too wide) in paragraph at lines 330--331
+ [][] 
+ []
+
+[266] [267<../arXiv-2501.13788v2/figures/sbt_neff.pdf>] [268]
+<../arXiv-2501.13788v2/figures/sbt_neff-yp.pdf, id=6292, 454.69875pt x 190.7125
+pt>
+File: ../arXiv-2501.13788v2/figures/sbt_neff-yp.pdf Graphic file (type pdf)
+<use ../arXiv-2501.13788v2/figures/sbt_neff-yp.pdf>
+Package luatex.def Info: ../arXiv-2501.13788v2/figures/sbt_neff-yp.pdf  used on
+ input line 360.
+(luatex.def)             Requested size: 454.69763pt x 190.71202pt.
+
+Overfull \hbox (21.07764pt too wide) in paragraph at lines 360--361
+ [][] 
+ []
+
+[269] [270<../arXiv-2501.13788v2/figures/sbt_neff-yp.pdf>]
+<../arXiv-2501.13788v2/figures/3_pbt_neff.pdf, id=6342, 457.71pt x 164.615pt>
+File: ../arXiv-2501.13788v2/figures/3_pbt_neff.pdf Graphic file (type pdf)
+<use ../arXiv-2501.13788v2/figures/3_pbt_neff.pdf>
+Package luatex.def Info: ../arXiv-2501.13788v2/figures/3_pbt_neff.pdf  used on 
+input line 374.
+(luatex.def)             Requested size: 457.7089pt x 164.6146pt.
+
+Overfull \hbox (24.0889pt too wide) in paragraph at lines 374--375
+ [][] 
+ []
+
+<../arXiv-2501.13788v2/figures/pbt_neff-yp.pdf, id=6346, 455.7025pt x 190.7125p
+t>
+File: ../arXiv-2501.13788v2/figures/pbt_neff-yp.pdf Graphic file (type pdf)
+<use ../arXiv-2501.13788v2/figures/pbt_neff-yp.pdf>
+Package luatex.def Info: ../arXiv-2501.13788v2/figures/pbt_neff-yp.pdf  used on
+ input line 381.
+(luatex.def)             Requested size: 455.70137pt x 190.71202pt.
+
+Overfull \hbox (22.08138pt too wide) in paragraph at lines 381--382
+ [][] 
+ []
+
+
+Underfull \hbox (badness 1281) in paragraph at lines 371--401
+\TU/XCharter(5)/m/n/12 The re-sults of the anal-y-ses, which em-ploy the phase 
+shift [] with the
+ []
+
+[271<../arXiv-2501.13788v2/figures/3_pbt_neff.pdf>] [272<../arXiv-2501.13788v2/f
+igures/pbt_neff-yp.pdf>] [273]
+Overfull \hbox (32.96902pt too wide) in paragraph at lines 414--415
+[]\TU/XCharter(5)/m/n/12 To fur-ther in-ves-ti-gate this mi-nor in-con-sis-tency
+, we turn to the lat-est Planck 2021 (NPIPE)
+ []
+
+<../arXiv-2501.13788v2/figures/sbt-pbt_planck.pdf, id=6446, 459.42119pt x 286.2
+6447pt>
+File: ../arXiv-2501.13788v2/figures/sbt-pbt_planck.pdf Graphic file (type pdf)
+<use ../arXiv-2501.13788v2/figures/sbt-pbt_planck.pdf>
+Package luatex.def Info: ../arXiv-2501.13788v2/figures/sbt-pbt_planck.pdf  used
+ on input line 419.
+(luatex.def)             Requested size: 459.42006pt x 286.26376pt.
+
+Overfull \hbox (25.80006pt too wide) in paragraph at lines 419--420
+ [][] 
+ []
+
+LaTeX Font Info:    Font shape `TU/SourceCodePro-Regular(0)/m/n' will be
+(Font)              scaled to size 9.85492pt on input line 420.
+
+Overfull \hbox (37.8151pt too wide) in paragraph at lines 426--436
+ [][] 
+ []
+
+
+Underfull \hbox (badness 3029) in paragraph at lines 436--436
+[]\TU/XCharter(2)/b/n/10.95 Ta-ble 12.4: |\TU/XCharter(2)/m/n/10.95 Con-straints
+ on $\TU/XCharter-Math.otf(1)/m/n/10.95 𝑁[]$ \TU/XCharter(2)/m/n/10.95 and $
+\TU/XCharter-Math.otf(1)/m/n/10.95 𝑁[]$ \TU/XCharter(2)/m/n/10.95 at 68% (95%
+) c.l. us-ing the up-dated
+ []
+
+[274] [275<../arXiv-2501.13788v2/figures/sbt-pbt_planck.pdf>] [276]
+Overfull \hbox (21.07306pt too wide) in paragraph at lines 448--449
+\TU/XCharter(5)/m/n/12 Over the next decade, sev-eral ex-per-i-ments are sched-u
+led to ob-serve the CMB anisotropies
+ []
+
+[277] [278]
+Overfull \hbox (7.63594pt too wide) in paragraph at lines 454--455
+\TU/XCharter(5)/m/n/12 ments is the im-pact of weak grav-i-ta-tional lens-ing on
+ the pri-mary anisotropies (cf. [[]]
+ []
+
+
+Overfull \hbox (25.53609pt too wide) in paragraph at lines 459--470
+ [][] 
+ []
+
+[279] [280] [281] [282] [283] [284]
+<../arXiv-2501.13788v2/figures/pbt_fit-parameters.pdf, id=6629, 451.6875pt x 28
+1.05pt>
+File: ../arXiv-2501.13788v2/figures/pbt_fit-parameters.pdf Graphic file (type p
+df)
+<use ../arXiv-2501.13788v2/figures/pbt_fit-parameters.pdf>
+Package luatex.def Info: ../arXiv-2501.13788v2/figures/pbt_fit-parameters.pdf  
+used on input line 533.
+(luatex.def)             Requested size: 451.68639pt x 281.0493pt.
+
+Overfull \hbox (18.06639pt too wide) in paragraph at lines 533--534
+ [][] 
+ []
+
+[285] [286<../arXiv-2501.13788v2/figures/pbt_fit-parameters.pdf>]
+<../arXiv-2501.13788v2/figures/sbt-pbt_validation_2d.pdf, id=6682, 446.62106pt 
+x 282.20584pt>
+File: ../arXiv-2501.13788v2/figures/sbt-pbt_validation_2d.pdf Graphic file (typ
+e pdf)
+<use ../arXiv-2501.13788v2/figures/sbt-pbt_validation_2d.pdf>
+Package luatex.def Info: ../arXiv-2501.13788v2/figures/sbt-pbt_validation_2d.pd
+f  used on input line 548.
+(luatex.def)             Requested size: 446.61996pt x 282.20514pt.
+
+Overfull \hbox (12.99997pt too wide) in paragraph at lines 548--549
+ [][] 
+ []
+
+
+Overfull \hbox (5.55598pt too wide) in paragraph at lines 545--553
+\TU/XCharter(5)/m/n/12 We dis-cussed the anal-y-ses of three phys-i-cal mock dat
+asets to val-i-date the perturbation-
+ []
+
+
+Overfull \hbox (34.67421pt too wide) in paragraph at lines 568--581
+ [][] 
+ []
+
+
+Overfull \hbox (34.67421pt too wide) in paragraph at lines 588--602
+ [][] 
+ []
+
+
+Overfull \hbox (34.67421pt too wide) in paragraph at lines 609--624
+ [][] 
+ []
+
+
+Overfull \hbox (41.3462pt too wide) in paragraph at lines 637--650
+ [][] 
+ []
+
+
+Overfull \hbox (34.67421pt too wide) in paragraph at lines 657--671
+ [][] 
+ []
+
+
+Overfull \hbox (34.67421pt too wide) in paragraph at lines 678--693
+ [][] 
+ []
+
+[287] [288<../arXiv-2501.13788v2/figures/sbt-pbt_validation_2d.pdf>] [289]
+[290] [291] [292]
+Overfull \hbox (6.70271pt too wide) in paragraph at lines 744--758
+ [][] 
+ []
+
+
+Overfull \hbox (13.37471pt too wide) in paragraph at lines 764--778
+ [][] 
+ []
+
+
+Overfull \hbox (20.0467pt too wide) in paragraph at lines 784--798
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 52.9467pt on input line 803.
+
+[293] [294] [295]) [296]
 \openout2 = chapters/13-neutrino-interactions.aux
  (./chapters/13-neutrino-interactions.tex
 Chapter 13:
-) [241
+[297
 
 
 
 
-]
+] [298] [299]
+<../arXiv-2509.20363v1/figures/paper_fig_KEE_SI.pdf, id=6905, 455.31485pt x 289
+.94272pt>
+File: ../arXiv-2509.20363v1/figures/paper_fig_KEE_SI.pdf Graphic file (type pdf
+)
+<use ../arXiv-2509.20363v1/figures/paper_fig_KEE_SI.pdf>
+Package luatex.def Info: ../arXiv-2509.20363v1/figures/paper_fig_KEE_SI.pdf  us
+ed on input line 58.
+(luatex.def)             Requested size: 390.25534pt x 248.5097pt.
+ [300]
+Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
+base;script=latn;language=dflt;!
+[301<../arXiv-2509.20363v1/figures/paper_fig_KEE_SI.pdf>]
+Missing character: There is no ℓ (U+2113) in font [XCharter-Roman.otf]:mode=ba
+se;script=latn;language=dflt;!
+Missing character: There is no ℓ (U+2113) in font [XCharter-Roman.otf]:mode=ba
+se;script=latn;language=dflt;!
+<../arXiv-2509.20363v1/figures/paper_fig1_v3.pdf, id=6994, 492.19368pt x 190.43
+512pt>
+File: ../arXiv-2509.20363v1/figures/paper_fig1_v3.pdf Graphic file (type pdf)
+<use ../arXiv-2509.20363v1/figures/paper_fig1_v3.pdf>
+Package luatex.def Info: ../arXiv-2509.20363v1/figures/paper_fig1_v3.pdf  used 
+on input line 90.
+(luatex.def)             Requested size: 433.62pt x 167.7723pt.
+Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
+base;script=latn;language=dflt;!
+[302] [303<../arXiv-2509.20363v1/figures/paper_fig1_v3.pdf>]
+Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
+base;script=latn;language=dflt;!
+[304]
+Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
+base;script=latn;language=dflt;!
+[305]
+Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
+base;script=latn;language=dflt;!
+Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
+base;script=latn;language=dflt;!
+Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
+base;script=latn;language=dflt;!
+Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
+base;script=latn;language=dflt;!
+<../arXiv-2509.20363v1/figures/paper_fig2_v0.pdf, id=7147, 217.42021pt x 153.56
+749pt>
+File: ../arXiv-2509.20363v1/figures/paper_fig2_v0.pdf Graphic file (type pdf)
+<use ../arXiv-2509.20363v1/figures/paper_fig2_v0.pdf>
+Package luatex.def Info: ../arXiv-2509.20363v1/figures/paper_fig2_v0.pdf  used 
+on input line 133.
+(luatex.def)             Requested size: 433.62pt x 306.2906pt.
+Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
+base;script=latn;language=dflt;!
+Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
+base;script=latn;language=dflt;!
+[306] [307<../arXiv-2509.20363v1/figures/paper_fig2_v0.pdf>]
+Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
+base;script=latn;language=dflt;!
+Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
+base;script=latn;language=dflt;!
+[308]
+Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
+base;script=latn;language=dflt;!
+Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
+base;script=latn;language=dflt;!
+[309]
+Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
+base;script=latn;language=dflt;!
+
+Overfull \hbox (1.12395pt too wide) in paragraph at lines 176--177
+[]\TU/XCharter(5)/m/n/12 Our ap-proach is ef-fec-tively equiv-a-lent to the meth
+od-ol-ogy de-vel-oped in Ref. [[]],
+ []
+
+[310]
+<../arXiv-2509.20363v1/figures/paper_fig3_v0.pdf, id=7248, 478.7664pt x 169.116
+2pt>
+File: ../arXiv-2509.20363v1/figures/paper_fig3_v0.pdf Graphic file (type pdf)
+<use ../arXiv-2509.20363v1/figures/paper_fig3_v0.pdf>
+Package luatex.def Info: ../arXiv-2509.20363v1/figures/paper_fig3_v0.pdf  used 
+on input line 182.
+(luatex.def)             Requested size: 433.62pt x 153.17342pt.
+ [311<../arXiv-2509.20363v1/figures/paper_fig3_v0.pdf>]
+LaTeX Font Info:    Font shape `TU/XCharter(1)/m/it' will be
+(Font)              scaled to size 12.0pt on input line 199.
+LaTeX Font Info:    Font shape `TU/XCharter(1)/m/it' will be
+(Font)              scaled to size 8.4pt on input line 199.
+LaTeX Font Info:    Font shape `TU/XCharter(1)/m/it' will be
+(Font)              scaled to size 6.6pt on input line 199.
+ [312]
+LaTeX Font Info:    Font shape `TU/XCharter(1)/m/it' will be
+(Font)              scaled to size 10.95pt on input line 226.
+LaTeX Font Info:    Font shape `TU/XCharter(1)/m/it' will be
+(Font)              scaled to size 8.0pt on input line 226.
+LaTeX Font Info:    Font shape `TU/XCharter(1)/m/it' will be
+(Font)              scaled to size 6.0pt on input line 226.
+ [313]
+[314]
+<../arXiv-2509.20363v1/figures/paper_fig3_v21.pdf, id=7375, 255.10855pt x 178.6
+8504pt>
+File: ../arXiv-2509.20363v1/figures/paper_fig3_v21.pdf Graphic file (type pdf)
+<use ../arXiv-2509.20363v1/figures/paper_fig3_v21.pdf>
+Package luatex.def Info: ../arXiv-2509.20363v1/figures/paper_fig3_v21.pdf  used
+ on input line 241.
+(luatex.def)             Requested size: 433.62pt x 303.73601pt.
+ [315] [316<../arXiv-2509.20363v1/figures/paper_fig3_v21.pdf>]
+LaTeX Font Info:    Font shape `TU/XCharter(1)/m/it' will be
+(Font)              scaled to size 10.0pt on input line 260.
+LaTeX Font Info:    Font shape `TU/XCharter(1)/m/it' will be
+(Font)              scaled to size 7.0pt on input line 260.
+LaTeX Font Info:    Font shape `TU/XCharter(1)/m/it' will be
+(Font)              scaled to size 5.0pt on input line 260.
+ [317]
+[318] [319] [320]
+Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
+base;script=latn;language=dflt;!
+Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
+base;script=latn;language=dflt;!
+[321] [322]
+<../arXiv-2509.20363v1/figures/phase_shift_template_Nfluid_Neff.pdf, id=7559, 2
+76.88815pt x 212.16676pt>
+File: ../arXiv-2509.20363v1/figures/phase_shift_template_Nfluid_Neff.pdf Graphi
+c file (type pdf)
+<use ../arXiv-2509.20363v1/figures/phase_shift_template_Nfluid_Neff.pdf>
+Package luatex.def Info: ../arXiv-2509.20363v1/figures/phase_shift_template_Nfl
+uid_Neff.pdf  used on input line 353.
+(luatex.def)             Requested size: 433.62pt x 332.27701pt.
+ [323]
+Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
+base;script=latn;language=dflt;!
+Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
+base;script=latn;language=dflt;!
+Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
+base;script=latn;language=dflt;!
+Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
+base;script=latn;language=dflt;!
+[324] [325<../arXiv-2509.20363v1/figures/phase_shift_template_Nfluid_Neff.pdf>]
+Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
+base;script=latn;language=dflt;!
+[326]
+Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
+base;script=latn;language=dflt;!
+<../arXiv-2509.20363v1/figures/paper_figA1_v0.pdf, id=7651, 266.14636pt x 282.6
+592pt>
+File: ../arXiv-2509.20363v1/figures/paper_figA1_v0.pdf Graphic file (type pdf)
+<use ../arXiv-2509.20363v1/figures/paper_figA1_v0.pdf>
+Package luatex.def Info: ../arXiv-2509.20363v1/figures/paper_figA1_v0.pdf  used
+ on input line 392.
+(luatex.def)             Requested size: 433.62pt x 460.55788pt.
+[327] [328<../arXiv-2509.20363v1/figures/paper_figA1_v0.pdf>] [329]
+<../arXiv-2509.20363v1/figures/paper_fig2_v1.pdf, id=7740, 217.42021pt x 153.56
+749pt>
+File: ../arXiv-2509.20363v1/figures/paper_fig2_v1.pdf Graphic file (type pdf)
+<use ../arXiv-2509.20363v1/figures/paper_fig2_v1.pdf>
+Package luatex.def Info: ../arXiv-2509.20363v1/figures/paper_fig2_v1.pdf  used 
+on input line 408.
+(luatex.def)             Requested size: 433.62pt x 306.2906pt.
+ [330]
+[331<../arXiv-2509.20363v1/figures/paper_fig2_v1.pdf>]
+<../arXiv-2509.20363v1/figures/paper_figA2_v0.pdf, id=7812, 260.49945pt x 180.8
+0957pt>
+File: ../arXiv-2509.20363v1/figures/paper_figA2_v0.pdf Graphic file (type pdf)
+<use ../arXiv-2509.20363v1/figures/paper_figA2_v0.pdf>
+Package luatex.def Info: ../arXiv-2509.20363v1/figures/paper_figA2_v0.pdf  used
+ on input line 423.
+(luatex.def)             Requested size: 433.62pt x 301.00456pt.
+ [332<../arXiv-2509.20363v1/figures/paper_figA2_v0.pdf>]
+Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
+base;script=latn;language=dflt;!
+Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
+base;script=latn;language=dflt;!
+[333] [334]
+<../arXiv-2509.20363v1/figures/paper_figA4_v0.pdf, id=7906, 301.7196pt x 281.55
+765pt>
+File: ../arXiv-2509.20363v1/figures/paper_figA4_v0.pdf Graphic file (type pdf)
+<use ../arXiv-2509.20363v1/figures/paper_figA4_v0.pdf>
+Package luatex.def Info: ../arXiv-2509.20363v1/figures/paper_figA4_v0.pdf  used
+ on input line 463.
+(luatex.def)             Requested size: 433.62pt x 404.64359pt.
+ [335] [336<../arXiv-2509.20363v1/figures/paper_figA4_v0.pdf>]
+<../arXiv-2509.20363v1/figures/paper_figA3_v0.pdf, id=7960, 301.7196pt x 283.42
+001pt>
+File: ../arXiv-2509.20363v1/figures/paper_figA3_v0.pdf Graphic file (type pdf)
+<use ../arXiv-2509.20363v1/figures/paper_figA3_v0.pdf>
+Package luatex.def Info: ../arXiv-2509.20363v1/figures/paper_figA3_v0.pdf  used
+ on input line 500.
+(luatex.def)             Requested size: 433.62pt x 407.32011pt.
+
+[337]) [338<../arXiv-2509.20363v1/figures/paper_figA3_v0.pdf>]
 \openout2 = chapters/14-neutrino-21cm.aux
- (./chapters/14-neutrino-21cm.tex
+
+(./chapters/14-neutrino-21cm.tex
 Chapter 14:
-) [242
+[339
 
 
 
 
-] (./chapters/part3-conclusions.tex) [243
+] [340] [341]
+Overfull \hbox (14.71278pt too wide) in paragraph at lines 43--44
+[]\TU/XCharter(5)/m/n/12 Through-out this work, we com-pute the 21-cm spec-tra 
+with the up-dated \TU/SourceCodePro-Regular(0)/m/n/12 zeus21 \TU/XCharter(5)/m/
+n/12 [[],
+ []
+
+[342] [343] [344] [345]
+<../arXiv-2509.03595v1/paper_figures/fig1_v30.pdf, id=8147, 450.302pt x 243.901
+82pt>
+File: ../arXiv-2509.03595v1/paper_figures/fig1_v30.pdf Graphic file (type pdf)
+<use ../arXiv-2509.03595v1/paper_figures/fig1_v30.pdf>
+Package luatex.def Info: ../arXiv-2509.03595v1/paper_figures/fig1_v30.pdf  used
+ on input line 99.
+(luatex.def)             Requested size: 433.62pt x 234.87625pt.
+ [346] [347<../arXiv-2509.03595v1/paper_figures/fig1_v30.pdf>] [348] [349] [350
+] [351] [352] [353] [354] [355]
+<../arXiv-2509.03595v1/paper_figures/fig3_v0.pdf, id=8385, 237.22054pt x 178.19
+725pt>
+File: ../arXiv-2509.03595v1/paper_figures/fig3_v0.pdf Graphic file (type pdf)
+<use ../arXiv-2509.03595v1/paper_figures/fig3_v0.pdf>
+Package luatex.def Info: ../arXiv-2509.03595v1/paper_figures/fig3_v0.pdf  used 
+on input line 217.
+(luatex.def)             Requested size: 433.62pt x 325.73068pt.
+ [356] [357<../arXiv-2509.03595v1/paper_figures/fig3_v0.pdf>]
+<../arXiv-2509.03595v1/paper_figures/fig4_v20.pdf, id=8455, 450.67639pt x 279.2
+2272pt>
+File: ../arXiv-2509.03595v1/paper_figures/fig4_v20.pdf Graphic file (type pdf)
+<use ../arXiv-2509.03595v1/paper_figures/fig4_v20.pdf>
+Package luatex.def Info: ../arXiv-2509.03595v1/paper_figures/fig4_v20.pdf  used
+ on input line 230.
+(luatex.def)             Requested size: 433.62pt x 268.66428pt.
+ [358] [359<../arXiv-2509.03595v1/paper_figures/fig4_v20.pdf>] [360]
+<../arXiv-2509.03595v1/paper_figures/fig5_v5.pdf, id=8544, 479.14554pt x 207.98
+317pt>
+File: ../arXiv-2509.03595v1/paper_figures/fig5_v5.pdf Graphic file (type pdf)
+<use ../arXiv-2509.03595v1/paper_figures/fig5_v5.pdf>
+Package luatex.def Info: ../arXiv-2509.03595v1/paper_figures/fig5_v5.pdf  used 
+on input line 256.
+(luatex.def)             Requested size: 433.62pt x 188.2272pt.
+ [361] [362] [363<../arXiv-2509.03595v1/paper_figures/fig5_v5.pdf>] [364]
+<../arXiv-2509.03595v1/paper_figures/fig7_v10.pdf, id=8641, 245.24841pt x 178.1
+9725pt>
+File: ../arXiv-2509.03595v1/paper_figures/fig7_v10.pdf Graphic file (type pdf)
+<use ../arXiv-2509.03595v1/paper_figures/fig7_v10.pdf>
+Package luatex.def Info: ../arXiv-2509.03595v1/paper_figures/fig7_v10.pdf  used
+ on input line 276.
+(luatex.def)             Requested size: 433.62pt x 315.10457pt.
+ [365] [366<../arXiv-2509.03595v1/paper_figures/fig7_v10.pdf>] [367] [368] [369
+]
+<../arXiv-2509.03595v1/paper_figures/figA1_v0.pdf, id=8735, 280.52867pt x 319.1
+9203pt>
+File: ../arXiv-2509.03595v1/paper_figures/figA1_v0.pdf Graphic file (type pdf)
+<use ../arXiv-2509.03595v1/paper_figures/figA1_v0.pdf>
+Package luatex.def Info: ../arXiv-2509.03595v1/paper_figures/figA1_v0.pdf  used
+ on input line 313.
+(luatex.def)             Requested size: 433.62pt x 493.42749pt.
+ [370] [371<../arXiv-2509.03595v1/paper_figures/figA1_v0.pdf>]
+<../arXiv-2509.03595v1/paper_figures/fig5_v3.pdf, id=8823, 240.42899pt x 181.14
+864pt>
+File: ../arXiv-2509.03595v1/paper_figures/fig5_v3.pdf Graphic file (type pdf)
+<use ../arXiv-2509.03595v1/paper_figures/fig5_v3.pdf>
+Package luatex.def Info: ../arXiv-2509.03595v1/paper_figures/fig5_v3.pdf  used 
+on input line 327.
+(luatex.def)             Requested size: 433.62pt x 326.73618pt.
+<../arXiv-2509.03595v1/paper_figures/figA3_v0.pdf, id=8824, 487.79778pt x 221.3
+3148pt>
+File: ../arXiv-2509.03595v1/paper_figures/figA3_v0.pdf Graphic file (type pdf)
+<use ../arXiv-2509.03595v1/paper_figures/figA3_v0.pdf>
+Package luatex.def Info: ../arXiv-2509.03595v1/paper_figures/figA3_v0.pdf  used
+ on input line 336.
+(luatex.def)             Requested size: 433.62pt x 196.75473pt.
+ [372] [373<../arXiv-2509.03595v1/paper_figures/fig5_v3.pdf>] [374<../arXiv-2509
+.03595v1/paper_figures/figA3_v0.pdf>]) [375]
+(./chapters/part3-conclusions.tex) [376
 
 
 
@@ -3529,22 +3516,24 @@ Chapter 14:
 \openout2 = chapters/15-conclusions.aux
  (./chapters/15-conclusions.tex
 Chapter 15:
-) [244
+) [377
 
 
 ] (./main.bbl
 LaTeX Font Info:    Font shape `TU/XCharter(2)/m/sc' will be
 (Font)              scaled to size 12.0pt on input line 60.
- [245
+ [378
 
 
 
-] [246] [247] [248] [249] [250] [251] [252] [253]
-[254] [255] [256] [257] [258] [259] [260] [261] [262] [263] [264] [265]
-[266] [267] [268] [269] [270] [271] [272] [273] [274] [275] [276] [277]
-[278] [279] [280] [281] [282] [283] [284] [285] [286] [287] [288])) [289]
-(./main.aux (./chapters/01-introduction.aux) (./chapters/02-wi-scalar-field.aux
-) (./chapters/03-wi-natural.aux) (./chapters/04-warmspy.aux)
+] [379] [380] [381] [382] [383] [384] [385] [386]
+[387] [388] [389] [390] [391] [392] [393] [394] [395] [396] [397] [398]
+[399] [400] [401] [402] [403] [404] [405] [406] [407] [408] [409] [410]
+[411] [412] [413] [414] [415] [416] [417] [418] [419] [420] [421] [422]
+[423] [424] [425] [426] [427] [428] [429] [430] [431] [432] [433] [434]
+[435] [436] [437] [438] [439] [440] [441] [442] [443])) [444] (./main.aux
+(./chapters/01-introduction.aux) (./chapters/02-wi-scalar-field.aux)
+(./chapters/03-wi-natural.aux) (./chapters/04-warmspy.aux)
 (./chapters/05-wi-eternal.aux) (./chapters/06-wifi-dm.aux)
 (./chapters/07-thermal-gravitons.aux) (./chapters/08-minimal-dm-freezein.aux)
 (./chapters/09-cmb-leptophilic-dm.aux) (./chapters/10-pbh-memory-burden.aux)
@@ -3555,38 +3544,44 @@ LaTeX Font Info:    Font shape `TU/XCharter(2)/m/sc' will be
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B83B243E1F7A250CC3DB5CB5F006972C;22264.
+(rerunfilecheck)             Checksum: 966B5FC049E0DAE844602658C556AD9B;27100.
 )
 
 Here is how much of LuaTeX's memory you used:
- 43140 strings out of 476553
- 125016,2373549 words of node,token memory allocated
- 4333 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 78 glue, 4 kern, 14 sub_mlist, 1 glyph, 581 attribu
-te, 91 glue_spec, 581 attribute_list, 2 write, 128 pdf_action nodes
-   avail lists: 1:8,2:1784,3:1079,4:256,5:1680,6:36,7:11376,8:93,9:1204,10:28,11
-:861
- 62281 multiletter control sequences out of 65536+600000
- 269 fonts using 56594023 bytes
- 95i,18n,118p,3060b,2337s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/opentype/adobe/sourcecodepro/SourceCodePro-
-Bold.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/xcharter/XCharter-
-Bold.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/xcharter-math/XCha
-rter-Math.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/xcharter/XCha
-rter-Roman.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/xcharter-mat
-h/XCharter-Math.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/xcharte
-r-math/XCharter-Math.otf></usr/share/texlive/texmf-dist/fonts/opentype/adobe/sou
-rcecodepro/SourceCodePro-Regular.otf></usr/share/texlive/texmf-dist/fonts/openty
-pe/adobe/sourcesanspro/SourceSansPro-Bold.otf></usr/share/texlive/texmf-dist/fon
-ts/opentype/public/xcharter/XCharter-Italic.otf></usr/share/texlive/texmf-dist/f
-onts/opentype/public/xcharter/XCharter-Bold.otf></usr/share/texlive/texmf-dist/f
-onts/opentype/public/xcharter/XCharter-Roman.otf></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/euler/eusm10.pfb>
-Output written on main.pdf (301 pages, 20296253 bytes).
+ 44985 strings out of 476553
+ 156277,1977958 words of node,token memory allocated
+ 5940 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 118 glue, 4 kern, 14 sub_mlist, 1 glyph, 796 attrib
+ute, 92 glue_spec, 796 attribute_list, 2 write, 205 pdf_action nodes
+   avail lists: 1:10,2:1826,3:1079,4:256,5:1438,6:59,7:13166,8:93,9:1826,10:28,1
+1:861
+ 63445 multiletter control sequences out of 65536+600000
+ 283 fonts using 59579847 bytes
+ 95i,19n,118p,3060b,3193s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/opentype/public/xcharter/XCharter-Italic.ot
+f></usr/share/texlive/texmf-dist/fonts/opentype/adobe/sourcecodepro/SourceCodePr
+o-Bold.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/xcharter/XCharte
+r-Bold.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/xcharter-math/XC
+harter-Math.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/xcharter/XC
+harter-Roman.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/xcharter-m
+ath/XCharter-Math.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/xchar
+ter-math/XCharter-Math.otf></usr/share/texlive/texmf-dist/fonts/opentype/adobe/s
+ourcecodepro/SourceCodePro-Regular.otf></usr/share/texlive/texmf-dist/fonts/open
+type/adobe/sourcesanspro/SourceSansPro-Bold.otf></usr/share/texlive/texmf-dist/f
+onts/opentype/public/xcharter/XCharter-Italic.otf></usr/share/texlive/texmf-dist
+/fonts/opentype/public/xcharter/XCharter-Bold.otf></usr/share/texlive/texmf-dist
+/fonts/opentype/public/xcharter/XCharter-Roman.otf></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/euler/eusm10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/latxfont/line10.pfb>
+Output written on main.pdf (457 pages, 32688124 bytes).
 
-PDF statistics: 6690 PDF objects out of 7423 (max. 8388607)
- 5886 compressed objects within 59 object streams
- 1325 named destinations out of 1440 (max. 131072)
- 736 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 10958 PDF objects out of 12825 (max. 8388607)
+ 9456 compressed objects within 95 object streams
+ 1900 named destinations out of 2073 (max. 131072)
+ 904 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -122,6 +122,54 @@
     \@starttoc{lot}%
     \vskip6pt\hrule}
 
+% ── Wider number columns for chapters 10+ ─────────────────────────
+% Section numbers in ToC (e.g. "12.10") need more width than default "9.9"
+\longtocentry                     % sets \two@num etc. for double-digit chapters
+% Recalculate cumulative indents used by subsection/subsubsection
+\setlength{\c@twonum}{\c@onenum}\addtolength{\c@twonum}{\two@num}
+\setlength{\c@threenum}{\c@twonum}\addtolength{\c@threenum}{\three@num}
+
+% Figure / Table numbers in LoF / LoT (e.g. "12.11") need wider box
+% Also widen right margin so long titles don't collide with page numbers
+\renewcommand{\@pnumwidth}{2em}
+\renewcommand{\@tocrmarg}{3.5em}
+\renewcommand*\l@figure{\@dottedtocline{1}{1.5em}{3.5em}}
+\renewcommand*\l@table{\@dottedtocline{1}{1.5em}{3.5em}}
+
+% Widen chapter number indent for "Chapter 14" etc.
+\settowidth{\toc@chap@indent}{\bf\@chapapp\space 14.\hspace*{1em}}
+
+% ── Title page override (UT logo, sizing) ─────────────────────────
+\def\titlepage{\pagestyle{plain}%
+    \vspace*{5pt}
+    \baselineskip=22.5pt plus .5pt minus .2 pt
+    \begin{center}
+    \baselineskip=28.5pt plus .5pt minus .2 pt
+     \Huge\bfseries\ti@tle            % Same size as Part titles
+    \end{center}
+    \vspace{20pt}
+    \centerline{\large\bf by}
+    \centerline{\large\bf\au@thor}
+    \vspace{30pt}
+    \begin{center}
+    \includegraphics[height=3.5cm]{ut_logo}
+    \end{center}
+    \vspace{30pt}
+    \begin{center}
+    {\large\bf\DOC@TYPE}\\
+    Presented to the Faculty of the Graduate School of\\
+    The University of Texas at Austin\\
+    in Partial Fulfillment\\
+    of the Requirements\\
+    for the Degree of
+    \end{center}
+    \centerline{\large\bf\d@gree}
+    \vspace{25pt}
+    \centerline{\large\bf The University of Texas at Austin}
+    \centerline{\large\bf \graduation@month\ \graduation@year}
+    \clearpage
+    \setcounter{regular@short}{1}}
+
 \makeatother
 % ────────────────────────────────────────────────────────────────────
 
@@ -145,6 +193,7 @@
 \usepackage{algorithm}
 \usepackage{algorithmic}
 \usepackage{bm}            % Bold math symbols
+\usepackage[makeroom]{cancel}  % Cancel symbols (Ch.12)
 \usepackage{dcolumn}        % Align table columns on decimal point
 \usepackage{subcaption}     % Subfigures
 \usepackage{xcolor}
@@ -194,6 +243,9 @@
 
 % French Spacing - single spacing between sentences
 \frenchspacing
+
+% Avoid inline math protruding past the right margin
+\emergencystretch=1.5em
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	Some math support.					     %

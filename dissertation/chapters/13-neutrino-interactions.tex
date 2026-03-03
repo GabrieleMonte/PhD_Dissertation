@@ -9,7 +9,7 @@ Accepted to \textit{Phys.\ Rev.\ D}
 \vspace{1em}
 
 % ── Chapter-local macros ─────────────────────────────────────────────
-\newcommand{\Neff}{N_\mathrm{eff}}
+\providecommand{\Neff}{N_\mathrm{eff}}
 % ── Chapter-local color definitions ──────────────────────────────────
 \definecolor{tabblue}{RGB}{31, 119, 180}
 \definecolor{darkblue}{RGB}{0, 0, 120}
@@ -320,19 +320,18 @@ The \texttt{nuCLASS} implementation evolves the full Boltzmann hierarchy for sel
 
 \begin{table}
 	\centering
-	\sisetup{group-digits=false}
-	\begin{tabular}{l S[table-format=1.5]}
+	\begin{tabular}{lc}
 			\toprule
-		Parameter 				& {Fiducial Value}															\\
+		Parameter 				& Fiducial Value															\\
 			\midrule[0.065em]
 		$\omega_b$ 				& 0.02238 				 		\\
 		$\omega_c$				& 0.12011					\\
 		$100\,\theta_s$ 		& 1.04178 						\\
-		$\ln(\num{e10}A_s)$		& 3.0448							\\
+		$\ln(10^{10}A_s)$		& 3.0448							\\
 		$n_s$					& 0.96605 													\\
 		$\tau$ 					& 0.0543 									\\
 		$N_{\rm eff}$					& 3.044 							\\
-		$Y_p$					& {`BBN'\hskip6.5pt}\\
+		$Y_p$					& BBN\\
 
 			\bottomrule
 	\end{tabular}
