@@ -1,0 +1,21 @@
+{
+   "sources" : [
+      {
+         "usage" : "toplevel",
+         "filename" : "wieternal_final.tex"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "JHEP.bst"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "bibl.bib"
+      }
+   ],
+   "spec_version" : 1,
+   "texlive_version" : "2023",
+   "process" : {
+      "compiler" : "pdflatex"
+   }
+}

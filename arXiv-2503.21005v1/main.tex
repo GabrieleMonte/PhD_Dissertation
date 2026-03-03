@@ -1,0 +1,270 @@
+\documentclass[aps, prl, reprint, preprintnumbers, showpacs, floatfix, nofootinbib, superscriptaddress, %longbibliography,
+nofootinbib]{revtex4-1}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb}
+\usepackage{hhline}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{multirow,tabularx}
+%\usepackage{siunitx}
+\usepackage{graphicx}
+\usepackage{natbib}
+
+\usepackage{ulem}
+
+\usepackage{xspace}
+\usepackage{xstring}
+%\usepackage{titlesec}
+\usepackage{parskip}
+%\usepackage{stix}
+\allowdisplaybreaks
+\parskip 1mm
+\parindent 2mm
+\usepackage{braket}
+
+\newcommand{\gsim}{\raisebox{-0.13cm}{~\shortstack{$>$ \\[-0.07cm]
+      $\sim$}}~}
+\newcommand{\lsim}{\raisebox{-0.13cm}{~\shortstack{$<$ \\[-0.07cm]
+      $\sim$}}~}
+
+\newcommand*\diff{\mathrm{d}}
+\newrobustcmd{\pea}[1]{%
+	\emph{#1}\textbf{\ \ \ ---}
+}
+%\titleformat{\paragraph}[runin]{\normalfont\normalsize\bfseries}{\emph\theparagraph}{1em}{\pea}
+
+%	Basic abbreviations
+\newcommand*{\ie}{i.e.\@\xspace}
+\newcommand*{\eg}{e.g.\@\xspace}
+\newcommand*{\cf}{c.f.\@\xspace}
+\newcommand*{\fig}{fig.\@\xspace}
+\newcommand*{\eq}{eq.\@\xspace}
+\newcommand*{\eqs}{eqs.\@\xspace}
+\newcommand*{\wrt}{w.r.t.\@\xspace}
+\newcommand*{\rhs}{r.h.s.\@\xspace}
+\newcommand*{\lhs}{l.h.s.\@\xspace}
+
+%	Comments
+\newcommand{\sz}[1]{{\color[RGB]{0,34,170}{#1}}}
+\newcommand{\szC}[1]{{\color[RGB]{0,34,170}{[\textbf{SZ: #1]}}}}
+\newcommand{\gm}[1]{{\color[RGB]{214, 39, 40}{#1}}}
+
+\usepackage{hyperref}
+\hypersetup{%
+     colorlinks = true,%
+     linkcolor = Blue,%
+     citecolor = Blue,%
+     filecolor = Blue,%
+     urlcolor = Blue% 
+     }%
+%\usepackage[capitalize,nameinlink]{cleveref}
+\newcommand{\FK}[1]{\color{orange}{#1\;}\color{black}}
+\definecolor{tabblue}{RGB}{31, 119, 180}
+\definecolor{darkblue}{RGB}{0, 0, 120}
+\definecolor{tabred}{RGB}{214, 39, 40}
+\definecolor{tabgreen}{RGB}{44, 160, 44}
+\definecolor{tabgray}{RGB}{100, 100, 100}
+\begin{document}
+\preprint{\hbox{UTWI-09-2025, NORDITA-2025-015}}
+\title{Does Memory Burden Open a New Mass Window\\for Primordial Black Holes as Dark Matter?}
+
+%\title{Memory Burden Does Not Open A New Mass Window For Primoridal Black Holes As Dark Matter}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\author{Gabriele Montefalcone}
+%\email{montefalcone@utexas.edu}
+\affiliation{Texas Center for Cosmology and Astroparticle Physics, Weinberg Institute for Theoretical
+Physics, Department of Physics, University of Texas at Austin, Austin, TX 78712, USA}
+
+\author{Dan Hooper}
+%\email{dwhooper@wisc.edu}
+\affiliation{Department of Physics, University of Wisconsin, Madison, WI, USA}
+\affiliation{Wisconsin IceCube Particle Astrophysics Center (WIPAC),
+University of Wisconsin, Madison, WI, USA}
+
+\author{Katherine Freese}
+\affiliation{Texas Center for Cosmology and Astroparticle Physics, Weinberg Institute for Theoretical
+Physics, Department of Physics, University of Texas at Austin, Austin, TX 78712, USA}
+\affiliation{Oskar Klein Centre, Department of Physics, Stockholm University, 10691 Stockholm, SE}
+\affiliation{Nordita, KTH Royal Institute of Technology and Stockholm University, 10691 Stockholm, SE}
+
+\author{Chris Kelso}
+\affiliation{Department of Physics, University of North Florida, 1 UNF Dr, Jacksonville, FL 32224, USA}
+
+\author{Florian K{\"u}hnel}
+\affiliation{Arnold Sommerfeld Center, Ludwig-Maximilians-Universit{\"a}t, Theresienstr.~37, 80333 M{\"u}nchen, Germany}
+\affiliation{Max-Planck-Institut f{\"u}r Physik, Boltzmannstr.~8, 85748 Garching, Germany}
+
+
+\author{Pearl Sandick}
+\affiliation{Department of Physics and Astronomy, University of Utah, Salt Lake City, UT, 84112, USA}
+\affiliation{Laboratoire Univers et Particules de Montpellier, CNRS \& Universit{\'e} de Montpellier, France}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{abstract}
+It has been argued that the so-called memory-burden effect could cause black holes to become stabilized by the information that they carry, thereby suppressing the rate at which they undergo Hawking evaporation. It has furthermore been suggested that this opens a new mass window, between $10^{4}\,{\rm g} \lsim M \lsim 10^{10}\,{\rm g}$, over which primordial black holes could constitute the dark matter of our Universe. We show in this \textit{letter} that this is true only if the transition from the semi-classical phase of a black hole to its memory-burdened phase is practically instantaneous. If this transition is instead more continuous, Hawking evaporation will persist at relevant levels throughout the eras of Big Bang Nucleosynthesis and recombination, leading to stringent constraints which rule out the possibility that black holes lighter than $\sim 4 \times 10^{16}\,{\rm g}$ could make up all or most of the dark matter.\\[-1mm]
+\end{abstract}
+
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\textit{\textbf{Introduction}} -- It has long been speculated that a population of primordial black holes (PBHs) may have formed in the early Universe~\cite{Zeldovich:1967lct, Hawking:1971ei} and could constitute some or all of our Universe's dark matter~\cite{Chapline:1975ojl, Meszaros:1975ef}. Hawking famously argued that black holes should radiate particles from their horizons, causing them to lose mass and evaporate. In the standard semi-classical picture, black holes without appreciable electric charge or angular momentum lose mass through this process at the following rate~\cite{Hawking:1975vcx}:
+%
+\begin{align}
+\label{eq:SC}
+    \frac{{\rm d}M}{{\rm d}t}\bigg|_{\rm SC}
+        &=
+            -\mspace{2mu}\frac{\mathcal{G}\,g_{\star, H}(T_{\rm BH}) M_{\rm Pl}^{4}}{30720 \pi M^{2}}\\
+        &\approx
+            -\,8.2 \times 10^{6}\,{\rm g/s} \times\! \bigg(\frac{g_{\star, H}(T_{\rm BH})}{108}\bigg)\!\bigg(\frac{10^{10}\,{\rm g}}{M}\bigg)^{\!2}, \nonumber
+\end{align}
+%
+where $\mathcal{G} \approx 3.8$ is the appropriate greybody factor, $T_{\rm BH} = M^{2}_{\rm Pl}/(8\pi M)$ is the temperature of the black hole, $M_{\rm Pl} \approx 2.2 \times 10^{-5}\,{\rm g}$ is the Planck mass, and $g_{\star, H}$ counts the weighted degrees-of-freedom of the particle species lighter than $T_{\rm BH}$, normalized to 1 per fermionic degree of freedom~\cite{MacGibbon:1990zk, MacGibbon:1991tj}. Through this process of semi-classical Hawking evaporation, a black hole with an initial mass, $M_{i}$, will evaporate completely in a time given by
+%
+\begin{align}
+    t_{\rm evap}
+        &=
+            \frac{30720 \pi}{\mathcal{G} M^{4}_{\rm Pl}} \int_{0}^{M_{i}} \frac{M^{2}\, {\rm d}M}{g_{\star, H}(T_{\rm BH})}\\[2mm]
+        &\approx
+            400\,{\rm s} \times \bigg(\frac{M_{i}}{10^{10}\,{\rm g}}\bigg)^{\!3} \bigg(\frac{108}{\big\langle g_{\star, H}(T_{\rm BH})\big\rangle}\bigg)\mspace{1.5mu} , \nonumber 
+\end{align}
+%
+where $\langle g_{\star, H} \rangle$ is the appropriate average of $g_{\star, H}$ over the lifetime of the black hole. From this, we conclude that black holes lighter than $\sim 5 \times 10^{14}\,{\rm g}$ will evaporate in less than the age the Universe. Black holes with masses in the range of $\sim 5 \times 10^{14}$ to $\sim 10^{17}\,{\rm g}$ would produce detectable fluxes of gamma rays and other forms of Hawking radiation if they were to make up all of our Universe's dark matter~\cite{Coogan:2020tuf, Boudaud:2018hqb, PhysRevD.101.123514, Keith:2021guq, Dasgupta:2019cae}. On the other hand, constraints from gravitational microlensing surveys appear to have ruled out the possibility that black holes (or other compact objects) heavier than $\sim 5 \times 10^{21}\,{\rm g}$ could constitute all of the dark matter~\cite{Macho:2000nvd, EROS-2:2006ryy, Griest:2013aaa, Oguri:2017ock, Niikura:2019kqi, Croon:2020ouk} (for other perspectives on this, see Refs.~\cite{Carr:2023tpt,Garcia-Bellido:2024yaz}). In light of these constraints, the only mass range in which PBHs could constitute all or most of our Universe's dark matter is that of $10^{17}\,{\rm g} \lsim M_{\rm BH} \lsim 5 \times 10^{21}\,{\rm g}$.
+
+Recent developments in our understanding of quantum gravity have motivated us to revisit some of these conclusions. In particular, it has been suggested that the so-called memory-burden effect~\cite{Dvali:2018xpy, Dvali:2018ytn} could cause systems to be stabilized by the information they carry~\cite{Dvali:2020wft}. This universal effect would be particularly important in systems with a high capacity for information, such as black holes. In particular, the memory-burden effect could significantly suppress the process of Hawking evaporation, thereby opening a mass range over which very light PBHs would be cosmologically long-lived, and could constitute the dark matter of our Universe~\cite{Dvali:2020wft, Alexandre:2024nuo, Dvali:2024hsb, Thoss:2024hsr}.
+
+In this \textit{letter}, we revisit the constraints on light PBHs, taking into account the effects of memory burden. In previous works, it was claimed that memory burden would make it possible for PBHs with masses in the range of $\sim 10^{4}$ -- $10^{10}\,{\rm g}$ to constitute all of the dark matter. In contrast, we find here that measurements of the cosmic microwave background (CMB) and the primordial light element abundances severely constrain the abundances of PBHs lighter than $\sim 4 \times 10^{16}\,{\rm g}$. Unless memory burden sets in almost instantaneously in a black hole's evolution, effectively preventing any Hawking radiation from being produced, we find that PBHs in this mass range cannot make up a significant fraction of the dark matter.
+\vspace{1mm}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textit{\textbf{Memory Burden and Primordial Black Holes}} -- In the existing literature, the impact of the memory-burden effect on black hole evaporation has generally been parameterized in terms a step-like function~\cite{Dvali:2020wft, Alexandre:2024nuo, Dvali:2024hsb}:
+%
+\begin{align}
+    &\qquad
+        \frac{{\rm d}M}{{\rm d}t} =
+        \begin{dcases}
+            \frac{{\rm d} M}{{\rm d} t}\Big|_{\rm SC}
+                & \text{if } M \geq q M_{i}\\[1mm]
+            \frac{{\rm d} M}{{\rm d} t}\Big|_{\rm MB}
+                & \text{if } M < q M_{i}\, ,
+        \end{dcases} \quad & 
+\label{eq:stepMB}
+\end{align}
+%
+where $M_{i}$ is the initial mass of the black hole and $q$ is the mass fraction at which the transition to the memory-burdened phase takes place. ${\rm d}M/{\rm d}t\,|_{\rm SC}$ is the standard semi-classical evaporation rate, as given in Eq.~\eqref{eq:SC}. The evaporation rate in the memory-burden phase is constant and given by
+%
+\begin{align}
+    \frac{{\rm d}M}{{\rm d}t}\bigg|_{\rm MB}
+        =
+            \frac{1}{\Tilde{S}(q M_{i})^k} \cdot 
+            \frac{{\rm d}M}{{\rm d}t} \big(qM_{i}\big)\bigg|_{\rm SC},
+\label{eq:MB}
+\end{align}
+%
+where $k$ is expected to be an integer (with $1\leq k \leq 3$)~\cite{Dvali:2024hsb}, and $\Tilde{S}$ is the dimensionless entropy of the black hole, defined as~\cite{Bekenstein:1973ur}
+%
+\begin{equation}
+    \Tilde{S}
+        \equiv
+            \frac{S}{k_{\rm B}}
+        = 
+            \frac{\pi r_{\rm g}^{2}}{\hbar G\mspace{1.5mu}k_{\rm B}}   
+        \approx
+            2.6\times 10^{30} \times \!\left(\frac{M}{10^{10}\,{\rm g}}\right)^{\!2}
+            ,
+\end{equation} 
+%
+where $k_{\rm B}$ is the Boltzmann constant and $r_{\rm g}$ is the Schwarzschild radius of the black hole. Throughout this \textit{letter}, we will adopt $k=2$, 
+%as suggested by numerical studies~\cite{Dvali:2020wft}.
+as suggested by numerical studies and theoretical considerations~\cite{Dvali:2020wft,Dvali:2024hsb,Dvali:2017nis}.
+For results adopting other values of $k$, we direct the reader to the Supplementary Material.
+
+According to this step-like parameterization, black holes evaporate in the normal semi-classical fashion until they have lost a fraction, $q$, of their mass, after which any Hawking radiation is suppressed by the very large factor of $\Tilde{S}^{k}$~\cite{Dvali:2018xpy, Dvali:2018ytn, Dvali:2020wft}. This makes it possible that black holes much lighter than $\sim 5 \times 10^{14}\,{\rm g}$ could be stabilized by the effect of memory burden, allowing them to serve as a candidate for dark matter. To evade constraints from the measured primordial element abundances, these black holes would have to be lighter than $\sim 10^{10}\,{\rm g}$~\cite{Keith:2020jww,Haque:2024eyh}, allowing them to enter into the memory-burdened phase before the onset of Big Bang Nucleosynthesis (BBN). Whereas a $\sim 10^{10}\,{\rm g}$ ($\sim 10^{6}\,{\rm g}$) black hole would evaporate semi-classically in only $\sim 400\,{\rm s}$ ($\sim 4 \times 10^{-10}\,{\rm s}$), the effect of memory burden would extend the lifetime of these objects to $t_{\rm evap} \sim 10^{60}\,{\rm s}$ ($t_{\rm evap} \sim 10^{32}\,{\rm s}$), for $k=2$ and $q=0.5$, for example. Adopting the step-like parameterization described in Eq.~\eqref{eq:stepMB}, any black holes in the mass range of $\sim 10^{4}$ -- $10^{10}\,{\rm g}$ would be cosmologically long-lived and yet enter into the memory-burdened phase prior to the era of BBN. Such black holes would be consistent with the measured light element abundances, as well as with constraints from gamma-ray and cosmic-ray measurements.
+
+A central point of this \textit{letter} is that this conclusion is highly sensitive to the instantaneous nature of the transition between the semi-classical and memory-burdened phases, as described in Eq.~\eqref{eq:stepMB}. To allow for a more continuous and realistic transition between these two phases, we introduce the following parameterization:
+%
+\begin{equation}
+    \frac{{\rm d}M}{{\rm d}t}
+        =
+            \left(\frac{{\rm d}M}{{\rm d}t}\bigg|_{\rm SC}\right)^{\!h}\times \left(\frac{{\rm d}M}{{\rm d}t}\bigg|_{\rm MB}\right)^{\!(1-h)}, \label{eq:smooth_MB}
+\end{equation}
+%
+where
+%
+\begin{align}
+    h(M)
+        &\equiv
+            \frac{1}{2}\bigg(1+\tanh\left[\frac{M-q M_{i}}{\delta \left(q\,M_{i}/2\right)}\right]\bigg)\, .
+\end{align}
+%
+The new parameter, $\delta$, sets how quickly the transition takes place between the two phases, and in the limit of $\delta \rightarrow 0$, we recover the step-like behavior described in Eq.~\eqref{eq:stepMB}. For $M \gg q \,M_{i} \,(1+\delta/2)$, the evaporation rate reduces to semi-classical prediction, while at $M \ll q \,M_{i} \,(1+\delta/2)$, the evaporation rate reduces to the behavior predicted in the memory-burdened phase. In Fig.~\ref{fig:dmdt}, we compare the step-like evaporation rate to that of our continuous parameterization, for several choices of $q$ and $\delta$, and for the case of a black hole with an initial mass of $M_{i} = 10^{6}\,\mathrm{g}$ (corresponding to a semi-classical evaporation time of $t_{\rm evap} \sim 4\times 10^{-10}\,\mathrm{s}$). Note that the evaporation rate in the $M \ll M_i$ regime is sensitive to the value of $q$, as follows from Eq.~\eqref{eq:MB}.
+\vspace{1mm}
+%
+\begin{figure}
+    \centering
+    \includegraphics[width=0.95\linewidth, height=.833333\linewidth]{letter_figures/dMdt_SC_vs_smoothMB_letter_v1.pdf}
+    \caption{
+        The evaporation rate of a black hole with an initial mass of $M_{i} = 10^{6}\,\mathrm{g}$ (corresponding to a semi-classical evaporation time of $t_{\rm evap} \sim 4 \times 10^{-10}\,\mathrm{s}$) as a function of the remaining mass fraction, $M/M_{i}$. The black curve represents the semi-classical approximation (see Eq.~\eqref{eq:SC}), while the red curve depicts the step-like memory burden approximation,  (see Eq.~\eqref{eq:stepMB}), corresponding to the case of $q = 0.5$ and $\delta = 0$. The blue curves show several examples of a smooth transition between the semi-classical and memory-burdened phases, for selected choices of $q$ and $\delta$ (see Eq.~\eqref{eq:smooth_MB}). Here, we have adopted $k=2$.
+    }
+    \label{fig:dmdt}
+\end{figure}
+%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textit{\textbf{Constraints from BBN and the CMB}} -- Black holes which transition continuously between their semi-classical and memory-burdened phases remain in this transitory phase for quite some time, during which they produce significant fluxes of Hawking radiation. This is illustrated in Fig.~\ref{fig:time_profs}, where we plot the time profile of the Hawking radiation from a black hole with an initial mass of $M_{i} = 10^{6}\,\mathrm{g}$. In the semi-classical approximation, the black hole disappears entirely after $\sim 4 \times 10^{-10}\,{\rm s}$, and thus has no impact on the primordial light element abundances or on the CMB. In the step-like memory burden approximation, Hawking evaporation is constant and entirely negligible between $10^{-10}\,{\rm s}$ and $10^{30}\,{\rm s}$, again consistent with all data. If there is a continuous transition between these phases, however, a significant flux of Hawking radiation will be produced throughout this window, allowing us to place stringent constraints on PBHs in this mass range.
+
+The injection of energetic particles in the era between recombination and reionization can heat and ionize neutral hydrogen, thereby altering the thermal history of the Universe. This, in turn, can impact the measured characteristics of the CMB, including its spectral shape and distribution of temperature anisotropies~\cite{Padmanabhan:2005es, Slatyer:2009yq, Chluba:2011hw}. Similarly, the injection of energetic particles during BBN can alter the primordial proton-to-neutron ratio in way that increases the resulting helium abundance. Such energy injection can also break apart helium nuclei and create deuterium, through the processes of photodissociation and hadrodissociation~\cite{Jedamzik:2009uy, Carr:2009jm, Pospelov:2010hj}.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.95\linewidth, height=.833333\linewidth]{letter_figures/tdEdt_SC_vs_smoothMB_letter_v1.pdf}
+    \caption{
+        The time profile of the Hawking radiation from a black hole with an initial mass of $M_{i} =10^{6}\,\mathrm{g}$ (corresponding to a semi-classical evaporation time of $t_{\rm evap} \sim 4\times 10^{-10}\,\mathrm{s}$). The black curve represents the semi-classical approximation (see Eq.~\eqref{eq:SC}), while the red curve depicts the step-like memory burden approximation (see Eq.~\eqref{eq:stepMB}), corresponding to $q = 0.5$ and $\delta = 0$. The blue curves represent the profile for the continuous parameterization of Eq.~\eqref{eq:smooth_MB}, for several values of $q$ and $\delta$. Here, we have adopted $k=2$.
+    }
+\label{fig:time_profs}
+\end{figure}
+
+We calculate our constraints from the primordial light element abundances and from the CMB following the procedures described in Refs.~\cite{Keith:2020jww} (based on results presented in Ref.~\cite{Kawasaki:2017bqm}) and~\cite{Acharya:2019uba} (see also, Refs.~\cite{Slatyer:2016qyl, Poulin:2016anj}), respectively. Our main results are shown in Fig.~\ref{fig:results}. In this figure, we show the regions of parameter space that are ruled out by these measurements, for various choices of $q$ and $\delta$. Across all of the parameter space shown, PBHs can make up only a very small fraction of the total dark matter. For further details, and for results using other values of $q$, $\delta$, and $k$, see the Supplementary Material. 
+\vspace{1mm}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.95\linewidth, height=0.83333\linewidth]{letter_figures/fXfEM_combined_constraints_k2_v1.pdf}
+    \caption{
+        Upper limits on the abundance of primordial black holes as a function of their initial mass, shown for several values of $q$ and $\delta$. Constraints are derived from both the primordial light element abundances (green) and CMB anisotropies (blue). The gray region corresponds to primordial black holes that would have fully evaporated by now. The quantity, $f_{{\rm PBH},0}$, is the initial fraction of the dark matter that consists of primordial black holes. The thick solid black line highlights the bounds for a step-like memory-burden transition $(q = 0.5,\,\delta = 0)$, which would leave a relatively large mass window unconstrained, $ 10^{4} \, {\rm g} \lsim M_i \lsim 10^{10} \, {\rm g}$~\cite{Alexandre:2024nuo, Dvali:2024hsb, Thoss:2024hsr}. As we have shown here, however, if there is a continuous transition between the semi-classical and memory-burdened phases of a black hole's evolution ($\delta>0$), this window closes due to the strong constraints from both BBN and the CMB. Here, we have adopted $k=2$.
+    } 
+    \label{fig:results}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textit{\textbf{Early Onset Memory Burden}} -- Throughout this \textit{letter}, we have made the common assumption that the memory-burdened phase begins after a black hole has lost an order one fraction of its initial mass, $q \sim 0.1$ -- $0.9$~\cite{Dvali:2020wft, Alexandre:2024nuo, Dvali:2024hsb, Thoss:2024hsr}. If this is not in fact the case, then the constraints we have derived here will be modified. In particular, we have shown in the Supplementary Material to this {\it letter} that a new mass window for PBH dark matter would indeed appear if the memory-burdened phase begins extremely early in the evaporation of a black hole. Quantitatively, this would require $(1-q) \lsim 10^{-10}$.
+
+It would perhaps be surprising to learn that black holes enter into the memory-burdened phase after losing only a tiny fraction of their initial mass. Such a picture could be motivated, however, within the context of the original model of Ref.~\cite{Dvali:2020wft} (see also \cite{Dvali:2017ktv, Dvali:2018tqi, Dvali:2018xpy, Dvali:2018ytn,Michel:2023ydf,Thoss:2024hsr,Dvali:2024hsb}), in which there is an attractive interaction between the memory burden modes. For a critical occupation, $\braket{\hat{n}_{0}} = M_{0} / r_{\rm g}^{-1}$, the positive free energy gaps are precisely canceled by the negative interaction energy, causing the modes to become effectively gapless~\cite{Dvali:2017ktv, Dvali:2018tqi, Dvali:2018xpy, Dvali:2018ytn, Dvali:2020wft}. From this perspective, even a small change in the mass of a black hole could effectively stabilize it and prevent it from appreciably evaporating~\cite{Dvali:2018xpy, Dvali:2018ytn, Dvali:2020wft, Dvali:2021tez, Dvali:2023xfz, Dvali:2024hsb}. In such a case, the fraction of a black hole's mass that is lost before it enters the memory-burdened phase scales as an inverse power of the black hole entropy, generically yielding values of $(1-q) \ll 10^{-10}$. As a result, the constraints from BBN and the CMB can be straightforwardly evaded in such a scenario. 
+\vspace{1mm}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textit{\textbf{Summary and Conclusions}} -- In this \textit{letter}, we have revisited the constraints on the abundance of primordial black holes from the cosmic microwave background and the primordial light element abundances, considering the possible impact of the memory-burden effect. The central idea of memory burden is that an object can be stabilized by the information it carries. This can, for example, suppress the rate at which black holes produce Hawking radiation. It has been previously suggested that this could open a new range of masses, $M \sim 10^{4}$ -- $10^{10}\,{\rm g}$, over which primordial black holes could make up the dark matter~\cite{Dvali:2020wft, Alexandre:2024nuo, Dvali:2024hsb, Thoss:2024hsr}. We have shown here, however, that this is the case only if the transition between the semi-classical and memory-burdened phases of black hole evaporation is nearly instantaneous. If this instead occurs more continuously, then Hawking evaporation will take place at relevant levels throughout the eras of Big Bang Nucleosynthesis and recombination, allowing us to rule out the possibility that black holes lighter than $\sim 4 \times 10^{16}\,{\rm g}$ could make up all or most of the dark matter.
+
+These results rely on the assumption that the memory-burdened phase begins after a black hole has lost an order-one fraction of its initial mass, $q \sim (0.1$ -- $0.9)$. If the onset of the memory-burden effect instead takes place almost immediately after the formation of a black hole, then our constraints could be weakened. Memory-burden stabilized black holes could constitute all of the dark matter if $(1-q) \lsim 10^{-10}$. 
+\bigskip
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textit{\textbf{Acknowledgements}} -- We thank Michael Zantedeschi and Sebastian Zell for early discussions related to the parameterization of the memory burden effect. D.\,H.~is supported by the Office of the Vice Chancellor for Research at the University of Wisconsin-Madison, with funding from the Wisconsin Alumni Research Foundation. K.\,F.~and G.\,M.~are grateful for support from the Jeff \& Gail Kodosky Endowed Chair in Physics held by~K.\,F.~at the University of Texas at Austin. K.\,F.~and G.\,M.~also acknowledge funding from the US~Department of Energy under Grant~\mbox{DE-SC-0022021}, as well as the Swedish Research Council (Contract No.~638-2013-8993). G.\,M.~is also supported by the Continuing Fellowship of the Graduate School of the College of Natural Sciences at the University of Texas at Austin. The work of P.\,S.~is supported in part by the National Science Foundation grant PHY-2412834. The work of C.\,K.~is supported in part by the U.S.~Department of Energy, Office of Science, Office of High Energy Physics under Award Number DE-SC0024693.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\bibliography{Refs}
+\input{supplementary}
+
+\end{document}
