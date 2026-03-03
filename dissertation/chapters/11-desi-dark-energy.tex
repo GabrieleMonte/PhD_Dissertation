@@ -38,7 +38,7 @@ where the posterior probability $P(\theta | d, M)$ represents the probability of
 
 \begin{figure}[!t]
     \centering
-    \includegraphics[width=\linewidth]{../arXiv-2509.13318v1/fig0_v0.pdf}
+    \includegraphics[width=.7\linewidth]{../arXiv-2509.13318v1/fig0_v0.pdf}
     \caption[Posterior distributions in the $w_0$--$w_a$ plane under uniform and theory-informed priors]{Two-dimensional posteriors in $w_0$ and $w_a$ at the 68\% and 95\% confidence levels from a joint fit to \textit{Planck} PR4 CMB anisotropies with lensing and DESI DR2 BAO under different priors for evolving dark energy. The gray dashed lines mark the $\Lambda$CDM limit of the $w_0w_a$CDM model, namely $(w_0,\,w_a)=(-1,0)$. For two degrees of freedom, the results are consistent with $\Lambda$CDM at the $\sim 1.3\sigma$ (hilltop, \textcolor{blue}{blue}) and $\sim 1.8\sigma$ (exponential, \textcolor{red}{red}) levels, in contrast with uniform priors (dashed black) that yield a $\sim 3.1 \sigma$ deviation. The figure highlights the impact of prior choices, with theory-informed priors that shift the inference toward $\Lambda$CDM, significantly reducing the nominal preference for evolving dark energy.}
     \label{fig:ch11-w0wa_cmb_bao}
 \end{figure}
@@ -133,7 +133,7 @@ and $z<4$ roughly matches the redshift range probed by BAO and supernova observa
 To address this inherent ambiguity and construct meaningful prior distributions, we adopt a probabilistic approach. For each set of quintessence model parameters drawn from our theoretical priors, we generate a probability distribution over the $(w_0, w_a)$ plane weighted by the inverse square of the matching error, $P(w_0,w_a)\propto 1/E_H^{2}$.  This inverse-variance weighting naturally assigns higher probability to parameter combinations that better reproduce the quintessence expansion history. We evaluate this distribution over the range $w_0 \in [-3, 1]$ and $w_a \in [-3, 2]$, matching the bounds typically used in cosmological analyses.
 \begin{figure}[t]
     \centering
-    \includegraphics[width=\linewidth]{../arXiv-2509.13318v1/hilltop_example_fit.pdf}
+    \includegraphics[width=.7\linewidth]{../arXiv-2509.13318v1/hilltop_example_fit.pdf}
     \caption[Inverse-variance weighted mapping from hilltop quintessence to the $(w_0, w_a)$ plane]{Inverse-variance weighted probability distribution $P(w_0,w_a)\propto 1/E_{H}^2$  showing the mapping from a hilltop quintessence model, Eq.~\eqref{eq:ch11-hilltop}, to the $(w_0, w_a)$ plane
     for a single model realization. Specifically, the example shown corresponds to $\phi_i=10^{-2}\,\Mpl$ and $k=3/\Mpl$,  with $H_0$ and $\Omega_m$ fixed to the {\it Planck} 2018 best-fit values~\cite{Planck:2018vyg} in order to compute $E_H$, the maximum relative error in matching the Hubble evolution defined in Eq.~\eqref{eq:ch11-EH}. The colorbar indicates the relative likelihood of each $(w_0,w_a)$ pair, shown as $\log_{10}(1/E_H^2)$, and the black and red contours enclose the 68\% and 95\% confidence levels (C.L.) of this distribution, respectively.  While the 68\% C.L. remains concentrated near $(w_0, w_a) \approx (-1, 0)$, the 95\% C.L. extends broadly across the parameter space, reflecting the degeneracy in matching the quintessence Hubble evolution with the CPL parameterization.}
     \label{fig:ch11-1}
@@ -147,12 +147,12 @@ To construct the overall theory-informed prior distribution on $(w_0, w_a)$, we 
 \label{subsec:ch11-NF}
 
 
-\begin{figure*}[t]
+\begin{figure}[ht!]
     \centering
     \includegraphics[width=.95\linewidth]{../arXiv-2509.13318v1/fig_1_v0.pdf}
     \caption[Theory-informed prior distributions for hilltop quintessence via normalizing flows]{Theory-informed prior distributions for the hilltop quintessence model, Eq.~\eqref{eq:ch11-hilltop}, obtained through normalizing flow (NF) training. {\it Left panel:} Model parameter samples drawn from broad flat priors, showing $\phi_i/\Mpl$ ({\it top}) and $k$ ({\it bottom}) in light red histograms, confirming full coverage of the theoretical prior ranges. {\it Right panel: } Triangle plot displaying the mapped $(w_0, w_a)$ distributions. Light red shows the training samples obtained through the matching procedure, with increasingly darker shades indicating the 99\%, 95\%, and 68\% confidence levels for the 2D distribution. Black lines represent the learned NF priors: dashed lines for the 1D marginalized distributions and solid contours for the 2D joint distribution (99\%, 95\%, and 68\% C.L.). The inset within the 2D joint distribution panel provides a zoomed view of the 68\% and 95\% contours, demonstrating the excellent agreement between the NF output and training data. The strongly peaked structure near $(w_0, w_a) \approx (-1, 0)$ with extended tails reveals how, minimally-biased, flat priors on fundamental model parameters naturally induce non-uniform priors on the phenomenological $(w_0, w_a)$ space,  potentially altering cosmological inferences significantly.}
     \label{fig:ch11-NF_priors}
-\end{figure*}
+\end{figure}
 
 
 \noindent
@@ -340,7 +340,7 @@ In conclusion, our reanalysis of DESI DR2 data with theory-informed priors demon
 
 \begin{figure}[!h]
     \centering
-    \includegraphics[width=0.65\linewidth]{../arXiv-2509.13318v1/fig_App4_v0.pdf}
+    \includegraphics[width=0.7\linewidth]{../arXiv-2509.13318v1/fig_App4_v0.pdf}
     \caption[Training and validation loss for the normalizing flow models]{The training (black) and validation (\textcolor{red}{red}) loss for our $\Lambda$CDM parameter conditioned normalizing flow for hilltop ({\it top panel}) and exponential ({\it bottom panel}) priors. The \textcolor{yellow!80!black}{yellow} shaded region marks the interval after the minimum validation loss was reached before early stopping was triggered.}
     \label{fig:ch11-nf_loss}
 \end{figure}
@@ -352,13 +352,13 @@ The NF is implemented with the \texttt{nflows} library~\cite{2023JOSS....8.5361S
     \mathcal{L} = - \frac{1}{N} \sum_{i=1}^N \log p_\theta(w_{0,i}, w_{a,i} \mid \omega_{c,i}, \omega_{b,i}, H_{0,i}),
 \end{equation}
 using the Adam optimizer~\cite{Kingma:2014vow} with a learning rate of $3\times 10^{-4}$ and a \texttt{ReduceLROnPlateau} scheduler. Training is performed in batches of 128 samples for up to $5000$ epochs on a NVIDIA A100 GPU, with early stopping after $100$ epochs if there is no improvement in the validation loss. All parameters are standardized prior to training, and the best-performing model checkpoint is used in subsequent analysis. In Fig.~\ref{fig:ch11-nf_loss} we present the training schedule for both of the NFs used in this work, demonstrating that our architecture does not overfit the training sample. For calculating the validation loss we withhold 20\% of the samples.
-
+\clearpage
 \section{\texorpdfstring{Mapping to $(w_0,\,w_a)$ for Exponential Quintessence}{Mapping to (w0, wa) for Exponential Quintessence}}
 \label{sec:ch11-app-exp}
 
 \begin{figure}[ht!]
     \centering
-    \includegraphics[width=0.65\linewidth]{../arXiv-2509.13318v1/exponential_example_fit.pdf}
+    \includegraphics[width=0.7\linewidth]{../arXiv-2509.13318v1/exponential_example_fit.pdf}
     \caption[Inverse-variance weighted mapping from exponential quintessence to the $(w_0, w_a)$ plane]{Same as Fig.~\ref{fig:ch11-1} for an exponential quintessence model, Eq.~\eqref{eq:ch11-exp}, with $\lambda=0.6$.}
     \label{fig:ch11-A1}
 \end{figure}
@@ -368,10 +368,10 @@ using the Adam optimizer~\cite{Kingma:2014vow} with a learning rate of $3\times 
     \caption[Theory-informed prior distributions for exponential quintessence via normalizing flows]{Same as Fig.~\ref{fig:ch11-NF_priors} for an exponential quintessence model, Eq.~\eqref{eq:ch11-exp}. The normalizing flow (black lines) accurately reproduces the training data distributions, demonstrating robust learning across both quintessence model classes. As with the hilltop case, the mapped $(w_0, w_a)$ distributions are distinctly non-uniform despite originating from flat priors on $\lambda$. However, the exponential potential produces a broader peak around $(w_0, w_a) \approx (-1, 0)$, with the distribution extending more prominently toward smaller values of $w_0$ and more negative values of $w_a$, reflecting the fundamentally different thawing dynamics of exponential quintessence compared to hilltop models. }
     \label{fig:ch11-A2}
 \end{figure*}
-
+\clearpage
 \section{Comprehensive Summary of Cosmological Constraints}
 \label{sec:ch11-app-constraints}
-
+\vspace{-.5cm}
 \begin{table*}[hb!]
 	\centering
 	\scriptsize
