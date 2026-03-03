@@ -1,191 +1,191 @@
 \contentsline {chapter}{Chapter 1:\hspace *{1em}General Introduction}{2}{chapter.1}%
 \contentsline {part}{Part~I\hspace {1em}From Primordial Physics to Observational Signatures via Warm Inflation}{3}{part.1}%
 \contentsline {chapter}{Introduction to Part~I}{4}{chapter*.6}%
-\contentsline {chapter}{Chapter 2:\hspace *{1em}Constraints on the Scalar-Field Potential in Warm Inflation}{5}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Introduction}{5}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Background on Warm Inflation}{7}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Formulation of the problem for warm inflationary models}{10}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Constraints on warm inflationary models}{12}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}An intuitive picture}{13}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}The general case }{15}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Constraints with a constant Hubble parameter $H$}{17}{subsection.2.4.3}%
-\contentsline {section}{\numberline {2.5}Summary}{19}{section.2.5}%
-\contentsline {chapter}{Chapter 3:\hspace *{1em}Observational Constraints on Warm Natural Inflation}{22}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introduction}{22}{section.3.1}%
-\contentsline {section}{\numberline {3.2}The warm inflation scenario }{25}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Basic framework}{25}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Perturbation spectra}{28}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Warm Natural Inflation }{30}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}General expressions}{30}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Existence of a slow-roll regime}{32}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Number of $e$-folds}{34}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}CMB observables}{35}{subsection.3.3.4}%
-\contentsline {section}{\numberline {3.4}Results }{37}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Comparison with data for linear and cubic dissipation rates }{37}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Comparison of our results with theoretically motivated axion-like interaction terms }{43}{subsection.3.4.2}%
-\contentsline {section}{\numberline {3.5}Summary and future outlook }{45}{section.3.5}%
-\contentsline {section}{\numberline {3.A}Existence of a slow-roll regime in standard cold natural inflation }{48}{section.a.3.A}%
-\contentsline {chapter}{Chapter 4:\hspace *{1em}WarmSPy: A Numerical Study of Cosmological Perturbations in Warm Inflation}{50}{appendix.4}%
-\contentsline {section}{\numberline {4.1}Introduction}{50}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Background evolution in warm inflation }{53}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Cosmological perturbations in warm inflation}{56}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Basic framework }{56}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Analytic estimate of the power spectrum }{63}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}The scalar dissipation function $G(Q)$ }{66}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}Code implementation }{67}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}\texttt {Inflaton\_Model}}{67}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}\texttt {Background} }{69}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}\texttt {Perturbations}}{71}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}\texttt {Scalar\_Dissipation\_function}}{74}{subsection.4.4.4}%
-\contentsline {section}{\numberline {4.5}Results }{74}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Method validation and comparison with previous literature }{75}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Numerical fits of the scalar dissipation function $G(Q)$ }{78}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Universality of the scalar dissipation function $G(Q)$ }{80}{subsection.4.5.3}%
-\contentsline {paragraph}{The negative inflaton field power of the dissipation rate $m$:}{81}{section*.15}%
-\contentsline {paragraph}{The inflaton potential:}{82}{section*.17}%
-\contentsline {paragraph}{Number of $e$-folds before and after CMB horizon crossing:}{84}{section*.19}%
-\contentsline {paragraph}{Metric perturbations and corrections in $\mitepsilon _H$ and $\miteta _H$:}{85}{figure.caption.21}%
-\contentsline {subsection}{\numberline {4.5.4}Robustness of the analytical estimate of the scalar power spectrum }{87}{subsection.4.5.4}%
-\contentsline {section}{\numberline {4.6}Summary \& Conclusion}{88}{section.4.6}%
-\contentsline {section}{\numberline {4.A}Additional plots }{94}{section.b.4.A}%
-\contentsline {section}{\numberline {4.B}Automated initial conditions for the \texttt {Background} module }{94}{section.b.4.B}%
-\contentsline {chapter}{Chapter 5:\hspace *{1em}Defying Eternal Inflation in Warm Inflation with a Negative Running}{96}{appendix.5}%
-\contentsline {section}{\numberline {5.1}Introduction}{96}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Eternal Inflation Regime in Standard Cold Inflation }{99}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Eternal Inflation Regime in Warm Inflation}{102}{section.5.3}%
-\contentsline {section}{\numberline {5.4}An Upper Bound on the Running}{107}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Conclusions}{110}{section.5.5}%
-\contentsline {chapter}{Chapter 6:\hspace *{1em}Dark Matter Production during Warm Inflation via Freeze-In}{113}{appendix.6}%
-\contentsline {section}{\numberline {6.1}Introduction}{113}{section.6.1}%
-\contentsline {section}{\numberline {6.2}General Setup}{114}{section.6.2}%
-\contentsline {section}{\numberline {6.3}A Representative Example}{117}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Discussion and Summary}{121}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Appendix: Supplementary Material}{123}{section.6.5}%
-\contentsline {chapter}{Chapter 7:\hspace *{1em}Thermal Gravitons from Warm Inflation}{124}{appendix.7}%
-\contentsline {section}{\numberline {7.1}Introduction}{124}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Warm Inflation: A Brief Review}{127}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Thermal Graviton Production}{128}{section.7.3}%
-\contentsline {subsection}{\numberline {7.3.1}Energy Density of Gravitational Waves}{129}{subsection.7.3.1}%
-\contentsline {subsection}{\numberline {7.3.2}Spectrum of Gravitational Waves}{133}{subsection.7.3.2}%
-\contentsline {section}{\numberline {7.4}Observational Implications and Constraints}{140}{section.7.4}%
-\contentsline {subsection}{\numberline {7.4.1}Constraints and Detection Prospects for the thermal GW spectrum}{141}{subsection.7.4.1}%
-\contentsline {subsection}{\numberline {7.4.2}Dark Radiation Constraints}{145}{subsection.7.4.2}%
-\contentsline {section}{\numberline {7.5}Conclusions}{148}{section.7.5}%
-\contentsline {section}{\numberline {7.6}Appendix: Constraints on the thermal GW spectrum in a minimal WI setting}{149}{section.7.6}%
-\contentsline {subsection}{\numberline {7.6.1}An upper bound on the contribution of thermal GWs to the primordial tensor spectrum}{150}{subsection.7.6.1}%
-\contentsline {subsection}{\numberline {7.6.2}An upper bound on the contribution of thermal GWs to dark radiation}{151}{subsection.7.6.2}%
-\contentsline {chapter}{Conclusions of Part~I}{154}{appendix*.32}%
-\contentsline {part}{Part~II\hspace {1em}Probing the Dark Universe with Cosmological and Terrestrial Observations}{155}{part.2}%
-\contentsline {chapter}{Introduction to Part~II}{156}{appendix*.33}%
-\contentsline {chapter}{Chapter 8:\hspace *{1em}Minimal Dark Matter Freeze-in with Low Reheating Temperatures and Implications for Direct Detection}{157}{appendix.8}%
-\contentsline {section}{\numberline {8.1}Introduction}{157}{section.8.1}%
-\contentsline {section}{\numberline {8.2}General Set-Up}{159}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Impact of Low Reheating Temperatures}{160}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Implications for Direct Detection}{162}{section.8.4}%
-\contentsline {section}{\numberline {8.5}Discussion}{165}{section.8.5}%
-\contentsline {chapter}{Chapter 9:\hspace *{1em}CMB Constraints on Loop-Induced Decays of Leptophilic Dark Matter}{166}{appendix.9}%
-\contentsline {section}{\numberline {9.1}Introduction}{166}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Models}{168}{section.9.2}%
-\contentsline {subsection}{\numberline {9.2.1}Scalar}{169}{subsection.9.2.1}%
-\contentsline {subsection}{\numberline {9.2.2}Pseudo-scalar Particles}{170}{subsection.9.2.2}%
-\contentsline {subsection}{\numberline {9.2.3}Axion-Like Particles}{170}{subsection.9.2.3}%
-\contentsline {section}{\numberline {9.3}Energy injection and deposition}{171}{section.9.3}%
-\contentsline {section}{\numberline {9.4}Analysis}{174}{section.9.4}%
-\contentsline {section}{\numberline {9.5}Results}{176}{section.9.5}%
-\contentsline {subsection}{\numberline {9.5.1}Flavorful Variations}{178}{subsection.9.5.1}%
-\contentsline {section}{\numberline {9.6}Comparison with other constraints}{178}{section.9.6}%
-\contentsline {section}{\numberline {9.7}Conclusions}{181}{section.9.7}%
-\contentsline {section}{\numberline {9.A}Cosmology Dependence of the energy deposition functions}{183}{section.c.9.A}%
-\contentsline {section}{\numberline {9.B}Posterior Distributions and Parameter Degeneracies}{183}{section.c.9.B}%
-\contentsline {chapter}{Chapter 10:\hspace *{1em}Can a Breakdown of Hawking Evaporation Open a New Mass Window for Primordial Black Holes as Dark Matter?}{189}{appendix.10}%
-\contentsline {section}{\numberline {10.1}Introduction}{189}{section.10.1}%
-\contentsline {section}{\numberline {10.2}Memory Burden and Primordial Black Holes}{191}{section.10.2}%
-\contentsline {section}{\numberline {10.3}Constraints from BBN and the CMB}{194}{section.10.3}%
-\contentsline {section}{\numberline {10.4}Early Onset Memory Burden}{196}{section.10.4}%
-\contentsline {section}{\numberline {10.5}Summary and Conclusions}{197}{section.10.5}%
-\contentsline {section}{\numberline {10.A}Methodology}{198}{section.d.10.A}%
-\contentsline {section}{\numberline {10.B}Results for Other Choices of $q$, $\mitdelta $, and $k$}{199}{section.d.10.B}%
-\contentsline {section}{\numberline {10.C}Early Onset Memory Burden}{201}{section.d.10.C}%
-\contentsline {chapter}{Chapter 11:\hspace *{1em}How Theory-Informed Priors Affect DESI Evidence for Evolving Dark Energy}{203}{appendix.11}%
-\contentsline {section}{\numberline {11.1}Introduction}{203}{section.11.1}%
-\contentsline {section}{\numberline {11.2}Constructing Theory-Informed Priors}{207}{section.11.2}%
-\contentsline {subsection}{\numberline {11.2.1}Quintessence Models and Theoretical Priors}{207}{subsection.11.2.1}%
-\contentsline {subsection}{\numberline {11.2.2}Mapping from Theory Parameters to $(w_0,\,w_a)$}{211}{subsection.11.2.2}%
-\contentsline {subsection}{\numberline {11.2.3}Obtaining $(w_0, w_a)$ Priors with Normalizing Flows}{214}{subsection.11.2.3}%
-\contentsline {section}{\numberline {11.3}Analysis \& Data sets}{218}{section.11.3}%
-\contentsline {section}{\numberline {11.4}Updated CMB, BAO constraints with physical prior}{220}{section.11.4}%
-\contentsline {section}{\numberline {11.5}Discussion \& Conclusion}{224}{section.11.5}%
-\contentsline {section}{\numberline {11.A}Normalizing Flow Architecture \& Training}{226}{section.e.11.A}%
-\contentsline {section}{\numberline {11.B}Mapping to $(w_0,\,w_a)$ for Exponential Quintessence}{229}{section.e.11.B}%
-\contentsline {section}{\numberline {11.C}Comprehensive Summary of Cosmological Constraints}{231}{section.e.11.C}%
-\contentsline {chapter}{Conclusions of Part~II}{232}{appendix*.61}%
-\contentsline {part}{Part~III\hspace {1em}Cosmological Probes of Neutrinos and Free-Streaming Radiation}{233}{part.3}%
-\contentsline {chapter}{Introduction to Part~III}{234}{appendix*.62}%
-\contentsline {chapter}{Chapter 12:\hspace *{1em}Free-Streaming Neutrinos and Their Phase Shift in Current and Future CMB Power Spectra}{235}{appendix.12}%
-\contentsline {section}{\numberline {12.1}Introduction}{235}{section.12.1}%
-\contentsline {section}{\numberline {12.2}Free-Streaming Neutrinos in the~CMB}{240}{section.12.2}%
-\contentsline {subsection}{\numberline {12.2.1}Theoretical Background}{241}{subsection.12.2.1}%
-\contentsline {subsection}{\numberline {12.2.2}Spectrum-Based Template}{247}{subsection.12.2.2}%
-\contentsline {subsubsection}{\numberline {12.2.2.1}Template Derivation from the Spectra}{247}{subsubsection.12.2.2.1}%
-\contentsline {subsubsection}{\numberline {12.2.2.2}Multipole Shifting the Spectra with Neff}{250}{subsubsection.12.2.2.2}%
-\contentsline {subsection}{\numberline {12.2.3}Perturbation-Based Template}{251}{subsection.12.2.3}%
-\contentsline {subsubsection}{\numberline {12.2.3.1}Template Derivation from the Perturbations}{252}{subsubsection.12.2.3.1}%
-\contentsline {subsubsection}{\numberline {12.2.3.2}Phase Shifting the Perturbations with Neff}{256}{subsubsection.12.2.3.2}%
-\contentsline {subsection}{\numberline {12.2.4}Mock-Data Validation of the Templates}{259}{subsection.12.2.4}%
-\contentsline {section}{\numberline {12.3}Data Analyses and Forecasts}{262}{section.12.3}%
-\contentsline {subsection}{\numberline {12.3.1}Spectrum-Based Analysis}{265}{subsection.12.3.1}%
-\contentsline {subsection}{\numberline {12.3.2}Perturbation-Based Analysis}{269}{subsection.12.3.2}%
-\contentsline {subsection}{\numberline {12.3.3}Comparison of the Analyses}{271}{subsection.12.3.3}%
-\contentsline {subsection}{\numberline {12.3.4}Forecasts}{275}{subsection.12.3.4}%
-\contentsline {section}{\numberline {12.4}Conclusions and Outlook}{279}{section.12.4}%
-\contentsline {section}{\numberline {12.A}Further Validation of the Analysis Pipeline}{282}{section.f.12.A}%
-\contentsline {subsection}{\numberline {12.A.1}Additional Details on the Perturbation-Based Template}{282}{subsection.f.12.A.1}%
-\contentsline {subsection}{\numberline {12.A.2}Marginalization over the Template Parameters}{283}{subsection.f.12.A.2}%
-\contentsline {subsection}{\numberline {12.A.3}Joint Mock-Data Constraints on Neff}{285}{subsection.f.12.A.3}%
-\contentsline {section}{\numberline {12.B}Comprehensive Analysis Results}{285}{section.f.12.B}%
-\contentsline {section}{\numberline {12.C}Details on the Forecasts}{289}{section.f.12.C}%
-\contentsline {chapter}{Chapter 13:\hspace *{1em}Directly Probing Neutrino Interactions through CMB Phase Shift Measurements}{294}{appendix.13}%
-\contentsline {section}{\numberline {13.1}Introduction}{294}{section.13.1}%
-\contentsline {section}{\numberline {13.2}Phase Shift Signatures of Neutrino Interactions}{297}{section.13.2}%
-\contentsline {subsection}{\numberline {13.2.1}Free-streaming Standard Model neutrinos}{298}{subsection.13.2.1}%
-\contentsline {subsection}{\numberline {13.2.2}Interacting Neutrinos}{301}{subsection.13.2.2}%
-\contentsline {subsubsection}{\numberline {13.2.2.1}Instantaneous decoupling approximation}{301}{subsubsection.13.2.2.1}%
-\contentsline {subsubsection}{\numberline {13.2.2.2}Gradual decoupling from realistic neutrino interactions}{302}{subsubsection.13.2.2.2}%
-\contentsline {section}{\numberline {13.3}Constraints from current CMB observations}{306}{section.13.3}%
-\contentsline {subsection}{\numberline {13.3.1}Analysis pipeline}{307}{subsection.13.3.1}%
-\contentsline {subsection}{\numberline {13.3.2}Data analysis and constraints}{308}{subsection.13.3.2}%
-\contentsline {subsubsection}{\numberline {13.3.2.1}Constraints on universal neutrino interactions}{311}{subsubsection.13.3.2.1}%
-\contentsline {subsubsection}{\numberline {13.3.2.2}Constraints on flavor-dependent neutrino interactions}{313}{subsubsection.13.3.2.2}%
-\contentsline {section}{\numberline {13.4}Discussion \& Summary}{315}{section.13.4}%
-\contentsline {section}{\numberline {13.A}\texttt {CLASS}-based implementation of neutrino interactions}{317}{section.g.13.A}%
-\contentsline {subsection}{\numberline {13.A.1}Neutrino-dark matter scattering}{317}{subsection.g.13.A.1}%
-\contentsline {subsection}{\numberline {13.A.2}Neutrino Self-Interactions}{318}{subsection.g.13.A.2}%
-\contentsline {section}{\numberline {13.B}Phase-shift template extraction and validation}{319}{section.g.13.B}%
-\contentsline {subsection}{\numberline {13.B.1}Generalized phase shift extraction from CMB power spectra}{320}{subsection.g.13.B.1}%
-\contentsline {subsubsection}{\numberline {13.B.1.1}Free-streaming neutrinos}{320}{subsubsection.g.13.B.1.1}%
-\contentsline {subsubsection}{\numberline {13.B.1.2}Interacting neutrinos}{322}{subsubsection.g.13.B.1.2}%
-\contentsline {subsection}{\numberline {13.B.2}Validation of the phase-shift template approximation}{324}{subsection.g.13.B.2}%
-\contentsline {subsubsection}{\numberline {13.B.2.1}Limits of the constant amplitude approximation}{324}{subsubsection.g.13.B.2.1}%
-\contentsline {subsubsection}{\numberline {13.B.2.2}Impact of the temperature power spectra on phase shift extraction}{327}{subsubsection.g.13.B.2.2}%
-\contentsline {section}{\numberline {13.C}Comparison of direct-phase-shift measurement methods}{328}{section.g.13.C}%
-\contentsline {section}{\numberline {13.D}Additional data analyses}{330}{section.g.13.D}%
-\contentsline {subsection}{\numberline {13.D.1}Comparison between {\it Planck} 2018 and {\it Planck} 2021 analyses}{331}{subsection.g.13.D.1}%
-\contentsline {subsection}{\numberline {13.D.2}Complementary dataset combinations}{332}{subsection.g.13.D.2}%
-\contentsline {chapter}{Chapter 14:\hspace *{1em}Tracing the Neutrino-Induced Phase Shift in the 21-cm Spectrum}{335}{appendix.14}%
-\contentsline {section}{\numberline {14.1}Introduction}{335}{section.14.1}%
-\contentsline {section}{\numberline {14.2}Free-streaming Neutrinos and the Phase Shift}{338}{section.14.2}%
-\contentsline {section}{\numberline {14.3}The 21-cm Signal and its Acoustic Features}{340}{section.14.3}%
-\contentsline {subsection}{\numberline {14.3.1}The Basics of the 21-cm Signal}{341}{subsection.14.3.1}%
-\contentsline {subsection}{\numberline {14.3.2}Acoustic Oscillations in the 21-cm Power Spectrum}{343}{subsection.14.3.2}%
-\contentsline {section}{\numberline {14.4}Extracting the Phase Shift in the 21-cm power spectrum}{347}{section.14.4}%
-\contentsline {subsection}{\numberline {14.4.1}The Phase Shift in the BAOs}{348}{subsection.14.4.1}%
-\contentsline {subsection}{\numberline {14.4.2}The Phase Shift in the VAOs}{350}{subsection.14.4.2}%
-\contentsline {subsection}{\numberline {14.4.3}The Phase Shift in the 21-cm Power Spectrum}{354}{subsection.14.4.3}%
-\contentsline {section}{\numberline {14.5}Discussion \& Conclusions}{363}{section.14.5}%
-\contentsline {section}{\numberline {14.A}Extended Tests}{366}{section.h.14.A}%
-\contentsline {subsection}{\numberline {14.A.1}Phase shift in the velocity power spectrum.}{366}{subsection.h.14.A.1}%
-\contentsline {subsection}{\numberline {14.A.2} Redshift evolution of the 21-cm phase-shift template.}{368}{subsection.h.14.A.2}%
-\contentsline {subsection}{\numberline {14.A.3} Impact of astrophysical parameters}{370}{subsection.h.14.A.3}%
-\contentsline {chapter}{Conclusions of Part~III}{371}{appendix*.112}%
-\contentsline {chapter}{Chapter 15:\hspace *{1em}Conclusions and Outlook}{372}{appendix.15}%
-\contentsline {chapter}{References}{373}{appendix.15}%
+\contentsline {chapter}{Chapter 2:\hspace *{1em}Constraints on the Scalar-Field Potential in Warm Inflation}{6}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduction}{6}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Background on Warm Inflation}{8}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Formulation of the problem for warm inflationary models}{11}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Constraints on warm inflationary models}{13}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}An intuitive picture}{14}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}The general case }{16}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Constraints with a constant Hubble parameter $H$}{18}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2.5}Summary}{20}{section.2.5}%
+\contentsline {chapter}{Chapter 3:\hspace *{1em}Observational Constraints on Warm Natural Inflation}{23}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{23}{section.3.1}%
+\contentsline {section}{\numberline {3.2}The warm inflation scenario }{26}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Basic framework}{26}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Perturbation spectra}{29}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Warm Natural Inflation }{31}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}General expressions}{31}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Existence of a slow-roll regime}{33}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Number of $e$-folds}{35}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}CMB observables}{36}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3.4}Results }{38}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Comparison with data for linear and cubic dissipation rates }{38}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Comparison of our results with theoretically motivated axion-like interaction terms }{44}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.5}Summary and future outlook }{46}{section.3.5}%
+\contentsline {section}{\numberline {3.A}Existence of a slow-roll regime in standard cold natural inflation }{49}{section.a.3.A}%
+\contentsline {chapter}{Chapter 4:\hspace *{1em}WarmSPy: A Numerical Study of Cosmological Perturbations in Warm Inflation}{51}{appendix.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{51}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Background evolution in warm inflation }{54}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Cosmological perturbations in warm inflation}{57}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Basic framework }{57}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Analytic estimate of the power spectrum }{64}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}The scalar dissipation function $G(Q)$ }{67}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Code implementation }{68}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}\texttt {Inflaton\_Model}}{68}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}\texttt {Background} }{70}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}\texttt {Perturbations}}{72}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}\texttt {Scalar\_Dissipation\_function}}{75}{subsection.4.4.4}%
+\contentsline {section}{\numberline {4.5}Results }{75}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Method validation and comparison with previous literature }{76}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Numerical fits of the scalar dissipation function $G(Q)$ }{79}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Universality of the scalar dissipation function $G(Q)$ }{81}{subsection.4.5.3}%
+\contentsline {paragraph}{The negative inflaton field power of the dissipation rate $m$:}{82}{section*.15}%
+\contentsline {paragraph}{The inflaton potential:}{83}{section*.17}%
+\contentsline {paragraph}{Number of $e$-folds before and after CMB horizon crossing:}{85}{section*.19}%
+\contentsline {paragraph}{Metric perturbations and corrections in $\mitepsilon _H$ and $\miteta _H$:}{86}{figure.caption.21}%
+\contentsline {subsection}{\numberline {4.5.4}Robustness of the analytical estimate of the scalar power spectrum }{88}{subsection.4.5.4}%
+\contentsline {section}{\numberline {4.6}Summary \& Conclusion}{89}{section.4.6}%
+\contentsline {section}{\numberline {4.A}Additional plots }{95}{section.b.4.A}%
+\contentsline {section}{\numberline {4.B}Automated initial conditions for the \texttt {Background} module }{95}{section.b.4.B}%
+\contentsline {chapter}{Chapter 5:\hspace *{1em}Defying Eternal Inflation in Warm Inflation with a Negative Running}{97}{appendix.5}%
+\contentsline {section}{\numberline {5.1}Introduction}{97}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Eternal Inflation Regime in Standard Cold Inflation }{100}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Eternal Inflation Regime in Warm Inflation}{103}{section.5.3}%
+\contentsline {section}{\numberline {5.4}An Upper Bound on the Running}{108}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Conclusions}{111}{section.5.5}%
+\contentsline {chapter}{Chapter 6:\hspace *{1em}Dark Matter Production during Warm Inflation via Freeze-In}{114}{appendix.6}%
+\contentsline {section}{\numberline {6.1}Introduction}{114}{section.6.1}%
+\contentsline {section}{\numberline {6.2}General Setup}{115}{section.6.2}%
+\contentsline {section}{\numberline {6.3}A Representative Example}{118}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Discussion and Summary}{122}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Appendix: Supplementary Material}{124}{section.6.5}%
+\contentsline {chapter}{Chapter 7:\hspace *{1em}Thermal Gravitons from Warm Inflation}{125}{appendix.7}%
+\contentsline {section}{\numberline {7.1}Introduction}{125}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Warm Inflation: A Brief Review}{128}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Thermal Graviton Production}{129}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Energy Density of Gravitational Waves}{130}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}Spectrum of Gravitational Waves}{134}{subsection.7.3.2}%
+\contentsline {section}{\numberline {7.4}Observational Implications and Constraints}{141}{section.7.4}%
+\contentsline {subsection}{\numberline {7.4.1}Constraints and Detection Prospects for the thermal GW spectrum}{142}{subsection.7.4.1}%
+\contentsline {subsection}{\numberline {7.4.2}Dark Radiation Constraints}{146}{subsection.7.4.2}%
+\contentsline {section}{\numberline {7.5}Conclusions}{149}{section.7.5}%
+\contentsline {section}{\numberline {7.6}Appendix: Constraints on the thermal GW spectrum in a minimal WI setting}{150}{section.7.6}%
+\contentsline {subsection}{\numberline {7.6.1}An upper bound on the contribution of thermal GWs to the primordial tensor spectrum}{151}{subsection.7.6.1}%
+\contentsline {subsection}{\numberline {7.6.2}An upper bound on the contribution of thermal GWs to dark radiation}{152}{subsection.7.6.2}%
+\contentsline {chapter}{Conclusions of Part~I}{155}{appendix*.32}%
+\contentsline {part}{Part~II\hspace {1em}Probing the Dark Universe with Cosmological and Terrestrial Observations}{157}{part.2}%
+\contentsline {chapter}{Introduction to Part~II}{158}{appendix*.33}%
+\contentsline {chapter}{Chapter 8:\hspace *{1em}Minimal Dark Matter Freeze-in with Low Reheating Temperatures and Implications for Direct Detection}{160}{appendix.8}%
+\contentsline {section}{\numberline {8.1}Introduction}{160}{section.8.1}%
+\contentsline {section}{\numberline {8.2}General Set-Up}{162}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Impact of Low Reheating Temperatures}{163}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Implications for Direct Detection}{165}{section.8.4}%
+\contentsline {section}{\numberline {8.5}Discussion}{168}{section.8.5}%
+\contentsline {chapter}{Chapter 9:\hspace *{1em}CMB Constraints on Loop-Induced Decays of Leptophilic Dark Matter}{169}{appendix.9}%
+\contentsline {section}{\numberline {9.1}Introduction}{169}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Models}{171}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}Scalar}{172}{subsection.9.2.1}%
+\contentsline {subsection}{\numberline {9.2.2}Pseudo-scalar Particles}{173}{subsection.9.2.2}%
+\contentsline {subsection}{\numberline {9.2.3}Axion-Like Particles}{173}{subsection.9.2.3}%
+\contentsline {section}{\numberline {9.3}Energy injection and deposition}{174}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Analysis}{177}{section.9.4}%
+\contentsline {section}{\numberline {9.5}Results}{179}{section.9.5}%
+\contentsline {subsection}{\numberline {9.5.1}Flavorful Variations}{181}{subsection.9.5.1}%
+\contentsline {section}{\numberline {9.6}Comparison with other constraints}{181}{section.9.6}%
+\contentsline {section}{\numberline {9.7}Conclusions}{184}{section.9.7}%
+\contentsline {section}{\numberline {9.A}Cosmology Dependence of the energy deposition functions}{186}{section.c.9.A}%
+\contentsline {section}{\numberline {9.B}Posterior Distributions and Parameter Degeneracies}{186}{section.c.9.B}%
+\contentsline {chapter}{Chapter 10:\hspace *{1em}Can a Breakdown of Hawking Evaporation Open a New Mass Window for Primordial Black Holes as Dark Matter?}{192}{appendix.10}%
+\contentsline {section}{\numberline {10.1}Introduction}{192}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Memory Burden and Primordial Black Holes}{194}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Constraints from BBN and the CMB}{197}{section.10.3}%
+\contentsline {section}{\numberline {10.4}Early Onset Memory Burden}{199}{section.10.4}%
+\contentsline {section}{\numberline {10.5}Summary and Conclusions}{200}{section.10.5}%
+\contentsline {section}{\numberline {10.A}Methodology}{201}{section.d.10.A}%
+\contentsline {section}{\numberline {10.B}Results for Other Choices of $q$, $\mitdelta $, and $k$}{202}{section.d.10.B}%
+\contentsline {section}{\numberline {10.C}Early Onset Memory Burden}{204}{section.d.10.C}%
+\contentsline {chapter}{Chapter 11:\hspace *{1em}How Theory-Informed Priors Affect DESI Evidence for Evolving Dark Energy}{206}{appendix.11}%
+\contentsline {section}{\numberline {11.1}Introduction}{206}{section.11.1}%
+\contentsline {section}{\numberline {11.2}Constructing Theory-Informed Priors}{210}{section.11.2}%
+\contentsline {subsection}{\numberline {11.2.1}Quintessence Models and Theoretical Priors}{210}{subsection.11.2.1}%
+\contentsline {subsection}{\numberline {11.2.2}Mapping from Theory Parameters to $(w_0,\,w_a)$}{214}{subsection.11.2.2}%
+\contentsline {subsection}{\numberline {11.2.3}Obtaining $(w_0, w_a)$ Priors with Normalizing Flows}{217}{subsection.11.2.3}%
+\contentsline {section}{\numberline {11.3}Analysis \& Data sets}{221}{section.11.3}%
+\contentsline {section}{\numberline {11.4}Updated CMB, BAO constraints with physical prior}{223}{section.11.4}%
+\contentsline {section}{\numberline {11.5}Discussion \& Conclusion}{227}{section.11.5}%
+\contentsline {section}{\numberline {11.A}Normalizing Flow Architecture \& Training}{229}{section.e.11.A}%
+\contentsline {section}{\numberline {11.B}Mapping to $(w_0,\,w_a)$ for Exponential Quintessence}{232}{section.e.11.B}%
+\contentsline {section}{\numberline {11.C}Comprehensive Summary of Cosmological Constraints}{234}{section.e.11.C}%
+\contentsline {chapter}{Conclusions of Part~II}{235}{appendix*.61}%
+\contentsline {part}{Part~III\hspace {1em}Cosmological Probes of Neutrinos and Free-Streaming Radiation}{237}{part.3}%
+\contentsline {chapter}{Introduction to Part~III}{238}{appendix*.62}%
+\contentsline {chapter}{Chapter 12:\hspace *{1em}Free-Streaming Neutrinos and Their Phase Shift in Current and Future CMB Power Spectra}{240}{appendix.12}%
+\contentsline {section}{\numberline {12.1}Introduction}{240}{section.12.1}%
+\contentsline {section}{\numberline {12.2}Free-Streaming Neutrinos in the~CMB}{245}{section.12.2}%
+\contentsline {subsection}{\numberline {12.2.1}Theoretical Background}{246}{subsection.12.2.1}%
+\contentsline {subsection}{\numberline {12.2.2}Spectrum-Based Template}{252}{subsection.12.2.2}%
+\contentsline {subsubsection}{\numberline {12.2.2.1}Template Derivation from the Spectra}{252}{subsubsection.12.2.2.1}%
+\contentsline {subsubsection}{\numberline {12.2.2.2}Multipole Shifting the Spectra with Neff}{255}{subsubsection.12.2.2.2}%
+\contentsline {subsection}{\numberline {12.2.3}Perturbation-Based Template}{256}{subsection.12.2.3}%
+\contentsline {subsubsection}{\numberline {12.2.3.1}Template Derivation from the Perturbations}{257}{subsubsection.12.2.3.1}%
+\contentsline {subsubsection}{\numberline {12.2.3.2}Phase Shifting the Perturbations with Neff}{261}{subsubsection.12.2.3.2}%
+\contentsline {subsection}{\numberline {12.2.4}Mock-Data Validation of the Templates}{264}{subsection.12.2.4}%
+\contentsline {section}{\numberline {12.3}Data Analyses and Forecasts}{267}{section.12.3}%
+\contentsline {subsection}{\numberline {12.3.1}Spectrum-Based Analysis}{270}{subsection.12.3.1}%
+\contentsline {subsection}{\numberline {12.3.2}Perturbation-Based Analysis}{274}{subsection.12.3.2}%
+\contentsline {subsection}{\numberline {12.3.3}Comparison of the Analyses}{276}{subsection.12.3.3}%
+\contentsline {subsection}{\numberline {12.3.4}Forecasts}{280}{subsection.12.3.4}%
+\contentsline {section}{\numberline {12.4}Conclusions and Outlook}{284}{section.12.4}%
+\contentsline {section}{\numberline {12.A}Further Validation of the Analysis Pipeline}{287}{section.f.12.A}%
+\contentsline {subsection}{\numberline {12.A.1}Additional Details on the Perturbation-Based Template}{287}{subsection.f.12.A.1}%
+\contentsline {subsection}{\numberline {12.A.2}Marginalization over the Template Parameters}{288}{subsection.f.12.A.2}%
+\contentsline {subsection}{\numberline {12.A.3}Joint Mock-Data Constraints on Neff}{290}{subsection.f.12.A.3}%
+\contentsline {section}{\numberline {12.B}Comprehensive Analysis Results}{290}{section.f.12.B}%
+\contentsline {section}{\numberline {12.C}Details on the Forecasts}{294}{section.f.12.C}%
+\contentsline {chapter}{Chapter 13:\hspace *{1em}Directly Probing Neutrino Interactions through CMB Phase Shift Measurements}{299}{appendix.13}%
+\contentsline {section}{\numberline {13.1}Introduction}{299}{section.13.1}%
+\contentsline {section}{\numberline {13.2}Phase Shift Signatures of Neutrino Interactions}{302}{section.13.2}%
+\contentsline {subsection}{\numberline {13.2.1}Free-streaming Standard Model neutrinos}{303}{subsection.13.2.1}%
+\contentsline {subsection}{\numberline {13.2.2}Interacting Neutrinos}{306}{subsection.13.2.2}%
+\contentsline {subsubsection}{\numberline {13.2.2.1}Instantaneous decoupling approximation}{306}{subsubsection.13.2.2.1}%
+\contentsline {subsubsection}{\numberline {13.2.2.2}Gradual decoupling from realistic neutrino interactions}{307}{subsubsection.13.2.2.2}%
+\contentsline {section}{\numberline {13.3}Constraints from current CMB observations}{311}{section.13.3}%
+\contentsline {subsection}{\numberline {13.3.1}Analysis pipeline}{312}{subsection.13.3.1}%
+\contentsline {subsection}{\numberline {13.3.2}Data analysis and constraints}{313}{subsection.13.3.2}%
+\contentsline {subsubsection}{\numberline {13.3.2.1}Constraints on universal neutrino interactions}{316}{subsubsection.13.3.2.1}%
+\contentsline {subsubsection}{\numberline {13.3.2.2}Constraints on flavor-dependent neutrino interactions}{318}{subsubsection.13.3.2.2}%
+\contentsline {section}{\numberline {13.4}Discussion \& Summary}{320}{section.13.4}%
+\contentsline {section}{\numberline {13.A}\texttt {CLASS}-based implementation of neutrino interactions}{322}{section.g.13.A}%
+\contentsline {subsection}{\numberline {13.A.1}Neutrino-dark matter scattering}{322}{subsection.g.13.A.1}%
+\contentsline {subsection}{\numberline {13.A.2}Neutrino Self-Interactions}{323}{subsection.g.13.A.2}%
+\contentsline {section}{\numberline {13.B}Phase-shift template extraction and validation}{324}{section.g.13.B}%
+\contentsline {subsection}{\numberline {13.B.1}Generalized phase shift extraction from CMB power spectra}{325}{subsection.g.13.B.1}%
+\contentsline {subsubsection}{\numberline {13.B.1.1}Free-streaming neutrinos}{325}{subsubsection.g.13.B.1.1}%
+\contentsline {subsubsection}{\numberline {13.B.1.2}Interacting neutrinos}{327}{subsubsection.g.13.B.1.2}%
+\contentsline {subsection}{\numberline {13.B.2}Validation of the phase-shift template approximation}{329}{subsection.g.13.B.2}%
+\contentsline {subsubsection}{\numberline {13.B.2.1}Limits of the constant amplitude approximation}{329}{subsubsection.g.13.B.2.1}%
+\contentsline {subsubsection}{\numberline {13.B.2.2}Impact of the temperature power spectra on phase shift extraction}{332}{subsubsection.g.13.B.2.2}%
+\contentsline {section}{\numberline {13.C}Comparison of direct-phase-shift measurement methods}{333}{section.g.13.C}%
+\contentsline {section}{\numberline {13.D}Additional data analyses}{335}{section.g.13.D}%
+\contentsline {subsection}{\numberline {13.D.1}Comparison between {\it Planck} 2018 and {\it Planck} 2021 analyses}{336}{subsection.g.13.D.1}%
+\contentsline {subsection}{\numberline {13.D.2}Complementary dataset combinations}{337}{subsection.g.13.D.2}%
+\contentsline {chapter}{Chapter 14:\hspace *{1em}Tracing the Neutrino-Induced Phase Shift in the 21-cm Spectrum}{340}{appendix.14}%
+\contentsline {section}{\numberline {14.1}Introduction}{340}{section.14.1}%
+\contentsline {section}{\numberline {14.2}Free-streaming Neutrinos and the Phase Shift}{343}{section.14.2}%
+\contentsline {section}{\numberline {14.3}The 21-cm Signal and its Acoustic Features}{345}{section.14.3}%
+\contentsline {subsection}{\numberline {14.3.1}The Basics of the 21-cm Signal}{346}{subsection.14.3.1}%
+\contentsline {subsection}{\numberline {14.3.2}Acoustic Oscillations in the 21-cm Power Spectrum}{348}{subsection.14.3.2}%
+\contentsline {section}{\numberline {14.4}Extracting the Phase Shift in the 21-cm power spectrum}{352}{section.14.4}%
+\contentsline {subsection}{\numberline {14.4.1}The Phase Shift in the BAOs}{353}{subsection.14.4.1}%
+\contentsline {subsection}{\numberline {14.4.2}The Phase Shift in the VAOs}{355}{subsection.14.4.2}%
+\contentsline {subsection}{\numberline {14.4.3}The Phase Shift in the 21-cm Power Spectrum}{359}{subsection.14.4.3}%
+\contentsline {section}{\numberline {14.5}Discussion \& Conclusions}{368}{section.14.5}%
+\contentsline {section}{\numberline {14.A}Extended Tests}{371}{section.h.14.A}%
+\contentsline {subsection}{\numberline {14.A.1}Phase shift in the velocity power spectrum.}{371}{subsection.h.14.A.1}%
+\contentsline {subsection}{\numberline {14.A.2} Redshift evolution of the 21-cm phase-shift template.}{373}{subsection.h.14.A.2}%
+\contentsline {subsection}{\numberline {14.A.3} Impact of astrophysical parameters}{375}{subsection.h.14.A.3}%
+\contentsline {chapter}{Conclusions of Part~III}{376}{appendix*.112}%
+\contentsline {chapter}{Chapter 15:\hspace *{1em}Conclusions and Outlook}{378}{appendix.15}%
+\contentsline {chapter}{References}{379}{appendix.15}%
