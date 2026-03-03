@@ -1,4 +1,5 @@
 \usepackage[authoryear, round]{natbib}
+\usepackage[sectionbib]{chapterbib}   % Per-chapter bibliographies
 \usepackage{styles/utformat}  		% Package style file for UT ETDs.
 
 
@@ -13,12 +14,13 @@
 \usepackage{graphicx}
 \usepackage{amsmath,amsthm,amsfonts,amscd}
 \usepackage{unicode-math}
-\usepackage{eucal} 	 
-\usepackage{verbatim}    
-\usepackage{styles/citesort}     
+\usepackage{eucal}
+\usepackage{verbatim}
 \usepackage{algorithm}
-\usepackage{bibentry}
 \usepackage{algorithmic}
+\usepackage{bm}            % Bold math symbols
+\usepackage{dcolumn}        % Align table columns on decimal point
+\usepackage{subcaption}     % Subfigures
 \usepackage{xcolor}
 \usepackage{markdown}
 \usepackage{booktabs}
@@ -115,8 +117,10 @@
 \makeatother		% Ends sections where @ is considered a letter.
             % Now @ cannot be used in commands.
 
-\nobibliography*
-
+% Common physics macros
+\newcommand{\Mpl}{M_{\mathrm{pl}}}
+\providecommand{\eprint}[1]{\href{http://arxiv.org/abs/#1}{arXiv:#1}}
+\DeclareRobustCommand{\VAN}[3]{#2}
 
 % These values determine the numbering within the text and Table of Contents.
 \setcounter{secnumdepth}{3}    % Number subsections in the chapters.
