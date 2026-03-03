@@ -1,7 +1,12 @@
 \usepackage{styles/utformat}  		% Package style file for UT ETDs.
 \usepackage[numbers, sort&compress]{natbib}
 % Global bibliography (single References section at end of document)
-\usepackage{appendix}                 % subappendices within chapters
+\usepackage{appendix}   
+\usepackage{tabularx}
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+\newcolumntype{W}{>{\centering\arraybackslash}p{2.2cm}}
+
+% subappendices within chapters
 
 % ── JCAP-inspired formatting ───────────────────────────────────────
 \makeatletter
