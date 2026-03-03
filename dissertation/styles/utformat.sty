@@ -1104,12 +1104,60 @@
     % \addcontentsline{toc}{chapter}{Acknowledgments}
     \pagestyle{plain}}
 
-\def\utabstract{%
-    \shortchapter*{Abstract}
-    % \addcontentsline{toc}{chapter}{Preface}
-    \pagestyle{plain}}
+\def\utabstract{\clearpage      % <-
+    \short@page
+    \setcounter{regular@short}{1}
+    \pagestyle{plain}
+    % \addcontentsline{toc}{chapter}{Abstract}
+    \baselineskip 14pt plus .5pt minus .2 pt
+    \begin{center}
+     \baselineskip=22.5pt plus .5pt minus .2 pt
+%
+%	The Graduate School now permits mixed case in the title.
+%		Note: The title printed on
+%				the Committee Certification Page,
+%				the Title Page, and,
+%				the Abstract Page
+%			must all be the same.
+    \large\bf Abstract
+    \vspace*{50pt}
 
+%     \large\bf\TI@TLE		% All capitals title.
+     \large\bf\ti@tle		% Mixed case title.
 
+    \end{center}
+    \vspace*{25pt}
+    \centerline{\au@thor, \target@degree}                            % <-
+    % \vspace*{5pt}                                      % (MAL 7/25/98)
+    \centerline{The University of Texas at Austin, \graduation@year} % <-
+%
+    \vspace*{25pt}
+
+     \centerline{ \ifnum\numberofsupervisors=1		% One supervisor
+        {SUPERVISOR: \supervisora }
+       \else\ifnum\numberofsupervisors=2	% Two supervisors
+        {SUPERVISORS: \supervisora, \supervisorb}
+       \else
+        {			% Three supervisors
+         SUPERVISORS: \supervisora, \supervisorb, \supervisorc
+         }
+       \fi \fi }
+    \vskip 15pt
+        \default@spacing
+    \indent}
+%	\noindent}
+
+    % May, 2001 guidelines for Master's explicitly says indent;
+    % March, 2001 guidelines of Ph.D. shows indented on Sample Form D.
+    % To actually get indentation on first line of the abstract, the
+    % command \indent must also be in disstemplate.tex after the command
+    % \utabstract and before the abstract's text.
+    %				13 Mar 2002	cwm
+
+% A reminder (Miguel A. Lerma).
+
+\def\abstract{\typeout{WARNING: Please, use the keyword %
+'utabstract' instead of 'abstract'!}}
 
 \newcommand{\chapterabstract}[1]{%
     \begin{center}{\large\textbf{Abstract}} \\ \vspace{1em}%
