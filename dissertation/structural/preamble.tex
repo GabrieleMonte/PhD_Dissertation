@@ -2,6 +2,29 @@
 \usepackage[sectionbib]{chapterbib}   % Per-chapter bibliographies
 \usepackage{styles/utformat}  		% Package style file for UT ETDs.
 
+% ── Overrides of utformat defaults ──────────────────────────────────
+\makeatletter
+% Left-align chapter headings (utformat centres them)
+\def\@makechapterhead#1{{\parindent 0pt \raggedright
+    \ifnum \c@secnumdepth >\m@ne \Large\bf \@chapapp{} \thechapter:~\fi
+    \Large \bf #1\par \nobreak \vskip 35pt}}
+\def\@makeschapterhead#1{{\parindent 0pt \raggedright
+    \Large \bf #1\par \nobreak \vskip 35pt}}
+
+% Chapter-prefixed figure / table numbers (utformat strips the prefix)
+\renewcommand{\thefigure}{\thechapter.\arabic{figure}}
+\renewcommand{\thetable}{\thechapter.\arabic{table}}
+
+% Per-chapter bibliography as \section* (not \chapter*) for chapterbib
+\def\thebibliography#1{\section*{References}
+    \list{[\arabic{enumi}]}{\settowidth\labelwidth{[#1]}\leftmargin\labelwidth
+    \advance\leftmargin\labelsep
+    \usecounter{enumi}}
+    \def\newblock{\hskip .11em plus .33em minus .07em}
+    \sloppy\clubpenalty4000\widowpenalty4000
+    \sfcode`\.=1000\relax}
+\makeatother
+% ────────────────────────────────────────────────────────────────────
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Optional packages used for this template. If you don't
@@ -50,7 +73,7 @@
 % Tabular numbers inside tabular environment
 \AtBeginEnvironment{tabular}{\addfontfeatures{Numbers={Uppercase, Monospaced}}}
 \AtBeginEnvironment{tikzpicture}{\addfontfeatures{Numbers={Uppercase, Monospaced}}}
-\renewcommand{\theequation}{ {\addfontfeatures{Numbers={Uppercase, Monospaced}}\arabic{equation}}}
+% Equation number font features (chapter prefix set by \numberwithin below)
 
 % Custom Blue
 \definecolor{LinkBlue}{HTML}{0366D6}
@@ -89,7 +112,7 @@
 \newtheorem{rem}{Remark}[chapter]
 \newtheorem*{notation}{Notation}
 
-\numberwithin{equation}{section}
+\numberwithin{equation}{chapter}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -128,7 +151,7 @@
 
 % Captions
 \usepackage{caption}
-\captionsetup{format=plain, justification=centering}
+\captionsetup{format=plain, justification=justified}
 
 % List and Linguex settings
 \renewcommand{\firstrefdash}{}
