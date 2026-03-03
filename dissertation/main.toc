@@ -1,11 +1,6 @@
-\contentsline {chapter}{List of Tables}{ix}{chapter*.4}%
-\contentsline {chapter}{List of Figures}{x}{chapter*.5}%
-\gdef \the@ipfilectr {@-1}
 \contentsline {chapter}{Chapter 1:\hspace *{1em}General Introduction}{2}{chapter.1}%
-\gdef \the@ipfilectr {}
 \contentsline {part}{Part~I\hspace {1em}From Primordial Physics to Observational Signatures via Warm Inflation}{3}{part.1}%
 \contentsline {chapter}{Introduction to Part~I}{4}{chapter*.6}%
-\gdef \the@ipfilectr {@-2}
 \contentsline {chapter}{Chapter 2:\hspace *{1em}Constraints on the Scalar-Field Potential in Warm Inflation}{5}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Introduction}{5}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Background on Warm Inflation}{7}{section.2.2}%
@@ -15,110 +10,83 @@
 \contentsline {subsection}{\numberline {2.4.2}The general case }{15}{subsection.2.4.2}%
 \contentsline {subsection}{\numberline {2.4.3}Constraints with a constant Hubble parameter $H$}{17}{subsection.2.4.3}%
 \contentsline {section}{\numberline {2.5}Summary}{19}{section.2.5}%
-\gdef \the@ipfilectr {}
-\gdef \the@ipfilectr {@-3}
-\contentsline {chapter}{Chapter 3:\hspace *{1em}Observational Constraints on Warm Natural Inflation}{25}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introduction}{25}{section.3.1}%
-\contentsline {section}{\numberline {3.2}The warm inflation scenario }{28}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Basic framework}{28}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Perturbation spectra}{31}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Warm Natural Inflation }{34}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}General expressions}{34}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Existence of a slow-roll regime}{35}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Number of $e$-folds}{37}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}CMB observables}{38}{subsection.3.3.4}%
-\contentsline {section}{\numberline {3.4}Results }{40}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Comparison with data for linear and cubic dissipation rates }{41}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Comparison of our results with theoretically motivated axion-like interaction terms }{46}{subsection.3.4.2}%
-\contentsline {section}{\numberline {3.5}Summary and future outlook }{49}{section.3.5}%
-\contentsline {section}{\numberline {3.A}Existence of a slow-roll regime in standard cold natural inflation }{51}{section.a.3.A}%
-\gdef \the@ipfilectr {}
-\gdef \the@ipfilectr {@-4}
-\contentsline {chapter}{Chapter 4:\hspace *{1em}WarmSPy: A Numerical Study of Cosmological Perturbations in Warm Inflation}{59}{appendix.4}%
-\contentsline {section}{\numberline {4.1}Introduction}{59}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Background evolution in warm inflation }{62}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Cosmological perturbations in warm inflation}{65}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Basic framework }{65}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Analytic estimate of the power spectrum }{73}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}The scalar dissipation function $G(Q)$ }{76}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}Code implementation }{77}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}\texttt {Inflaton\_Model}}{77}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}\texttt {Background} }{79}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}\texttt {Perturbations}}{81}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}\texttt {Scalar\_Dissipation\_function}}{84}{subsection.4.4.4}%
-\contentsline {section}{\numberline {4.5}Results }{84}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Method validation and comparison with previous literature }{85}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Numerical fits of the scalar dissipation function $G(Q)$ }{88}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Universality of the scalar dissipation function $G(Q)$ }{90}{subsection.4.5.3}%
-\contentsline {paragraph}{The negative inflaton field power of the dissipation rate $m$:}{91}{section*.17}%
-\contentsline {paragraph}{The inflaton potential:}{92}{section*.19}%
-\contentsline {paragraph}{Number of $e$-folds before and after CMB horizon crossing:}{94}{section*.21}%
-\contentsline {paragraph}{Metric perturbations and corrections in $\mitepsilon _H$ and $\miteta _H$:}{96}{figure.caption.23}%
-\contentsline {subsection}{\numberline {4.5.4}Robustness of the analytical estimate of the scalar power spectrum }{97}{subsection.4.5.4}%
-\contentsline {section}{\numberline {4.6}Summary \& Conclusion}{98}{section.4.6}%
-\contentsline {section}{\numberline {4.A}Additional plots }{104}{section.b.4.A}%
-\contentsline {section}{\numberline {4.B}Automated initial conditions for the \texttt {Background} module }{104}{section.b.4.B}%
-\gdef \the@ipfilectr {}
-\gdef \the@ipfilectr {@-5}
-\contentsline {chapter}{Chapter 5:\hspace *{1em}Defying Eternal Inflation in Warm Inflation with a Negative Running}{114}{appendix.5}%
-\contentsline {section}{\numberline {5.1}Introduction}{114}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Eternal Inflation Regime in Standard Cold Inflation }{117}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Eternal Inflation Regime in Warm Inflation}{120}{section.5.3}%
-\contentsline {section}{\numberline {5.4}An Upper Bound on the Running}{125}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Conclusions}{129}{section.5.5}%
-\gdef \the@ipfilectr {}
-\gdef \the@ipfilectr {@-6}
-\contentsline {chapter}{Chapter 6:\hspace *{1em}Dark Matter Production during Warm Inflation via Freeze-In}{136}{appendix.6}%
-\contentsline {section}{\numberline {6.1}Introduction}{136}{section.6.1}%
-\contentsline {section}{\numberline {6.2}General Setup}{137}{section.6.2}%
-\contentsline {section}{\numberline {6.3}A Representative Example}{140}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Discussion and Summary}{144}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Appendix: Supplementary Material}{146}{section.6.5}%
-\gdef \the@ipfilectr {}
-\gdef \the@ipfilectr {@-7}
-\contentsline {chapter}{Chapter 7:\hspace *{1em}Thermal Gravitons from Warm Inflation}{150}{appendix.7}%
-\contentsline {section}{\numberline {7.1}Introduction}{150}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Warm Inflation: A Brief Review}{153}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Thermal Graviton Production}{154}{section.7.3}%
-\contentsline {subsection}{\numberline {7.3.1}Energy Density of Gravitational Waves}{155}{subsection.7.3.1}%
-\contentsline {subsection}{\numberline {7.3.2}Spectrum of Gravitational Waves}{159}{subsection.7.3.2}%
-\contentsline {section}{\numberline {7.4}Observational Implications and Constraints}{166}{section.7.4}%
-\contentsline {subsection}{\numberline {7.4.1}Constraints and Detection Prospects for the thermal GW spectrum}{167}{subsection.7.4.1}%
-\contentsline {subsection}{\numberline {7.4.2}Dark Radiation Constraints}{171}{subsection.7.4.2}%
-\contentsline {section}{\numberline {7.5}Conclusions}{174}{section.7.5}%
-\contentsline {section}{\numberline {7.6}Appendix: Constraints on the thermal GW spectrum in a minimal WI setting}{175}{section.7.6}%
-\contentsline {subsection}{\numberline {7.6.1}An upper bound on the contribution of thermal GWs to the primordial tensor spectrum}{176}{subsection.7.6.1}%
-\contentsline {subsection}{\numberline {7.6.2}An upper bound on the contribution of thermal GWs to dark radiation}{177}{subsection.7.6.2}%
-\gdef \the@ipfilectr {}
-\contentsline {chapter}{Conclusions of Part~I}{186}{appendix*.38}%
-\contentsline {part}{Part~II\hspace {1em}Probing the Dark Universe with Cosmological and Terrestrial Observations}{187}{part.2}%
-\contentsline {chapter}{Introduction to Part~II}{188}{appendix*.39}%
-\gdef \the@ipfilectr {@-8}
-\contentsline {chapter}{Chapter 8:\hspace *{1em}Minimal Dark Matter Freeze-in with Low Reheating Temperatures and Implications for Direct Detection}{189}{appendix.8}%
-\gdef \the@ipfilectr {}
-\gdef \the@ipfilectr {@-9}
-\contentsline {chapter}{Chapter 9:\hspace *{1em}CMB Constraints on Loop-Induced Decays of Leptophilic Dark Matter}{190}{appendix.9}%
-\gdef \the@ipfilectr {}
-\gdef \the@ipfilectr {@-10}
-\contentsline {chapter}{Chapter 10:\hspace *{1em}Does Memory Burden Open a New Mass Window for Primordial Black Holes as Dark Matter?}{191}{appendix.10}%
-\gdef \the@ipfilectr {}
-\gdef \the@ipfilectr {@-11}
-\contentsline {chapter}{Chapter 11:\hspace *{1em}How Theory-Informed Priors Affect DESI Evidence for Evolving Dark Energy}{192}{appendix.11}%
-\gdef \the@ipfilectr {}
-\contentsline {chapter}{Conclusions of Part~II}{193}{appendix*.40}%
-\contentsline {part}{Part~III\hspace {1em}Cosmological Probes of Neutrinos and Free-Streaming Radiation}{194}{part.3}%
-\contentsline {chapter}{Introduction to Part~III}{195}{appendix*.41}%
-\gdef \the@ipfilectr {@-12}
-\contentsline {chapter}{Chapter 12:\hspace *{1em}Free-Streaming Neutrinos and Their Phase Shift in Current and Future CMB Power Spectra}{196}{appendix.12}%
-\gdef \the@ipfilectr {}
-\gdef \the@ipfilectr {@-13}
-\contentsline {chapter}{Chapter 13:\hspace *{1em}Directly Probing Neutrino Interactions through CMB Phase Shift Measurements}{197}{appendix.13}%
-\gdef \the@ipfilectr {}
-\gdef \the@ipfilectr {@-14}
-\contentsline {chapter}{Chapter 14:\hspace *{1em}Tracing the Neutrino-Induced Phase Shift in the 21-cm Spectrum}{198}{appendix.14}%
-\gdef \the@ipfilectr {}
-\contentsline {chapter}{Conclusions of Part~III}{199}{appendix*.42}%
-\gdef \the@ipfilectr {@-15}
-\contentsline {chapter}{Chapter 15:\hspace *{1em}Conclusions and Outlook}{200}{appendix.15}%
-\gdef \the@ipfilectr {}
-\contentsline {chapter}{Vita}{201}{appendix*.43}%
+\contentsline {chapter}{Chapter 3:\hspace *{1em}Observational Constraints on Warm Natural Inflation}{22}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{22}{section.3.1}%
+\contentsline {section}{\numberline {3.2}The warm inflation scenario }{25}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Basic framework}{25}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Perturbation spectra}{28}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Warm Natural Inflation }{31}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}General expressions}{31}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Existence of a slow-roll regime}{32}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Number of $e$-folds}{34}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}CMB observables}{35}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3.4}Results }{37}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Comparison with data for linear and cubic dissipation rates }{38}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Comparison of our results with theoretically motivated axion-like interaction terms }{43}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.5}Summary and future outlook }{46}{section.3.5}%
+\contentsline {section}{\numberline {3.A}Existence of a slow-roll regime in standard cold natural inflation }{48}{section.a.3.A}%
+\contentsline {chapter}{Chapter 4:\hspace *{1em}WarmSPy: A Numerical Study of Cosmological Perturbations in Warm Inflation}{50}{appendix.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{50}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Background evolution in warm inflation }{53}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Cosmological perturbations in warm inflation}{56}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Basic framework }{56}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Analytic estimate of the power spectrum }{64}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}The scalar dissipation function $G(Q)$ }{67}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Code implementation }{68}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}\texttt {Inflaton\_Model}}{68}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}\texttt {Background} }{70}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}\texttt {Perturbations}}{72}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}\texttt {Scalar\_Dissipation\_function}}{75}{subsection.4.4.4}%
+\contentsline {section}{\numberline {4.5}Results }{75}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Method validation and comparison with previous literature }{76}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Numerical fits of the scalar dissipation function $G(Q)$ }{79}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Universality of the scalar dissipation function $G(Q)$ }{81}{subsection.4.5.3}%
+\contentsline {paragraph}{The negative inflaton field power of the dissipation rate $m$:}{82}{section*.15}%
+\contentsline {paragraph}{The inflaton potential:}{83}{section*.17}%
+\contentsline {paragraph}{Number of $e$-folds before and after CMB horizon crossing:}{85}{section*.19}%
+\contentsline {paragraph}{Metric perturbations and corrections in $\mitepsilon _H$ and $\miteta _H$:}{87}{figure.caption.21}%
+\contentsline {subsection}{\numberline {4.5.4}Robustness of the analytical estimate of the scalar power spectrum }{88}{subsection.4.5.4}%
+\contentsline {section}{\numberline {4.6}Summary \& Conclusion}{89}{section.4.6}%
+\contentsline {section}{\numberline {4.A}Additional plots }{95}{section.b.4.A}%
+\contentsline {section}{\numberline {4.B}Automated initial conditions for the \texttt {Background} module }{95}{section.b.4.B}%
+\contentsline {chapter}{Chapter 5:\hspace *{1em}Defying Eternal Inflation in Warm Inflation with a Negative Running}{97}{appendix.5}%
+\contentsline {section}{\numberline {5.1}Introduction}{97}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Eternal Inflation Regime in Standard Cold Inflation }{100}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Eternal Inflation Regime in Warm Inflation}{103}{section.5.3}%
+\contentsline {section}{\numberline {5.4}An Upper Bound on the Running}{108}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Conclusions}{112}{section.5.5}%
+\contentsline {chapter}{Chapter 6:\hspace *{1em}Dark Matter Production during Warm Inflation via Freeze-In}{114}{appendix.6}%
+\contentsline {section}{\numberline {6.1}Introduction}{114}{section.6.1}%
+\contentsline {section}{\numberline {6.2}General Setup}{115}{section.6.2}%
+\contentsline {section}{\numberline {6.3}A Representative Example}{118}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Discussion and Summary}{122}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Appendix: Supplementary Material}{124}{section.6.5}%
+\contentsline {chapter}{Chapter 7:\hspace *{1em}Thermal Gravitons from Warm Inflation}{125}{appendix.7}%
+\contentsline {section}{\numberline {7.1}Introduction}{125}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Warm Inflation: A Brief Review}{128}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Thermal Graviton Production}{129}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Energy Density of Gravitational Waves}{130}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}Spectrum of Gravitational Waves}{134}{subsection.7.3.2}%
+\contentsline {section}{\numberline {7.4}Observational Implications and Constraints}{141}{section.7.4}%
+\contentsline {subsection}{\numberline {7.4.1}Constraints and Detection Prospects for the thermal GW spectrum}{142}{subsection.7.4.1}%
+\contentsline {subsection}{\numberline {7.4.2}Dark Radiation Constraints}{146}{subsection.7.4.2}%
+\contentsline {section}{\numberline {7.5}Conclusions}{149}{section.7.5}%
+\contentsline {section}{\numberline {7.6}Appendix: Constraints on the thermal GW spectrum in a minimal WI setting}{150}{section.7.6}%
+\contentsline {subsection}{\numberline {7.6.1}An upper bound on the contribution of thermal GWs to the primordial tensor spectrum}{151}{subsection.7.6.1}%
+\contentsline {subsection}{\numberline {7.6.2}An upper bound on the contribution of thermal GWs to dark radiation}{152}{subsection.7.6.2}%
+\contentsline {chapter}{Conclusions of Part~I}{155}{appendix*.32}%
+\contentsline {part}{Part~II\hspace {1em}Probing the Dark Universe with Cosmological and Terrestrial Observations}{156}{part.2}%
+\contentsline {chapter}{Introduction to Part~II}{157}{appendix*.33}%
+\contentsline {chapter}{Chapter 8:\hspace *{1em}Minimal Dark Matter Freeze-in with Low Reheating Temperatures and Implications for Direct Detection}{158}{appendix.8}%
+\contentsline {chapter}{Chapter 9:\hspace *{1em}CMB Constraints on Loop-Induced Decays of Leptophilic Dark Matter}{159}{appendix.9}%
+\contentsline {chapter}{Chapter 10:\hspace *{1em}Does Memory Burden Open a New Mass Window for Primordial Black Holes as Dark Matter?}{160}{appendix.10}%
+\contentsline {chapter}{Chapter 11:\hspace *{1em}How Theory-Informed Priors Affect DESI Evidence for Evolving Dark Energy}{161}{appendix.11}%
+\contentsline {chapter}{Conclusions of Part~II}{162}{appendix*.34}%
+\contentsline {part}{Part~III\hspace {1em}Cosmological Probes of Neutrinos and Free-Streaming Radiation}{163}{part.3}%
+\contentsline {chapter}{Introduction to Part~III}{164}{appendix*.35}%
+\contentsline {chapter}{Chapter 12:\hspace *{1em}Free-Streaming Neutrinos and Their Phase Shift in Current and Future CMB Power Spectra}{165}{appendix.12}%
+\contentsline {chapter}{Chapter 13:\hspace *{1em}Directly Probing Neutrino Interactions through CMB Phase Shift Measurements}{166}{appendix.13}%
+\contentsline {chapter}{Chapter 14:\hspace *{1em}Tracing the Neutrino-Induced Phase Shift in the 21-cm Spectrum}{167}{appendix.14}%
+\contentsline {chapter}{Conclusions of Part~III}{168}{appendix*.36}%
+\contentsline {chapter}{Chapter 15:\hspace *{1em}Conclusions and Outlook}{169}{appendix.15}%
+\contentsline {chapter}{References}{170}{appendix.15}%

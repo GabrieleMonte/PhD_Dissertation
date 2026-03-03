@@ -1,0 +1,69 @@
+This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: chapters/01-introduction.aux
+A level-1 auxiliary file: chapters/02-wi-scalar-field.aux
+A level-1 auxiliary file: chapters/03-wi-natural.aux
+A level-1 auxiliary file: chapters/04-warmspy.aux
+A level-1 auxiliary file: chapters/05-wi-eternal.aux
+A level-1 auxiliary file: chapters/06-wifi-dm.aux
+A level-1 auxiliary file: chapters/07-thermal-gravitons.aux
+A level-1 auxiliary file: chapters/08-minimal-dm-freezein.aux
+A level-1 auxiliary file: chapters/09-cmb-leptophilic-dm.aux
+A level-1 auxiliary file: chapters/10-pbh-memory-burden.aux
+A level-1 auxiliary file: chapters/11-desi-dark-energy.aux
+A level-1 auxiliary file: chapters/12-neutrino-phase-shift.aux
+A level-1 auxiliary file: chapters/13-neutrino-interactions.aux
+A level-1 auxiliary file: chapters/14-neutrino-21cm.aux
+A level-1 auxiliary file: chapters/15-conclusions.aux
+The style file: styles/JHEP.bst
+jhep is an illegal style-file command---line 1 of file styles/JHEP.bst
+ : jhep
+ :      bibliography style ver. 2.18
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated field_info (elt_size=4) to 10490 items from 5000.
+Database file #1: references.bib
+Warning--entry type for "rosati_robert_2020_4708348" isn't style-file defined
+--line 1022 of file references.bib
+You've used 183 entries,
+            2316 wiz_defined-function locations,
+            1874 strings with 36650 characters,
+and the built_in function-call counts, 76565 in all, are:
+= -- 8344
+> -- 2155
+< -- 0
++ -- 641
+- -- 458
+* -- 7348
+:= -- 9562
+add.period$ -- 184
+call.type$ -- 183
+change.case$ -- 178
+chr.to.int$ -- 0
+cite$ -- 183
+duplicate$ -- 5907
+empty$ -- 6977
+format.name$ -- 1374
+if$ -- 19469
+int.to.chr$ -- 0
+int.to.str$ -- 183
+missing$ -- 668
+newline$ -- 554
+num.names$ -- 173
+pop$ -- 483
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 2590
+stack$ -- 0
+substring$ -- 4554
+swap$ -- 1498
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 819
+width$ -- 186
+write$ -- 1893
+(There was 1 error message)

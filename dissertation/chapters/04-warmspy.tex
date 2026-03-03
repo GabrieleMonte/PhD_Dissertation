@@ -419,7 +419,7 @@ to additional model parameters, such as the inflaton potential and the inflaton 
 \begin{figure}[ht!]
 	\centering
     \includegraphics[width=1\linewidth]{../arXiv-2306.16190v2/figures/GQ_comparison_with_literature_Qconst-vs-varying.png}
-\caption{The scalar dissipation function $G(Q)$ appearing in eq.~\eqref{eq:ch4-GQ_definition} as a function of the dissipation strength $Q \equiv \Gamma/(3H)$, for different values of the set of indices $(c,m)$ describing the power-law dependence of the dissipation rate to $T$ and $\phi$ respectively, see eq.~\eqref{eq:ch4-Upsilon}. Triangle: $(c,m) = (3,2)$; square: $(c,m) = (1,0)$; diamond: $(c,m) = (-1,-2)$. Results are shown both for the code employing a constant value of $Q$ (blue markers) and for an evolving $Q$ (red markers). Also shown are the fitting functions obtained from refs.~\cite{Bastero-Gil:2016qru,Benetti:2016jhf,Motaharfar:2018zyb} (labeled ``Fit 1'' in the legend) and in ref.~\cite{Das:2020xmh} (labelled ``Fit 2'' in the legend), see text for additional details.  In summary, this figure demonstrates the consistency of our code in the resulting $G(Q)$ when either keeping $Q$ constant or allowing it to evolve, as well as its agreement with the well-established $G(Q)$ fits found in the existing literature.}
+\caption[Validation of $G(Q)$ against existing literature]{The scalar dissipation function $G(Q)$ appearing in eq.~\eqref{eq:ch4-GQ_definition} as a function of the dissipation strength $Q \equiv \Gamma/(3H)$, for different values of the set of indices $(c,m)$ describing the power-law dependence of the dissipation rate to $T$ and $\phi$ respectively, see eq.~\eqref{eq:ch4-Upsilon}. Triangle: $(c,m) = (3,2)$; square: $(c,m) = (1,0)$; diamond: $(c,m) = (-1,-2)$. Results are shown both for the code employing a constant value of $Q$ (blue markers) and for an evolving $Q$ (red markers). Also shown are the fitting functions obtained from refs.~\cite{Bastero-Gil:2016qru,Benetti:2016jhf,Motaharfar:2018zyb} (labeled ``Fit 1'' in the legend) and in ref.~\cite{Das:2020xmh} (labelled ``Fit 2'' in the legend), see text for additional details.  In summary, this figure demonstrates the consistency of our code in the resulting $G(Q)$ when either keeping $Q$ constant or allowing it to evolve, as well as its agreement with the well-established $G(Q)$ fits found in the existing literature.}
 	\label{fig:ch4-1}
 \end{figure}
 
@@ -452,7 +452,7 @@ This discussion also raises two pertinent issues for further investigation: (1) 
 \begin{figure}[ht!]
 	\centering
     \includegraphics[width=1\linewidth]{../arXiv-2306.16190v2/figures/GQ_quartic_fits.png}
-	\caption{{\it Upper panel:} The numerical solutions obtained with our code for the scalar dissipation function $G(Q)$ as a function of $Q$, along with an assessment of the goodness of the fitting functions in eqs.~\eqref{eq:ch4-GQ_pol} and \eqref{eq:ch4-GQ_log} with the fitting parameters reported in the caption. We have considered a monomial potential, see eq.~\eqref{eq:ch4-monomial_potential}, with $n = 4$ and $\lambda = 10^{-14}$. Results are shown for a different temperature dependence in the dissipation rate (see eq.~\eqref{eq:ch4-Upsilon}): $c = 3$ (red), $c = 1$ (blue), $c = -1$ (green). {\it Lower panel:} The fractional residuals between the numerical result and the two different choices of the fit for each value of $c$, over the range of the dissipation strength $Q$ considered.}
+	\caption[Numerical fits of the scalar dissipation function $G(Q)$]{{\it Upper panel:} The numerical solutions obtained with our code for the scalar dissipation function $G(Q)$ as a function of $Q$, along with an assessment of the goodness of the fitting functions in eqs.~\eqref{eq:ch4-GQ_pol} and \eqref{eq:ch4-GQ_log} with the fitting parameters reported in the caption. We have considered a monomial potential, see eq.~\eqref{eq:ch4-monomial_potential}, with $n = 4$ and $\lambda = 10^{-14}$. Results are shown for a different temperature dependence in the dissipation rate (see eq.~\eqref{eq:ch4-Upsilon}): $c = 3$ (red), $c = 1$ (blue), $c = -1$ (green). {\it Lower panel:} The fractional residuals between the numerical result and the two different choices of the fit for each value of $c$, over the range of the dissipation strength $Q$ considered.}
 	\label{fig:ch4-GQ_fits}
 \end{figure}
 
@@ -479,7 +479,7 @@ In figure~\ref{fig:ch4-GQ_fits}, we plot the numerical solutions obtained with \
 		\hline
 		\bottomrule
 	\end{tabular}
-	\caption{The parameters obtained from the fitting functions in eqs.~\eqref{eq:ch4-GQ_pol} and \eqref{eq:ch4-GQ_log} to the numerical results for $G(Q)$ for shown in figure~\ref{fig:ch4-GQ_fits}.}
+	\caption[Best-fit parameters for the $G(Q)$ fitting functions]{The parameters obtained from the fitting functions in eqs.~\eqref{eq:ch4-GQ_pol} and \eqref{eq:ch4-GQ_log} to the numerical results for $G(Q)$ for shown in figure~\ref{fig:ch4-GQ_fits}.}
 	\label{tab:ch4-1}
 \end{table}
 These results were obtained under the following assumptions: (1) there is no inflaton field dependence in the dissipation rate, i.e.\ $m=0$; (2) the inflaton rolls down the monomial potential in eq.~\eqref{eq:ch4-monomial_potential} with $n=4$ and the self-interacting constant $\lambda=10^{-14}$; (3) the number of $e$-folds after CMB horizon crossing is set to  $N_e^{\rm{infl}}=60$; (4) the metric perturbations are neglected, i.e.\ $\varphi=0$. 
@@ -493,7 +493,7 @@ In this section, we assess the relationship of the scalar dissipation function $
 \begin{figure}[ht!]
     \centering
     \includegraphics[width=\linewidth]{../arXiv-2306.16190v2/figures/GQ_fits_quartic-varying_m_study.png}
-    \caption{{\it Upper panel:} An assessment of the impact of the index $m$ in Eq.~\eqref{eq:ch4-Upsilon} on the numerical results of the scalar dissipation function $G(Q)$, for different temperature dependence in the dissipation rate, namely $c = 3$ (red), $c = -1$ (green). {\it Lower panel:} The fractional residuals between the different choices of the index $m$ over the range of the dissipation strength $Q$ considered. In summary, this figure demonstrates that $G(Q)$ is independent on the value of $m$.}
+    \caption[Independence of $G(Q)$ from the field-dependence index $m$]{{\it Upper panel:} An assessment of the impact of the index $m$ in Eq.~\eqref{eq:ch4-Upsilon} on the numerical results of the scalar dissipation function $G(Q)$, for different temperature dependence in the dissipation rate, namely $c = 3$ (red), $c = -1$ (green). {\it Lower panel:} The fractional residuals between the different choices of the index $m$ over the range of the dissipation strength $Q$ considered. In summary, this figure demonstrates that $G(Q)$ is independent on the value of $m$.}
     \label{fig:ch4-2}
 \end{figure}
 
@@ -508,7 +508,7 @@ These observations can be understood analytically by the fact that the $m$ depen
     \centering
     \vspace{-1cm}
     \includegraphics[width=0.78\linewidth]{../arXiv-2306.16190v2/figures/GQ_fits_multiple_potentials.png}
-    \caption{The results of our numerical code for the various inflaton potentials discussed in section~\ref{sec:ch4-background} and for a different temperature dependence in the dissipation rate: $c = 3$ (upper panel), $c = 1$ (middle panel),  $c = -1$ (lower panel). Details for the potentials used are in the main text. For each panel, we show the numerical results of  $G(Q)$ for the various potentials considered, the fractional residuals with respect to the best fits for $G(Q)$ from table~\ref{tab:ch4-1} and the fractional residuals with respect to the numerical solution for the monomial potential. In summary, this figure demonstrates that $G(Q)$ is independent on the inflaton potential chosen.}
+    \caption[Independence of $G(Q)$ from the inflaton potential]{The results of our numerical code for the various inflaton potentials discussed in section~\ref{sec:ch4-background} and for a different temperature dependence in the dissipation rate: $c = 3$ (upper panel), $c = 1$ (middle panel),  $c = -1$ (lower panel). Details for the potentials used are in the main text. For each panel, we show the numerical results of  $G(Q)$ for the various potentials considered, the fractional residuals with respect to the best fits for $G(Q)$ from table~\ref{tab:ch4-1} and the fractional residuals with respect to the numerical solution for the monomial potential. In summary, this figure demonstrates that $G(Q)$ is independent on the inflaton potential chosen.}
     \label{fig:ch4-3}
 \end{figure}
 
@@ -524,7 +524,7 @@ In any case, one may still wonder if the results just presented depend on the sp
 \begin{figure}[ht!]
     \centering
     \includegraphics[width=0.9\linewidth]{../arXiv-2306.16190v2/figures/GQ_fits_quartic-Neinfl-vs-taumax_study.png}
-\caption{ The scalar dissipation function $G(Q)$ obtained for different choices of the number of $e-$folds before and after CMB horizon crossing, respectively changing $\tau_{\rm{max}}$ (lower panel) and $N_e^{\rm{infl}}$ (upper panel). Details on the values of $\tau_{\rm{max}}$ and $N_e^{\rm{infl}}$ can be found in the text. In each panel, we show the  numerical results for $G(Q)$ for different temperature dependence in the dissipation rate,  $c = 3$ (red), $c = 1$ (blue),  $c = -1$ (green), and the corresponding fractional residuals with respect to the fiducial case with $N_e^{\rm{infl}}=60$ and $\tau_{\rm{max}}=6.5$. In summary, this figure demonstrates that $G(Q)$ is robust against changes in the inflationary history.}
+\caption[Robustness of $G(Q)$ to inflationary history]{ The scalar dissipation function $G(Q)$ obtained for different choices of the number of $e-$folds before and after CMB horizon crossing, respectively changing $\tau_{\rm{max}}$ (lower panel) and $N_e^{\rm{infl}}$ (upper panel). Details on the values of $\tau_{\rm{max}}$ and $N_e^{\rm{infl}}$ can be found in the text. In each panel, we show the  numerical results for $G(Q)$ for different temperature dependence in the dissipation rate,  $c = 3$ (red), $c = 1$ (blue),  $c = -1$ (green), and the corresponding fractional residuals with respect to the fiducial case with $N_e^{\rm{infl}}=60$ and $\tau_{\rm{max}}=6.5$. In summary, this figure demonstrates that $G(Q)$ is robust against changes in the inflationary history.}
     \label{fig:ch4-4}
 \end{figure}
 
@@ -542,7 +542,7 @@ Finally, it is useful to clarify here the relationship between the length of the
 \begin{figure}[ht!]
     \centering
     \includegraphics[width=\linewidth]{../arXiv-2306.16190v2/figures/GQ_fits_quartic-MPs_study.png}
-    \caption{{\it Upper panel:} The scalar dissipation function $G(Q)$ obtained from considering different sources of corrections to the inflaton perturbations: no corrections (triangle), corrections from metric perturbations (square), corrections from both metric perturbations and slow-roll parameters (diamond). Results are shown for the index $c = 3$ (red), $c = 1$ (blue),  $c = -1$ (green). {\it Lower panel:} The fractional residuals between the results obtained with no corrections against i) setting only MPs different from zero or ii) both corrections from MPs and slow-roll parameters included in the computation. In summary, this figure demonstrates that $G(Q)$ is independent on the metric perturbations and slow-roll corrections.} \label{fig:ch4-5}
+    \caption[Independence of $G(Q)$ from metric perturbations and slow-roll corrections]{{\it Upper panel:} The scalar dissipation function $G(Q)$ obtained from considering different sources of corrections to the inflaton perturbations: no corrections (triangle), corrections from metric perturbations (square), corrections from both metric perturbations and slow-roll parameters (diamond). Results are shown for the index $c = 3$ (red), $c = 1$ (blue),  $c = -1$ (green). {\it Lower panel:} The fractional residuals between the results obtained with no corrections against i) setting only MPs different from zero or ii) both corrections from MPs and slow-roll parameters included in the computation. In summary, this figure demonstrates that $G(Q)$ is independent on the metric perturbations and slow-roll corrections.} \label{fig:ch4-5}
 \end{figure}
 
 We now assess the impact of the metric perturbations (MPs) $\varphi$ in eq.~\eqref{eq:ch4-2.1} and the corrections from the slow-roll parameters $\epsilon_H$ and $\eta_H$ on the numerical results. In fact, as discussed in section~\ref{sec:ch4-perturbations_code}, both MPs and the slow-roll corrections to the dynamics of the perturbations have been neglected in the previous analyses, however they can be reinserted through a switch that turns them back on in the numerical solution.
@@ -559,7 +559,7 @@ In regards to the corrections from the slow-roll parameters, this result was tri
 \begin{figure}[hb!]
     \centering
     \includegraphics[width=1\linewidth]{../arXiv-2306.16190v2/figures/DeltaR2_analytical_vs_numerical.png}
-    \caption{{\it Upper panel:} The scalar power spectrum for $c=0$ as a function of the dissipation strength for different models for the inflaton potential: quartic (green), hilltop (yellow), natural inflation (blue), and $\beta$-exponential (red), see text for the choice of the parameters. Results are shown for the analytical expression in eq.~\eqref{eq:ch4-DeltaR_analytic} (solid lines) and for the computation with the numerical code (triangle marks). {\it Lower panel:} The fractional residuals from the two methods over the range of the dissipation strength $Q$ considered.In summary, this figure demonstrates that the analytical estimate to the scalar power spectrum reproduces quite well the numerical results over the entire range of $Q$ considered, with residuals always below $\mathcal{O}(1)$.}
+    \caption[Analytical vs.\ numerical scalar power spectrum]{{\it Upper panel:} The scalar power spectrum for $c=0$ as a function of the dissipation strength for different models for the inflaton potential: quartic (green), hilltop (yellow), natural inflation (blue), and $\beta$-exponential (red), see text for the choice of the parameters. Results are shown for the analytical expression in eq.~\eqref{eq:ch4-DeltaR_analytic} (solid lines) and for the computation with the numerical code (triangle marks). {\it Lower panel:} The fractional residuals from the two methods over the range of the dissipation strength $Q$ considered.In summary, this figure demonstrates that the analytical estimate to the scalar power spectrum reproduces quite well the numerical results over the entire range of $Q$ considered, with residuals always below $\mathcal{O}(1)$.}
     \label{fig:ch4-7}
 \end{figure}
 
@@ -582,7 +582,7 @@ Throughout this work, we specifically set $c\in\{3,1,-1\}$ motivated by the expl
 \begin{figure}[hb!]
     \centering
     \includegraphics[width=\linewidth]{../arXiv-2306.16190v2/figures/GQ_fits_monomial-parameters_study.png}
-    \caption{{\it Upper panel:} The scalar dissipation function $G(Q)$ for a monomial potential, see eq.~\eqref{eq:ch4-monomial_potential}, with different values for its parameters $n$ and $\lambda$: $\{n,\lambda\}=\{4,10^{-14}\}$ (triangle); $\{n,\lambda\}=\{2,10^{-10}\}$ (squares). Results are shown for a cubic, linear and inverse temperature dependence in the dissipation rate, respectively in red, blue and green. {\it Lower panel:} The fractional residuals from the two different choices of inflaton potential parameters, over the range of the dissipation strength $Q$ considered. In short, this figure demonstrates that for a given form of the inflaton potential, $G(Q)$ is robust to changes in the potential parameters.}
+    \caption[Robustness of $G(Q)$ to monomial potential parameters]{{\it Upper panel:} The scalar dissipation function $G(Q)$ for a monomial potential, see eq.~\eqref{eq:ch4-monomial_potential}, with different values for its parameters $n$ and $\lambda$: $\{n,\lambda\}=\{4,10^{-14}\}$ (triangle); $\{n,\lambda\}=\{2,10^{-10}\}$ (squares). Results are shown for a cubic, linear and inverse temperature dependence in the dissipation rate, respectively in red, blue and green. {\it Lower panel:} The fractional residuals from the two different choices of inflaton potential parameters, over the range of the dissipation strength $Q$ considered. In short, this figure demonstrates that for a given form of the inflaton potential, $G(Q)$ is robust to changes in the potential parameters.}
     \label{fig:ch4-A1}
 \end{figure}
 \section{Automated initial conditions for the \texttt{Background} module
@@ -599,5 +599,3 @@ To determine the initial condition on $\phi$ efficiently, it is useful (when pos
 
 \end{subappendices}
 
-\bibliographystyle{styles/JHEP}
-\bibliography{../arXiv-2306.16190v2/bibl}

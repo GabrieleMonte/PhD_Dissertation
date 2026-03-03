@@ -1,6 +1,6 @@
 \usepackage{styles/utformat}  		% Package style file for UT ETDs.
 \usepackage[numbers, sort&compress]{natbib}
-\usepackage[sectionbib]{chapterbib}   % Per-chapter bibliographies
+% Global bibliography (single References section at end of document)
 \usepackage{appendix}                 % subappendices within chapters
 
 % ── JCAP-inspired formatting ───────────────────────────────────────
@@ -39,6 +39,83 @@
 % (overrides utformat's \parindent 0in / \parskip 7pt block style)
 \setlength{\parindent}{1.2em}
 \setlength{\parskip}{0pt plus 1pt}
+
+% No dots in ToC / LoF / LoT  (JCAP style)
+\renewcommand{\@dotsep}{10000}
+
+% Epigraph: no title, vertically centred, left-indented
+\def\epigraph{\clearpage
+    \short@page
+    \setcounter{regular@short}{1}
+    \pagestyle{plain}
+    \null\vfill}
+\def\endepigraph{\vfill\null\clearpage}
+
+% ── ToC entry formatting ──────────────────────────────────────────
+% Parts: bold, slightly larger, no page number, generous space above
+\renewcommand*\l@part[2]{%
+  \ifnum \c@tocdepth >-2\relax
+    \addpenalty{-\@highpenalty}%
+    \addvspace{1.8em \@plus\p@}%
+    \begingroup
+      \parindent \z@
+      \leavevmode
+      {\large \bfseries #1}\par
+      \nobreak
+      \vskip 4pt
+      \global\@nobreaktrue
+      \everypar{\global\@nobreakfalse\everypar{}}%
+    \endgroup
+  \fi}
+
+% Chapters: bold, normal size, moderate space above
+\def\l@chapter#1#2{\addpenalty{-\@highpenalty}
+    \vskip 0.6em plus 1pt
+    \@tempdima=\toc@chap@indent
+    \begingroup
+    \parindent \z@
+    \rightskip \@pnumwidth
+    \parfillskip -\@pnumwidth
+    \leavevmode \bfseries
+    \advance\leftskip\@tempdima \hskip -\leftskip #1\nobreak\hfill
+    \nobreak\hbox to\@pnumwidth{\hss #2}\par
+    \penalty\@highpenalty \endgroup}
+
+% ── Consistent front-matter headings (JCAP style) ────────────────
+% Abstract: use the same \shortchapter* heading as ToC / LoF / LoT
+\def\utabstract{\clearpage
+    \short@page
+    \setcounter{regular@short}{1}
+    \pagestyle{plain}
+    \shortchapter*{Abstract}
+    \default@spacing}
+
+% ToC with thin horizontal rules
+\def\tableofcontents{%
+    \shortchapter*{Table of Contents}
+    \pagestyle{plain}
+    \baselineskip=16pt plus .5pt minus .5pt
+    \hrule\vskip6pt
+    \@starttoc{toc}%
+    \vskip6pt\hrule}
+
+% LoF with thin horizontal rules (not added to ToC)
+\def\listoffigures{%
+    \shortchapter*{List of Figures}
+    \pagestyle{plain}
+    \baselineskip=14pt plus .5pt minus .5pt
+    \hrule\vskip6pt
+    \@starttoc{lof}%
+    \vskip6pt\hrule}
+
+% LoT with thin horizontal rules (not added to ToC)
+\def\listoftables{%
+    \shortchapter*{List of Tables}
+    \pagestyle{plain}
+    \baselineskip=14pt plus .5pt minus .5pt
+    \hrule\vskip6pt
+    \@starttoc{lot}%
+    \vskip6pt\hrule}
 
 \makeatother
 % ────────────────────────────────────────────────────────────────────
