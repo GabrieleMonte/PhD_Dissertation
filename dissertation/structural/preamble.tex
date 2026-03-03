@@ -1,28 +1,45 @@
+\usepackage{styles/utformat}  		% Package style file for UT ETDs.
 \usepackage[numbers, sort&compress]{natbib}
 \usepackage[sectionbib]{chapterbib}   % Per-chapter bibliographies
-\usepackage{styles/utformat}  		% Package style file for UT ETDs.
+\usepackage{appendix}                 % subappendices within chapters
 
-% ── Overrides of utformat defaults ──────────────────────────────────
+% ── JCAP-inspired formatting ───────────────────────────────────────
 \makeatletter
-% Left-align chapter headings (utformat centres them)
+
+% Chapter heading: left-aligned, sans-serif, bold (JCAP title style)
 \def\@makechapterhead#1{{\parindent 0pt \raggedright
-    \ifnum \c@secnumdepth >\m@ne \Large\bf \@chapapp{} \thechapter:~\fi
-    \Large \bf #1\par \nobreak \vskip 35pt}}
+    \ifnum \c@secnumdepth >\m@ne
+      {\large\bfseries\sffamily \@chapapp\ \thechapter}\par\nobreak\vskip 8pt\fi
+    {\LARGE\bfseries\sffamily #1}\par \nobreak \vskip 30pt}}
 \def\@makeschapterhead#1{{\parindent 0pt \raggedright
-    \Large \bf #1\par \nobreak \vskip 35pt}}
+    {\LARGE\bfseries\sffamily #1}\par \nobreak \vskip 30pt}}
+
+% Section headings (from jcappub.sty)
+\renewcommand\section{\@startsection{section}{1}{\z@}%
+                                   {-3.5ex \@plus -1.3ex \@minus -.7ex}%
+                                   {2.3ex \@plus.4ex \@minus .4ex}%
+                                   {\normalfont\large\bfseries}}
+\renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
+                                   {-2.3ex\@plus -1ex \@minus -.5ex}%
+                                   {1.2ex \@plus .3ex \@minus .3ex}%
+                                   {\normalfont\normalsize\bfseries}}
+\renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}%
+                                   {-2.3ex\@plus -1ex \@minus -.5ex}%
+                                   {1ex \@plus .2ex \@minus .2ex}%
+                                   {\normalfont\normalsize\bfseries}}
 
 % Chapter-prefixed figure / table numbers (utformat strips the prefix)
 \renewcommand{\thefigure}{\thechapter.\arabic{figure}}
 \renewcommand{\thetable}{\thechapter.\arabic{table}}
 
-% Per-chapter bibliography as \section* (not \chapter*) for chapterbib
-\def\thebibliography#1{\section*{References}
-    \list{[\arabic{enumi}]}{\settowidth\labelwidth{[#1]}\leftmargin\labelwidth
-    \advance\leftmargin\labelsep
-    \usecounter{enumi}}
-    \def\newblock{\hskip .11em plus .33em minus .07em}
-    \sloppy\clubpenalty4000\widowpenalty4000
-    \sfcode`\.=1000\relax}
+% Bibliography heading title
+\renewcommand{\bibname}{References}
+
+% JCAP-style paragraph formatting: indented first line, no parskip
+% (overrides utformat's \parindent 0in / \parskip 7pt block style)
+\setlength{\parindent}{1.2em}
+\setlength{\parskip}{0pt plus 1pt}
+
 \makeatother
 % ────────────────────────────────────────────────────────────────────
 
@@ -149,9 +166,9 @@
 \setcounter{secnumdepth}{3}    % Number subsections in the chapters.
 \setcounter{tocdepth}{1} % include subsections in the Table of Contents
 
-% Captions
+% Captions (JCAP-style: small font, bold labels, justified text)
 \usepackage{caption}
-\captionsetup{format=plain, justification=justified}
+\captionsetup{font=small, labelfont=bf, format=plain, justification=justified}
 
 % List and Linguex settings
 \renewcommand{\firstrefdash}{}

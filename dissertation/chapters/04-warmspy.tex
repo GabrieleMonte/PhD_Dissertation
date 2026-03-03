@@ -577,7 +577,7 @@ The code is available at \href{https://github.com/GabrieleMonte/WarmSPy.git}{git
 Throughout this work, we specifically set $c\in\{3,1,-1\}$ motivated by the explicit constructions of dissipative rates in the literature. For all these cases, we report in table~\ref{tab:ch4-1} the best-fit parameters for the proposed fitting functions of $G(Q)$, respectively eqs.~\eqref{eq:ch4-GQ_log} and~\eqref{eq:ch4-GQ_pol} for $c\in\{3,1\}$ and $c=-1$. Compared to previous work in the literature, the fits we present are valid in a much broader range of the dissipation strength, namely for $Q\in[10^{-7},10^{4}]$, with a minimal number of free parameters. The robustness and broader validity of our numerical fits for the function $G(Q)$ will contribute to phenomenological studies of WI, and specifically help in precisely testing WI models against current and future CMB bounds.
 
 \clearpage
-\appendix
+\begin{subappendices}
 \section{Additional plots \label{Appendix:ch4-plots}}
 \begin{figure}[hb!]
     \centering
@@ -596,6 +596,8 @@ where the last line follows from assuming slow-roll, i.e.\ $d\epsilon_H/d\phi\si
 $l_r$ is the gradient descent learning rate, whose value is chosen to ensure convergence of the gradient descent algorithm and determines the overall step size taken in each iteration to update $\phi_0$. Depending on the inflaton model, the optimal value of $l_r$ can vary significantly. Generally we recommend starting with a small value of $l_r$ to avoid overshooting, and then incrementally increasing it if convergence is too slow.
 
 To determine the initial condition on $\phi$ efficiently, it is useful (when possible) to set $\phi_0^{\rm{guess}}$ to the value obtained by analytically solving the background equations in the slow-roll approximation and for a constant dissipation strength $Q$. We implement this approach via the function \texttt{Phi0\_slow\_roll\_guesser} which outputs the slow-roll guess for $\phi_0$ for a given value of $N_e^{\rm{end}}$ and any of the inflaton potentials available in the code (see section~\ref{sec:ch4-Inflaton_Model} for details).
+
+\end{subappendices}
 
 \bibliographystyle{styles/JHEP}
 \bibliography{../arXiv-2306.16190v2/bibl}
