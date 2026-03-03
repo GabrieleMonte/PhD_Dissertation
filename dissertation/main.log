@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2024.11.5)  3 MAR 2026 02:41
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2024.11.5)  3 MAR 2026 03:30
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -767,12 +767,7 @@ h LuaLaTeX)
 \l__um_primecount_int=\count361
 \g__um_primekern_muskip=\muskip17
 
-(/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex))) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/eucal.sty
-Package: eucal 2009/06/22 v3.00 Euler Script fonts
-LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
-(Font)                  U/eus/m/n --> U/eus/b/n on input line 33.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+(/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex))) (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks51
 \verbatim@line=\toks52
@@ -1169,8 +1164,8 @@ LaTeX Info: Redefining \c on input line 311.
 LaTeX Info: Redefining \d on input line 313.
 \c@tmpaEx=\count411
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 217.
-Package hyperref Info: Option `breaklinks' set `true' on input line 217.
+Package hyperref Info: Option `colorlinks' set `true' on input line 218.
+Package hyperref Info: Option `breaklinks' set `true' on input line 218.
 
 (/usr/share/texlive/texmf-dist/tex/latex/xcharter/XCharter.sty
 Package: XCharter 2023/07/21 v1.25
@@ -1556,88 +1551,116 @@ uage=dflt;+tlig;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 )
-luaotfload | aux : font no 68 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 69 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 70 (nil) does not define feature smcp for script latn
- with language dflt
 
-Package fontspec Info: Font family 'SourceCodePro-Regular(0)' created for font
-(fontspec)             'SourceCodePro-Regular' with options [Ligatures =
+Package fontspec Info: latinmodern-math scale = 0.982428965584007.
+
+
+Package fontspec Info: latinmodern-math scale = 0.982428965584007.
+
+
+Package fontspec Info: latinmodern-math scale = 0.982428965584007.
+
+
+Package fontspec Info: latinmodern-math scale = 0.982428965584007.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(0)' created for font
+(fontspec)             'latinmodern-math.otf' with options [Ligatures =
 (fontspec)             TeX,Extension =
-(fontspec)             .otf,SmallCapsFeatures={Letters=SmallCaps},WordSpace={1,
-0,0},HyphenChar=None,PunctuationSpace=WordSpace,Ligatures=TeX,BoldFont=SourceCo
-dePro-Bold,ItalicFont=SourceCodePro-BoldIt,Scale=0.9].
+(fontspec)             .otf,SmallCapsFeatures={Letters=SmallCaps},Renderer=Basi
+c,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{S
+ize=10.2-},{Size=7.5-10.2,Font=latinmodern-math.otf,Style=MathScript},{Size=-7.
+5,Font=latinmodern-math.otf,Style=MathScriptScript}},RawFeature={mathfontdimen=
+xetex},Scale={MatchUppercase}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[0.9]"[SourceCodePro-Regular.otf]:mode=node;script=
-latn;language=dflt;+tlig;"
+(fontspec)             <10.2->s*[0.982428965584007]"[latinmodern-math.otf]:mode
+=base;script=math;language=dflt;+tlig;mathfontdimen=xetex;"<7.5-10.2>s*[0.98242
+8965584007]"[latinmodern-math.otf]:mode=base;script=math;language=dflt;+tlig;ma
+thfontdimen=xetex;+ssty=0;"<-7.5>s*[0.982428965584007]"[latinmodern-math.otf]:m
+ode=base;script=math;language=dflt;+tlig;mathfontdimen=xetex;+ssty=1;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
-(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
-(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
-(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[0.9]"[SourceCodePro-Bold.otf]:mode=node;script=lat
-n;language=dflt;+tlig;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
-(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
-(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
-(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[0.9]"[SourceCodePro-BoldIt.otf]:mode=node;script=l
-atn;language=dflt;+tlig;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
-(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
-(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
-(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
 
-luaotfload | aux : font no 73 (nil) does not define feature smcp for script latn
- with language dflt
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
+(Font)              scaled to size 11.78906pt on input line 223.
+\sym__um_fam1=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `__um_fam1' in version `normal'
+(Font)                  TU/latinmodern-math.otf(0)/m/n --> TU/latinmodern-math.
+otf(0)/m/n on input line 223.
+LaTeX Font Info:    Overwriting symbol font `__um_fam1' in version `bold'
+(Font)                  TU/latinmodern-math.otf(0)/m/n --> TU/latinmodern-math.
+otf(0)/b/n on input line 223.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
+(Font)              scaled to size 8.25233pt on input line 223.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
+(Font)              scaled to size 6.48398pt on input line 223.
 luaotfload | aux : font no 74 (nil) does not define feature smcp for script latn
  with language dflt
 luaotfload | aux : font no 75 (nil) does not define feature smcp for script latn
  with language dflt
 
-Package fontspec Info: Font family 'SourceCodePro-Regular(1)' created for font
-(fontspec)             'SourceCodePro-Regular' with options [Ligatures =
+Package fontspec Info: Font family 'lmmono10-regular.otf(0)' created for font
+(fontspec)             'lmmono10-regular.otf' with options [Ligatures =
 (fontspec)             TeX,Extension =
-(fontspec)             .otf,SmallCapsFeatures={Letters=SmallCaps},Renderer=Basi
-c,Ligatures=TeX,BoldFont=SourceCodePro-Bold,ItalicFont=SourceCodePro-BoldIt,Sca
-le=0.9].
+(fontspec)             .otf,SmallCapsFeatures={Letters=SmallCaps},WordSpace={1,
+0,0},HyphenChar=None,PunctuationSpace=WordSpace,ItalicFont=lmmono10-italic.otf]
+.
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[0.9]"[SourceCodePro-Regular.otf]:mode=base;script=
-latn;language=dflt;+tlig;"
+(fontspec)             <->"[lmmono10-regular.otf]:mode=node;script=latn;languag
+e=dflt;+tlig;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[0.9]"[SourceCodePro-Bold.otf]:mode=base;script=lat
-n;language=dflt;+tlig;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[0.9]"[SourceCodePro-BoldIt.otf]:mode=base;script=l
-atn;language=dflt;+tlig;"
+(fontspec)             <->"[lmmono10-italic.otf]:mode=node;script=latn;language
+=dflt;+tlig;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+
+luaotfload | aux : font no 78 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 79 (nil) does not define feature smcp for script latn
+ with language dflt
+
+Package fontspec Info: Font family 'lmmono10-regular.otf(1)' created for font
+(fontspec)             'lmmono10-regular.otf' with options [Ligatures =
+(fontspec)             TeX,Extension =
+(fontspec)             .otf,SmallCapsFeatures={Letters=SmallCaps},Renderer=Basi
+c,ItalicFont=lmmono10-italic.otf].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[lmmono10-regular.otf]:mode=base;script=latn;languag
+e=dflt;+tlig;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[lmmono10-italic.otf]:mode=base;script=latn;language
+=dflt;+tlig;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
 
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/SourceCodePro-Regular(1)/m/n on inp
-ut line 223.
+(Font)                  OT1/cmtt/m/n --> TU/lmmono10-regular.otf(1)/m/n on inpu
+t line 224.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/SourceCodePro-Regular(1)/b/n on inp
-ut line 223.
-luaotfload | aux : font no 80 (nil) does not define feature smcp for script latn
+(Font)                  OT1/cmtt/m/n --> TU/lmmono10-regular.otf(1)/b/n on inpu
+t line 224.
+luaotfload | aux : font no 84 (nil) does not define feature smcp for script latn
  with language dflt
 
 Package fontspec Info: Font family 'SourceSansPro-Regular(0)' created for font
@@ -1667,7 +1690,7 @@ age=dflt;+tlig;+smcp;"
 guage=dflt;+tlig;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
-luaotfload | aux : font no 85 (nil) does not define feature smcp for script latn
+luaotfload | aux : font no 89 (nil) does not define feature smcp for script latn
  with language dflt
 
 Package fontspec Info: Font family 'SourceSansPro-Regular(1)' created for font
@@ -1699,10 +1722,10 @@ guage=dflt;+tlig;"
 
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/cmss/m/n --> TU/SourceSansPro-Regular(1)/m/n on inp
-ut line 224.
+ut line 226.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/SourceSansPro-Regular(1)/b/n on in
-put line 224.
+put line 226.
 
 Package fontspec Info: Font family 'CharisSIL-Regular(0)' created for font
 (fontspec)             'CharisSIL-Regular' with options [Ligatures =
@@ -1739,11 +1762,40 @@ guage=dflt;+tlig;"
 (fontspec)             <->"[CharisSIL-BoldItalic.ttf]:mode=node;script=latn;lan
 guage=dflt;+tlig;+smcp;"
 
-\c@thm=\count416
-\c@ax=\count417
-\c@defn=\count418
-\c@rem=\count419
-\SubItemSkip=\skip103
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2023/03/13 v3.1a Micro-typographical refinements (RS)
+\MT@toks=\toks66
+\MT@tempbox=\box85
+\MT@count=\count416
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1059.
+LaTeX Info: Redefining \leftprotrusion on input line 1060.
+\MT@prot@toks=\toks67
+LaTeX Info: Redefining \rightprotrusion on input line 1078.
+LaTeX Info: Redefining \textls on input line 1368.
+\MT@outer@kern=\dimen325
+LaTeX Info: Redefining \textmicrotypecontext on input line 1988.
+\MT@listname@count=\count417
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-luatex.def
+File: microtype-luatex.def 2023/03/13 v3.1a Definitions specific to luatex (RS)
+
+Lua module: microtype 2023/03/13 3.1a microtype module.
+Module microtype Info: overwriting function `keepligature' on input line 63
+LaTeX Info: Redefining \lsstyle on input line 688.
+LaTeX Info: Redefining \lslig on input line 688.
+\MT@outer@space=\skip103
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2023/03/13 v3.1a microtype main configuration file (RS)
+))
+\c@thm=\count418
+\c@ax=\count419
+\c@defn=\count420
+\c@rem=\count421
+\SubItemSkip=\skip104
 )
 (./structural/about.tex)
 * *
@@ -1784,17 +1836,17 @@ LaTeX Font Info:    ... okay on input line 32.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count420
-\scratchdimen=\dimen325
-\scratchbox=\box85
-\nofMPsegments=\count421
-\nofMParguments=\count422
-\everyMPshowfont=\toks66
-\MPscratchCnt=\count423
-\MPscratchDim=\dimen326
-\MPnumerator=\count424
-\makeMPintoPDFobject=\count425
-\everyMPtoPDFconversion=\toks67
+\scratchcounter=\count422
+\scratchdimen=\dimen326
+\scratchbox=\box86
+\nofMPsegments=\count423
+\nofMParguments=\count424
+\everyMPshowfont=\toks68
+\MPscratchCnt=\count425
+\MPscratchDim=\dimen327
+\MPnumerator=\count426
+\makeMPintoPDFobject=\count427
+\everyMPtoPDFconversion=\toks69
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1813,7 +1865,35 @@ Package hyperref Info: Link coloring ON on input line 32.
 \@outlinefile=\write7
 
 \openout7 = main.out
- (./structural/body.tex [1
+LaTeX Info: Redefining \microtypecontext on input line 32.
+Package microtype Info: Applying patch `item' on input line 32.
+Package microtype Info: Applying patch `toc' on input line 32.
+Package microtype Info: Applying patch `eqnum' on input line 32.
+
+
+Package microtype Warning: Unable to apply patch `footnote' on input line 32.
+
+Package microtype Info: Applying patch `verbatim' on input line 32.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 32.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+
+Package microtype Warning: You did not load the babel or the polyglossia packag
+e.
+(microtype)                The `babel' option won't have any effect.
+
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `XCharter' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+(./structural/body.tex [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `TU/XCharter(2)/m/n' will be
@@ -1822,7 +1902,8 @@ LaTeX Font Info:    Font shape `TU/XCharter(2)/b/n' will be
 (Font)              scaled to size 17.28pt on input line 9.
 LaTeX Font Info:    Font shape `TU/XCharter(2)/b/n' will be
 (Font)              scaled to size 12.0pt on input line 9.
- [2
+
+[2
 
 ]
 LaTeX Font Info:    Font shape `TU/XCharter(2)/m/n' will be
@@ -1845,6 +1926,376 @@ LaTeX Font Info:    Font shape `TU/XCharter(2)/m/it' will be
 (Font)              scaled to size 12.0pt on input line 19.
 LaTeX Font Info:    Font shape `TU/XCharter(2)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 21.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `XCharter-Math.otf' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Package microtype Info: Character `textquoteleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/8.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/8.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/8.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/8.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/8.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/8.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/8.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/8.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/8.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/8.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/8.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/8.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/8.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/8.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/8.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/8.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/8.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/8.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/8.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/8.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/8.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/8.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/8.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/8.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/8.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/8.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/8.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/8.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/8.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/8.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/8.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/8.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/8.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/8.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/8.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/8.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/8.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/8.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/8.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/6.6'.
+(microtype)             Ignoring protrusion settings for this character.
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `latinmodern-math.otf' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
  [4
 
 
@@ -1853,6 +2304,10 @@ LaTeX Font Info:    Font shape `TU/XCharter(2)/m/n' will be
 (Font)              scaled to size 20.74pt on input line 30.
 LaTeX Font Info:    Font shape `TU/XCharter(2)/b/n' will be
 (Font)              scaled to size 20.74pt on input line 30.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `SourceSansPro-Regular' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
  [5
 
 
@@ -1861,8 +2316,10 @@ LaTeX Font Info:    Font shape `TU/XCharter(2)/b/n' will be
 
 
 ] (./main.toc
-LaTeX Font Info:    Font shape `TU/SourceCodePro-Regular(0)/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 51.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmmono10-regular.otf' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
  [7
 
 ] [8] [9])
@@ -1886,21 +2343,15 @@ LaTeX Font Info:    Font shape `TU/XCharter(1)/m/n' will be
  [12
 
 ]
-Underfull \hbox (badness 4144) in paragraph at lines 40--40
- [][] [][][]\TU/XCharter(2)/m/n/12 Pa-ram-e-ter de-gen-era-cies in PR4 fixed-cos
-mology and PR3 
+Underfull \hbox (badness 2452) in paragraph at lines 40--40
+ [][] []\TU/XCharter(2)/m/n/12 Pa-ram-e-ter de-gen-era-cies in PR4 fixed-cosmolo
+gy and PR3 
  []
 
 
-Overfull \hbox (10.53194pt too wide) in paragraph at lines 54--54
- [][] [][][]\TU/XCharter(2)/m/n/12 Inverse-variance weighted map-ping from ex-po
--nen-tial quintessence 
- []
-
-
-Overfull \hbox (0.30794pt too wide) in paragraph at lines 55--55
- [][] [][][]\TU/XCharter(2)/m/n/12 Theory-informed prior dis-tri-bu-tions for ex
--po-nen-tial quintessence 
+Overfull \hbox (3.83385pt too wide) in paragraph at lines 54--54
+ [][] []\TU/XCharter(2)/m/n/12 Inverse-variance weighted map-ping from ex-po-nen
+-tial quintessence 
  []
 
 [13])
@@ -1998,19 +2449,130 @@ LaTeX Font Info:    Font shape `TU/XCharter(2)/m/n' will be
 (Font)              scaled to size 8.4pt on input line 42.
 LaTeX Font Info:    Font shape `TU/XCharter(2)/m/n' will be
 (Font)              scaled to size 6.6pt on input line 42.
- [7] [8]
-LaTeX Font Info:    Trying to load font information for U+eus on input line 71.
-
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueus.fd
-File: ueus.fd 2013/01/14 v3.01 Euler Script
-)
-[9]
+ [7] [8] [9]
 LaTeX Font Info:    Font shape `TU/XCharter-Math.otf(1)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 93.
+Package microtype Info: Character `textquoteleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/XCharter-Math.otf(1)/m/n' will be
 (Font)              scaled to size 7.0pt on input line 93.
+Package microtype Info: Character `textquoteleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/XCharter-Math.otf(1)/m/n' will be
 (Font)              scaled to size 5.0pt on input line 93.
+Package microtype Info: Character `textquoteleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/XCharter(1)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 93.
 LaTeX Font Info:    Font shape `TU/XCharter(1)/m/n' will be
@@ -2019,22 +2581,262 @@ LaTeX Font Info:    Font shape `TU/XCharter(1)/m/n' will be
 (Font)              scaled to size 5.0pt on input line 93.
 LaTeX Font Info:    Font shape `TU/XCharter-Math.otf(2)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 93.
+Package microtype Info: Character `textquoteleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/XCharter-Math.otf(2)/m/n' will be
 (Font)              scaled to size 7.0pt on input line 93.
+Package microtype Info: Character `textquoteleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/XCharter-Math.otf(2)/m/n' will be
 (Font)              scaled to size 5.0pt on input line 93.
+Package microtype Info: Character `textquoteleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/XCharter-Math.otf(3)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 93.
+Package microtype Info: Character `textquoteleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/XCharter-Math.otf(3)/m/n' will be
 (Font)              scaled to size 7.0pt on input line 93.
+Package microtype Info: Character `textquoteleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/XCharter-Math.otf(3)/m/n' will be
 (Font)              scaled to size 5.0pt on input line 93.
+Package microtype Info: Character `textquoteleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
+(Font)              scaled to size 9.82422pt on input line 93.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
+(Font)              scaled to size 6.87695pt on input line 93.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
+(Font)              scaled to size 4.91211pt on input line 93.
 LaTeX Font Info:    Font shape `TU/XCharter(2)/m/it' will be
 (Font)              scaled to size 10.0pt on input line 93.
- [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20]) [21]
+ [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20])
+[21]
 \openout2 = chapters/03-wi-natural.aux
-
-(./chapters/03-wi-natural.tex
+ (./chapters/03-wi-natural.tex
 Chapter 3:
 [22
 
@@ -2042,18 +2844,18 @@ Chapter 3:
 
 
 ] [23] [24] [25] [26] [27]
-Overfull \hbox (19.82086pt too wide) in paragraph at lines 110--112
+Overfull \hbox (12.97762pt too wide) in paragraph at lines 110--112
 \TU/XCharter(2)/m/n/12 where the quan-ti-ties are all eval-u-ated at hori-zon cr
 oss-ing. Here, $\TU/XCharter-Math.otf(1)/m/n/12 𝑛[] = 1/ []$
  []
 
 [28] [29]
-Overfull \hbox (18.78899pt too wide) detected at line 131
+Overfull \hbox (14.15247pt too wide) detected at line 131
 []
  []
 
 [30] [31] [32] [33] [34] [35] [36] [37]
-<../arXiv-2212.04482v2/figures/r-ns_vs_Q_summary.png, id=1575, 346.896pt x 252.
+<../arXiv-2212.04482v2/figures/r-ns_vs_Q_summary.png, id=1531, 346.896pt x 252.
 945pt>
 File: ../arXiv-2212.04482v2/figures/r-ns_vs_Q_summary.png Graphic file (type pn
 g)
@@ -2065,10 +2867,127 @@ LaTeX Font Info:    Font shape `TU/XCharter(2)/b/n' will be
 (Font)              scaled to size 10.95pt on input line 272.
 LaTeX Font Info:    Font shape `TU/XCharter-Math.otf(1)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 272.
+Package microtype Info: Character `textquoteleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/XCharter-Math.otf(1)/m/n' will be
 (Font)              scaled to size 8.0pt on input line 272.
+Package microtype Info: Character `textquoteleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/XCharter-Math.otf(1)/m/n' will be
 (Font)              scaled to size 6.0pt on input line 272.
+Package microtype Info: Character `textquoteleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/XCharter(1)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 272.
 LaTeX Font Info:    Font shape `TU/XCharter(1)/m/n' will be
@@ -2077,16 +2996,256 @@ LaTeX Font Info:    Font shape `TU/XCharter(1)/m/n' will be
 (Font)              scaled to size 6.0pt on input line 272.
 LaTeX Font Info:    Font shape `TU/XCharter-Math.otf(2)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 272.
+Package microtype Info: Character `textquoteleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/XCharter-Math.otf(2)/m/n' will be
 (Font)              scaled to size 8.0pt on input line 272.
+Package microtype Info: Character `textquoteleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/XCharter-Math.otf(2)/m/n' will be
 (Font)              scaled to size 6.0pt on input line 272.
+Package microtype Info: Character `textquoteleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/XCharter-Math.otf(3)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 272.
+Package microtype Info: Character `textquoteleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/XCharter-Math.otf(3)/m/n' will be
 (Font)              scaled to size 8.0pt on input line 272.
+Package microtype Info: Character `textquoteleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/XCharter-Math.otf(3)/m/n' will be
 (Font)              scaled to size 6.0pt on input line 272.
+Package microtype Info: Character `textquoteleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
+(Font)              scaled to size 10.7575pt on input line 272.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
+(Font)              scaled to size 7.85938pt on input line 272.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
+(Font)              scaled to size 5.89453pt on input line 272.
 LaTeX Font Info:    Font shape `TU/XCharter(2)/m/it' will be
 (Font)              scaled to size 10.95pt on input line 272.
 
@@ -2151,7 +3310,8 @@ n;language=dflt;+tlig;+cv01=0;+lnum;+tnum;+smcp;"
 
 LaTeX Font Info:    Font shape `TU/XCharter(4)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 279.
-<../arXiv-2212.04482v2/figures/r-ns_plane_summary.png, id=1582, 346.896pt x 274
+ [38<../arXiv-2212.04482v2/figures/r-ns_vs_Q_summary.png>]
+<../arXiv-2212.04482v2/figures/r-ns_plane_summary.png, id=1545, 346.896pt x 274
 .626pt>
 File: ../arXiv-2212.04482v2/figures/r-ns_plane_summary.png Graphic file (type p
 ng)
@@ -2159,9 +3319,8 @@ ng)
 Package luatex.def Info: ../arXiv-2212.04482v2/figures/r-ns_plane_summary.png  
 used on input line 302.
 (luatex.def)             Requested size: 433.62pt x 343.2984pt.
- [38] [39<../arXiv-2212.04482v2/figures/r-ns_vs_Q_summary.png>] [40] [41<../arXi
-v-2212.04482v2/figures/r-ns_plane_summary.png>]
-<../arXiv-2212.04482v2/figures/Q-HoverT_ev_summary.png, id=1618, 325.215pt x 21
+ [39] [40<../arXiv-2212.04482v2/figures/r-ns_plane_summary.png>]
+<../arXiv-2212.04482v2/figures/Q-HoverT_ev_summary.png, id=1565, 325.215pt x 21
 6.81pt>
 File: ../arXiv-2212.04482v2/figures/Q-HoverT_ev_summary.png Graphic file (type 
 png)
@@ -2169,8 +3328,8 @@ png)
 Package luatex.def Info: ../arXiv-2212.04482v2/figures/Q-HoverT_ev_summary.png 
  used on input line 322.
 (luatex.def)             Requested size: 325.2142pt x 216.80946pt.
- [42<../arXiv-2212.04482v2/figures/Q-HoverT_ev_summary.png>] [43]
-[44] [45] [46] [47] [48]) [49]
+ [41] [42<../arXiv-2212.04482v2/figures/Q-HoverT_ev_summary.png>] [43]
+[44] [45] [46] [47]) [48] [49]
 \openout2 = chapters/04-warmspy.aux
  (./chapters/04-warmspy.tex
 Chapter 4:
@@ -2180,16 +3339,16 @@ Chapter 4:
 
 
 ] [51]
-Underfull \hbox (badness 1092) in paragraph at lines 38--39
-\TU/XCharter(4)/m/n/12 for multi-field in-fla-tion mod-els in-clude \TU/SourceC
-odePro-Regular(0)/m/n/12 Pyflation \TU/XCharter(4)/m/n/12 [[]], \TU/SourceCodeP
-ro-Regular(0)/m/n/12 Inflation.jl \TU/XCharter(4)/m/n/12 [[]],
+Underfull \hbox (badness 1226) in paragraph at lines 38--39
+\TU/XCharter(4)/m/n/12 for multi-field in-fla-tion mod-els in-clude \TU/lmmono1
+0-regular.otf(0)/m/n/12 Pyflation \TU/XCharter(4)/m/n/12 [[]], \TU/lmmono10-reg
+ular.otf(0)/m/n/12 Inflation.jl \TU/XCharter(4)/m/n/12 [[]],
  []
 
 
-Underfull \hbox (badness 1360) in paragraph at lines 38--39
-\TU/XCharter(4)/m/n/12 and \TU/SourceCodePro-Regular(0)/m/n/12 MultiModeCode \T
-U/XCharter(4)/m/n/12 [[]]. Var-i-ous codes have been im-ple-mented to nu-mer-i-
+Underfull \hbox (badness 1237) in paragraph at lines 38--39
+\TU/XCharter(4)/m/n/12 and \TU/lmmono10-regular.otf(0)/m/n/12 MultiModeCode \TU
+/XCharter(4)/m/n/12 [[]]. Var-i-ous codes have been im-ple-mented to nu-mer-i-
  []
 
 [52] [53] [54] [55] [56]
@@ -2207,27 +3366,31 @@ LaTeX Font Info:    Font shape `TU/XCharter(1)/b/n' will be
 LaTeX Font Info:    Font shape `TU/XCharter(1)/b/n' will be
 (Font)              scaled to size 5.0pt on input line 137.
  [58] [59]
-Overfull \hbox (11.12888pt too wide) detected at line 199
+Overfull \hbox (10.0151pt too wide) detected at line 199
 []
  []
 
-[60] [61] [62] [63] [64]
-Overfull \hbox (49.06775pt too wide) detected at line 258
+[60] [61] [62] [63]
+Overfull \hbox (47.54578pt too wide) detected at line 258
 []
  []
 
-[65] [66] [67]
-LaTeX Font Info:    Font shape `TU/SourceCodePro-Regular(0)/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 304.
- [68] [69] [70] [71] [72] [73] [74]
-Underfull \hbox (badness 1824) in paragraph at lines 396--397
-\TU/XCharter(4)/m/n/12 The \TU/SourceCodePro-Regular(0)/m/n/12 Scalar_Dissipatio
-n_function \TU/XCharter(4)/m/n/12 mod-ule takes the back-ground and per-
+[64] [65] [66]
+
+LaTeX Font Warning: Font shape `TU/lmmono10-regular.otf(0)/b/n' undefined
+(Font)              using `TU/lmmono10-regular.otf(0)/m/n' instead on input lin
+e 304.
+
+[67] [68] [69] [70] [71] [72] [73]
+Underfull \hbox (badness 1917) in paragraph at lines 396--397
+\TU/XCharter(4)/m/n/12 ba-tions’ evo-lu-tion as in-puts, com-puted re-spec-tiv
+ely in the \TU/lmmono10-regular.otf(0)/b/n/12 Background \TU/XCharter(4)/m/n/12
+ and
  []
 
-[75]
+[74]
 <../arXiv-2306.16190v2/figures/GQ_comparison_with_literature_Qconst-vs-varying.
-png, id=2226, 346.896pt x 274.626pt>
+png, id=2172, 346.896pt x 274.626pt>
 File: ../arXiv-2306.16190v2/figures/GQ_comparison_with_literature_Qconst-vs-var
 ying.png Graphic file (type png)
 <use ../arXiv-2306.16190v2/figures/GQ_comparison_with_literature_Qconst-vs-vary
@@ -2241,9 +3404,9 @@ LaTeX Font Info:    Font shape `TU/XCharter(1)/b/n' will be
 (Font)              scaled to size 8.0pt on input line 422.
 LaTeX Font Info:    Font shape `TU/XCharter(1)/b/n' will be
 (Font)              scaled to size 6.0pt on input line 422.
- [76] [77<../arXiv-2306.16190v2/figures/GQ_comparison_with_literature_Qconst-vs-
-varying.png>] [78]
-<../arXiv-2306.16190v2/figures/GQ_quartic_fits.png, id=2273, 325.215pt x 274.62
+ [75] [76<../arXiv-2306.16190v2/figures/GQ_comparison_with_literature_Qconst-vs-
+varying.png>] [77]
+<../arXiv-2306.16190v2/figures/GQ_quartic_fits.png, id=2219, 325.215pt x 274.62
 6pt>
 File: ../arXiv-2306.16190v2/figures/GQ_quartic_fits.png Graphic file (type png)
 
@@ -2251,7 +3414,7 @@ File: ../arXiv-2306.16190v2/figures/GQ_quartic_fits.png Graphic file (type png)
 Package luatex.def Info: ../arXiv-2306.16190v2/figures/GQ_quartic_fits.png  use
 d on input line 454.
 (luatex.def)             Requested size: 433.62pt x 366.19502pt.
- [79<../arXiv-2306.16190v2/figures/GQ_quartic_fits.png>]
+ [78<../arXiv-2306.16190v2/figures/GQ_quartic_fits.png>]
 
 Package fontspec Info: Font family 'XCharter(5)' created for font 'XCharter'
 (fontspec)             with options [Ligatures = TeX,Extension =
@@ -2314,8 +3477,8 @@ n;language=dflt;+tlig;+cv01=0;+lnum;+tnum;+smcp;"
 
 LaTeX Font Info:    Font shape `TU/XCharter(5)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 467.
-[80]
-<../arXiv-2306.16190v2/figures/GQ_fits_quartic-varying_m_study.png, id=2314, 32
+[79]
+<../arXiv-2306.16190v2/figures/GQ_fits_quartic-varying_m_study.png, id=2260, 32
 5.215pt x 252.945pt>
 File: ../arXiv-2306.16190v2/figures/GQ_fits_quartic-varying_m_study.png Graphic
  file (type png)
@@ -2323,8 +3486,8 @@ File: ../arXiv-2306.16190v2/figures/GQ_fits_quartic-varying_m_study.png Graphic
 Package luatex.def Info: ../arXiv-2306.16190v2/figures/GQ_fits_quartic-varying_
 m_study.png  used on input line 495.
 (luatex.def)             Requested size: 433.62pt x 337.2849pt.
- [81] [82<../arXiv-2306.16190v2/figures/GQ_fits_quartic-varying_m_study.png>]
-<../arXiv-2306.16190v2/figures/GQ_fits_multiple_potentials.png, id=2340, 1208.5
+ [80] [81<../arXiv-2306.16190v2/figures/GQ_fits_quartic-varying_m_study.png>]
+<../arXiv-2306.16190v2/figures/GQ_fits_multiple_potentials.png, id=2286, 1208.5
 15pt x 1896.08376pt>
 File: ../arXiv-2306.16190v2/figures/GQ_fits_multiple_potentials.png Graphic fil
 e (type png)
@@ -2334,18 +3497,18 @@ als.png  used on input line 510.
 (luatex.def)             Requested size: 338.22305pt x 530.63945pt.
 
 
-LaTeX Warning: Float too large for page by 30.69174pt on input line 513.
+LaTeX Warning: Float too large for page by 17.09174pt on input line 513.
 
-[83] [84]
+[82] [83]
 <../arXiv-2306.16190v2/figures/GQ_fits_quartic-Neinfl-vs-taumax_study.png, id=2
-367, 1237.62375pt x 1512.65125pt>
+314, 1237.62375pt x 1512.65125pt>
 File: ../arXiv-2306.16190v2/figures/GQ_fits_quartic-Neinfl-vs-taumax_study.png 
 Graphic file (type png)
 <use ../arXiv-2306.16190v2/figures/GQ_fits_quartic-Neinfl-vs-taumax_study.png>
 Package luatex.def Info: ../arXiv-2306.16190v2/figures/GQ_fits_quartic-Neinfl-v
 s-taumax_study.png  used on input line 526.
 (luatex.def)             Requested size: 390.25534pt x 476.97237pt.
- [85]
+ [84]
 Missing character: There is no 𝜏 (U+1D70F) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
 Missing character: There is no 𝜏 (U+1D70F) in font [XCharter-Roman.otf]:mode=
@@ -2362,7 +3525,7 @@ Missing character: There is no 𝜏 (U+1D70F) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
 Missing character: There is no 𝜏 (U+1D70F) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
-<../arXiv-2306.16190v2/figures/GQ_fits_quartic-MPs_study.png, id=2378, 325.215p
+<../arXiv-2306.16190v2/figures/GQ_fits_quartic-MPs_study.png, id=2325, 325.215p
 t x 252.945pt>
 File: ../arXiv-2306.16190v2/figures/GQ_fits_quartic-MPs_study.png Graphic file 
 (type png)
@@ -2370,8 +3533,8 @@ File: ../arXiv-2306.16190v2/figures/GQ_fits_quartic-MPs_study.png Graphic file
 Package luatex.def Info: ../arXiv-2306.16190v2/figures/GQ_fits_quartic-MPs_stud
 y.png  used on input line 544.
 (luatex.def)             Requested size: 433.62pt x 337.2849pt.
-[86] [87]
-<../arXiv-2306.16190v2/figures/DeltaR2_analytical_vs_numerical.png, id=2396, 32
+[85] [86]
+<../arXiv-2306.16190v2/figures/DeltaR2_analytical_vs_numerical.png, id=2343, 32
 5.215pt x 252.945pt>
 File: ../arXiv-2306.16190v2/figures/DeltaR2_analytical_vs_numerical.png Graphic
  file (type png)
@@ -2379,11 +3542,11 @@ File: ../arXiv-2306.16190v2/figures/DeltaR2_analytical_vs_numerical.png Graphic
 Package luatex.def Info: ../arXiv-2306.16190v2/figures/DeltaR2_analytical_vs_nu
 merical.png  used on input line 561.
 (luatex.def)             Requested size: 433.62pt x 337.2849pt.
- [88] [89] [90] [91<../arXiv-2306.16190v2/figures/GQ_fits_multiple_potentials.pn
-g>] [92<../arXiv-2306.16190v2/figures/GQ_fits_quartic-Neinfl-vs-taumax_study.png
->] [93<../arXiv-2306.16190v2/figures/GQ_fits_quartic-MPs_study.png>] [94<../arXi
+ [87] [88] [89] [90<../arXiv-2306.16190v2/figures/GQ_fits_multiple_potentials.pn
+g>] [91<../arXiv-2306.16190v2/figures/GQ_fits_quartic-Neinfl-vs-taumax_study.png
+>] [92<../arXiv-2306.16190v2/figures/GQ_fits_quartic-MPs_study.png>] [93<../arXi
 v-2306.16190v2/figures/DeltaR2_analytical_vs_numerical.png>]
-<../arXiv-2306.16190v2/figures/GQ_fits_monomial-parameters_study.png, id=2459, 
+<../arXiv-2306.16190v2/figures/GQ_fits_monomial-parameters_study.png, id=2405, 
 325.215pt x 252.945pt>
 File: ../arXiv-2306.16190v2/figures/GQ_fits_monomial-parameters_study.png Graph
 ic file (type png)
@@ -2391,40 +3554,38 @@ ic file (type png)
 Package luatex.def Info: ../arXiv-2306.16190v2/figures/GQ_fits_monomial-paramet
 ers_study.png  used on input line 584.
 (luatex.def)             Requested size: 433.62pt x 337.2849pt.
-LaTeX Font Info:    Font shape `TU/SourceCodePro-Regular(0)/b/n' will be
-(Font)              scaled to size 12.9599pt on input line 589.
 
-[95
+[94
 
 <../arXiv-2306.16190v2/figures/GQ_fits_monomial-parameters_study.png>])
-[96]
+[95]
 \openout2 = chapters/05-wi-eternal.aux
  (./chapters/05-wi-eternal.tex
 Chapter 5:
-[97
+[96
 
 
 
 
-] [98] [99] [100] [101] [102] [103] [104] [105] [106] [107] [108] [109]
-[110] [111] [112]) [113]
+] [97] [98] [99] [100] [101] [102] [103] [104] [105] [106] [107] [108]
+[109] [110] [111]) [112]
 \openout2 = chapters/06-wifi-dm.aux
  (./chapters/06-wifi-dm.tex
 Chapter 6:
-[114
+[113
 
 
 
 
-] [115]
-Overfull \hbox (10.56621pt too wide) in paragraph at lines 48--49
+] [114]
+Overfull \hbox (5.92586pt too wide) in paragraph at lines 48--49
 []\TU/XCharter(5)/m/n/12 Re-cast-ing Eq. [] in terms of the DM yield, $\TU/XCha
 rter-Math.otf(1)/m/n/12 𝑌[] ≡ 𝑛[]/𝑠$\TU/XCharter(5)/m/n/12 , with $\
 TU/XCharter-Math.otf(1)/m/n/12 𝑠 = (2𝜋[]/45)𝑔[](𝑇)𝑇[]$
  []
 
-[116] [117]
-<../arXiv-2401.17371v2/letter_figures/Background_dynamics_letter.pdf, id=2829, 
+[115] [116]
+<../arXiv-2401.17371v2/letter_figures/Background_dynamics_letter.pdf, id=2775, 
 220.6391pt x 132.17766pt>
 File: ../arXiv-2401.17371v2/letter_figures/Background_dynamics_letter.pdf Graph
 ic file (type pdf)
@@ -2432,8 +3593,8 @@ ic file (type pdf)
 Package luatex.def Info: ../arXiv-2401.17371v2/letter_figures/Background_dynami
 cs_letter.pdf  used on input line 112.
 (luatex.def)             Requested size: 303.53267pt x 181.84666pt.
- [118]
-<../arXiv-2401.17371v2/letter_figures/Yield_main_plot_letter_new.pdf, id=2839, 
+ [117]
+<../arXiv-2401.17371v2/letter_figures/Yield_main_plot_letter_new.pdf, id=2784, 
 354.4296pt x 131.44814pt>
 File: ../arXiv-2401.17371v2/letter_figures/Yield_main_plot_letter_new.pdf Graph
 ic file (type pdf)
@@ -2441,10 +3602,10 @@ ic file (type pdf)
 Package luatex.def Info: ../arXiv-2401.17371v2/letter_figures/Yield_main_plot_l
 etter_new.pdf  used on input line 129.
 (luatex.def)             Requested size: 433.62pt x 160.82779pt.
- [119<../arXiv-2401.17371v2/letter_figures/Background_dynamics_letter.pdf>] [12
-0<../arXiv-2401.17371v2/letter_figures/Yield_main_plot_letter_new.pdf>] [121]
+ [118<../arXiv-2401.17371v2/letter_figures/Background_dynamics_letter.pdf>] [11
+9<../arXiv-2401.17371v2/letter_figures/Yield_main_plot_letter_new.pdf>] [120]
 <../arXiv-2401.17371v2/letter_figures/Yield_Gain_semianalytic_vs_numerical_v3.p
-df, id=2928, 243.58197pt x 120.31865pt>
+df, id=2873, 243.58197pt x 120.31865pt>
 File: ../arXiv-2401.17371v2/letter_figures/Yield_Gain_semianalytic_vs_numerical
 _v3.pdf Graphic file (type pdf)
 <use ../arXiv-2401.17371v2/letter_figures/Yield_Gain_semianalytic_vs_numerical_
@@ -2452,9 +3613,9 @@ v3.pdf>
 Package luatex.def Info: ../arXiv-2401.17371v2/letter_figures/Yield_Gain_semian
 alytic_vs_numerical_v3.pdf  used on input line 159.
 (luatex.def)             Requested size: 346.89731pt x 171.36401pt.
- [122] [123<../arXiv-2401.17371v2/letter_figures/Yield_Gain_semianalytic_vs_nume
+ [121] [122<../arXiv-2401.17371v2/letter_figures/Yield_Gain_semianalytic_vs_nume
 rical_v3.pdf>]
-<../arXiv-2401.17371v2/letter_figures/Yield_vs_mchi-Lambda_v3.pdf, id=2997, 330
+<../arXiv-2401.17371v2/letter_figures/Yield_vs_mchi-Lambda_v3.pdf, id=2942, 330
 .52785pt x 184.90784pt>
 File: ../arXiv-2401.17371v2/letter_figures/Yield_vs_mchi-Lambda_v3.pdf Graphic 
 file (type pdf)
@@ -2462,47 +3623,38 @@ file (type pdf)
 Package luatex.def Info: ../arXiv-2401.17371v2/letter_figures/Yield_vs_mchi-Lam
 bda_v3.pdf  used on input line 183.
 (luatex.def)             Requested size: 433.62pt x 242.60065pt.
-) [124<../arXiv-2401.17371v2/letter_figures/Yield_vs_mchi-Lambda_v3.pdf>]
+) [123<../arXiv-2401.17371v2/letter_figures/Yield_vs_mchi-Lambda_v3.pdf>]
 \openout2 = chapters/07-thermal-gravitons.aux
  (./ch
 apters/07-thermal-gravitons.tex
 Chapter 7:
-[125
+[124
 
 
 
 
-]
-Underfull \hbox (badness 1603) in paragraph at lines 27--29
-[]\TU/XCharter(5)/m/n/12 Ex-ten-sive stud-ies have ex-plored the ir-re-ducible 
-stochas-tic GW back-ground
- []
-
-[126] [127] [128]
-Underfull \hbox (badness 1881) in paragraph at lines 55--57
-\TU/XCharter(5)/m/n/12 We con-sider two rep-re-sen-ta-tive sce-nar-ios char-ac-t
-er-ized by ini-tial dis-si-pa-tion
- []
-
-[129] [130] [131] [132] [133]
-<../arXiv-2507.08739v2/WIFI_GW_example1.pdf, id=3179, 200.96509pt x 252.14621pt
+] [125] [126] [127] [128] [129] [130] [131] [132]
+<../arXiv-2507.08739v2/WIFI_GW_example1.pdf, id=3124, 200.96509pt x 252.14621pt
 >
 File: ../arXiv-2507.08739v2/WIFI_GW_example1.pdf Graphic file (type pdf)
 <use ../arXiv-2507.08739v2/WIFI_GW_example1.pdf>
 Package luatex.def Info: ../arXiv-2507.08739v2/WIFI_GW_example1.pdf  used on in
 put line 139.
 (luatex.def)             Requested size: 260.17464pt x 326.47804pt.
- [134] [135<../arXiv-2507.08739v2/WIFI_GW_example1.pdf>] [136] [137] [138] [139
-]
-<../arXiv-2507.08739v2/OGW_vs_f_vF.pdf, id=3287, 201.63708pt x 132.38148pt>
+ [133]
+Overfull \vbox (24.77397pt too high) has occurred while \output is active []
+
+
+[134<../arXiv-2507.08739v2/WIFI_GW_example1.pdf>] [135] [136] [137]
+<../arXiv-2507.08739v2/OGW_vs_f_vF.pdf, id=3224, 201.63708pt x 132.38148pt>
 File: ../arXiv-2507.08739v2/OGW_vs_f_vF.pdf Graphic file (type pdf)
 <use ../arXiv-2507.08739v2/OGW_vs_f_vF.pdf>
 Package luatex.def Info: ../arXiv-2507.08739v2/OGW_vs_f_vF.pdf  used on input l
 ine 225.
 (luatex.def)             Requested size: 303.53267pt x 199.2888pt.
- [140<../arXiv-2507.08739v2/OGW_vs_f_vF.pdf>]
-[141]
-<../arXiv-2507.08739v2/RGW_table_plot_new.pdf, id=3343, 201.22108pt x 145.0902p
+ [138]
+[139<../arXiv-2507.08739v2/OGW_vs_f_vF.pdf>] [140]
+<../arXiv-2507.08739v2/RGW_table_plot_new.pdf, id=3288, 201.22108pt x 145.0902p
 t>
 File: ../arXiv-2507.08739v2/RGW_table_plot_new.pdf Graphic file (type pdf)
 <use ../arXiv-2507.08739v2/RGW_table_plot_new.pdf>
@@ -2513,40 +3665,38 @@ LaTeX Font Info:    Font shape `TU/XCharter(2)/m/n' will be
 (Font)              scaled to size 8.0pt on input line 248.
 LaTeX Font Info:    Font shape `TU/XCharter(2)/m/n' will be
 (Font)              scaled to size 6.0pt on input line 248.
- [142<../arXiv-2507.08739v2/RGW_table_plot_new.pdf>] [143] [144] [145]
-<../arXiv-2507.08739v2/dNeff_table_plot.pdf, id=3439, 200.25995pt x 145.3924pt>
+ [141] [142<../arXiv-2507.08739v2/RGW_table_plot_new.pdf>] [143] [144] [145]
+<../arXiv-2507.08739v2/dNeff_table_plot.pdf, id=3391, 200.25995pt x 145.3924pt>
 
 File: ../arXiv-2507.08739v2/dNeff_table_plot.pdf Graphic file (type pdf)
 <use ../arXiv-2507.08739v2/dNeff_table_plot.pdf>
 Package luatex.def Info: ../arXiv-2507.08739v2/dNeff_table_plot.pdf  used on in
 put line 296.
 (luatex.def)             Requested size: 303.53267pt x 220.37975pt.
-
-[146] [147<../arXiv-2507.08739v2/dNeff_table_plot.pdf>] [148] [149] [150]
-[151]
+ [146<../arXiv-2507.08739v2/dNeff_table_plot.pdf>] [147] [148] [149] [150]
 Missing character: There is no 𝜌 (U+1D70C) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
 Missing character: There is no 𝜌 (U+1D70C) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
-[152] [153]) [154] (./chapters/part1-conclusions.tex) [155
+[151] [152]) [153] (./chapters/part1-conclusions.tex) [154
 
 
 
-] [156
+] [155
 
 ]
-(./chapters/part2-introduction.tex) [157
+(./chapters/part2-introduction.tex) [156
 
 ]
 \openout2 = chapters/08-minimal-dm-freezein.aux
 
 (./chapters/08-minimal-dm-freezein.tex
 Chapter 8:
-[158
+[157
 
 
-] [159] [160] [161]
-<../arXiv-2405.06226v2/figures/Yield_vs_x_v1_mDM_30MeV.png, id=3665, 197.538pt 
+] [158] [159] [160]
+<../arXiv-2405.06226v2/figures/Yield_vs_x_v1_mDM_30MeV.png, id=3609, 197.538pt 
 x 128.0785pt>
 File: ../arXiv-2405.06226v2/figures/Yield_vs_x_v1_mDM_30MeV.png Graphic file (t
 ype png)
@@ -2554,8 +3704,8 @@ ype png)
 Package luatex.def Info: ../arXiv-2405.06226v2/figures/Yield_vs_x_v1_mDM_30MeV.
 png  used on input line 69.
 (luatex.def)             Requested size: 303.53267pt x 196.80762pt.
- [162<../arXiv-2405.06226v2/figures/Yield_vs_x_v1_mDM_30MeV.png>]
-<../arXiv-2405.06226v2/figures/sigmaDDes_limit_plot_vG.png, id=3682, 198.0198pt
+ [161<../arXiv-2405.06226v2/figures/Yield_vs_x_v1_mDM_30MeV.png>]
+<../arXiv-2405.06226v2/figures/sigmaDDes_limit_plot_vG.png, id=3626, 198.0198pt
  x 154.8987pt>
 File: ../arXiv-2405.06226v2/figures/sigmaDDes_limit_plot_vG.png Graphic file (t
 ype png)
@@ -2563,7 +3713,7 @@ ype png)
 Package luatex.def Info: ../arXiv-2405.06226v2/figures/sigmaDDes_limit_plot_vG.
 png  used on input line 86.
 (luatex.def)             Requested size: 303.53267pt x 237.45746pt.
-<../arXiv-2405.06226v2/figures/kappa_limit_plot.png, id=3698, 196.5744pt x 152.
+<../arXiv-2405.06226v2/figures/kappa_limit_plot.png, id=3642, 196.5744pt x 152.
 7306pt>
 File: ../arXiv-2405.06226v2/figures/kappa_limit_plot.png Graphic file (type png
 )
@@ -2571,18 +3721,18 @@ File: ../arXiv-2405.06226v2/figures/kappa_limit_plot.png Graphic file (type png
 Package luatex.def Info: ../arXiv-2405.06226v2/figures/kappa_limit_plot.png  us
 ed on input line 99.
 (luatex.def)             Requested size: 303.53267pt x 235.84439pt.
- [163] [164<../arXiv-2405.06226v2/figures/sigmaDDes_limit_plot_vG.png>] [165<../
-arXiv-2405.06226v2/figures/kappa_limit_plot.png>]) [166]
+ [162] [163<../arXiv-2405.06226v2/figures/sigmaDDes_limit_plot_vG.png>] [164<../
+arXiv-2405.06226v2/figures/kappa_limit_plot.png>]) [165]
 \openout2 = chapters/09-cmb-leptophilic-dm.aux
 
 (./chapters/09-cmb-leptophilic-dm.tex
 Chapter 9:
-[167
+[166
 
 
 
 
-] [168] [169] [170] [171]
+] [167] [168] [169] [170]
 Missing character: There is no 𝛾 (U+1D6FE) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
 Missing character: There is no 𝛾 (U+1D6FE) in font [XCharter-Roman.otf]:mode=
@@ -2601,10 +3751,8 @@ Missing character: There is no 𝛾 (U+1D6FE) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
 Missing character: There is no 𝛾 (U+1D6FE) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
-[172]
-LaTeX Font Info:    Font shape `TU/SourceCodePro-Regular(0)/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 184.
-<../arXiv-2503.00110v2/main_figures/fs_cosmo_change_mDM10keV_v3.pdf, id=3869, 1
+[171]
+<../arXiv-2503.00110v2/main_figures/fs_cosmo_change_mDM10keV_v3.pdf, id=3816, 1
 93.42052pt x 192.40727pt>
 File: ../arXiv-2503.00110v2/main_figures/fs_cosmo_change_mDM10keV_v3.pdf Graphi
 c file (type pdf)
@@ -2612,15 +3760,8 @@ c file (type pdf)
 Package luatex.def Info: ../arXiv-2503.00110v2/main_figures/fs_cosmo_change_mDM
 10keV_v3.pdf  used on input line 188.
 (luatex.def)             Requested size: 303.53267pt x 301.96265pt.
- [173] [174<../arXiv-2503.00110v2/main_figures/fs_cosmo_change_mDM10keV_v3.pdf>]
-Overfull \hbox (2.94165pt too wide) in paragraph at lines 213--214
-[]\TU/XCharter(5)/m/n/12 Re-gard-ing as-pect \TU/XCharter(2)/m/it/12 (i)\TU/XCh
-arter(5)/m/n/12 , as we dis-cuss in Sec. [][]9.3[][], pre-vi-ous stud-ies us-ing
- \TU/SourceCodePro-Regular(0)/m/n/12 DarkHistory
- []
-
-[175]
-<../arXiv-2503.00110v2/main_figures/CLs_DM_decay_v1.pdf, id=3938, 401.80896pt x
+ [172] [173<../arXiv-2503.00110v2/main_figures/fs_cosmo_change_mDM10keV_v3.pdf>] [174]
+<../arXiv-2503.00110v2/main_figures/CLs_DM_decay_v1.pdf, id=3882, 401.80896pt x
  132.38873pt>
 File: ../arXiv-2503.00110v2/main_figures/CLs_DM_decay_v1.pdf Graphic file (type
  pdf)
@@ -2629,20 +3770,13 @@ Package luatex.def Info: ../arXiv-2503.00110v2/main_figures/CLs_DM_decay_v1.pdf
   used on input line 236.
 (luatex.def)             Requested size: 433.62pt x 142.8787pt.
 
-Underfull \hbox (badness 2134) in paragraph at lines 242--245
+Underfull \hbox (badness 1231) in paragraph at lines 242--245
 []\TU/XCharter(5)/m/n/12 For each dataset, we sam-ple the fol-low-ing cos-mo-log
 -i-cal pa-ram-e-ters with
  []
 
-[176]
-Overfull \hbox (8.54282pt too wide) in paragraph at lines 246--249
-[]\TU/XCharter(5)/m/n/12 We in-ter-face \TU/SourceCodePro-Regular(0)/m/n/12 CLAS
-S v3.2.5 \TU/XCharter(5)/m/n/12 with the pub-licly avail-able sam-pler \TU/Sour
-ceCodePro-Regular(0)/m/n/12 MontePython \TU/XCharter(5)/m/n/12 [[],
- []
-
-[177<../arXiv-2503.00110v2/main_figures/CLs_DM_decay_v1.pdf>] [178]
-<../arXiv-2503.00110v2/main_figures/scalar_summary_bounds_plot_v0.pdf, id=4022,
+[175] [176<../arXiv-2503.00110v2/main_figures/CLs_DM_decay_v1.pdf>] [177]
+<../arXiv-2503.00110v2/main_figures/scalar_summary_bounds_plot_v0.pdf, id=3965,
  199.47624pt x 147.55385pt>
 File: ../arXiv-2503.00110v2/main_figures/scalar_summary_bounds_plot_v0.pdf Grap
 hic file (type pdf)
@@ -2650,9 +3784,10 @@ hic file (type pdf)
 Package luatex.def Info: ../arXiv-2503.00110v2/main_figures/scalar_summary_boun
 ds_plot_v0.pdf  used on input line 300.
 (luatex.def)             Requested size: 303.53267pt x 224.53183pt.
- [179]
+
+[178]
 <../arXiv-2503.00110v2/main_figures/pseudoscalar_summary_bounds_plot_v0.pdf, id
-=4051, 199.47624pt x 145.2969pt>
+=3997, 199.47624pt x 145.2969pt>
 File: ../arXiv-2503.00110v2/main_figures/pseudoscalar_summary_bounds_plot_v0.pd
 f Graphic file (type pdf)
 <use ../arXiv-2503.00110v2/main_figures/pseudoscalar_summary_bounds_plot_v0.pdf
@@ -2660,11 +3795,8 @@ f Graphic file (type pdf)
 Package luatex.def Info: ../arXiv-2503.00110v2/main_figures/pseudoscalar_summar
 y_bounds_plot_v0.pdf  used on input line 315.
 (luatex.def)             Requested size: 303.53267pt x 221.09744pt.
-
-[180<../arXiv-2503.00110v2/main_figures/scalar_summary_bounds_plot_v0.pdf>]
-[181<../arXiv-2503.00110v2/main_figures/pseudoscalar_summary_bounds_plot_v0.pdf>
-]
-<../arXiv-2503.00110v2/main_figures/axion_summary_bounds_plot_v0.pdf, id=4175, 
+ [179<../arXiv-2503.00110v2/main_figures/scalar_summary_bounds_plot_v0.pdf>]
+<../arXiv-2503.00110v2/main_figures/axion_summary_bounds_plot_v0.pdf, id=4076, 
 199.47624pt x 147.55385pt>
 File: ../arXiv-2503.00110v2/main_figures/axion_summary_bounds_plot_v0.pdf Graph
 ic file (type pdf)
@@ -2672,9 +3804,10 @@ ic file (type pdf)
 Package luatex.def Info: ../arXiv-2503.00110v2/main_figures/axion_summary_bound
 s_plot_v0.pdf  used on input line 333.
 (luatex.def)             Requested size: 303.53267pt x 224.53183pt.
- [182<../arXiv-2503.00110v2/main_figures/axion_summary_bounds_plot_v0.pdf>]
-[183]
-<../arXiv-2503.00110v2/main_figures/fs_cosmo_change_mDMs_v0.pdf, id=4259, 351.0
+ [180<../arXiv-2503.00110v2/main_figures/pseudoscalar_summary_bounds_plot_v0.pdf
+>] [181<../arXiv-2503.00110v2/main_figures/axion_summary_bounds_plot_v0.pdf>] [
+182]
+<../arXiv-2503.00110v2/main_figures/fs_cosmo_change_mDMs_v0.pdf, id=4204, 351.0
 1137pt x 360.13129pt>
 File: ../arXiv-2503.00110v2/main_figures/fs_cosmo_change_mDMs_v0.pdf Graphic fi
 le (type pdf)
@@ -2686,8 +3819,8 @@ s_v0.pdf  used on input line 378.
 
 LaTeX Warning: Float too large for page by 14.20367pt on input line 381.
 
-[184]
-<../arXiv-2503.00110v2/main_figures/triangle_plot_mDM1e3.pdf, id=4272, 378.4347
+[183]
+<../arXiv-2503.00110v2/main_figures/triangle_plot_mDM1e3.pdf, id=4217, 378.4347
 4pt x 357.2385pt>
 File: ../arXiv-2503.00110v2/main_figures/triangle_plot_mDM1e3.pdf Graphic file 
 (type pdf)
@@ -2695,9 +3828,9 @@ File: ../arXiv-2503.00110v2/main_figures/triangle_plot_mDM1e3.pdf Graphic file
 Package luatex.def Info: ../arXiv-2503.00110v2/main_figures/triangle_plot_mDM1e
 3.pdf  used on input line 398.
 (luatex.def)             Requested size: 411.93767pt x 388.89163pt.
- [185]
+ [184]
 <../arXiv-2503.00110v2/main_figures/triangle_plot_PR4_FC_vs_PR3_CC_small.pdf, i
-d=4283, 435.32957pt x 206.30536pt>
+d=4228, 435.32957pt x 206.30536pt>
 File: ../arXiv-2503.00110v2/main_figures/triangle_plot_PR4_FC_vs_PR3_CC_small.p
 df Graphic file (type pdf)
 <use ../arXiv-2503.00110v2/main_figures/triangle_plot_PR4_FC_vs_PR3_CC_small.pd
@@ -2705,31 +3838,31 @@ f>
 Package luatex.def Info: ../arXiv-2503.00110v2/main_figures/triangle_plot_PR4_F
 C_vs_PR3_CC_small.pdf  used on input line 411.
 (luatex.def)             Requested size: 411.93767pt x 195.22401pt.
-) [186] [187<../arXiv-2503.00110v2/main_figures/fs_cosmo_change_mDMs_v0.pdf>] [
-188<../arXiv-2503.00110v2/main_figures/triangle_plot_mDM1e3.pdf>]
-[189<../arXiv-2503.00110v2/main_figures/triangle_plot_PR4_FC_vs_PR3_CC_small.pdf
+) [185] [186<../arXiv-2503.00110v2/main_figures/fs_cosmo_change_mDMs_v0.pdf>] [
+187<../arXiv-2503.00110v2/main_figures/triangle_plot_mDM1e3.pdf>]
+[188<../arXiv-2503.00110v2/main_figures/triangle_plot_PR4_FC_vs_PR3_CC_small.pdf
 >]
 \openout2 = chapters/10-pbh-memory-burden.aux
  (./chapters/10-pbh-memory-burden.tex
 Chapter 10:
-[190
+[189
 
 
 
 
-] [191] [192]
-<../arXiv-2503.21005v1/letter_figures/dMdt_SC_vs_smoothMB_letter_v1.pdf, id=446
-9, 199.16176pt x 154.40698pt>
+] [190] [191]
+<../arXiv-2503.21005v1/letter_figures/dMdt_SC_vs_smoothMB_letter_v1.pdf, id=441
+6, 199.16176pt x 154.40698pt>
 File: ../arXiv-2503.21005v1/letter_figures/dMdt_SC_vs_smoothMB_letter_v1.pdf Gr
 aphic file (type pdf)
 <use ../arXiv-2503.21005v1/letter_figures/dMdt_SC_vs_smoothMB_letter_v1.pdf>
 Package luatex.def Info: ../arXiv-2503.21005v1/letter_figures/dMdt_SC_vs_smooth
 MB_letter_v1.pdf  used on input line 122.
 (luatex.def)             Requested size: 303.53267pt x 235.32776pt.
- [193] [194<../arXiv-2503.21005v1/letter_figures/dMdt_SC_vs_smoothMB_letter_v1.p
+ [192] [193<../arXiv-2503.21005v1/letter_figures/dMdt_SC_vs_smoothMB_letter_v1.p
 df>]
-<../arXiv-2503.21005v1/letter_figures/tdEdt_SC_vs_smoothMB_letter_v1.pdf, id=45
-32, 185.93004pt x 154.40698pt>
+<../arXiv-2503.21005v1/letter_figures/tdEdt_SC_vs_smoothMB_letter_v1.pdf, id=44
+81, 185.93004pt x 154.40698pt>
 File: ../arXiv-2503.21005v1/letter_figures/tdEdt_SC_vs_smoothMB_letter_v1.pdf G
 raphic file (type pdf)
 <use ../arXiv-2503.21005v1/letter_figures/tdEdt_SC_vs_smoothMB_letter_v1.pdf>
@@ -2737,7 +3870,7 @@ Package luatex.def Info: ../arXiv-2503.21005v1/letter_figures/tdEdt_SC_vs_smoot
 hMB_letter_v1.pdf  used on input line 142.
 (luatex.def)             Requested size: 303.53267pt x 252.10052pt.
 <../arXiv-2503.21005v1/letter_figures/fXfEM_combined_constraints_k2_v1.pdf, id=
-4546, 194.02248pt x 156.66393pt>
+4496, 194.02248pt x 156.66393pt>
 File: ../arXiv-2503.21005v1/letter_figures/fXfEM_combined_constraints_k2_v1.pdf
  Graphic file (type pdf)
 <use ../arXiv-2503.21005v1/letter_figures/fXfEM_combined_constraints_k2_v1.pdf>
@@ -2745,97 +3878,211 @@ File: ../arXiv-2503.21005v1/letter_figures/fXfEM_combined_constraints_k2_v1.pdf
 Package luatex.def Info: ../arXiv-2503.21005v1/letter_figures/fXfEM_combined_co
 nstraints_k2_v1.pdf  used on input line 153.
 (luatex.def)             Requested size: 303.53267pt x 245.11426pt.
- [195] [196<../arXiv-2503.21005v1/letter_figures/tdEdt_SC_vs_smoothMB_letter_v1.
-pdf>] [197<../arXiv-2503.21005v1/letter_figures/fXfEM_combined_constraints_k2_v1
-.pdf>] [198] [199]
+ [194] [195<../arXiv-2503.21005v1/letter_figures/tdEdt_SC_vs_smoothMB_letter_v1.
+pdf>] [196<../arXiv-2503.21005v1/letter_figures/fXfEM_combined_constraints_k2_v1
+.pdf>] [197] [198]
 LaTeX Font Info:    Font shape `TU/XCharter-Math.otf(1)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 197.
+(Font)              scaled to size 14.4pt on input line 199.
+Package microtype Info: Character `textquoteleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(1)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/XCharter(1)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 197.
+(Font)              scaled to size 14.4pt on input line 199.
 LaTeX Font Info:    Font shape `TU/XCharter-Math.otf(2)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 197.
+(Font)              scaled to size 14.4pt on input line 199.
+Package microtype Info: Character `textquoteleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(2)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/XCharter-Math.otf(3)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 197.
+(Font)              scaled to size 14.4pt on input line 199.
+Package microtype Info: Character `textquoteleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `TU/XCharter-Math.otf(3)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/XCharter(1)/b/n' will be
-(Font)              scaled to size 14.4pt on input line 197.
+(Font)              scaled to size 14.4pt on input line 199.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
+(Font)              scaled to size 14.14687pt on input line 199.
 <../arXiv-2503.21005v1/letter_figures/fXfEM_combined_constraints_varying_delta_
-v1.pdf, id=4691, 377.7921pt x 253.87956pt>
+v1.pdf, id=4641, 377.7921pt x 253.87956pt>
 File: ../arXiv-2503.21005v1/letter_figures/fXfEM_combined_constraints_varying_d
 elta_v1.pdf Graphic file (type pdf)
 <use ../arXiv-2503.21005v1/letter_figures/fXfEM_combined_constraints_varying_de
 lta_v1.pdf>
 Package luatex.def Info: ../arXiv-2503.21005v1/letter_figures/fXfEM_combined_co
-nstraints_varying_delta_v1.pdf  used on input line 204.
+nstraints_varying_delta_v1.pdf  used on input line 206.
 (luatex.def)             Requested size: 433.62pt x 291.40138pt.
 <../arXiv-2503.21005v1/letter_figures/fXfEM_combined_constraints_varying_k_v1.p
-df, id=4694, 194.02248pt x 156.66393pt>
+df, id=4644, 194.02248pt x 156.66393pt>
 File: ../arXiv-2503.21005v1/letter_figures/fXfEM_combined_constraints_varying_k
 _v1.pdf Graphic file (type pdf)
 <use ../arXiv-2503.21005v1/letter_figures/fXfEM_combined_constraints_varying_k_
 v1.pdf>
 Package luatex.def Info: ../arXiv-2503.21005v1/letter_figures/fXfEM_combined_co
-nstraints_varying_k_v1.pdf  used on input line 214.
+nstraints_varying_k_v1.pdf  used on input line 216.
 (luatex.def)             Requested size: 303.53267pt x 245.11426pt.
- [200] [201<../arXiv-2503.21005v1/letter_figures/fXfEM_combined_constraints_vary
-ing_delta_v1.pdf>] [202<../arXiv-2503.21005v1/letter_figures/fXfEM_combined_cons
-traints_varying_k_v1.pdf>]
+ [199] [200<../arXiv-2503.21005v1/letter_figures/fXfEM_combined_constraints_vary
+ing_delta_v1.pdf>]
 <../arXiv-2503.21005v1/letter_figures/fXfEM_combined_constraints_varying_1mq_v1
-.pdf, id=4778, 377.44208pt x 252.87956pt>
+.pdf, id=4691, 377.44208pt x 252.87956pt>
 File: ../arXiv-2503.21005v1/letter_figures/fXfEM_combined_constraints_varying_1
 mq_v1.pdf Graphic file (type pdf)
 <use ../arXiv-2503.21005v1/letter_figures/fXfEM_combined_constraints_varying_1m
 q_v1.pdf>
 Package luatex.def Info: ../arXiv-2503.21005v1/letter_figures/fXfEM_combined_co
-nstraints_varying_1mq_v1.pdf  used on input line 230.
+nstraints_varying_1mq_v1.pdf  used on input line 232.
 (luatex.def)             Requested size: 433.62pt x 290.51984pt.
-)
-[203<../arXiv-2503.21005v1/letter_figures/fXfEM_combined_constraints_varying_1mq
+ [201<../arXiv-2503.21005v1/letter_figures/fXfEM_combined_constraints_varying_k_
+v1.pdf>])
+[202<../arXiv-2503.21005v1/letter_figures/fXfEM_combined_constraints_varying_1mq
 _v1.pdf>]
 \openout2 = chapters/11-desi-dark-energy.aux
  (./chapters/11-desi-dark-energy.tex
 Chapter 11:
-[204
+[203
 
 
 
 
-] [205]
-<../arXiv-2509.13318v1/fig0_v0.pdf, id=4871, 253.56273pt x 205.51103pt>
+] [204]
+<../arXiv-2509.13318v1/fig0_v0.pdf, id=4823, 253.56273pt x 205.51103pt>
 File: ../arXiv-2509.13318v1/fig0_v0.pdf Graphic file (type pdf)
 <use ../arXiv-2509.13318v1/fig0_v0.pdf>
 Package luatex.def Info: ../arXiv-2509.13318v1/fig0_v0.pdf  used on input line 
 41.
 (luatex.def)             Requested size: 303.53267pt x 246.04126pt.
- [206] [207<../arXiv-2509.13318v1/fig0_v0.pdf>] [208] [209] [210]
-[211] [212]
-<../arXiv-2509.13318v1/hilltop_example_fit.pdf, id=5024, 257.75146pt x 186.6734
+ [205<../arXiv-2509.13318v1/fig0_v0.pdf>] [206] [207] [208] [209]
+[210] [211]
+<../arXiv-2509.13318v1/hilltop_example_fit.pdf, id=4977, 257.75146pt x 186.6734
 8pt>
 File: ../arXiv-2509.13318v1/hilltop_example_fit.pdf Graphic file (type pdf)
 <use ../arXiv-2509.13318v1/hilltop_example_fit.pdf>
 Package luatex.def Info: ../arXiv-2509.13318v1/hilltop_example_fit.pdf  used on
  input line 136.
 (luatex.def)             Requested size: 303.53267pt x 219.82841pt.
- [213] [214<../arXiv-2509.13318v1/hilltop_example_fit.pdf>]
-<../arXiv-2509.13318v1/fig_1_v0.pdf, id=5104, 493.31775pt x 276.6206pt>
+ [212] [213<../arXiv-2509.13318v1/hilltop_example_fit.pdf>]
+<../arXiv-2509.13318v1/fig_1_v0.pdf, id=5054, 493.31775pt x 276.6206pt>
 File: ../arXiv-2509.13318v1/fig_1_v0.pdf Graphic file (type pdf)
 <use ../arXiv-2509.13318v1/fig_1_v0.pdf>
 Package luatex.def Info: ../arXiv-2509.13318v1/fig_1_v0.pdf  used on input line
  152.
 (luatex.def)             Requested size: 411.93767pt x 230.98793pt.
-
-Underfull \hbox (badness 1205) in paragraph at lines 153--153
-[]\TU/XCharter(2)/b/n/10.95 Fig-ure 11.3: |\TU/XCharter(2)/m/n/10.95 Theory-info
-rmed prior dis-tri-bu-tions for the hill-top quintessence model,
- []
-
-[215] [216<../arXiv-2509.13318v1/fig_1_v0.pdf>] [217] [218]
-<../arXiv-2509.13318v1/fig3_v0.pdf, id=5187, 477.59972pt x 166.99167pt>
+ [214]
+[215<../arXiv-2509.13318v1/fig_1_v0.pdf>] [216] [217]
+<../arXiv-2509.13318v1/fig3_v0.pdf, id=5137, 477.59972pt x 166.99167pt>
 File: ../arXiv-2509.13318v1/fig3_v0.pdf Graphic file (type pdf)
 <use ../arXiv-2509.13318v1/fig3_v0.pdf>
 Package luatex.def Info: ../arXiv-2509.13318v1/fig3_v0.pdf  used on input line 
 186.
 (luatex.def)             Requested size: 433.62pt x 151.61356pt.
- [219] [220<../arXiv-2509.13318v1/fig3_v0.pdf>]
+ [218<../arXiv-2509.13318v1/fig3_v0.pdf>] [219]
 LaTeX Font Info:    Font shape `TU/XCharter(2)/b/n' will be
 (Font)              scaled to size 10.0pt on input line 210.
 
@@ -2853,22 +4100,26 @@ Underfull \hbox (badness 10000) in alignment at lines 254--254
 [][][][][]
  []
 
-[221] [222] [223] [224] [225] [226] [227]
-<../arXiv-2509.13318v1/fig_App4_v0.pdf, id=5358, 254.2278pt x 205.51103pt>
+[220] [221] [222] [223] [224] [225]
+<../arXiv-2509.13318v1/fig_App4_v0.pdf, id=5304, 254.2278pt x 205.51103pt>
 File: ../arXiv-2509.13318v1/fig_App4_v0.pdf Graphic file (type pdf)
 <use ../arXiv-2509.13318v1/fig_App4_v0.pdf>
 Package luatex.def Info: ../arXiv-2509.13318v1/fig_App4_v0.pdf  used on input l
 ine 343.
 (luatex.def)             Requested size: 303.53267pt x 245.37332pt.
- [228<../arXiv-2509.13318v1/fig_App4_v0.pdf>]
-Overfull \hbox (31.8763pt too wide) in paragraph at lines 353--355
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[226] [227<../arXiv-2509.13318v1/fig_App4_v0.pdf>]
+Overfull \hbox (23.45462pt too wide) in paragraph at lines 353--355
 \TU/XCharter(5)/m/n/12 us-ing the Adam op-ti-mizer [[]] with a learn-ing rate of
- $\TU/XCharter-Math.otf(1)/m/n/12 3 × 10[]$ \TU/XCharter(5)/m/n/12 and a \TU/S
-ourceCodePro-Regular(0)/m/n/12 ReduceLROnPlateau
+ $\TU/XCharter-Math.otf(1)/m/n/12 3 × 10[]$ \TU/XCharter(5)/m/n/12 and a \TU/l
+mmono10-regular.otf(0)/b/n/12 ReduceLROnPlateau
  []
 
-[229]
-<../arXiv-2509.13318v1/exponential_example_fit.pdf, id=5402, 257.75146pt x 186.
+[228]
+<../arXiv-2509.13318v1/exponential_example_fit.pdf, id=5354, 257.75146pt x 186.
 67348pt>
 File: ../arXiv-2509.13318v1/exponential_example_fit.pdf Graphic file (type pdf)
 
@@ -2876,15 +4127,15 @@ File: ../arXiv-2509.13318v1/exponential_example_fit.pdf Graphic file (type pdf)
 Package luatex.def Info: ../arXiv-2509.13318v1/exponential_example_fit.pdf  use
 d on input line 361.
 (luatex.def)             Requested size: 303.53267pt x 219.82841pt.
-<../arXiv-2509.13318v1/fig_App1_v0.pdf, id=5407, 493.31775pt x 284.95683pt>
+<../arXiv-2509.13318v1/fig_App1_v0.pdf, id=5359, 493.31775pt x 284.95683pt>
 File: ../arXiv-2509.13318v1/fig_App1_v0.pdf Graphic file (type pdf)
 <use ../arXiv-2509.13318v1/fig_App1_v0.pdf>
 Package luatex.def Info: ../arXiv-2509.13318v1/fig_App1_v0.pdf  used on input l
 ine 367.
 (luatex.def)             Requested size: 411.93767pt x 237.94897pt.
- [230
+ [229
 
-<../arXiv-2509.13318v1/exponential_example_fit.pdf>] [231<../arXiv-2509.13318v1/
+<../arXiv-2509.13318v1/exponential_example_fit.pdf>] [230<../arXiv-2509.13318v1/
 fig_App1_v0.pdf>]
 LaTeX Font Info:    Font shape `TU/XCharter(2)/b/n' will be
 (Font)              scaled to size 8.0pt on input line 378.
@@ -2903,33 +4154,33 @@ Underfull \hbox (badness 10000) in alignment at lines 442--442
 [][][][][]
  []
 
-) [232
+) [231
 
-] (./chapters/part2-conclusions.tex) [233
+] (./chapters/part2-conclusions.tex) [232
 
 
 
-] [234
+] [233
 
 ]
-(./chapters/part3-introduction.tex) [235
+(./chapters/part3-introduction.tex) [234
 
 ]
 \openout2 = chapters/12-neutrino-phase-shift.aux
 
 (./chapters/12-neutrino-phase-shift.tex
 Chapter 12:
-[236
+[235
 
 
 ]
-Overfull \hbox (13.35698pt too wide) in paragraph at lines 36--37
+Underfull \hbox (badness 1418) in paragraph at lines 36--37
 []\TU/XCharter(5)/m/n/12 In ad-di-tion to pho-tons and neu-tri-nos, any par-ti-c
-le be-yond the Stan-dard Model (BSM)
+le be-yond the Stan-dard
  []
 
-[237]
-<../arXiv-2501.13788v2/figures/1_phase-shift.pdf, id=5559, 455.7025pt x 277.035
+[236]
+<../arXiv-2501.13788v2/figures/1_phase-shift.pdf, id=5511, 455.7025pt x 277.035
 pt>
 File: ../arXiv-2501.13788v2/figures/1_phase-shift.pdf Graphic file (type pdf)
 <use ../arXiv-2501.13788v2/figures/1_phase-shift.pdf>
@@ -2941,9 +4192,9 @@ Overfull \hbox (22.08138pt too wide) in paragraph at lines 49--50
  [][] 
  []
 
-[238] [239<../arXiv-2501.13788v2/figures/1_phase-shift.pdf>] [240] [241]
-[242] [243]
-<../arXiv-2501.13788v2/figures/phase-shift_ee.pdf, id=5706, 452.69125pt x 279.0
+[237] [238<../arXiv-2501.13788v2/figures/1_phase-shift.pdf>] [239] [240]
+[241] [242]
+<../arXiv-2501.13788v2/figures/phase-shift_ee.pdf, id=5658, 452.69125pt x 279.0
 425pt>
 File: ../arXiv-2501.13788v2/figures/phase-shift_ee.pdf Graphic file (type pdf)
 <use ../arXiv-2501.13788v2/figures/phase-shift_ee.pdf>
@@ -2955,7 +4206,7 @@ Overfull \hbox (19.07014pt too wide) in paragraph at lines 94--95
  [][] 
  []
 
-<../arXiv-2501.13788v2/figures/phase-shift_te.pdf, id=5720, 452.69125pt x 279.0
+<../arXiv-2501.13788v2/figures/phase-shift_te.pdf, id=5672, 452.69125pt x 279.0
 425pt>
 File: ../arXiv-2501.13788v2/figures/phase-shift_te.pdf Graphic file (type pdf)
 <use ../arXiv-2501.13788v2/figures/phase-shift_te.pdf>
@@ -2967,26 +4218,19 @@ Overfull \hbox (19.07014pt too wide) in paragraph at lines 101--102
  [][] 
  []
 
-
-Underfull \hbox (badness 1102) in paragraph at lines 102--102
-[]\TU/XCharter(2)/b/n/10.95 Fig-ure 12.3: |\TU/XCharter(2)/m/n/10.95 Same as Fig
-. [][]12.2[][] for the lensed CMB temperature-polarization cross-
- []
-
 LaTeX Font Info:    Font shape `TU/XCharter(4)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 113.
-[244] [245<../arXiv-2501.13788v2/figures/phase-shift_ee.pdf>] [246<../arXiv-2501
-.13788v2/figures/phase-shift_te.pdf>] [247] [248]
-<../arXiv-2501.13788v2/figures/2_sbt_template.pdf, id=5859, 320.19624pt x 203.7
+[243] [244<../arXiv-2501.13788v2/figures/phase-shift_ee.pdf>] [245<../arXiv-2501
+.13788v2/figures/phase-shift_te.pdf>] [246] [247]
+<../arXiv-2501.13788v2/figures/2_sbt_template.pdf, id=5811, 320.19624pt x 203.7
 6125pt>
 File: ../arXiv-2501.13788v2/figures/2_sbt_template.pdf Graphic file (type pdf)
 <use ../arXiv-2501.13788v2/figures/2_sbt_template.pdf>
 Package luatex.def Info: ../arXiv-2501.13788v2/figures/2_sbt_template.pdf  used
  on input line 162.
 (luatex.def)             Requested size: 320.19545pt x 203.76074pt.
- [249] [250<../arXiv-2501.13788v2/figures/2_sbt_template.pdf>] [251] [252] [253
-]
-<../arXiv-2501.13788v2/figures/phase-shift_perturbations.pdf, id=5953, 454.6987
+ [248] [249<../arXiv-2501.13788v2/figures/2_sbt_template.pdf>] [250] [251]
+<../arXiv-2501.13788v2/figures/phase-shift_perturbations.pdf, id=5899, 454.6987
 5pt x 279.0425pt>
 File: ../arXiv-2501.13788v2/figures/phase-shift_perturbations.pdf Graphic file 
 (type pdf)
@@ -2999,24 +4243,18 @@ Overfull \hbox (21.07764pt too wide) in paragraph at lines 203--204
  [][] 
  []
 
-[254] [255<../arXiv-2501.13788v2/figures/phase-shift_perturbations.pdf>]
-<../arXiv-2501.13788v2/figures/pbt_template.pdf, id=6011, 354.32375pt x 204.765
+[252]
+<../arXiv-2501.13788v2/figures/pbt_template.pdf, id=5916, 354.32375pt x 204.765
 pt>
 File: ../arXiv-2501.13788v2/figures/pbt_template.pdf Graphic file (type pdf)
 <use ../arXiv-2501.13788v2/figures/pbt_template.pdf>
 Package luatex.def Info: ../arXiv-2501.13788v2/figures/pbt_template.pdf  used o
 n input line 220.
 (luatex.def)             Requested size: 354.32288pt x 204.76448pt.
-
-[256] [257<../arXiv-2501.13788v2/figures/pbt_template.pdf>] [258] [259]
-[260]
-Underfull \hbox (badness 1231) in paragraph at lines 284--285
-[]\TU/XCharter(5)/m/n/12 We con-sid-ered three mock datasets, each gen-er-ated 
-based on the fidu-cial
- []
-
-[261]
-<../arXiv-2501.13788v2/figures/sbt-pbt_validation.pdf, id=6129, 458.71375pt x 1
+ [253] [254<../arXiv-2501.13788v2/figures/phase-shift_perturbations.pdf>]
+[255<../arXiv-2501.13788v2/figures/pbt_template.pdf>] [256] [257] [258]
+[259]
+<../arXiv-2501.13788v2/figures/sbt-pbt_validation.pdf, id=6072, 458.71375pt x 1
 74.6525pt>
 File: ../arXiv-2501.13788v2/figures/sbt-pbt_validation.pdf Graphic file (type p
 df)
@@ -3029,16 +4267,9 @@ Overfull \hbox (25.09264pt too wide) in paragraph at lines 291--292
  [][] 
  []
 
-
-Underfull \hbox (badness 1137) in paragraph at lines 288--296
-[]\TU/XCharter(5)/m/n/12 We dis-play the re-sult-ing one-dimensional pos-te-rior
- dis-tri-bu-tions [][][][][] for $\TU/XCharter-Math.otf(1)/m/n/12 𝑁[]$\TU/XC
-harter(5)/m/n/12 ,
- []
-
-[262] [263<../arXiv-2501.13788v2/figures/sbt-pbt_validation.pdf>] [264]
-[265]
-<../arXiv-2501.13788v2/figures/sbt_neff.pdf, id=6215, 456.70625pt x 163.61125pt
+[260] [261<../arXiv-2501.13788v2/figures/sbt-pbt_validation.pdf>] [262]
+[263] [264]
+<../arXiv-2501.13788v2/figures/sbt_neff.pdf, id=6172, 456.70625pt x 163.61125pt
 >
 File: ../arXiv-2501.13788v2/figures/sbt_neff.pdf Graphic file (type pdf)
 <use ../arXiv-2501.13788v2/figures/sbt_neff.pdf>
@@ -3050,8 +4281,8 @@ Overfull \hbox (23.08513pt too wide) in paragraph at lines 330--331
  [][] 
  []
 
-[266] [267<../arXiv-2501.13788v2/figures/sbt_neff.pdf>] [268]
-<../arXiv-2501.13788v2/figures/sbt_neff-yp.pdf, id=6292, 454.69875pt x 190.7125
+[265<../arXiv-2501.13788v2/figures/sbt_neff.pdf>] [266]
+<../arXiv-2501.13788v2/figures/sbt_neff-yp.pdf, id=6234, 454.69875pt x 190.7125
 pt>
 File: ../arXiv-2501.13788v2/figures/sbt_neff-yp.pdf Graphic file (type pdf)
 <use ../arXiv-2501.13788v2/figures/sbt_neff-yp.pdf>
@@ -3063,8 +4294,8 @@ Overfull \hbox (21.07764pt too wide) in paragraph at lines 360--361
  [][] 
  []
 
-[269] [270<../arXiv-2501.13788v2/figures/sbt_neff-yp.pdf>]
-<../arXiv-2501.13788v2/figures/3_pbt_neff.pdf, id=6342, 457.71pt x 164.615pt>
+[267] [268<../arXiv-2501.13788v2/figures/sbt_neff-yp.pdf>]
+<../arXiv-2501.13788v2/figures/3_pbt_neff.pdf, id=6289, 457.71pt x 164.615pt>
 File: ../arXiv-2501.13788v2/figures/3_pbt_neff.pdf Graphic file (type pdf)
 <use ../arXiv-2501.13788v2/figures/3_pbt_neff.pdf>
 Package luatex.def Info: ../arXiv-2501.13788v2/figures/3_pbt_neff.pdf  used on 
@@ -3075,7 +4306,7 @@ Overfull \hbox (24.0889pt too wide) in paragraph at lines 374--375
  [][] 
  []
 
-<../arXiv-2501.13788v2/figures/pbt_neff-yp.pdf, id=6346, 455.7025pt x 190.7125p
+<../arXiv-2501.13788v2/figures/pbt_neff-yp.pdf, id=6293, 455.7025pt x 190.7125p
 t>
 File: ../arXiv-2501.13788v2/figures/pbt_neff-yp.pdf Graphic file (type pdf)
 <use ../arXiv-2501.13788v2/figures/pbt_neff-yp.pdf>
@@ -3087,20 +4318,14 @@ Overfull \hbox (22.08138pt too wide) in paragraph at lines 381--382
  [][] 
  []
 
-
-Underfull \hbox (badness 1281) in paragraph at lines 371--401
-\TU/XCharter(5)/m/n/12 The re-sults of the anal-y-ses, which em-ploy the phase 
-shift [] with the
- []
-
-[271<../arXiv-2501.13788v2/figures/3_pbt_neff.pdf>] [272<../arXiv-2501.13788v2/f
-igures/pbt_neff-yp.pdf>] [273]
-Overfull \hbox (32.96902pt too wide) in paragraph at lines 414--415
+[269] [270<../arXiv-2501.13788v2/figures/3_pbt_neff.pdf><../arXiv-2501.13788v2/f
+igures/pbt_neff-yp.pdf>] [271]
+Overfull \hbox (23.38036pt too wide) in paragraph at lines 414--415
 []\TU/XCharter(5)/m/n/12 To fur-ther in-ves-ti-gate this mi-nor in-con-sis-tency
 , we turn to the lat-est Planck 2021 (NPIPE)
  []
 
-<../arXiv-2501.13788v2/figures/sbt-pbt_planck.pdf, id=6446, 459.42119pt x 286.2
+<../arXiv-2501.13788v2/figures/sbt-pbt_planck.pdf, id=6392, 459.42119pt x 286.2
 6447pt>
 File: ../arXiv-2501.13788v2/figures/sbt-pbt_planck.pdf Graphic file (type pdf)
 <use ../arXiv-2501.13788v2/figures/sbt-pbt_planck.pdf>
@@ -3112,40 +4337,24 @@ Overfull \hbox (25.80006pt too wide) in paragraph at lines 419--420
  [][] 
  []
 
-LaTeX Font Info:    Font shape `TU/SourceCodePro-Regular(0)/m/n' will be
-(Font)              scaled to size 9.85492pt on input line 420.
 
-Overfull \hbox (37.8151pt too wide) in paragraph at lines 426--436
+Overfull \hbox (37.27335pt too wide) in paragraph at lines 426--436
  [][] 
  []
 
-
-Underfull \hbox (badness 3029) in paragraph at lines 436--436
-[]\TU/XCharter(2)/b/n/10.95 Ta-ble 12.4: |\TU/XCharter(4)/m/n/10.95 Con-straints
- on $\TU/XCharter-Math.otf(1)/m/n/10.95 𝑁[]$ \TU/XCharter(4)/m/n/10.95 and $
-\TU/XCharter-Math.otf(1)/m/n/10.95 𝑁[]$ \TU/XCharter(4)/m/n/10.95 at 68% (95%
-) c.l. us-ing the up-dated
- []
-
-[274] [275<../arXiv-2501.13788v2/figures/sbt-pbt_planck.pdf>] [276]
-Overfull \hbox (21.07306pt too wide) in paragraph at lines 448--449
+[272] [273<../arXiv-2501.13788v2/figures/sbt-pbt_planck.pdf>] [274]
+Overfull \hbox (12.44705pt too wide) in paragraph at lines 448--449
 \TU/XCharter(5)/m/n/12 Over the next decade, sev-eral ex-per-i-ments are sched-u
 led to ob-serve the CMB anisotropies
  []
 
-[277] [278]
-Overfull \hbox (7.63594pt too wide) in paragraph at lines 454--455
-\TU/XCharter(5)/m/n/12 ments is the im-pact of weak grav-i-ta-tional lens-ing on
- the pri-mary anisotropies (cf. [[]]
- []
-
-
-Overfull \hbox (25.53609pt too wide) in paragraph at lines 459--470
+[275] [276]
+Overfull \hbox (24.70723pt too wide) in paragraph at lines 459--470
  [][] 
  []
 
-[279] [280] [281] [282] [283] [284]
-<../arXiv-2501.13788v2/figures/pbt_fit-parameters.pdf, id=6629, 451.6875pt x 28
+[277] [278] [279] [280] [281] [282]
+<../arXiv-2501.13788v2/figures/pbt_fit-parameters.pdf, id=6576, 451.6875pt x 28
 1.05pt>
 File: ../arXiv-2501.13788v2/figures/pbt_fit-parameters.pdf Graphic file (type p
 df)
@@ -3158,8 +4367,8 @@ Overfull \hbox (18.06639pt too wide) in paragraph at lines 533--534
  [][] 
  []
 
-[285] [286<../arXiv-2501.13788v2/figures/pbt_fit-parameters.pdf>]
-<../arXiv-2501.13788v2/figures/sbt-pbt_validation_2d.pdf, id=6682, 446.62106pt 
+[283] [284<../arXiv-2501.13788v2/figures/pbt_fit-parameters.pdf>]
+<../arXiv-2501.13788v2/figures/sbt-pbt_validation_2d.pdf, id=6628, 446.62106pt 
 x 282.20584pt>
 File: ../arXiv-2501.13788v2/figures/sbt-pbt_validation_2d.pdf Graphic file (typ
 e pdf)
@@ -3172,44 +4381,38 @@ Overfull \hbox (12.99997pt too wide) in paragraph at lines 548--549
  [][] 
  []
 
+[285] [286<../arXiv-2501.13788v2/figures/sbt-pbt_validation_2d.pdf>] [287]
+[288] [289] [290]
 
-Overfull \hbox (5.55598pt too wide) in paragraph at lines 545--553
-\TU/XCharter(5)/m/n/12 We dis-cussed the anal-y-ses of three phys-i-cal mock dat
-asets to val-i-date the perturbation-
- []
+LaTeX Warning: Float too large for page by 5.94865pt on input line 803.
 
-[287] [288<../arXiv-2501.13788v2/figures/sbt-pbt_validation_2d.pdf>] [289]
-[290] [291] [292]
-
-LaTeX Warning: Float too large for page by 24.83781pt on input line 803.
-
-[293] [294] [295]) [296]
+[291] [292]) [293]
 \openout2 = chapters/13-neutrino-interactions.aux
  (./chapters/13-neutrino-interactions.tex
 Chapter 13:
-[297
+[294
 
 
 
 
-] [298] [299]
-<../arXiv-2509.20363v1/figures/paper_fig_KEE_SI.pdf, id=6905, 455.31485pt x 289
+] [295] [296]
+<../arXiv-2509.20363v1/figures/paper_fig_KEE_SI.pdf, id=6846, 455.31485pt x 289
 .94272pt>
 File: ../arXiv-2509.20363v1/figures/paper_fig_KEE_SI.pdf Graphic file (type pdf
 )
 <use ../arXiv-2509.20363v1/figures/paper_fig_KEE_SI.pdf>
 Package luatex.def Info: ../arXiv-2509.20363v1/figures/paper_fig_KEE_SI.pdf  us
 ed on input line 58.
-(luatex.def)             Requested size: 390.25534pt x 248.5097pt.
- [300]
+(luatex.def)             Requested size: 433.62pt x 276.12534pt.
+ [297]
 Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
-[301<../arXiv-2509.20363v1/figures/paper_fig_KEE_SI.pdf>]
+[298<../arXiv-2509.20363v1/figures/paper_fig_KEE_SI.pdf>]
 Missing character: There is no ℓ (U+2113) in font [XCharter-Roman.otf]:mode=ba
 se;script=latn;language=dflt;!
 Missing character: There is no ℓ (U+2113) in font [XCharter-Roman.otf]:mode=ba
 se;script=latn;language=dflt;!
-<../arXiv-2509.20363v1/figures/paper_fig1_v3.pdf, id=6994, 492.19368pt x 190.43
+<../arXiv-2509.20363v1/figures/paper_fig1_v3.pdf, id=6937, 492.19368pt x 190.43
 512pt>
 File: ../arXiv-2509.20363v1/figures/paper_fig1_v3.pdf Graphic file (type pdf)
 <use ../arXiv-2509.20363v1/figures/paper_fig1_v3.pdf>
@@ -3218,105 +4421,98 @@ on input line 90.
 (luatex.def)             Requested size: 433.62pt x 167.7723pt.
 Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
-[302] [303<../arXiv-2509.20363v1/figures/paper_fig1_v3.pdf>]
+[299] [300<../arXiv-2509.20363v1/figures/paper_fig1_v3.pdf>]
 Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
-[304]
+[301]
 Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
-[305]
-Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
-base;script=latn;language=dflt;!
-Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
-base;script=latn;language=dflt;!
+[302]
 Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
 Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
-<../arXiv-2509.20363v1/figures/paper_fig2_v0.pdf, id=7147, 217.42021pt x 153.56
+Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
+base;script=latn;language=dflt;!
+Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
+base;script=latn;language=dflt;!
+<../arXiv-2509.20363v1/figures/paper_fig2_v0.pdf, id=7090, 217.42021pt x 153.56
 749pt>
 File: ../arXiv-2509.20363v1/figures/paper_fig2_v0.pdf Graphic file (type pdf)
 <use ../arXiv-2509.20363v1/figures/paper_fig2_v0.pdf>
 Package luatex.def Info: ../arXiv-2509.20363v1/figures/paper_fig2_v0.pdf  used 
 on input line 133.
-(luatex.def)             Requested size: 433.62pt x 306.2906pt.
+(luatex.def)             Requested size: 303.53267pt x 214.40248pt.
 Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
 Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
-[306] [307<../arXiv-2509.20363v1/figures/paper_fig2_v0.pdf>]
+[303] [304<../arXiv-2509.20363v1/figures/paper_fig2_v0.pdf>]
 Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
 Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
-[308]
+[305] [306]
 Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
 Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
-[309]
 Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
-
-Overfull \hbox (1.12395pt too wide) in paragraph at lines 176--177
-[]\TU/XCharter(5)/m/n/12 Our ap-proach is ef-fec-tively equiv-a-lent to the meth
-od-ol-ogy de-vel-oped in Ref. [[]],
- []
-
-[310]
-<../arXiv-2509.20363v1/figures/paper_fig3_v0.pdf, id=7248, 478.7664pt x 169.116
+[307]
+<../arXiv-2509.20363v1/figures/paper_fig3_v0.pdf, id=7190, 478.7664pt x 169.116
 2pt>
 File: ../arXiv-2509.20363v1/figures/paper_fig3_v0.pdf Graphic file (type pdf)
 <use ../arXiv-2509.20363v1/figures/paper_fig3_v0.pdf>
 Package luatex.def Info: ../arXiv-2509.20363v1/figures/paper_fig3_v0.pdf  used 
 on input line 182.
 (luatex.def)             Requested size: 433.62pt x 153.17342pt.
- [311<../arXiv-2509.20363v1/figures/paper_fig3_v0.pdf>]
+ [308<../arXiv-2509.20363v1/figures/paper_fig3_v0.pdf>]
 LaTeX Font Info:    Font shape `TU/XCharter(1)/m/it' will be
 (Font)              scaled to size 12.0pt on input line 199.
 LaTeX Font Info:    Font shape `TU/XCharter(1)/m/it' will be
 (Font)              scaled to size 8.4pt on input line 199.
 LaTeX Font Info:    Font shape `TU/XCharter(1)/m/it' will be
 (Font)              scaled to size 6.6pt on input line 199.
- [312]
+ [309]
 LaTeX Font Info:    Font shape `TU/XCharter(1)/m/it' will be
 (Font)              scaled to size 10.95pt on input line 226.
 LaTeX Font Info:    Font shape `TU/XCharter(1)/m/it' will be
 (Font)              scaled to size 8.0pt on input line 226.
 LaTeX Font Info:    Font shape `TU/XCharter(1)/m/it' will be
 (Font)              scaled to size 6.0pt on input line 226.
- [313]
-[314]
-<../arXiv-2509.20363v1/figures/paper_fig3_v21.pdf, id=7375, 255.10855pt x 178.6
+ [310]
+[311]
+<../arXiv-2509.20363v1/figures/paper_fig3_v21.pdf, id=7318, 255.10855pt x 178.6
 8504pt>
 File: ../arXiv-2509.20363v1/figures/paper_fig3_v21.pdf Graphic file (type pdf)
 <use ../arXiv-2509.20363v1/figures/paper_fig3_v21.pdf>
 Package luatex.def Info: ../arXiv-2509.20363v1/figures/paper_fig3_v21.pdf  used
  on input line 241.
-(luatex.def)             Requested size: 433.62pt x 303.73601pt.
- [315] [316<../arXiv-2509.20363v1/figures/paper_fig3_v21.pdf>]
+(luatex.def)             Requested size: 303.53267pt x 212.6133pt.
+ [312] [313<../arXiv-2509.20363v1/figures/paper_fig3_v21.pdf>]
 LaTeX Font Info:    Font shape `TU/XCharter(1)/m/it' will be
 (Font)              scaled to size 10.0pt on input line 260.
 LaTeX Font Info:    Font shape `TU/XCharter(1)/m/it' will be
 (Font)              scaled to size 7.0pt on input line 260.
 LaTeX Font Info:    Font shape `TU/XCharter(1)/m/it' will be
 (Font)              scaled to size 5.0pt on input line 260.
- [317]
-[318] [319] [320]
+ [314]
+[315] [316]
 Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
 Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
-[321] [322]
-<../arXiv-2509.20363v1/figures/phase_shift_template_Nfluid_Neff.pdf, id=7559, 2
+[317] [318] [319]
+<../arXiv-2509.20363v1/figures/phase_shift_template_Nfluid_Neff.pdf, id=7500, 2
 76.88815pt x 212.16676pt>
 File: ../arXiv-2509.20363v1/figures/phase_shift_template_Nfluid_Neff.pdf Graphi
 c file (type pdf)
 <use ../arXiv-2509.20363v1/figures/phase_shift_template_Nfluid_Neff.pdf>
 Package luatex.def Info: ../arXiv-2509.20363v1/figures/phase_shift_template_Nfl
 uid_Neff.pdf  used on input line 353.
-(luatex.def)             Requested size: 433.62pt x 332.27701pt.
- [323]
+(luatex.def)             Requested size: 303.53267pt x 232.59099pt.
+ [320] [321<../arXiv-2509.20363v1/figures/phase_shift_template_Nfluid_Neff.pdf>]
 Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
 Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
@@ -3325,143 +4521,140 @@ Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
 Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
-[324] [325<../arXiv-2509.20363v1/figures/phase_shift_template_Nfluid_Neff.pdf>]
+[322]
 Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
-[326]
+[323]
 Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
-<../arXiv-2509.20363v1/figures/paper_figA1_v0.pdf, id=7651, 266.14636pt x 282.6
+<../arXiv-2509.20363v1/figures/paper_figA1_v0.pdf, id=7592, 266.14636pt x 282.6
 592pt>
 File: ../arXiv-2509.20363v1/figures/paper_figA1_v0.pdf Graphic file (type pdf)
 <use ../arXiv-2509.20363v1/figures/paper_figA1_v0.pdf>
 Package luatex.def Info: ../arXiv-2509.20363v1/figures/paper_figA1_v0.pdf  used
  on input line 392.
-(luatex.def)             Requested size: 433.62pt x 460.55788pt.
-[327] [328<../arXiv-2509.20363v1/figures/paper_figA1_v0.pdf>] [329]
-<../arXiv-2509.20363v1/figures/paper_fig2_v1.pdf, id=7740, 217.42021pt x 153.56
+(luatex.def)             Requested size: 303.53267pt x 322.39009pt.
+[324] [325<../arXiv-2509.20363v1/figures/paper_figA1_v0.pdf>] [326]
+<../arXiv-2509.20363v1/figures/paper_fig2_v1.pdf, id=7681, 217.42021pt x 153.56
 749pt>
 File: ../arXiv-2509.20363v1/figures/paper_fig2_v1.pdf Graphic file (type pdf)
 <use ../arXiv-2509.20363v1/figures/paper_fig2_v1.pdf>
 Package luatex.def Info: ../arXiv-2509.20363v1/figures/paper_fig2_v1.pdf  used 
 on input line 408.
-(luatex.def)             Requested size: 433.62pt x 306.2906pt.
- [330]
-[331<../arXiv-2509.20363v1/figures/paper_fig2_v1.pdf>]
-<../arXiv-2509.20363v1/figures/paper_figA2_v0.pdf, id=7812, 260.49945pt x 180.8
+(luatex.def)             Requested size: 303.53267pt x 214.40248pt.
+ [327<../arXiv-2509.20363v1/figures/paper_fig2_v1.pdf>]
+<../arXiv-2509.20363v1/figures/paper_figA2_v0.pdf, id=7747, 260.49945pt x 180.8
 0957pt>
 File: ../arXiv-2509.20363v1/figures/paper_figA2_v0.pdf Graphic file (type pdf)
 <use ../arXiv-2509.20363v1/figures/paper_figA2_v0.pdf>
 Package luatex.def Info: ../arXiv-2509.20363v1/figures/paper_figA2_v0.pdf  used
  on input line 423.
-(luatex.def)             Requested size: 433.62pt x 301.00456pt.
- [332<../arXiv-2509.20363v1/figures/paper_figA2_v0.pdf>]
+(luatex.def)             Requested size: 303.53267pt x 210.70209pt.
+
 Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
 Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
-[333] [334]
-<../arXiv-2509.20363v1/figures/paper_figA4_v0.pdf, id=7906, 301.7196pt x 281.55
+[328] [329<../arXiv-2509.20363v1/figures/paper_figA2_v0.pdf>] [330]
+<../arXiv-2509.20363v1/figures/paper_figA4_v0.pdf, id=7841, 301.7196pt x 281.55
 765pt>
 File: ../arXiv-2509.20363v1/figures/paper_figA4_v0.pdf Graphic file (type pdf)
 <use ../arXiv-2509.20363v1/figures/paper_figA4_v0.pdf>
 Package luatex.def Info: ../arXiv-2509.20363v1/figures/paper_figA4_v0.pdf  used
  on input line 463.
-(luatex.def)             Requested size: 433.62pt x 404.64359pt.
- [335] [336<../arXiv-2509.20363v1/figures/paper_figA4_v0.pdf>]
-<../arXiv-2509.20363v1/figures/paper_figA3_v0.pdf, id=7960, 301.7196pt x 283.42
+(luatex.def)             Requested size: 303.53267pt x 283.24535pt.
+ [331]
+[332<../arXiv-2509.20363v1/figures/paper_figA4_v0.pdf>]
+<../arXiv-2509.20363v1/figures/paper_figA3_v0.pdf, id=7897, 301.7196pt x 283.42
 001pt>
 File: ../arXiv-2509.20363v1/figures/paper_figA3_v0.pdf Graphic file (type pdf)
 <use ../arXiv-2509.20363v1/figures/paper_figA3_v0.pdf>
 Package luatex.def Info: ../arXiv-2509.20363v1/figures/paper_figA3_v0.pdf  used
  on input line 500.
-(luatex.def)             Requested size: 433.62pt x 407.32011pt.
-
-[337]) [338<../arXiv-2509.20363v1/figures/paper_figA3_v0.pdf>]
+(luatex.def)             Requested size: 303.53267pt x 285.11888pt.
+ [333]) [334<../arXiv-2509.20363v1/figures/paper_figA3_v0.pdf>]
 \openout2 = chapters/14-neutrino-21cm.aux
-
-(./chapters/14-neutrino-21cm.tex
+ (./chapters/14-
+neutrino-21cm.tex
 Chapter 14:
-[339
+[335
 
 
 
 
-] [340] [341]
-Overfull \hbox (14.71278pt too wide) in paragraph at lines 43--44
+] [336] [337]
+Underfull \hbox (badness 1286) in paragraph at lines 43--44
 []\TU/XCharter(5)/m/n/12 Through-out this work, we com-pute the 21-cm spec-tra 
-with the up-dated \TU/SourceCodePro-Regular(0)/m/n/12 zeus21 \TU/XCharter(5)/m/
-n/12 [[],
+with the up-dated
  []
 
-[342] [343] [344] [345]
-<../arXiv-2509.03595v1/paper_figures/fig1_v30.pdf, id=8147, 450.302pt x 243.901
+[338] [339] [340]
+<../arXiv-2509.03595v1/paper_figures/fig1_v30.pdf, id=8077, 450.302pt x 243.901
 82pt>
 File: ../arXiv-2509.03595v1/paper_figures/fig1_v30.pdf Graphic file (type pdf)
 <use ../arXiv-2509.03595v1/paper_figures/fig1_v30.pdf>
 Package luatex.def Info: ../arXiv-2509.03595v1/paper_figures/fig1_v30.pdf  used
  on input line 99.
 (luatex.def)             Requested size: 433.62pt x 234.87625pt.
- [346] [347<../arXiv-2509.03595v1/paper_figures/fig1_v30.pdf>] [348] [349] [350
-] [351] [352] [353] [354] [355]
-<../arXiv-2509.03595v1/paper_figures/fig3_v0.pdf, id=8385, 237.22054pt x 178.19
+ [341] [342<../arXiv-2509.03595v1/paper_figures/fig1_v30.pdf>] [343] [344] [345
+] [346] [347] [348] [349] [350] [351]
+<../arXiv-2509.03595v1/paper_figures/fig3_v0.pdf, id=8324, 237.22054pt x 178.19
 725pt>
 File: ../arXiv-2509.03595v1/paper_figures/fig3_v0.pdf Graphic file (type pdf)
 <use ../arXiv-2509.03595v1/paper_figures/fig3_v0.pdf>
 Package luatex.def Info: ../arXiv-2509.03595v1/paper_figures/fig3_v0.pdf  used 
 on input line 217.
-(luatex.def)             Requested size: 433.62pt x 325.73068pt.
- [356] [357<../arXiv-2509.03595v1/paper_figures/fig3_v0.pdf>]
-<../arXiv-2509.03595v1/paper_figures/fig4_v20.pdf, id=8455, 450.67639pt x 279.2
+(luatex.def)             Requested size: 303.53267pt x 228.01012pt.
+ [352] [353<../arXiv-2509.03595v1/paper_figures/fig3_v0.pdf>]
+<../arXiv-2509.03595v1/paper_figures/fig4_v20.pdf, id=8392, 450.67639pt x 279.2
 2272pt>
 File: ../arXiv-2509.03595v1/paper_figures/fig4_v20.pdf Graphic file (type pdf)
 <use ../arXiv-2509.03595v1/paper_figures/fig4_v20.pdf>
 Package luatex.def Info: ../arXiv-2509.03595v1/paper_figures/fig4_v20.pdf  used
  on input line 230.
 (luatex.def)             Requested size: 433.62pt x 268.66428pt.
- [358] [359<../arXiv-2509.03595v1/paper_figures/fig4_v20.pdf>] [360]
-<../arXiv-2509.03595v1/paper_figures/fig5_v5.pdf, id=8544, 479.14554pt x 207.98
+ [354] [355<../arXiv-2509.03595v1/paper_figures/fig4_v20.pdf>] [356]
+<../arXiv-2509.03595v1/paper_figures/fig5_v5.pdf, id=8480, 479.14554pt x 207.98
 317pt>
 File: ../arXiv-2509.03595v1/paper_figures/fig5_v5.pdf Graphic file (type pdf)
 <use ../arXiv-2509.03595v1/paper_figures/fig5_v5.pdf>
 Package luatex.def Info: ../arXiv-2509.03595v1/paper_figures/fig5_v5.pdf  used 
 on input line 256.
 (luatex.def)             Requested size: 433.62pt x 188.2272pt.
- [361] [362] [363<../arXiv-2509.03595v1/paper_figures/fig5_v5.pdf>] [364]
-<../arXiv-2509.03595v1/paper_figures/fig7_v10.pdf, id=8641, 245.24841pt x 178.1
+ [357] [358<../arXiv-2509.03595v1/paper_figures/fig5_v5.pdf>] [359]
+<../arXiv-2509.03595v1/paper_figures/fig7_v10.pdf, id=8574, 245.24841pt x 178.1
 9725pt>
 File: ../arXiv-2509.03595v1/paper_figures/fig7_v10.pdf Graphic file (type pdf)
 <use ../arXiv-2509.03595v1/paper_figures/fig7_v10.pdf>
 Package luatex.def Info: ../arXiv-2509.03595v1/paper_figures/fig7_v10.pdf  used
  on input line 276.
-(luatex.def)             Requested size: 433.62pt x 315.10457pt.
- [365] [366<../arXiv-2509.03595v1/paper_figures/fig7_v10.pdf>] [367] [368] [369
-]
-<../arXiv-2509.03595v1/paper_figures/figA1_v0.pdf, id=8735, 280.52867pt x 319.1
+(luatex.def)             Requested size: 303.53267pt x 220.57076pt.
+ [360] [361<../arXiv-2509.03595v1/paper_figures/fig7_v10.pdf>]
+[362] [363] [364] [365]
+<../arXiv-2509.03595v1/paper_figures/figA1_v0.pdf, id=8675, 280.52867pt x 319.1
 9203pt>
 File: ../arXiv-2509.03595v1/paper_figures/figA1_v0.pdf Graphic file (type pdf)
 <use ../arXiv-2509.03595v1/paper_figures/figA1_v0.pdf>
 Package luatex.def Info: ../arXiv-2509.03595v1/paper_figures/figA1_v0.pdf  used
  on input line 313.
-(luatex.def)             Requested size: 433.62pt x 493.42749pt.
- [370] [371<../arXiv-2509.03595v1/paper_figures/figA1_v0.pdf>]
-<../arXiv-2509.03595v1/paper_figures/fig5_v3.pdf, id=8823, 240.42899pt x 181.14
+(luatex.def)             Requested size: 303.53267pt x 345.39925pt.
+ [366] [367<../arXiv-2509.03595v1/paper_figures/figA1_v0.pdf>]
+<../arXiv-2509.03595v1/paper_figures/fig5_v3.pdf, id=8759, 240.42899pt x 181.14
 864pt>
 File: ../arXiv-2509.03595v1/paper_figures/fig5_v3.pdf Graphic file (type pdf)
 <use ../arXiv-2509.03595v1/paper_figures/fig5_v3.pdf>
 Package luatex.def Info: ../arXiv-2509.03595v1/paper_figures/fig5_v3.pdf  used 
 on input line 327.
-(luatex.def)             Requested size: 433.62pt x 326.73618pt.
-<../arXiv-2509.03595v1/paper_figures/figA3_v0.pdf, id=8824, 487.79778pt x 221.3
+(luatex.def)             Requested size: 303.53267pt x 228.71283pt.
+<../arXiv-2509.03595v1/paper_figures/figA3_v0.pdf, id=8760, 487.79778pt x 221.3
 3148pt>
 File: ../arXiv-2509.03595v1/paper_figures/figA3_v0.pdf Graphic file (type pdf)
 <use ../arXiv-2509.03595v1/paper_figures/figA3_v0.pdf>
 Package luatex.def Info: ../arXiv-2509.03595v1/paper_figures/figA3_v0.pdf  used
  on input line 336.
 (luatex.def)             Requested size: 433.62pt x 196.75473pt.
- [372] [373<../arXiv-2509.03595v1/paper_figures/fig5_v3.pdf>] [374<../arXiv-2509
-.03595v1/paper_figures/figA3_v0.pdf>]) [375]
-(./chapters/part3-conclusions.tex) [376
+ [368<../arXiv-2509.03595v1/paper_figures/fig5_v3.pdf>] [369<../arXiv-2509.03595
+v1/paper_figures/figA3_v0.pdf>]) [370] (./chapters/part3-conclusions.tex) [371
 
 
 
@@ -3469,22 +4662,22 @@ Package luatex.def Info: ../arXiv-2509.03595v1/paper_figures/figA3_v0.pdf  used
 \openout2 = chapters/15-conclusions.aux
  (./chapters/15-conclusions.tex
 Chapter 15:
-) [377
+) [372
 
 
 ] (./main.bbl
 LaTeX Font Info:    Font shape `TU/XCharter(2)/m/sc' will be
 (Font)              scaled to size 12.0pt on input line 60.
- [378
+ [373
 
 
 
-] [379] [380] [381] [382] [383] [384] [385] [386]
-[387] [388] [389] [390] [391] [392] [393] [394] [395] [396] [397] [398]
-[399] [400] [401] [402] [403] [404] [405] [406] [407] [408] [409] [410]
-[411] [412] [413] [414] [415] [416] [417] [418] [419] [420] [421] [422]
-[423] [424] [425] [426] [427] [428] [429] [430] [431] [432] [433] [434]
-[435] [436] [437] [438] [439] [440] [441] [442] [443])) [444] (./main.aux
+] [374] [375] [376] [377] [378] [379] [380] [381]
+[382] [383] [384] [385] [386] [387] [388] [389] [390] [391] [392] [393]
+[394] [395] [396] [397] [398] [399] [400] [401] [402] [403] [404] [405]
+[406] [407] [408] [409] [410] [411] [412] [413] [414] [415] [416] [417]
+[418] [419] [420] [421] [422] [423] [424] [425] [426] [427] [428] [429]
+[430] [431] [432] [433] [434] [435] [436] [437] [438])) [439] (./main.aux
 (./chapters/01-introduction.aux) (./chapters/02-wi-scalar-field.aux)
 (./chapters/03-wi-natural.aux) (./chapters/04-warmspy.aux)
 (./chapters/05-wi-eternal.aux) (./chapters/06-wifi-dm.aux)
@@ -3497,40 +4690,44 @@ LaTeX Font Info:    Font shape `TU/XCharter(2)/m/sc' will be
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 966B5FC049E0DAE844602658C556AD9B;27100.
+(rerunfilecheck)             Checksum: FA31C2AAA002DEF2BE67E49B19D7BFC7;27209.
 )
 
 Here is how much of LuaTeX's memory you used:
- 44986 strings out of 476553
+ 46959 strings out of 476553
  156277,2373549 words of node,token memory allocated
- 5940 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 118 glue, 4 kern, 14 sub_mlist, 1 glyph, 796 attrib
-ute, 92 glue_spec, 796 attribute_list, 2 write, 205 pdf_action nodes
-   avail lists: 1:10,2:1826,3:1079,4:256,5:1438,6:59,7:13166,8:93,9:1826,10:28,1
-1:861
- 63446 multiletter control sequences out of 65536+600000
- 285 fonts using 60020823 bytes
- 95i,19n,118p,3060b,3193s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 5602 words of node memory still in use:
+   8 hlist, 2 vlist, 2 rule, 1 local_par, 118 glue, 4 kern, 1 penalty, 14 sub_ml
+ist, 1 margin_kern, 3 glyph, 758 attribute, 92 glue_spec, 758 attribute_list, 2 
+write, 168 pdf_action nodes
+   avail lists: 1:10,2:1820,3:1064,4:261,5:1434,6:56,7:12724,8:93,9:1826,10:28,1
+1:855
+ 65399 multiletter control sequences out of 65536+600000
+ 285 fonts using 69964567 bytes
+ 95i,19n,122p,3060b,3232s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/opentype/public/xcharter/XCharter-Italic.ot
-f></usr/share/texlive/texmf-dist/fonts/opentype/adobe/sourcecodepro/SourceCodePr
-o-Bold.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/xcharter/XCharte
-r-Bold.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/xcharter-math/XC
-harter-Math.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/xcharter/XC
-harter-Roman.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/xcharter-m
-ath/XCharter-Math.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/xchar
-ter-math/XCharter-Math.otf></usr/share/texlive/texmf-dist/fonts/opentype/adobe/s
-ourcecodepro/SourceCodePro-Regular.otf></usr/share/texlive/texmf-dist/fonts/open
-type/adobe/sourcesanspro/SourceSansPro-Bold.otf></usr/share/texlive/texmf-dist/f
-onts/opentype/public/xcharter/XCharter-Italic.otf></usr/share/texlive/texmf-dist
-/fonts/opentype/public/xcharter/XCharter-Bold.otf></usr/share/texlive/texmf-dist
-/fonts/opentype/public/xcharter/XCharter-Roman.otf></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/euler/eusm10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/latxfont/line10.pfb>
-Output written on main.pdf (457 pages, 32688498 bytes).
+f></usr/share/texlive/texmf-dist/fonts/opentype/public/xcharter/XCharter-Bold.ot
+f></usr/share/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf></usr/sha
+re/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf></usr/share/texlive/
+texmf-dist/fonts/opentype/public/xcharter-math/XCharter-Math.otf></usr/share/tex
+live/texmf-dist/fonts/opentype/public/xcharter/XCharter-Roman.otf></usr/share/te
+xlive/texmf-dist/fonts/opentype/public/xcharter-math/XCharter-Math.otf></usr/sha
+re/texlive/texmf-dist/fonts/opentype/public/xcharter-math/XCharter-Math.otf></us
+r/share/texmf/fonts/opentype/public/lm/lmmono10-regular.otf></usr/share/texlive/
+texmf-dist/fonts/opentype/adobe/sourcesanspro/SourceSansPro-Bold.otf></usr/share
+/texlive/texmf-dist/fonts/opentype/public/xcharter/XCharter-Italic.otf></usr/sha
+re/texlive/texmf-dist/fonts/opentype/public/xcharter/XCharter-Bold.otf></usr/sha
+re/texlive/texmf-dist/fonts/opentype/public/xcharter/XCharter-Roman.otf></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb>
+Output written on main.pdf (452 pages, 32728345 bytes).
 
-PDF statistics: 10958 PDF objects out of 12825 (max. 8388607)
- 9456 compressed objects within 95 object streams
+PDF statistics: 10911 PDF objects out of 12825 (max. 8388607)
+ 9412 compressed objects within 95 object streams
  1900 named destinations out of 2073 (max. 131072)
  904 words of extra memory for PDF output out of 10000 (max. 100000000)
 

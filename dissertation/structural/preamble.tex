@@ -188,7 +188,6 @@
 \tikzset{every path/.append style={thick}}
 \usepackage{amsmath,amsthm,amsfonts,amscd}
 \usepackage{unicode-math}
-\usepackage{eucal}
 \usepackage{verbatim}
 \usepackage{algorithm}
 \usepackage{algorithmic}
@@ -207,21 +206,25 @@
 \usepackage{bbm}
 \usepackage{hyperref}      
 \usepackage{linguex}       % Linguistics examples
-\hypersetup{               % Formatting links 
+\definecolor{romared}{RGB}{142,0,28}
+\hypersetup{               % Formatting links
     colorlinks,
     breaklinks,
-    linkcolor=black,
-    urlcolor=LinkBlue,
-    citecolor=LinkBlue,
-    filecolor=LinkBlue
+    linkcolor=romared,
+    urlcolor=romared,
+    citecolor=romared,
+    filecolor=romared,
+    linktoc=page
 }
 
 
 % Typography
 \usepackage[sups,otfmath]{XCharter} % default serif font
-\setmonofont[Ligatures=TeX, BoldFont=SourceCodePro-Bold, ItalicFont=SourceCodePro-BoldIt, Scale=0.9]{SourceCodePro-Regular}% typewriter font
+\setmathfont{latinmodern-math.otf}[range=cal, Scale=MatchUppercase] % JCAP-style calligraphic
+\setmonofont{lmmono10-regular.otf}[ItalicFont=lmmono10-italic.otf]% typewriter font (JCAP default via lmodern)
 \setsansfont[Ligatures=TeX, BoldFont=SourceSansPro-Bold, BoldItalicFont=SourceSansPro-BoldIt]{SourceSansPro-Regular}% sans serif font
 \newfontfamily\ipafont{CharisSIL-Regular}[Extension=.ttf, BoldFont=CharisSIL-Bold, BoldItalicFont=CharisSIL-BoldItalic, ItalicFont=CharisSIL-Italic] %IPA font
+\usepackage[babel=true]{microtype}  % JCAP-style microtypographic refinements
 
 % Tabular numbers inside tabular environment
 \AtBeginEnvironment{tabular}{\addfontfeatures{Numbers={Uppercase, Monospaced}}}
