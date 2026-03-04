@@ -5,19 +5,41 @@
 \usepackage{tabularx}
 \newcolumntype{C}{>{\centering\arraybackslash}X}
 \newcolumntype{W}{>{\centering\arraybackslash}p{2.2cm}}
+\usepackage{fancyhdr}
 
 % subappendices within chapters
 
-% ── JCAP-inspired formatting ───────────────────────────────────────
+% ── Book-style formatting (Wallisch-inspired) ─────────────────────
 \makeatletter
 
-% Chapter heading: left-aligned, sans-serif, bold (JCAP title style)
-\def\@makechapterhead#1{{\parindent 0pt \raggedright
+% ── Dimension adjustments for running headers ────────────────────
+\setlength{\headheight}{14.5pt}
+\setlength{\headsep}{18pt}
+\addtolength{\textheight}{-32.5pt}
+\addtolength{\regular@textheight}{-32.5pt}
+\addtolength{\short@textheight}{-32.5pt}
+\addtolength{\s@short@textheight}{-32.5pt}
+
+% Remove pagestyle resets from short/regular page switches
+\def\short@page{%
+    \setlength{\textheight}{\short@textheight}
+    \global \@colht\textheight
+    \global \@colroom\textheight
+    \global \vsize\textheight}
+\def\regular@page{%
+    \setlength{\textheight}{\regular@textheight}
+    \global \@colht\textheight
+    \global \@colroom\textheight
+    \global \vsize\textheight}
+
+% Chapter heading: right-aligned, small caps, gray number
+\def\@makechapterhead#1{{\parindent\z@ \raggedleft
     \ifnum \c@secnumdepth >\m@ne
-      {\large\bfseries\sffamily \@chapapp\ \thechapter}\par\nobreak\vskip 8pt\fi
-    {\LARGE\bfseries\sffamily #1}\par \nobreak \vskip 30pt}}
-\def\@makeschapterhead#1{{\parindent 0pt \raggedright
-    {\LARGE\bfseries\sffamily #1}\par \nobreak \vskip 30pt}}
+      {\fontsize{40}{48}\selectfont\color{chaptergray}\@chapapp\ \thechapter}%
+      \par\nobreak\vskip 10pt\fi
+    {\LARGE\scshape #1}\par\nobreak\vskip 30pt}}
+\def\@makeschapterhead#1{{\parindent\z@ \raggedleft
+    {\LARGE\scshape #1}\par\nobreak\vskip 30pt}}
 
 % Section headings (from jcappub.sty)
 \renewcommand\section{\@startsection{section}{1}{\z@}%
@@ -61,13 +83,13 @@
 \renewcommand*\l@part[2]{%
   \ifnum \c@tocdepth >-2\relax
     \addpenalty{-\@highpenalty}%
-    \addvspace{1.8em \@plus\p@}%
+    \addvspace{1.5em \@plus\p@}%
     \begingroup
       \parindent \z@
       \leavevmode
       {\large \bfseries #1}\par
       \nobreak
-      \vskip 4pt
+      \vskip 2pt
       \global\@nobreaktrue
       \everypar{\global\@nobreakfalse\everypar{}}%
     \endgroup
@@ -75,7 +97,7 @@
 
 % Chapters: bold, normal size, moderate space above
 \def\l@chapter#1#2{\addpenalty{-\@highpenalty}
-    \vskip 0.6em plus 1pt
+    \vskip 0.5em plus 1pt
     \@tempdima=\toc@chap@indent
     \begingroup
     \parindent \z@
@@ -95,32 +117,26 @@
     \shortchapter*{Abstract}
     \default@spacing}
 
-% ToC with thin horizontal rules
+% ToC (clean, no horizontal rules)
 \def\tableofcontents{%
     \shortchapter*{Table of Contents}
     \pagestyle{plain}
     \baselineskip=16pt plus .5pt minus .5pt
-    \hrule\vskip6pt
-    \@starttoc{toc}%
-    \vskip6pt\hrule}
+    \@starttoc{toc}}
 
-% LoF with thin horizontal rules (not added to ToC)
+% LoF (clean, no horizontal rules)
 \def\listoffigures{%
     \shortchapter*{List of Figures}
     \pagestyle{plain}
     \baselineskip=14pt plus .5pt minus .5pt
-    \hrule\vskip6pt
-    \@starttoc{lof}%
-    \vskip6pt\hrule}
+    \@starttoc{lof}}
 
-% LoT with thin horizontal rules (not added to ToC)
+% LoT (clean, no horizontal rules)
 \def\listoftables{%
     \shortchapter*{List of Tables}
     \pagestyle{plain}
     \baselineskip=14pt plus .5pt minus .5pt
-    \hrule\vskip6pt
-    \@starttoc{lot}%
-    \vskip6pt\hrule}
+    \@starttoc{lot}}
 
 % ── Wider number columns for chapters 10+ ─────────────────────────
 % Section numbers in ToC (e.g. "12.10") need more width than default "9.9"
@@ -141,20 +157,20 @@
 
 % ── Title page override (UT logo, sizing) ─────────────────────────
 \def\titlepage{\pagestyle{plain}%
-    \vspace*{5pt}
+    \vspace*{0pt}
     \baselineskip=22.5pt plus .5pt minus .2 pt
     \begin{center}
     \baselineskip=28.5pt plus .5pt minus .2 pt
      \Huge\bfseries\ti@tle            % Same size as Part titles
     \end{center}
-    \vspace{20pt}
+    \vspace{14pt}
     \centerline{\large\bf by}
     \centerline{\large\bf\au@thor}
-    \vspace{30pt}
+    \vspace{20pt}
     \begin{center}
     \includegraphics[height=3.5cm]{ut_logo}
     \end{center}
-    \vspace{30pt}
+    \vspace{20pt}
     \begin{center}
     {\large\bf\DOC@TYPE}\\
     Presented to the Faculty of the Graduate School of\\
@@ -164,11 +180,66 @@
     for the Degree of
     \end{center}
     \centerline{\large\bf\d@gree}
-    \vspace{25pt}
+    \vspace{18pt}
     \centerline{\large\bf The University of Texas at Austin}
     \centerline{\large\bf \graduation@month\ \graduation@year}
     \clearpage
     \setcounter{regular@short}{1}}
+
+% ── Override \@chapter: use fancyhdr, add chaptermark ────────────
+\def\@chapter[#1]#2{\ifnum \c@secnumdepth >\m@ne
+    \refstepcounter{chapter}
+    \typeout{\@chapapp\space\thechapter:}
+    \addcontentsline{toc}{chapter}{\@chapapp\space\thechapter:\hspace*{1em}#1}\else
+    \addcontentsline{toc}{chapter}{#1}\fi
+    \addtocontents{lof}{\protect\addvspace{10pt}}
+    \addtocontents{lot}{\protect\addvspace{10pt}}
+    \@makechapterhead{#2} \@afterheading
+    \ifnum\chap@or@app=1 \ifnum\value{chapter}=1
+        \markboth{}{}\pagestyle{fancy}%
+        \ifnum\with@parts=0 \fi
+    \fi\fi
+    \chaptermark{#1}%
+    \thispagestyle{plain}}
+
+% ── Part pages: gray number, small-caps title, centered ──────────
+\def\@part[#1]#2{%
+    \short@page
+    \thispagestyle{plain}%
+    \ifnum \c@secnumdepth >-2 \relax
+      \refstepcounter{part}%
+      \addcontentsline{toc}{part}{\partname~\thepart\hspace{1em}#1}%
+    \else
+      \addcontentsline{toc}{part}{#1}%
+    \fi
+    \markboth{}{}%
+    {\centering
+     \interlinepenalty \@M
+     \reset@font
+     \ifnum \c@secnumdepth >-2 \relax
+       {\fontsize{40}{48}\selectfont\color{chaptergray} \partname~\thepart}%
+       \par
+       \vskip 20\p@
+     \fi
+     {\Huge\scshape #2}\par}%
+    \ifnum\value{part}=1
+     \with@parts=1 \fi
+    \@endpart}
+
+% ── Running headers (fancyhdr) ───────────────────────────────────
+\fancyhf{}
+\fancyhead[C]{\itshape\leftmark}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \fancyfoot[C]{\thepage}%
+  \renewcommand{\headrulewidth}{0pt}%
+  \renewcommand{\footrulewidth}{0pt}%
+}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{}
 
 \makeatother
 % ────────────────────────────────────────────────────────────────────
@@ -207,6 +278,7 @@
 \usepackage{hyperref}      
 \usepackage{linguex}       % Linguistics examples
 \definecolor{romared}{RGB}{142,0,28}
+\definecolor{chaptergray}{gray}{0.4}
 \hypersetup{               % Formatting links
     colorlinks,
     breaklinks,
