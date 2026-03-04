@@ -1,0 +1,140 @@
+% Body of the dissertation
+% Vestigia Cosmica: Tracing Fundamental Physics across Cosmic History
+% Gabriele Montefalcone
+
+
+\pagenumbering{roman}
+\copyrightpage
+
+\commcertpage 
+
+\titlepage              % Produces the title page. Required.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Dedication and/or epigraph are optional, but must occur here.      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{epigraph}
+\hfill\begin{minipage}{0.6\textwidth}\raggedleft
+{\it Me piace pens\'a che er mejo deve ancora ven\'i. }\\
+{\it E invece eri te, A Carla, principessa mia p\'e sempre} \\[0.5cm]
+\small{I like to think that the best is yet to come.}\\
+\small{And yet it was you, To Carla -- my princess, forever.}
+\end{minipage}
+\end{epigraph}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Acknowledgements and/or preface are optional, but must occur here. %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{acknowledgments}
+% To be filled in.
+\end{acknowledgments}
+
+% The abstract is required. Note the use of ``utabstract'' instead of
+% ``abstract''! This was necessary to fix a page numbering problem.
+\utabstract
+\input{chapters/00-abstract}
+
+\tableofcontents   % Table of Contents. Required.
+
+\listoftables      % Optional.
+\listoffigures     % Optional.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Actual text starts here.                                           %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%=====================================================================
+% Chapter 1 -- General Introduction
+%=====================================================================
+\pagenumbering{arabic}
+\include{chapters/01-introduction}
+
+
+%=====================================================================
+% PART I: From Primordial Physics to Observational Signatures
+%         via Warm Inflation
+%=====================================================================
+\part{From Primordial Physics to Observational Signatures via Warm Inflation}
+\label{part:warm-inflation}
+
+\input{chapters/part1-introduction}
+
+\include{chapters/02-wi-scalar-field}
+
+\include{chapters/03-wi-eternal}
+
+\include{chapters/04-warmspy}
+
+\include{chapters/05-wi-natural}
+
+\include{chapters/06-wifi-dm}
+
+\include{chapters/07-thermal-gravitons}
+
+\input{chapters/part1-conclusions}
+
+
+%=====================================================================
+% PART II: Probing the Dark Universe with Cosmological
+%          and Terrestrial Observations
+%=====================================================================
+\part{Probing the Dark Universe with Cosmological and Terrestrial Observations}
+\label{part:dark-universe}
+
+\input{chapters/part2-introduction}
+
+\include{chapters/08-minimal-dm-freezein}
+
+\include{chapters/09-cmb-leptophilic-dm}
+
+\include{chapters/10-pbh-memory-burden}
+
+\include{chapters/11-desi-dark-energy}
+
+\input{chapters/part2-conclusions}
+
+
+%=====================================================================
+% PART III: Cosmological Probes of Neutrinos and
+%           Free-Streaming Radiation
+%=====================================================================
+\part{Cosmological Probes of Neutrinos and Free-Streaming Radiation}
+\label{part:neutrinos}
+
+\input{chapters/part3-introduction}
+
+\include{chapters/12-neutrino-phase-shift}
+
+\include{chapters/13-neutrino-interactions}
+
+\include{chapters/14-neutrino-21cm}
+
+\input{chapters/part3-conclusions}
+
+
+%=====================================================================
+% Chapter 15 -- Conclusions and Outlook
+%=====================================================================
+\include{chapters/15-conclusions}
+
+
+%=====================================================================
+% Appendices
+%=====================================================================
+% Global appendices (supplementary derivations, WarmSPy docs, etc.)
+% Per-chapter appendices are included within each chapter file.
+%
+% \appendix
+% \include{chapters/99-appendix}
+
+
+%=====================================================================
+% Global References
+%=====================================================================
+\addcontentsline{toc}{chapter}{References}
+\bibliographystyle{styles/JHEP}
+\bibliography{references}

@@ -1,0 +1,349 @@
+\usepackage{styles/utformat}  		% Package style file for UT ETDs.
+\usepackage[numbers, sort&compress]{natbib}
+% Global bibliography (single References section at end of document)
+\usepackage{appendix}   
+\usepackage{tabularx}
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+\newcolumntype{W}{>{\centering\arraybackslash}p{2.2cm}}
+
+% subappendices within chapters
+
+% ── JCAP-inspired formatting ───────────────────────────────────────
+\makeatletter
+
+% Chapter heading: left-aligned, sans-serif, bold (JCAP title style)
+\def\@makechapterhead#1{{\parindent 0pt \raggedright
+    \ifnum \c@secnumdepth >\m@ne
+      {\large\bfseries\sffamily \@chapapp\ \thechapter}\par\nobreak\vskip 8pt\fi
+    {\LARGE\bfseries\sffamily #1}\par \nobreak \vskip 30pt}}
+\def\@makeschapterhead#1{{\parindent 0pt \raggedright
+    {\LARGE\bfseries\sffamily #1}\par \nobreak \vskip 30pt}}
+
+% Section headings (from jcappub.sty)
+\renewcommand\section{\@startsection{section}{1}{\z@}%
+                                   {-3.5ex \@plus -1.3ex \@minus -.7ex}%
+                                   {2.3ex \@plus.4ex \@minus .4ex}%
+                                   {\normalfont\large\bfseries}}
+\renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
+                                   {-2.3ex\@plus -1ex \@minus -.5ex}%
+                                   {1.2ex \@plus .3ex \@minus .3ex}%
+                                   {\normalfont\normalsize\bfseries}}
+\renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}%
+                                   {-2.3ex\@plus -1ex \@minus -.5ex}%
+                                   {1ex \@plus .2ex \@minus .2ex}%
+                                   {\normalfont\normalsize\bfseries}}
+
+% Chapter-prefixed figure / table numbers (utformat strips the prefix)
+\renewcommand{\thefigure}{\thechapter.\arabic{figure}}
+\renewcommand{\thetable}{\thechapter.\arabic{table}}
+
+% Bibliography heading title
+\renewcommand{\bibname}{References}
+
+% JCAP-style paragraph formatting: indented first line, no parskip
+% (overrides utformat's \parindent 0in / \parskip 7pt block style)
+\setlength{\parindent}{1.2em}
+\setlength{\parskip}{0pt plus 1pt}
+
+% No dots in ToC / LoF / LoT  (JCAP style)
+\renewcommand{\@dotsep}{10000}
+
+% Epigraph: no title, vertically centred, left-indented
+\def\epigraph{\clearpage
+    \short@page
+    \setcounter{regular@short}{1}
+    \pagestyle{plain}
+    \null\vfill}
+\def\endepigraph{\vfill\null\clearpage}
+
+% ── ToC entry formatting ──────────────────────────────────────────
+% Parts: bold, slightly larger, no page number, generous space above
+\renewcommand*\l@part[2]{%
+  \ifnum \c@tocdepth >-2\relax
+    \addpenalty{-\@highpenalty}%
+    \addvspace{1.8em \@plus\p@}%
+    \begingroup
+      \parindent \z@
+      \leavevmode
+      {\large \bfseries #1}\par
+      \nobreak
+      \vskip 4pt
+      \global\@nobreaktrue
+      \everypar{\global\@nobreakfalse\everypar{}}%
+    \endgroup
+  \fi}
+
+% Chapters: bold, normal size, moderate space above
+\def\l@chapter#1#2{\addpenalty{-\@highpenalty}
+    \vskip 0.6em plus 1pt
+    \@tempdima=\toc@chap@indent
+    \begingroup
+    \parindent \z@
+    \rightskip \@pnumwidth
+    \parfillskip -\@pnumwidth
+    \leavevmode \bfseries
+    \advance\leftskip\@tempdima \hskip -\leftskip #1\nobreak\hfill
+    \nobreak\hbox to\@pnumwidth{\hss #2}\par
+    \penalty\@highpenalty \endgroup}
+
+% ── Consistent front-matter headings (JCAP style) ────────────────
+% Abstract: use the same \shortchapter* heading as ToC / LoF / LoT
+\def\utabstract{\clearpage
+    \short@page
+    \setcounter{regular@short}{1}
+    \pagestyle{plain}
+    \shortchapter*{Abstract}
+    \default@spacing}
+
+% ToC with thin horizontal rules
+\def\tableofcontents{%
+    \shortchapter*{Table of Contents}
+    \pagestyle{plain}
+    \baselineskip=16pt plus .5pt minus .5pt
+    \hrule\vskip6pt
+    \@starttoc{toc}%
+    \vskip6pt\hrule}
+
+% LoF with thin horizontal rules (not added to ToC)
+\def\listoffigures{%
+    \shortchapter*{List of Figures}
+    \pagestyle{plain}
+    \baselineskip=14pt plus .5pt minus .5pt
+    \hrule\vskip6pt
+    \@starttoc{lof}%
+    \vskip6pt\hrule}
+
+% LoT with thin horizontal rules (not added to ToC)
+\def\listoftables{%
+    \shortchapter*{List of Tables}
+    \pagestyle{plain}
+    \baselineskip=14pt plus .5pt minus .5pt
+    \hrule\vskip6pt
+    \@starttoc{lot}%
+    \vskip6pt\hrule}
+
+% ── Wider number columns for chapters 10+ ─────────────────────────
+% Section numbers in ToC (e.g. "12.10") need more width than default "9.9"
+\longtocentry                     % sets \two@num etc. for double-digit chapters
+% Recalculate cumulative indents used by subsection/subsubsection
+\setlength{\c@twonum}{\c@onenum}\addtolength{\c@twonum}{\two@num}
+\setlength{\c@threenum}{\c@twonum}\addtolength{\c@threenum}{\three@num}
+
+% Figure / Table numbers in LoF / LoT (e.g. "12.11") need wider box
+% Also widen right margin so long titles don't collide with page numbers
+\renewcommand{\@pnumwidth}{2em}
+\renewcommand{\@tocrmarg}{3.5em}
+\renewcommand*\l@figure{\@dottedtocline{1}{1.5em}{3.5em}}
+\renewcommand*\l@table{\@dottedtocline{1}{1.5em}{3.5em}}
+
+% Widen chapter number indent for "Chapter 14" etc.
+\settowidth{\toc@chap@indent}{\bf\@chapapp\space 14.\hspace*{1em}}
+
+% ── Title page override (UT logo, sizing) ─────────────────────────
+\def\titlepage{\pagestyle{plain}%
+    \vspace*{5pt}
+    \baselineskip=22.5pt plus .5pt minus .2 pt
+    \begin{center}
+    \baselineskip=28.5pt plus .5pt minus .2 pt
+     \Huge\bfseries\ti@tle            % Same size as Part titles
+    \end{center}
+    \vspace{20pt}
+    \centerline{\large\bf by}
+    \centerline{\large\bf\au@thor}
+    \vspace{30pt}
+    \begin{center}
+    \includegraphics[height=3.5cm]{ut_logo}
+    \end{center}
+    \vspace{30pt}
+    \begin{center}
+    {\large\bf\DOC@TYPE}\\
+    Presented to the Faculty of the Graduate School of\\
+    The University of Texas at Austin\\
+    in Partial Fulfillment\\
+    of the Requirements\\
+    for the Degree of
+    \end{center}
+    \centerline{\large\bf\d@gree}
+    \vspace{25pt}
+    \centerline{\large\bf The University of Texas at Austin}
+    \centerline{\large\bf \graduation@month\ \graduation@year}
+    \clearpage
+    \setcounter{regular@short}{1}}
+
+\makeatother
+% ────────────────────────────────────────────────────────────────────
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Optional packages used for this template. If you don't
+% need a capability in your document, feel free to comment out/remove
+% the package usage command.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{pdflscape}
+\usepackage{layout}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{tikz-feynman}
+\tikzfeynmanset{compat=1.1.0}
+\tikzset{every path/.append style={thick}}
+\usepackage{amsmath,amsthm,amsfonts,amscd}
+\usepackage{unicode-math}
+\usepackage{verbatim}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{bm}            % Bold math symbols
+\usepackage[makeroom]{cancel}  % Cancel symbols (Ch.12)
+\usepackage{dcolumn}        % Align table columns on decimal point
+\usepackage{subcaption}     % Subfigures
+\usepackage{xcolor}
+\usepackage{markdown}
+\usepackage{booktabs}
+\usepackage{xurl}         % URLs can be hyphenated
+\usepackage{multirow}
+\usepackage{makecell}
+\usepackage{tabularx}
+\usepackage{diagbox}        % Diagonal box in tables (Ch.4)
+\usepackage{bbm}
+\usepackage{hyperref}      
+\usepackage{linguex}       % Linguistics examples
+\definecolor{romared}{RGB}{142,0,28}
+\hypersetup{               % Formatting links
+    colorlinks,
+    breaklinks,
+    linkcolor=romared,
+    urlcolor=romared,
+    citecolor=romared,
+    filecolor=romared,
+    linktoc=page
+}
+
+
+% Typography
+\usepackage[sups,otfmath]{XCharter} % default serif font
+\setmathfont{latinmodern-math.otf}[range=cal, Scale=MatchUppercase] % JCAP-style calligraphic
+\setmonofont{lmmono10-regular.otf}[ItalicFont=lmmono10-italic.otf]% typewriter font (JCAP default via lmodern)
+\setsansfont[Ligatures=TeX, BoldFont=SourceSansPro-Bold, BoldItalicFont=SourceSansPro-BoldIt]{SourceSansPro-Regular}% sans serif font
+\newfontfamily\ipafont{CharisSIL-Regular}[Extension=.ttf, BoldFont=CharisSIL-Bold, BoldItalicFont=CharisSIL-BoldItalic, ItalicFont=CharisSIL-Italic] %IPA font
+\usepackage[babel=true]{microtype}  % JCAP-style microtypographic refinements
+
+% Tabular numbers inside tabular environment
+\AtBeginEnvironment{tabular}{\addfontfeatures{Numbers={Uppercase, Monospaced}}}
+\AtBeginEnvironment{tikzpicture}{\addfontfeatures{Numbers={Uppercase, Monospaced}}}
+% Equation number font features (chapter prefix set by \numberwithin below)
+
+% Custom Blue
+\definecolor{LinkBlue}{HTML}{0366D6}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Default is one-and-a-half spacing. Double is also permitted.%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\oneandonehalfspacing
+% \doublespacing
+
+% Strong widow and orphan control - avoid any widows and orphans
+\clubpenalty10000
+\widowpenalty10000
+
+% French Spacing - single spacing between sentences
+\frenchspacing
+
+% Avoid inline math and long captions protruding past the right margin
+\emergencystretch=2em
+\tolerance=1500
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	Some math support.					     %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%	Theorem environments (these need the amsthm package)
+%
+% \theoremstyle{plain} %% This is the default
+
+\newtheorem{thm}{Theorem}[chapter]
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{ax}{Axiom}
+
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}[chapter]
+
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}[chapter]
+\newtheorem*{notation}{Notation}
+
+\numberwithin{equation}{chapter}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	Macros.							     %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%	Here some macros that are needed in this document:
+
+
+\newcommand{\latexe}{{\LaTeX\kern.125em2%
+                      \lower.5ex\hbox{$\varepsilon$}}}
+
+\newcommand{\amslatex}{\AmS-\LaTeX{}}
+
+\chardef\bslash=`\\	% \bslash makes a backslash (in tt fonts)
+            %	p. 424, TeXbook
+
+\newcommand{\cn}[1]{\texttt{\bslash #1}}
+
+\makeatletter		% Starts section where @ is considered a letter
+            % and thus may be used in commands.
+\def\square{\RIfM@\bgroup\else$\bgroup\aftergroup$\fi
+  \vcenter{\hrule\hbox{\vrule\@height.6em\kern.6em\vrule}%
+                                              \hrule}\egroup}
+\makeatother		% Ends sections where @ is considered a letter.
+            % Now @ cannot be used in commands.
+
+% Common physics macros
+\newcommand{\Mpl}{M_{\mathrm{pl}}}
+
+% Journal abbreviations (used in .bib files)
+\newcommand{\prd}{Phys.\ Rev.\ D}
+\newcommand{\prl}{Phys.\ Rev.\ Lett.}
+\newcommand{\mnras}{Mon.\ Not.\ Roy.\ Astron.\ Soc.}
+\newcommand{\apj}{Astrophys.\ J.}
+\newcommand{\apjl}{Astrophys.\ J.\ Lett.}
+\newcommand{\apjs}{Astrophys.\ J.\ Suppl.}
+\newcommand{\jcap}{JCAP}
+\newcommand{\aap}{Astron.\ Astrophys.}
+\newcommand{\araa}{Ann.\ Rev.\ Astron.\ Astrophys.}
+\newcommand{\physrep}{Phys.\ Rept.}
+\newcommand{\pasp}{Publ.\ Astron.\ Soc.\ Pac.}
+\newcommand{\pasj}{Publ.\ Astron.\ Soc.\ Jpn.}
+\newcommand{\pasa}{Publ.\ Astron.\ Soc.\ Austral.}
+\newcommand{\nat}{Nature}
+\newcommand{\aj}{Astron.\ J.}
+\providecommand{\eprint}[1]{\href{http://arxiv.org/abs/#1}{arXiv:#1}}
+\DeclareRobustCommand{\VAN}[3]{#2}
+
+% These values determine the numbering within the text and Table of Contents.
+\setcounter{secnumdepth}{3}    % Number subsections in the chapters.
+\setcounter{tocdepth}{1} % include subsections in the Table of Contents
+
+% Captions (JCAP-style: small font, bold labels, justified text)
+\usepackage{caption}
+\DeclareCaptionFont{tolerant}{\tolerance=2000\emergencystretch=2em}
+\captionsetup{font={small,tolerant}, labelfont=bf, format=plain, justification=justified}
+
+% List and Linguex settings
+\renewcommand{\firstrefdash}{}
+
+% Spacing between subexamples
+\newlength{\SubItemSkip}
+\setlength{\SubItemSkip}{.5\baselineskip}
+\patchcmd{\a}{\itemsep\z@}{\itemsep\SubItemSkip}{}{}
+
+\AtBeginDocument{
+\setlength{\Exlabelsep}{1.5em}
+\setlength{\Extopsep}{.25\baselineskip}
+\setlength{\SubSubExleftmargin}{1.5em}
+\setlength{\SubExleftmargin}{1.5em}
+\setlength{\Exindent}{0pt}
+\setlength{\Exlabelwidth}{1em}
+}

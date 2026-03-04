@@ -1,0 +1,417 @@
+\chapter{CMB Constraints on Loop-Induced Decays of Leptophilic Dark Matter}
+\label{ch:cmb-leptophilic-dm}
+
+\begin{center}
+\textit{Based on:} G.~Montefalcone, G.~Elor, K.~Boddy, N.~Bellomo\\
+\textit{Phys.\ Rev.\ D} \textbf{112} (2025) 023506
+[\href{https://arxiv.org/abs/2503.00110}{arXiv:2503.00110}]
+\end{center}
+\vspace{1em}
+
+% ── Chapter-local color definitions ──────────────────────────────────
+\definecolor{tabblue}{RGB}{31, 119, 180}
+\definecolor{darkblue}{RGB}{0, 0, 120}
+\definecolor{tabred}{RGB}{214, 39, 40}
+\definecolor{tabgreen}{RGB}{44, 160, 44}
+\definecolor{tabgray}{RGB}{100, 100, 100}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+\label{sec:ch9-intro}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Uncovering the nature and origin of dark matter (DM) is one of the most outstanding problems in particle physics today.
+Terrestrial experiments (e.g., particle colliders and direct detection experiments) have yet to discover the elusive DM particle(s) or shed light on any non-gravitational interactions it may have.
+Non-detections place stringent bounds on the DM mass and interactions with Standard Model (SM) particles, thereby restricting the parameter space of weakly interacting massive particles and motivating the study of new DM candidates beyond this paradigm.
+
+Scalar and pseudoscalar DM models, including axions and axion-like particles (ALPs), appear in many well motivated extensions of the SM~\cite{PhysRevLett.40.223, Adams:2022pbo,Choi:2020rgn,Raffelt:2006rj}.
+In these scenarios, the full DM abundance can be generated through non-thermal mechanisms, such as field misalignment or topological defect decays~\cite{Batell:2022qvr, PRESKILL1983127, DINE1983137, DAVIS1986225, Gorghetto:2018myk, Gorghetto:2020qws, Lyth:1991ub, Co:2019jts, Co:2018mho, Co:2020dya, Cembranos:2019qlm}, permitting the production of sub-MeV DM without violating bounds from big bang nucleosynthesis (BBN) or cosmic microwave background (CMB) anisotropies~\cite{Boehm:2002yz,Serpico:2004nm,Nollett:2013pwa,Steigman:2014pfa,Nollett:2014lwa,Escudero:2018mvt,Sabti:2019mhn,Giovanetti:2021izc,An:2022sva,An:2024nsw}.
+
+In this work, we consider the cosmological implications of spin-zero DM candidates with sub-MeV masses that couple trilinearly at tree level to SM electrons.
+This class of DM models has been considered previously, especially in the context of direct and indirect detection~\cite{Mitridate:2021ctr, Knapen:2017xzo,Essig:2013goa}, but the detailed impact on cosmological observables was largely overlooked.
+We note that, contrary to naive expectations, the most frequent DM-electron process in a cosmological setup is not the 2-to-2 tree-level DM-electron scattering, but the (electron) loop-induced DM decay to two photons.
+Although the decay rate needs to be sufficiently low to render DM cosmologically stable, the process of DM decay into SM particles injects energy into the cosmic medium, changing the cosmological thermal and ionization history.
+CMB anisotropies, for example, are very sensitive to such changes and are thus a powerful probe of DM decay.
+
+The impact of DM decays on cosmology has been extensively studied~\cite{Adams:1998nr, Chen:2003gz, 2012PhRvD..85d3522F,Slatyer:2012yq, Poulin:2016nat,Slatyer:2016qyl,Liu:2016cnk, Poulin:2016anj, Cang:2020exa, Liu:2023nct, Capozzi:2023xie, 2024arXiv240813305X}. Recent work~\cite{Capozzi:2023xie,Liu:2023nct,2024arXiv240813305X} placed constraints on the decay of sub-MeV DM using the \texttt{DarkHistory} code~\cite{Liu:2019bbm, Liu:2023fgu} to calculate the thermal history with exotic energy injection and interfacing it with \texttt{ExoCLASS}~\cite{Stocker:2018avm}, an extension of the Boltzmann solver \texttt{CLASS}~\cite{Blas:2011rf}.
+
+We improve upon the current theoretical landscape by considering the impact of decaying sub-MeV spin-zero leptophilic DM on CMB anisotropies.
+Moreover, we build on the analysis of Ref.~\cite{2024arXiv240813305X}, extending it in two ways.
+First, we investigate, for the first time, the impact of a cosmologically consistent treatment of the energy deposition process.
+Since \texttt{DarkHistory} has the standard cosmological parameters internally hard coded, it computes the energy deposition for a fixed standard cosmology.
+We modify \texttt{DarkHistory} to allow our Markov chain Monte Carlo (MCMC) to explore the full cosmological parameter space with a self-consistent thermal history.
+We use the \textit{Planck} 2018 PR3 likelihood to set constraints on DM-electron interactions in the sub-MeV regime for both the fixed and cosmologically consistent treatment in \texttt{DarkHistory}. Second, we test the impact of the latest \textit{Planck} \texttt{NPIPE} data release~\cite{Planck:2020olo}, leveraging its improved precision over PR3 in the temperature and polarization spectra to refine constraints on DM-electron interactions.
+
+Through our comprehensive investigation, we obtain robust and reliable constraints on the decay of sub-MeV scalar, pseudo-scalar, and ALP DM from CMB anisotropies.
+We find that CMB anisotropies provide competitive constraints on DM-electron couplings for scalar and pseudo-scalar DM.
+We improve upon previous astrophysical and terrestrial bounds for scalar DM with mass around a few keV and for pseudo-scalar DM in the mass range of 100~eV to $\sim 4$~keV.
+For ALP DM, while we do not improve upon existing constraints, our bounds complement those obtained from direct and indirect detection.
+Although we focus on DM-electron coupling, we also apply our results to well-motivated DM models with couplings to muons and tau-leptons.
+
+This paper is organized as follows.
+In Sec.~\ref{sec:ch9-models}, we introduce the three DM models under consideration---scalar DM, pure pseudo-scalar DM, and ALPs---and provide their 1-loop decay rates.
+In Sec.~\ref{sec:ch9-energy_injection}, we briefly describe the methodology for calculating the effects of exotic energy injection on the CMB anisotropies, focusing on our use of \texttt{DarkHistory}, and outline our analysis framework in Sec.~\ref{sec:ch9-analysis}.
+We present our CMB constraints on DM-electron couplings and apply our results to other flavor couplings in Sec.~\ref{sec:ch9-results}.
+We compare our bounds with existing limits from astrophysical sources and terrestrial experiments in Sec.~\ref{sec:ch9-comparison}.
+Finally, we conclude and highlight future directions in Sec.~\ref{sec:ch9-conclusions}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Models}
+\label{sec:ch9-models}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+We consider scalar, pseudo-scalar, and ALP particles that couple to electrons and constitute all of the DM in the universe.
+In all cases of interest, we restrict the DM mass to be $m_\mathrm{DM} < 2 m_e$, where $m_e$ is the mass of the electron, so that the tree-level decay of DM into electrons is kinematically forbidden.
+
+We remain agnostic about the specific DM production mechanism. Consequently, we treat the relic abundance as having been set earlier by an independent non-thermal process (e.g., field misalignment), rather than by the electron coupling explored here.
+Instead, we focus on the low-energy phenomenology of DM at later times, around the CMB era, allowing our study to be effectively independent of the UV completion of the DM models. However, we do assume DM is produced non-thermally, and DM must remain thermally decoupled from the SM before and around the time of BBN to avoid constraints on light element abundances from BBN and CMB anisotropies~\cite{Boehm:2002yz,Serpico:2004nm,Nollett:2013pwa,Steigman:2014pfa,Nollett:2014lwa,Escudero:2018mvt,Sabti:2019mhn,Giovanetti:2021izc,An:2022sva,An:2024nsw}.
+For each model of interest, we verify that our upper bounds on the strength of DM-electron couplings are sufficiently small such that DM remains non-thermalized with the SM bath at temperatures $T \gtrsim \mathrm{MeV}$.
+
+Additionally, the interactions we consider permit both DM decay and inelastic scattering, in which DM is in the initial but not the final state.
+The decay lifetimes of interest are much longer than the age of the universe and thus do not alter the DM density in any appreciable way.
+We have verified that inelastic scattering does not impact the DM number density; the scattering rates are smaller than the Hubble expansion rate at temperatures $T \simeq m_\mathrm{DM}$.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[ht!]
+  \centering
+  \tikzset{every fermion/.style={very thick}}
+  \begin{tikzpicture}
+    \begin{feynman}
+      \vertex (i)  at (0,0)         {\(\phi,\Phi,a\)};
+      \vertex[dot] (v1) at (2,0)     {};
+      \vertex[dot] (v2) at (4,1.5)   {};
+      \vertex[dot] (v3) at (4,-1.5)  {};
+      \vertex (o1) at (6,1.5)       {\(\gamma\)};
+      \vertex (o2) at (6,-1.5)      {\(\gamma\)};
+      \diagram* {
+        (i)  -- [scalar] (v1),
+        (v1) -- [fermion] (v2),
+        (v2) -- [fermion] (v3),
+        (v3) -- [fermion] (v1),
+        (v2) -- [photon]  (o1),
+        (v3) -- [photon]  (o2),
+      };
+      \end{feynman}
+  \end{tikzpicture}
+  \caption[Feynman diagram for the one-loop decay of spin-zero DM into two photons]{Feynman diagram for the electron-mediated one-loop decay of scalar~($\phi$), pseudo-scalar~($\Phi$), or axion-like particle~($a$) DM into two photons.  This decay channel represents the dominant interaction responsible for observable cosmological signatures analyzed in this work.
+  }
+  \label{fig:ch9-loop_diagram}
+\end{figure}
+
+\subsection{Scalar}
+The interaction Lagrangian for a light, leptophilic scalar DM particle, $\phi$, coupling to electrons is
+\begin{equation}
+  \mathcal{L}_{\rm{int}} =  g_{\phi \bar e e} \phi \bar\psi_e \psi_e\,,
+  \label{eq:ch9-Lint_scalar}
+\end{equation}
+where~$g_{\phi \bar{e} e}$ is the scalar DM-electron coupling constant.
+At leading order, $\phi$ decays into two photons through an electron loop, illustrated in Fig.~\ref{fig:ch9-loop_diagram}, with corresponding decay width
+\begin{equation}
+  \Gamma_{\phi \rightarrow \gamma \gamma} = \frac{g_{\phi \bar e e}^2 \alpha_{\rm{EM}}^2}{288 \pi^3} \frac{m_\phi^3}{m_e^2} + \mathcal{O}\left(\frac{1}{m_e^4}\right),
+  \label{eq:ch9-Gamma_scalar}
+\end{equation}
+where~$\alpha_\mathrm{EM}$ is the electromagnetic fine-structure constant, and~$m_\phi$ is the mass of scalar DM.
+The 1-loop decay rate dominates over the $\phi e \rightarrow \gamma e$ scattering rate by at least 20 orders of magnitude at redshift~$z \lesssim 10^4$, making it the only contribution of interest for our analysis.
+Even though the 1-loop decay rate is suppressed by an additional factor of~$\alpha_{\rm{EM}}$ compared to the tree-level scattering rate, the latter is substantially more suppressed due to the low electron number density.
+Thermalization with SM particles via~$\gamma e \rightarrow e \phi$ and~$ee \rightarrow \gamma \phi$ processes is also suppressed for $m_\phi \ll 1~\text{MeV}$ and $g_{\phi \bar e e} \lesssim 5 \times 10^{-10}$~\cite{Knapen:2017xzo}, and our results lie well below this thermalization threshold.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Pseudo-scalar Particles}
+
+The interaction Lagrangian for a light pseudo-scalar DM particle, $\Phi$, coupled to electrons is given by
+\begin{equation}
+  \mathcal{L}_{\rm{int}} = -g_{\Phi \bar e e} \Phi \bar\psi_e i \gamma_5 \psi_e,
+  \label{eq:ch9-Lint_pseudoscalar}
+\end{equation}
+where~$g_{\Phi \bar{e} e}$ is the pseudo-scalar DM-electron coupling constant.
+As in the scalar case, the dominant decay channel in the sub-MeV mass range is the 1-loop electron-mediated decay into two photons, with a corresponding rate
+\begin{equation}
+  \Gamma_{\Phi \rightarrow \gamma \gamma} = \frac{g_{\Phi \bar e e}^2 \alpha_{\rm{EM}}^2}{64 \pi^3} \frac{m_\Phi^3}{m_e^2} + \mathcal{O}\left(\frac{1}{m_e^4}\right),
+  \label{eq:ch9-Gamma_pseudoscalar}
+\end{equation}
+where~$m_\Phi$ is the mass of pseudo-scalar DM.
+In analogy with the scalar model, we estimate thermalization effects due to scattering processes, such as $\gamma e \rightarrow \Phi e$.
+Scattering is suppressed with respect to Hubble expansion for couplings $g_{\Phi\bar{e}e} \lesssim 10^{-10}$ for sub-MeV pseudo-scalars.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Axion-Like Particles}
+
+Among other possible pseudo-scalar DM candidates, we single out ALPs, $a$, as a particularly interesting class of models.
+The ALP-electron interaction is typically described by the derivative coupling
+\begin{equation}
+  \mathcal{L}_{\rm{int}} = \frac{g_{a \bar e e}}{2 m_e} \partial_\mu a \bar{\psi}_e \gamma^\mu \gamma_5 \psi_e \,.
+  \label{eq:ch9-Lint_ALP}
+\end{equation}
+where~$g_{a \bar{e} e}$ is the ALP DM-electron coupling constant.
+At tree-level, the ALP interaction is formally equivalent to the pseudo-scalar interaction of Eq.~\eqref{eq:ch9-Lint_pseudoscalar}.
+However, at loop-level, the two interactions do not give rise to the same matrix element due to additional anomalous couplings~\cite{Quevillon:2019zrd, Ferreira:2022xlw}.
+As a result, the decay width of an ALP to two photons via an electron loop is~\cite{Ferreira:2022xlw}
+\begin{equation}
+  \Gamma_{a\rightarrow \gamma \gamma} =\frac{g_{a \bar e e}^2\alpha_{\rm{EM}}^2}{64 \pi^3} \frac{  m_a^7}{ 144 m_e^6 } \,,
+  \label{eq:ch9-Gamma_alp}
+\end{equation}
+for ALP masses~$m_a \ll 2 m_e$.
+Similar to the scalar case, ALP-electron scattering processes are suppressed at least ten orders of magnitude compared to the 1-loop decay.
+Moreover, the values of $g_{a \bar e e}$ needed for thermalization at temperatures below an MeV are significantly higher than any other bounds we consider~\cite{Green:2021hjh}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Energy injection and deposition} \label{sec:ch9-energy_injection}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The impact of decaying DM is typically parametrized in terms of the rate of energy injection per volume $V$ into the primordial plasma:
+\begin{equation}
+  \left(\frac{d^2E}{dt\, dV}\right)_{\rm{inj}} =  \Gamma_{\rm{DM}\to\gamma\gamma} e^{-\Gamma_{\rm{DM}\to\gamma\gamma}t} \ \rho_{\rm{DM}}(z),
+\end{equation}
+where~$t$ is cosmic time, $\Gamma_{\rm{DM}\to\gamma\gamma}$ represents the DM decay rate as defined in Eq.~\eqref{eq:ch9-Gamma_scalar}, \eqref{eq:ch9-Gamma_pseudoscalar} or~\eqref{eq:ch9-Gamma_alp}, and $\rho_{\rm{DM}}(z)$ is the DM energy density at redshift $z$.
+
+Photons produced by DM decays propagate across the cosmic medium while cooling and depositing their energy through various channels: hydrogen and helium ionization, Lyman-$\alpha$ excitations, heating of the intergalactic medium, and the production of low-energy continuum photons.
+The fraction of energy deposited into each channel~$c$ is
+\begin{equation}
+  \left(\frac{d^2E}{dt\, dV}\right)_{\rm{dep}} = f_c(z) \left(\frac{d^2E}{dt\, dV}\right)_{\rm{inj}},
+  \label{eq:ch9-f_c}
+\end{equation}
+where~$f_c(z)$ is the energy deposition function, which captures the physics of radiation transfer.
+
+The main cosmological effect of DM decaying into photons is the overall increase of the free-electron fraction across a wide range of redshifts~\cite{2012PhRvD..85d3522F, Slatyer:2016qyl}.
+An increase in free electrons increases the optical depth and a broadens the surface of last scattering compared to the standard cold DM (CDM) scenario.
+The former causes an overall suppression of the peaks in the CMB power spectra, while the latter enhances diffusion damping at large multipoles.
+
+We compute the energy deposition functions using version 2.0 of \texttt{DarkHistory}.
+This updated version of the code incorporates an improved modeling of low-energy particle deposition, which is highly relevant for the sub-keV energy injections we consider in this work, and a multi-level hydrogen atom approximation in order to track the occupation of multiple excited states.
+Following Refs.~\cite{Liu:2023nct, Capozzi:2023xie, 2024arXiv240813305X}, we provide~$f_c(z)$ as an input to the~\texttt{injection} module of~\texttt{CLASS},\footnote{The \texttt{injection} module in \texttt{CLASS} is based on \texttt{ExoCLASS}. With $f_c(z)$ provided by \texttt{DarkHistory}, the \texttt{injection} module and \texttt{ExoCLASS} handle energy deposition identically.} which calculates the evolution of the ionization fraction and baryon temperature under the effects of exotic energy injection.
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=.7\linewidth]{figures/ch09/fs_cosmo_change_mDM10keV_v3.pdf}
+    \caption[Cosmology-driven residuals in the hydrogen ionization energy deposition function]{Residuals in the hydrogen ionization channel of the energy deposition function,
+$f_{\mathrm{H\,ion}}(z)$, for $m_{\mathrm{DM}}=10\,\mathrm{keV}$ and a given cosmology
+relative to the \textit{Planck}~2018 best-fit baseline. The three panels ({\it top} to {\it bottom})
+correspond to scalar DM-electron couplings $g_{\phi \bar{e}e}$ at the 95\%~C.L.\
+exclusion limit from Ref.~\cite{2024arXiv240813305X} ({\it top}), an order of magnitude
+larger ({\it middle}), and an order of magnitude smaller ({\it bottom}). In each panel, the eight
+curves, shown in various shades of \textcolor{tabred}{red}, represent different combinations of $(h,\,\omega_b,\,\omega_c)$ taken at their
+$\pm 95\%$~C.L.\ \textit{Planck}~2018 values.}
+    \label{fig:ch9-fs_cosmo_mDM10keV}
+\end{figure}
+
+\texttt{DarkHistory} treats the energy deposition functions $f_c(z)$ as independent of cosmology by pre-computing them under a fixed fiducial model. While this approach provides a well-motivated approximation, it is important to note that the $f_c(z)$ are in fact mildly sensitive to the underlying cosmology, primarily through changes in the Hubble constant, $h$, and the physical baryon and DM density, $\omega_b$ and $\omega_c$. Variations in these quantities can alter the redshift evolution of energy deposition by modifying both the expansion history and the abundance of free electrons.
+
+In Fig.~\ref{fig:ch9-fs_cosmo_mDM10keV}, we show how these cosmological parameter variations affect the hydrogen ionization channel, which is the most relevant in setting CMB constraints on decaying DM, in the energy deposition function. We plot residuals in $f_{\mathrm{H_{ion}}}(z)$ for eight combinations of $(h,\,\omega_b,\,\omega_c)$, each taken at their $\pm 95\%$~C.L. \textit{Planck}~2018 limits, relative to the fiducial  (\textit{Planck}~2018 best-fit) cosmology used in \texttt{DarkHistory}. As a representative example, we take $m_{\mathrm{DM}} = 10\,\mathrm{keV}$ and consider three choices of scalar DM-electron coupling $g_{\phi \bar{e}e}$: the first yields a DM lifetime at the 95\%~C.L. exclusion limit reported in Ref.~\cite{2024arXiv240813305X}, while the other two are an order of magnitude larger and smaller than this baseline value. Equivalent plots for the other DM masses relevant to our analysis are provided for completeness in Appendix~\ref{sec:ch9-app_fs_cosmo}. Overall, we observe $\sim \mathcal{O}(1)\%$ residual changes in $f_{\rm H_{ion}}(z)$, which remain roughly independent of $g_{\phi \bar{e}e}$ near recombination but grow slightly larger at lower redshifts for stronger couplings. These results support the expectation that cosmology-driven variations in $f_c(z)$ are modest~\cite{Liu:2019bbm}, yet they motivate a dedicated check to ensure that such percent-level corrections to the $f_c(z)$ do not bias the final DM-electron coupling limits derived from a full MCMC treatment. This verification has not been explicitly performed in previous studies, and we address it in the next section.
+
+
+%%%%%%%%%%%%%%%%
+\section{Analysis}
+\label{sec:ch9-analysis}
+%%%%%%%%%%%%%%%%
+
+For the three models of interest in Sec.~\ref{sec:ch9-models}, we perform MCMC analyses to place constraints on DM-electron coupling in the DM mass range between 100~eV and 1~MeV using \textit{Planck} 2018 temperature, polarization, and lensing data.
+Since investigations into the effects of decaying DM have been performed previously in the literature~\cite{Liu:2023nct, Capozzi:2023xie, 2024arXiv240813305X}, we focus on two complementary aspects: \textit{(i)} incorporating a cosmology-consistent treatment of energy injection and \textit{(ii)} leveraging the improved precision of the latest \textit{Planck} PR4 data release.
+
+Regarding aspect~\textit{(i)}, as we discuss in Sec.~\ref{sec:ch9-energy_injection}, previous studies using \texttt{DarkHistory} assume a fiducial cosmology when computing the energy deposition functions $f_c(z)$, independently from any variation of the other sampled cosmological parameters in the MCMC. We test for potential bias that could arise from fixing the cosmology.
+
+
+Regarding aspect~\textit{(ii)}, the recent \texttt{NPIPE} maps offer advancements compared to previous \textit{Planck} data releases, including increased sky coverage at high frequencies and improved processing of time-ordered data, which lead to a reduction in small-scale noise.
+These improvements provide 10\% to 20\% smaller uncertainties on constraints of~$\Lambda$CDM parameters and minimal extensions~\cite{Tristram:2023haj}, further motivating their application to decaying DM models.
+
+In order to address these aspects, we perform the following three CMB analyses:
+\begin{description}
+\item[PR3-$f^\mathrm{FC}_c$]
+  We use the~\textit{Planck} 2018 PR3 likelihood code, employing the \texttt{plik-lite} likelihood for high multipoles ($\ell \geq 30$), the~\texttt{commander} and~\texttt{SimAll} likelihoods at low multipoles ($2 \leq \ell \leq 29$) for the temperature and polarization power spectra, respectively, and the~\texttt{SMICA} lensing reconstruction likelihood~\cite{Planck:2019nip}.
+  The~$f_c(z)$ functions are precomputed by~\texttt{DarkHistory} for different values of masses and couplings under the assumption of a fixed fiducial cosmology (FC), and we interpolate for intermediate values of the couplings.
+\item[PR3-$f^\mathrm{CC}_c$]
+  We use the~\textit{Planck} 2018 PR3 likelihood code as described for~\textbf{PR3-$f^\mathrm{FC}_c$}.
+  However, this analysis incorporates a cosmology-consistent (CC) treatment of energy injection by recomputing the~$f_c(z)$ functions at each step of the MCMC, i.e., adjusting~\texttt{DarkHistory} cosmological parameters to the current sampled value of the chain.
+\item[PR4-$f^\mathrm{FC}_c$]
+  We use the latest~\texttt{NPIPE} \textit{Planck} data release and use the corresponding~\textit{Planck} PR4 likelihood code~\cite{Planck:2020olo}.
+  We replace the \textit{Planck} PR3 \texttt{plik-lite} high-$\ell$ likelihood with the updated~\texttt{HiLLiPoP} likelihood~\cite{Tristram:2023haj}.
+  For the polarization spectra at~$\ell < 30$ we use the PR4~\texttt{LoLLiPoP} likelihood~\cite{Tristram:2023haj} instead of the PR3 \texttt{SimAll} likelihood, while retaining the low-$\ell$ \texttt{Commander} likelihood for temperature power spectra and the~\texttt{SMICA} lensing reconstruction likelihood.\footnote{An updated PR4 lensing likelihood based on the~\texttt{NPIPE} data release is also available~\cite{Carron:2022eyg}, but we do not include it in our analysis. Decaying DM has negligible impact on the lensing convergence signal when the decay time is significantly longer than the age of the universe~\cite{Li:2018zdm}. Incorporating this likelihood would only marginally tighten constraints on the DM density, with no appreciable effects on our exclusions limits.}
+  As described for \textbf{PR3-$f^\mathrm{FC}_c$}, the~$f_c(z)$ functions are precomputed by~\texttt{DarkHistory} under a fixed fiducial cosmology.
+\end{description}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\linewidth]{figures/ch09/CLs_DM_decay_v1.pdf}
+    \caption[Planck upper limits on DM-electron coupling for scalar, pseudo-scalar, and ALP dark matter]{\textit{Planck} 95\% C.L. upper limits on the dimensionless DM-electron coupling in the scalar ($g_{\phi \bar{e}e}$) (\textit{left panel, left axis}), pseudo-scalar ($g_{\Phi \bar{e}e}$) (\textit{left panel, right axis}), and ALP ($g_{a \bar{e}e}$) (\textit{right panel}) cases as a function of the DM mass, $m_{\rm{DM}}$.
+    For each panel, the black curve shows the results from the \textit{Planck} 2018 PR3 likelihood with the energy deposition functions $f_c(z)$ from Eq.~\eqref{eq:ch9-f_c} pre-computed under a fiducial $\Lambda$CDM cosmology (\textbf{PR3-$f_c^{\rm{FC}}$}); the \textcolor{tabblue}{blue} curve corresponds to the PR3 analysis for which the $f_c(z)$ functions are evaluated at each MCMC step to reflect the sampled cosmological parameters (\textbf{PR3-$f_c^{\rm{CC}}$}); and the \textcolor{tabred}{red} curve corresponds to the constraints obtained with the updated \textit{Planck} PR4 likelihood using the precomputed $f_c(z)$ functions from a fiducial cosmology (\textbf{PR4-$f_c^{\rm{FC}}$}).}
+\label{fig:ch9-CMB_limits}
+\end{figure}
+
+For each dataset, we sample the following cosmological parameters with broad flat priors: the angular size of the sound horizon at decoupling~$\theta_s$, the physical baryon density~$\omega_b$, the physical matter density~$\omega_m$, the scalar amplitude~$\ln(10^{10}A_s)$, the scalar spectral index~$n_s$, and the redshift at reionization $z_{\rm{reio}}$.
+Additionally, we sample~$\log_{10}\left( g_{\phi \bar{e}e}\right)$ with a flat prior for fixed DM masses $m_\mathrm{DM}=\{100\,\rm{eV},\,1\,\rm{keV},\,10\,\rm{keV},\,100\,\rm{keV},\,1\,\rm{MeV}\}$.
+Since the structures of the pseudo-scalar and ALP decay widths are formally equivalent to that of scalar DM, it is possible to recast scalar DM upper limits into pseudo-scalar and ALP limits via the rescalings~$g_{\phi \bar{e}e} \rightarrow \sqrt{288/64}\,g_{\Phi\bar{e}e}$ and~$g_{\phi \bar{e}e}\rightarrow \sqrt{288/64}\,m_{\rm{DM}}^2/(12\,m_e^2) \,g_{a\bar{e}e}$, respectively.
+
+We interface \texttt{CLASS v3.2.5} with the publicly available sampler \texttt{MontePython}~\cite{Audren:2012wb, Brinckmann:2018cvx} to perform the MCMC analyses.
+Chain convergence is reached when the Gelman-Rubin criterion~\cite{Gelman:1992zz} $R < 0.01$ is satisfied.
+Finally, we utilize \texttt{GetDist}~\cite{Lewis:2019xzd} to process our MCMC chains.
+
+Due to the high computational cost of the~\textbf{PR3-$f^\mathrm{CC}_c$} analysis, we limit~\texttt{DarkHistory} to~$n = 10$ hydrogen levels.
+This adjustment significantly reduces runtime while remaining a valid approximation for DM masses well above the hydrogen ionization energy~\cite{Liu:2023fgu, Liu:2023nct}.
+We impose the same limit of $n=10$ levels for the other two analyses to maintain consistency with \textbf{PR3-$f^\mathrm{CC}_c$}.
+
+
+
+%%%%%%%%%%%%%%%%
+\section{Results}
+\label{sec:ch9-results}
+%%%%%%%%%%%%%%%%
+
+We present the results of our analyses in Fig.~\ref{fig:ch9-CMB_limits} using the \textit{Planck} 2018 PR3 likelihoods with cosmology-consistent energy deposition functions (\textbf{PR3-$f_c^{\rm{CC}}$}) in \textcolor{tabblue}{blue}, the PR3 likelihoods with precomputed energy deposition functions (\textbf{PR3-$f_c^{\rm{FC}}$}) in black, and the PR4 likelihoods with precomputed energy deposition functions (\textbf{PR4-$f_c^{\rm{FC}}$}) in \textcolor{tabred}{red}.
+For each analysis choice, we show the 95\% confidence level (C.L.) upper limits on the dimensionless DM coupling constants~$g_{\phi \bar{e}e}$, $g_{\Phi \bar{e}e}$, and~$g_{a \bar{e}e}$ as a function of the DM mass for the scalar (left vertical axis of the left panel), pseudo-scalar (right vertical axis of the left panel), and ALP (right panel) cases, respectively.
+
+As expected, our results from the standard, fixed-cosmology \textbf{PR3-$f_c^{\rm{FC}}$} analysis are consistent with the bounds on DM decay reported in previous studies~\cite{Capozzi:2023xie, Liu:2023nct, 2024arXiv240813305X}.
+Importantly, our results for the cosmology-consistent \textbf{PR3-$f_c^{\rm{CC}}$} analysis aligns with those from fixed-cosmology approach at the 10\% level.
+This agreement validates the standard methodology of assuming a fixed fiducial $\Lambda$CDM cosmology when pre-computing the~$f_c(z)$ functions from \texttt{DarkHistory} for decaying DM.
+It further highlights that percent-level differences in the computation of the energy deposition functions do not have any appreciable impact on our DM decay bounds. As discussed in Appendix~\ref{sec:ch9-app_MCMC_analysis}, we observe that the cosmology-consistent approach reduces mild parameter degeneracies present in the fixed-cosmology case, particularly at low DM masses, though this reduction has negligible impact on the derived constraints.
+
+We find that the upper limits derived from the \textit{Planck} PR4 analysis are consistent with those obtained using the PR3 likelihoods, with only minor differences observed for $m_{\rm{DM}}\geq 10\,$keV.
+These~$20\%$ improvements in the DM-electron coupling constant exclusion limits can be attributed to lower noise levels in the~\texttt{LoLLiPoP} likelihood used for low-$\ell$ polarization spectra in PR4.
+However, for $m_{\rm{DM}} \lesssim 10\,$keV, the constraints are effectively the same, likely due to increased degeneracy between $g_{\phi\bar{e}e}$, $\ln (10^{10} A_s)$, and $z_{\rm{reio}}$ in this mass range, which further limits the impact of the improved polarization data (see also Appendix~\ref{sec:ch9-app_MCMC_analysis}).
+In general, the lack of significant improvements in the upper limits reflects the fact that most of the constraining power for decaying DM originates from low-$\ell$ polarization data, where the differences between PR3 and PR4 are modest, limiting the potential gains from the enhanced high-$\ell$ precision in the~\texttt{NPIPE} data release.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Flavorful Variations}
+
+Our framework also applies to the cases of 1-loop muon- and tau-mediated decays; therefore, models in which DM couples exclusively to muons or taus are also constrained by our analysis. Such DM models are well-motivated ~\cite{Ziegler:2019gjr, PANCI2023137919, Ziegler:2023aoe} and open up a host of collider~\cite{Bauer:2021mvw, 2025arXiv250106294L} and astrophysical probes~\cite{Bollig:2020xdr, Croon:2020lrf, Green:2021hjh, Caputo:2021rux}.
+The fact that such models are constrained by the CMB even though they do not couple to electrons (i.e., no additional tree-level scatterings processes are present at all during the epoch of recombination) further highlights the importance of the 1-loop decay.
+Decay widths in these scenario are obtained with a simple rescaling~$m_e \rightarrow m_{\mu}$ or~$ m_{\tau}$ in Eqs.~\eqref{eq:ch9-Gamma_scalar}, \eqref{eq:ch9-Gamma_pseudoscalar} and~\eqref{eq:ch9-Gamma_alp}.
+In other words, the bounds presented in Fig.~\ref{fig:ch9-CMB_limits} for the DM-electron coupling equally apply to the DM-muon or DM-tau coupling scenarios, after rescaling them by a factor~$m_\mu/m_e \sim 10^3$ and~$m_\tau/m_e\sim 10^{5}$, respectively.
+
+More generally, leptophilic DM models with couplings to all three flavors decay at a rate give by
+\begin{equation}
+    \Gamma_{\phi \rightarrow \gamma \gamma} = \frac{\alpha_{\rm{EM}}^2}{288 \pi^3} \sum_{i,j = e,\mu,\tau}  g_{\phi \bar l_i l_j}^2  \frac{m_\phi^3}{m_{l_i} m_{l_j}}\,,
+\end{equation}
+with an analogous expressions for pseudo-scalar DM.
+For universal flavor couplings, the contribution from muon and tau leptons in the loop have a negligible effect on our bound in Fig.~\ref{fig:ch9-CMB_limits}.
+Finally, in agreement with the literature~\cite{PANCI2023137919}, we find that CMB constraints do not shed light on the parameter space of interest to lepton flavor violating decays.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Comparison with other constraints}
+\label{sec:ch9-comparison}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=.7\linewidth]{figures/ch09/scalar_summary_bounds_plot_v0.pdf}
+    \caption[CMB and astrophysical bounds on scalar DM-electron coupling]{Comparison of our \textit{Planck} $95\%$ C.L.\ CMB upper limit on the scalar DM-electron coupling $g_{\phi \bar{e}e}$ (in \textcolor{tabblue}{blue}) with limits from previous studies.
+    We show (in \textcolor{tabgray}{gray}) stellar cooling constraints from horizontal branch (HB) and red giant (RG) stars~\cite{Hardy:2016kme}, as well as X-ray and gamma-ray constraints from NuStar, XMM-Newton, and INTEGRAL data~\cite{Ng:2019gch,Laha:2020ivk,Foster:2021ngm,Ferreira:2022egk}.}
+    \label{fig:ch9-Scalar}
+\end{figure}
+
+In Figs.~\ref{fig:ch9-Scalar}, \ref{fig:ch9-Pseudoscalar}, and~\ref{fig:ch9-Axion}, we show our strongest upper limits on scalar, pure pseudo-scalar, and ALP DM-electron couplings from our \textit{Planck} PR4 analysis and compare them with existing bounds in the literature.
+
+
+For the scalar case shown in Fig.~\ref{fig:ch9-Scalar}, stellar cooling constraints from horizontal branch (HB) and red giants (RG) stars~\cite{Hardy:2016kme,Bottaro:2023gep} provided the most stringent bounds on~$g_{\phi\bar{e} e}$ for~$m_\phi\lesssim 50\,$keV prior to our work. For masses larger than~$50$ keV, we re-cast constraints on the non-detection of X-ray and gamma-ray signals from the NuStar, XMM-Newton, and INTEGRAL telescopes~\cite{Ng:2019gch,Laha:2020ivk,Foster:2021ngm,Ferreira:2022egk} produced by $\phi \to \gamma \gamma$ decays.
+Exclusion limits from CMB anisotropies derived in this work, shown in \textcolor{tabblue}{blue}, surpass previous bounds for $1\,\text{keV}\lesssim m_{\phi} \lesssim 5\,\text{keV}$ by up to an order of magnitude in this range.
+Although our CMB bounds are weaker than the astrophysical bounds in most of the mass range shown, they are robust and are not subject to the same astrophysical uncertainties.
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=.7\linewidth]{figures/ch09/pseudoscalar_summary_bounds_plot_v0.pdf}
+    \caption[CMB and experimental bounds on pseudo-scalar DM-electron coupling]{Comparison of our \textit{Planck} $95\%$ C.L.\ CMB upper limit on the pseudo-scalar DM-electron coupling $g_{\Phi \bar{e}e}$ (in \textcolor{tabblue}{blue}) with limits from previous studies. We show (in \textcolor{tabgray}{gray}) stellar cooling constraints from red giant (RG) stars~\cite{Hardy:2016kme, Capozzi:2020cbu}, as well as X-ray and gamma-ray constraints from NuStar, XMM-Newton, and INTEGRAL data~\cite{Ng:2019gch,Laha:2020ivk,Foster:2021ngm,Ferreira:2022egk}. We also show (in different shades of \textcolor{tabred}{red}) direct detection bounds from from DarkSide~\cite{DarkSide:2022knj}, PandaX~\cite{PandaX:2024cic,PandaX:2024kjp}, and XENON~\cite{XENON:2019gfn,XENON:2020rca,XENON:2021myl,XENONCollaboration:2022kmb}.}
+    \label{fig:ch9-Pseudoscalar}
+\end{figure}
+
+In the case of pseudo-scalars and ALPs shown in Figs.~\ref{fig:ch9-Pseudoscalar} and~\ref{fig:ch9-Axion}, respectively, DM-electron interactions are equivalent at tree-level. Consequently, terrestrial limits and stellar constraints are identical for the two classes of models, although we display only a subset of these bounds in each figure to highlight the parameter space most relevant for our derived CMB constraints.  Specifically, for the pure pseudo-scalar case in Fig.~\ref{fig:ch9-Pseudoscalar}, we show the direct detection bounds from DarkSide~\cite{DarkSide:2022knj}, PandaX~\cite{PandaX:2024cic,PandaX:2024kjp}
+and XENON~\cite{XENON:2019gfn, XENON:2020rca, XENON:2021myl, XENONCollaboration:2022kmb}, along with the stellar cooling constraints from RG stars~\cite{Hardy:2016kme, Capozzi:2020cbu}. For ALPs~in Fig.~\ref{fig:ch9-Axion}, we also include the SuperCDMS~\cite{Aralis:2019nfa}, EDELWEISS~\cite{EDELWEISS:2018tde}, and GERDA~\cite{GERDA:2020emj} exclusion limits,
+as well as
+the solar luminosity/neutrino bound~\cite{Croon:2020lrf}.
+
+In contrast to their identical behavior at tree level, at 1-loop the ALP decay width scales as $\Gamma_{a\to\gamma\gamma} \sim (m_a/m_e)^6$, whereas the pseudo-scalar decay width scales as $\Gamma_{\Phi\to\gamma\gamma} \sim (m_\Phi/m_e)^2$.
+Thus, the X-ray, gamma-ray, and CMB upper bounds are significantly weaker for ALPs.
+Despite this difference, the X-ray and gamma-ray constraints consistently provide the leading bounds for both pseudo-scalar and ALP DM for $m_\text{DM} \gtrsim 5\,$keV.
+On the other hand, for~$m_\text{DM} \lesssim 5\,$keV, CMB bounds on pseudo-scalar DM-electron coupling surpass all existing upper bounds, exceeding the XENON limits up to two orders of magnitude at $m_\Phi \sim 1\,$keV and the RG bound by roughly an order of magnitude for $m_\Phi \sim 100\,$eV.
+Conversely, the steep mass-dependent scaling causes the CMB constraints on ALP-electron coupling to remain subdominant to both terrestrial and astrophysical bounds.
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=.7\linewidth]{figures/ch09/axion_summary_bounds_plot_v0.pdf}
+    \caption[CMB and experimental bounds on ALP-electron coupling]{Comparison of our \textit{Planck} $95\%$ C.L.\ CMB upper limits on the ALP-electron coupling $g_{a \bar{e}e}$ (in \textcolor{tabblue}{blue}) with limits from previous studies.
+    We show (in \textcolor{tabgray}{gray}) stellar cooling constraints from red giant (RG) stars~\cite{Hardy:2016kme, Capozzi:2020cbu}, the solar luminosity/neutrino bound~\cite{Croon:2020lrf}, and X-ray and gamma-ray constraints from NuStar, XMM-Newton, and INTEGRAL~\cite{Ng:2019gch,Laha:2020ivk,Foster:2021ngm,Ferreira:2022egk}.
+    We also show (in different shades of \textcolor{tabred}{red}) direct detection bounds from DarkSide~\cite{DarkSide:2022knj}, PandaX~\cite{PandaX:2024cic,PandaX:2024kjp}, SuperCDMS~\cite{Aralis:2019nfa}, EDELWEISS~\cite{EDELWEISS:2018tde}, GERDA~\cite{GERDA:2020emj}, and XENON~\cite{XENON:2019gfn,XENON:2020rca,XENON:2021myl,XENONCollaboration:2022kmb}.}
+    \label{fig:ch9-Axion}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Conclusions}
+\label{sec:ch9-conclusions}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+In this work, we study constraints from CMB anisotropies on sub-MeV spin-zero DM, focusing on scalar, pseudo-scalar, and ALP models that couple leptophilically to the Standard Model.
+These scenarios predict DM decay into photons at the 1-loop level, which is the dominant process for energy injection in the early universe.
+
+We expand upon previous CMB studies of DM decay~\cite{Liu:2023nct, Capozzi:2023xie, 2024arXiv240813305X} by conducting two complementary MCMC analyses.
+First, we explore a cosmology-consistent treatment of energy injection, dynamically computing the $f_c(z)$ functions at each MCMC step to reflect variations in cosmological parameters, rather than relying on precomputed profiles based on a fixed fiducial cosmology.
+Second, we utilize the improved precision of the \textit{Planck} PR4 likelihoods~\cite{Tristram:2023haj}, based on the \texttt{NPIPE}~\cite{Planck:2020olo} data release, to examine their impact on the derived constraints.
+
+We find that the cosmology-consistent analysis reproduces the results obtained using the standard fixed-cosmology approach, validating the latter methodology for deriving constraints on DM decay.
+This outcome is important for future studies, since running a cosmology-consistent analysis with \texttt{DarkHistory} takes significantly more computational time and resources than running a fixed-cosmology\linebreak analysis.
+Our results using the \textit{Planck} PR3 and PR4 likelihoods are largely consistent, with only minor improvements observed for $m_{\rm{DM}} \gtrsim 10\,$keV.
+This consistency reflects the fact that constraints on decaying DM are predominantly driven by low-$\ell$ polarization data, where the improvements introduced by the PR4 likelihoods are modest.
+
+We compare our derived constraints with existing bounds from astrophysical sources and terrestrial experiments.
+For scalar DM, our CMB limits surpass previous bounds for $1\,{\rm keV} \lesssim m_{\phi} \lesssim 5\,$keV by up to an order of magnitude. For pseudo-scalar DM, the CMB constraints provide the leading limit for $m_{\Phi} \lesssim 5\,$keV, exceeding terrestrial constraints, specifically those from the XENON experiment~\cite{XENON:2019gfn, XENON:2020rca, XENON:2021myl, XENONCollaboration:2022kmb}, by up to two orders of magnitude.
+In the ALP case, terrestrial and astrophysical searches still provide the dominant limits across our mass range of interest.
+
+Since our results arise from electron loop-level decays into photons, similar bound on DM-lepton coupling arises in leptophilic spin-zero DM models that interact exclusively to muons or taus (rescaled by $m_e \rightarrow m_\mu$ or $m_\tau$).
+We note that for leptophilic vector or pseudo-vector DM models, the loop-induced decay to two photons is forbidden by charge conjugation invariance. We explore the CMB bounds on these models in upcoming work.
+
+As a whole, our findings underscore the powerful role of CMB anisotropies in probing exotic energy injection mechanisms, providing a robust and powerful complement to astrophysical and terrestrial constraints.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{subappendices}
+
+\section{Cosmology Dependence of the energy deposition functions}
+\label{sec:ch9-app_fs_cosmo}
+
+In this appendix, we present for completeness the cosmology-driven variations in the hydrogen ionization channel of the energy deposition function, $f_{\rm H_{ion}}(z)$, for the four additional DM masses analyzed in this work, namely $m_{\mathrm{DM}}$ of $100\,\mathrm{eV}$, $1\,\mathrm{keV}$, $100\,\mathrm{keV}$, and $1\,\mathrm{MeV}$. In Fig.~\ref{fig:ch9-fs_cosmo_mDMs} (analogous to Fig.~\ref{fig:ch9-fs_cosmo_mDM10keV}), we display, for each DM mass, the residuals in $f_{\rm H_{ion}}(z)$ computed under eight different cosmologies, with $(h,\,\omega_b,\,\omega_c)$ taken at their $\pm 95\%$~C.L.\ \textit{Planck}~2018 limits. For each mass, we consider three representative choices of the scalar DM--electron coupling, $g_{\phi \bar{e}e}$: a value that yields a DM lifetime at the 95\%~C.L.\ exclusion limit from Ref.~\cite{2024arXiv240813305X} and values that are one order of magnitude larger and smaller. While the precise residuals depend on both the DM mass and coupling (e.g., slightly larger deviations for DM masses $>1\,$keV and for stronger couplings at lower redshifts), we consistently find $f_{\rm H_{ion}}(z)$ changes remain at roughly the $\mathcal{O}(1)\%$ level near recombination.
+These small but non-zero departures motivate our cosmology-consistent analysis, $\textbf{PR3-}f^{\rm CC}_c$, although a comprehensive examination of their detailed origins lies beyond the scope of this work. In practice, the outcome of our $\textbf{PR3-}f^{\rm CC}_c$ study (see Sec.~\ref{sec:ch9-results}) demonstrates that these mild variations have no impact on the derived DM--electron coupling constraints and can thus be safely neglected in subsequent analyses of DM decay.
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=\linewidth]{figures/ch09/fs_cosmo_change_mDMs_v0.pdf}
+    \caption[Cosmology-driven residuals in energy deposition for various DM masses]{Same as in Fig.~\ref{fig:ch9-fs_cosmo_mDM10keV}, but for the four other DM masses used in our analysis, namely $m_{\mathrm{DM}}=100\,\mathrm{eV}$~({\it top left}), $m_{\mathrm{DM}}=1\,\mathrm{keV}$~({\it top right}), $m_{\mathrm{DM}}=100\,\mathrm{keV}$~({\it bottom left}), and $m_{\mathrm{DM}}=1\,\mathrm{MeV}$~({\it bottom right}). Each panel shows the residuals in the hydrogen ionization channel of the energy deposition function, $f_{\mathrm{H\,ion}}(z)$, for scalar DM-electron couplings $g_{\phi \bar{e}e}$ at the 95\%~C.L.\ exclusion limit from Ref.~\cite{2024arXiv240813305X} (\textit{top}), an order of magnitude smaller (\textit{middle}), and an order of magnitude larger (\textit{bottom}), all plotted against the \textit{Planck}~2018 best-fit cosmology. The eight curves in each panel, shown in various shades of \textcolor{tabred}{red}, represent different combinations of $(h,\,\omega_b,\,\omega_c)$ taken at their $\pm 95\%$~C.L.\ \textit{Planck}~2018 values. In all cases, cosmology-driven changes in $f_{\mathrm{H\,ion}}(z)$ remain roughly at the $\mathcal{O}(1)\%$ level near recombination for every mass considered, while at lower redshifts closer to reionization,  stronger couplings generally result in mildly larger residuals.}
+    \label{fig:ch9-fs_cosmo_mDMs}
+\end{figure}
+
+\section{Posterior Distributions and Parameter Degeneracies}
+\label{sec:ch9-app_MCMC_analysis}
+
+In this appendix, we present representative examples of the reconstructed marginalized posterior probability distributions from our MCMC analyses and comment on degeneracies between parameters.
+We show in Fig.~\ref{fig:ch9-triangle_plot_mDM1keV_PR4} the triangle plot of the 2D posterior distributions for the $\Lambda$CDM parameters \{$10^2\omega_b$, $\omega_c$, $10^2\theta_s$, $\ln(10^{10}A_s)$, $n_s$ and $z_{\rm reio}$\} and the dimensionless DM-electron coupling $g_{\phi \bar e e}$, for a DM mass of $1\,\rm{keV}$.
+These results are derived from the \textit{Planck} PR4 likelihood analysis (\textbf{PR4-$f^\mathrm{FC}_c$}), described in Sec.~\ref{sec:ch9-analysis}, where we follow the standard treatment of energy injection, using pre-computed energy deposition functions~$f_c(z)$ under a fiducial cosmology.
+
+As expected, the constraints on the standard~$\Lambda$CDM parameters remain consistent with those from a $\Lambda$CDM-only analysis of the \textit{Planck} PR4 data~\cite{Tristram:2023haj}.
+In addition, we note a mild degeneracy between $z_{\rm reio}$, $g_{\phi \bar e e}$, and $\ln(10^{10}A_s)$.
+The end of reionization is delayed in the presence of additional processes that contribute to ionizing gas, leading to a negative correlation between $g_{\phi \bar e e}$ and $z_{\rm reio}$. Although one might expect extra ionization to anticipate the end of reionization, partial ionization from DM decays at earlier times effectively reduces the astrophysical reionization required at high redshift.
+ In the MCMC fit, this translates into a lower $z_{\rm reio}$ to avoid overestimating the total optical depth, leading to a small negative correlation between $g_{\phi \bar e e}$ and $z_{\rm reio}$. Furthermore, the optical depth at reionization is closely tied to the overall amplitude of the CMB anisotropies, creating the known positive correlation between the amplitude of the primordial scalar power spectrum $A_s$ and $z_{\rm reio}$.
+As a result, a weak degeneracy between $g_{\phi \bar e e}$ and $\ln(10^{10}A_s)$ is induced through their mutual dependence on $z_{\rm reio}$.
+
+\begin{figure}[tph!]
+    \centering
+    \includegraphics[width=.95\linewidth]{figures/ch09/triangle_plot_mDM1e3.pdf}
+    \caption[Posterior distributions for cosmological and DM-electron coupling parameters]{Marginalized 2D posterior distributions for the $\Lambda$CDM parameters and the dimensionless DM-electron coupling, $g_{\phi \bar e e}$, for a DM mass of $1\,$keV. Contours correspond to the 68\% and 95\% confidence levels, derived from a joint analysis of the \textit{Planck} PR4 likelihoods, incorporating temperature, polarization, and lensing anisotropies, as described in Sec.~\ref{sec:ch9-analysis}. The 1D marginalized posteriors for each parameter are displayed along the diagonal.}
+    \label{fig:ch9-triangle_plot_mDM1keV_PR4}
+\end{figure}
+
+In Fig.~\ref{fig:ch9-PR4_degeneracies} (left panel), we further explore these degeneracies by comparing the joint posterior distributions of $z_{\rm reio}$, $g_{\phi \bar e e}$, and $\ln(10^{10}A_s)$ within the same \textbf{PR4-$f^{\rm FC}_c$} analysis for DM masses of $1\,$keV, $10\,$keV, and $100\,$keV.
+We rescale DM-electron coupling for each mass by the respective 95\% C.L.\ upper limit [i.e., we show $\log_{10}(g_{\phi \bar e e}/g_{\phi \bar e e}^{95\%\,\rm{C.L.}})$], to more easily compare the 1D and 2D posterior distributions in a single plot.
+Overall, this comparison reveals that the degeneracies among~$z_{\rm reio}$,~$g_{\phi \bar e e}$, and~$\ln(10^{10}A_s)$ gradually diminish as the DM mass increases, manifesting as flatter 1D posteriors for~$g_{\phi \bar e e}$ at values well below the 95\% C.L.\ upper limit for~$m_{\rm{DM}} \gtrsim 10\,\rm{keV}$.
+
+In the right panel of Fig.~\ref{fig:ch9-PR4_degeneracies}, we show the equivalent triangle plot for the \textbf{PR3-$f^\mathrm{CC}_c$} analysis, for which we use the \textit{Planck} PR3 likelihood code and compute the~$f_c(z)$ functions dynamically at each MCMC step to reflect variations in cosmological parameters. Two main observations emerge from comparing this cosmology-consistent approach with the fixed-cosmology PR4 analysis (\textbf{PR4-$f^\mathrm{FC}_c$}) in the left panel. First, although the degeneracies among~$z_{\rm reio}$,~$g_{\phi \bar e e}$, and~$\ln(10^{10}A_s)$ remain qualitatively similar,  they are visibly weaker under the cosmology-consistent treatment, indicating that pre-computing $f_c(z)$ from a fiducial cosmology induces a mild extra degeneracy at low DM masses. Nevertheless, we find that this extra degeneracy does not substantially impact the final constraints, which remain consistent between the two approaches, as shown clearly in Fig.~\ref{fig:ch9-CMB_limits}. Second, the overall trend of diminishing degeneracies at larger DM masses persists in both PR3 and PR4 analyses, suggesting that the reduced parameter correlations for $m_{\rm DM}\gtrsim 10\,$keV may contribute to the small but noticeable improvement in the \textit{Planck} PR4--derived constraints.  Conversely, at lower DM masses, these degeneracies are not negligible, potentially limiting the impact of the enhanced polarization data in the updated PR4 likelihoods.
+
+\begin{figure}[tph!]
+    \centering
+    \includegraphics[width=.95\linewidth]{figures/ch09/triangle_plot_PR4_FC_vs_PR3_CC_small.pdf}
+    \caption[Parameter degeneracies in PR4 fixed-cosmology and PR3 cosmology-consistent analyses]{
+    \textit{Left:} Marginalized 2D posterior distributions for $z_{\rm reio}$, $\ln(10^{10}A_s)$, and the DM-electron coupling $g_{\phi \bar e e}$ in the \textbf{PR4-$f^\mathrm{FC}_c$} analysis, where the energy deposition functions $f_c(z)$ are pre-computed under a fiducial cosmology. \textit{Right:} The equivalent triangle plot for the \textbf{PR3-$f^\mathrm{CC}_c$} analysis, where instead the $f_c(z)$ functions computed dynamically at each MCMC step. In both panels, we show the results for DM masses of $1\,\mathrm{keV}$ (\textcolor{tabred}{red}), $10\,\mathrm{keV}$ (\textcolor{tabblue}{blue}), and $100\,\mathrm{keV}$ (\textcolor{tabgreen}{green}), and rescale $g_{\phi \bar e e}$ by its respective 95\%\,C.L.\ upper limit, i.e.\ we plot $\log_{10}\bigl(g_{\phi \bar e e} / g_{\phi \bar e e}^{95\%\,\mathrm{C.L.}}\bigr)$. Contours correspond to the 68\% and 95\% confidence levels, derived from the joint analyses using the respective \textit{Planck} likelihoods (see Sec.~\ref{sec:ch9-analysis}), and 1D marginalized posteriors for each parameter appear along the diagonal.}
+    \label{fig:ch9-PR4_degeneracies}
+\end{figure}
+
+\end{subappendices}

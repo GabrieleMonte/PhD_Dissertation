@@ -1,0 +1,80 @@
+This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: chapters/01-introduction.aux
+A level-1 auxiliary file: chapters/02-wi-scalar-field.aux
+A level-1 auxiliary file: chapters/03-wi-eternal.aux
+A level-1 auxiliary file: chapters/04-warmspy.aux
+A level-1 auxiliary file: chapters/05-wi-natural.aux
+A level-1 auxiliary file: chapters/06-wifi-dm.aux
+A level-1 auxiliary file: chapters/07-thermal-gravitons.aux
+A level-1 auxiliary file: chapters/08-minimal-dm-freezein.aux
+A level-1 auxiliary file: chapters/09-cmb-leptophilic-dm.aux
+A level-1 auxiliary file: chapters/10-pbh-memory-burden.aux
+A level-1 auxiliary file: chapters/11-desi-dark-energy.aux
+A level-1 auxiliary file: chapters/12-neutrino-phase-shift.aux
+A level-1 auxiliary file: chapters/13-neutrino-interactions.aux
+A level-1 auxiliary file: chapters/14-neutrino-21cm.aux
+A level-1 auxiliary file: chapters/15-conclusions.aux
+The style file: styles/JHEP.bst
+jhep is an illegal style-file command---line 1 of file styles/JHEP.bst
+ : jhep
+ :      bibliography style ver. 2.18
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated field_info (elt_size=4) to 25670 items from 5000.
+Database file #1: references.bib
+Warning--entry type for "rosati_robert_2020_4708348" isn't style-file defined
+--line 1072 of file references.bib
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Warning--entry type for "nflows" isn't style-file defined
+--line 17586 of file references.bib
+Warning--entry type for "Herold:2025hkb" isn't style-file defined
+--line 17974 of file references.bib
+Warning--entry type for "2019ascl.soft10019T" isn't style-file defined
+--line 20111 of file references.bib
+Reallocated str_pool (elt_size=1) to 195000 items from 130000.
+Warning--empty author in PANCI2023137919
+Warning--empty booktitle in Trotta:2017wnx
+Warning--empty booktitle in Kingma:2014vow
+You've used 689 entries,
+            2316 wiz_defined-function locations,
+            5168 strings with 133460 characters,
+and the built_in function-call counts, 287569 in all, are:
+= -- 30967
+> -- 8859
+< -- 0
++ -- 2593
+- -- 1904
+* -- 28167
+:= -- 35800
+add.period$ -- 692
+call.type$ -- 689
+change.case$ -- 678
+chr.to.int$ -- 0
+cite$ -- 692
+duplicate$ -- 22143
+empty$ -- 25857
+format.name$ -- 5712
+if$ -- 72719
+int.to.chr$ -- 0
+int.to.str$ -- 689
+missing$ -- 2485
+newline$ -- 2076
+num.names$ -- 648
+pop$ -- 1450
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 9689
+stack$ -- 0
+substring$ -- 16568
+swap$ -- 5642
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 3
+while$ -- 3179
+width$ -- 692
+write$ -- 6975
+(There was 1 error message)
