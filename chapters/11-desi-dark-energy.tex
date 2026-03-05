@@ -39,7 +39,7 @@ where the posterior probability $P(\theta | d, M)$ represents the probability of
 \begin{figure}[!t]
     \centering
     \includegraphics[width=.7\linewidth]{figures/ch11/fig0_v0.pdf}
-    \caption[Posterior distributions in the $w_0$--$w_a$ plane under uniform and theory-informed priors]{Two-dimensional posteriors in $w_0$ and $w_a$ at the 68\% and 95\% confidence levels from a joint fit to \textit{Planck} PR4 CMB anisotropies with lensing and DESI DR2 BAO under different priors for evolving dark energy. The gray dashed lines mark the $\Lambda$CDM limit of the $w_0w_a$CDM model, namely $(w_0,\,w_a)=(-1,0)$. For two degrees of freedom, the results are consistent with $\Lambda$CDM at the $\sim 1.3\sigma$ (hilltop, \textcolor{blue}{blue}) and $\sim 1.8\sigma$ (exponential, \textcolor{red}{red}) levels, in contrast with uniform priors (dashed black) that yield a $\sim 3.1 \sigma$ deviation. The figure highlights the impact of prior choices, with theory-informed priors that shift the inference toward $\Lambda$CDM, significantly reducing the nominal preference for evolving dark energy.}
+    \caption[Posteriors in $w_0$--$w_a$ under different priors]{Two-dimensional posteriors in $w_0$ and $w_a$ at the 68\% and 95\% confidence levels from a joint fit to \textit{Planck} PR4 CMB anisotropies with lensing and DESI DR2 BAO under different priors for evolving dark energy. The gray dashed lines mark the $\Lambda$CDM limit of the $w_0w_a$CDM model, namely $(w_0,\,w_a)=(-1,0)$. For two degrees of freedom, the results are consistent with $\Lambda$CDM at the $\sim 1.3\sigma$ (hilltop, \textcolor{blue}{blue}) and $\sim 1.8\sigma$ (exponential, \textcolor{red}{red}) levels, in contrast with uniform priors (dashed black) that yield a $\sim 3.1 \sigma$ deviation. The figure highlights the impact of prior choices, with theory-informed priors that shift the inference toward $\Lambda$CDM, significantly reducing the nominal preference for evolving dark energy.}
     \label{fig:ch11-w0wa_cmb_bao}
 \end{figure}
 
@@ -134,7 +134,7 @@ To address this inherent ambiguity and construct meaningful prior distributions,
 \begin{figure}[t]
     \centering
     \includegraphics[width=.7\linewidth]{figures/ch11/hilltop_example_fit.pdf}
-    \caption[Inverse-variance weighted mapping from hilltop quintessence to the $(w_0, w_a)$ plane]{Inverse-variance weighted probability distribution $P(w_0,w_a)\propto 1/E_{H}^2$  showing the mapping from a hilltop quintessence model, Eq.~\eqref{eq:ch11-hilltop}, to the $(w_0, w_a)$ plane
+    \caption[Hilltop quintessence mapping to $(w_0, w_a)$]{Inverse-variance weighted probability distribution $P(w_0,w_a)\propto 1/E_{H}^2$  showing the mapping from a hilltop quintessence model, Eq.~\eqref{eq:ch11-hilltop}, to the $(w_0, w_a)$ plane
     for a single model realization. Specifically, the example shown corresponds to $\phi_i=10^{-2}\,\Mpl$ and $k=3/\Mpl$,  with $H_0$ and $\Omega_m$ fixed to the {\it Planck} 2018 best-fit values~\cite{Planck:2018vyg} in order to compute $E_H$, the maximum relative error in matching the Hubble evolution defined in Eq.~\eqref{eq:ch11-EH}. The colorbar indicates the relative likelihood of each $(w_0,w_a)$ pair, shown as $\log_{10}(1/E_H^2)$, and the black and red contours enclose the 68\% and 95\% confidence levels (C.L.) of this distribution, respectively.  While the 68\% C.L. remains concentrated near $(w_0, w_a) \approx (-1, 0)$, the 95\% C.L. extends broadly across the parameter space, reflecting the degeneracy in matching the quintessence Hubble evolution with the CPL parameterization.}
     \label{fig:ch11-1}
 \end{figure}
@@ -150,7 +150,7 @@ To construct the overall theory-informed prior distribution on $(w_0, w_a)$, we 
 \begin{figure}[ht!]
     \centering
     \includegraphics[width=.95\linewidth]{figures/ch11/fig_1_v0.pdf}
-    \caption[Theory-informed prior distributions for hilltop quintessence via normalizing flows]{Theory-informed prior distributions for the hilltop quintessence model, Eq.~\eqref{eq:ch11-hilltop}, obtained through normalizing flow (NF) training. {\it Left panel:} Model parameter samples drawn from broad flat priors, showing $\phi_i/\Mpl$ ({\it top}) and $k$ ({\it bottom}) in light red histograms, confirming full coverage of the theoretical prior ranges. {\it Right panel: } Triangle plot displaying the mapped $(w_0, w_a)$ distributions. Light red shows the training samples obtained through the matching procedure, with increasingly darker shades indicating the 99\%, 95\%, and 68\% confidence levels for the 2D distribution. Black lines represent the learned NF priors: dashed lines for the 1D marginalized distributions and solid contours for the 2D joint distribution (99\%, 95\%, and 68\% C.L.). The inset within the 2D joint distribution panel provides a zoomed view of the 68\% and 95\% contours, demonstrating the excellent agreement between the NF output and training data. The strongly peaked structure near $(w_0, w_a) \approx (-1, 0)$ with extended tails reveals how, minimally-biased, flat priors on fundamental model parameters naturally induce non-uniform priors on the phenomenological $(w_0, w_a)$ space,  potentially altering cosmological inferences significantly.}
+    \caption[Theory-informed priors for hilltop quintessence]{Theory-informed prior distributions for the hilltop quintessence model, Eq.~\eqref{eq:ch11-hilltop}, obtained through normalizing flow (NF) training. {\it Left panel:} Model parameter samples drawn from broad flat priors, showing $\phi_i/\Mpl$ ({\it top}) and $k$ ({\it bottom}) in light red histograms, confirming full coverage of the theoretical prior ranges. {\it Right panel: } Triangle plot displaying the mapped $(w_0, w_a)$ distributions. Light red shows the training samples obtained through the matching procedure, with increasingly darker shades indicating the 99\%, 95\%, and 68\% confidence levels for the 2D distribution. Black lines represent the learned NF priors: dashed lines for the 1D marginalized distributions and solid contours for the 2D joint distribution (99\%, 95\%, and 68\% C.L.). The inset within the 2D joint distribution panel provides a zoomed view of the 68\% and 95\% contours, demonstrating the excellent agreement between the NF output and training data. The strongly peaked structure near $(w_0, w_a) \approx (-1, 0)$ with extended tails reveals how, minimally-biased, flat priors on fundamental model parameters naturally induce non-uniform priors on the phenomenological $(w_0, w_a)$ space,  potentially altering cosmological inferences significantly.}
     \label{fig:ch11-NF_priors}
 \end{figure}
 
@@ -185,7 +185,7 @@ We provide further details on the NFs implementation and training in Appendix~\r
   \centering
     \includegraphics[width=\linewidth]{figures/ch11/fig3_v0.pdf}
 
-  \caption[Posterior distributions in $w_0$--$w_a$ including Type Ia supernovae]{Two-dimensional posteriors in $w_0$ and $w_a$ at the 68\% and 95\% confidence levels from a joint fit to \textit{Planck} PR4 CMB anisotropies with lensing, DESI DR2 BAO, and Type Ia supernovae samples, under different priors for evolving dark energy, in their corresponding color and line-style. Specifically, the panels show the Pantheon+ ({\it left}), Union3 ({\it middle}), and DES Y5 ({\it right}) SNe Ia samples. The gray dashed lines mark the $\Lambda$CDM limit at $(w_0,\,w_a)=(-1,\,0)$. Across all three data combinations, theory-informed priors shift the inference toward $\Lambda$CDM and reduce the marginal preference for evolving dark energy.}
+  \caption[Posteriors in $w_0$--$w_a$ with supernovae]{Two-dimensional posteriors in $w_0$ and $w_a$ at the 68\% and 95\% confidence levels from a joint fit to \textit{Planck} PR4 CMB anisotropies with lensing, DESI DR2 BAO, and Type Ia supernovae samples, under different priors for evolving dark energy, in their corresponding color and line-style. Specifically, the panels show the Pantheon+ ({\it left}), Union3 ({\it middle}), and DES Y5 ({\it right}) SNe Ia samples. The gray dashed lines mark the $\Lambda$CDM limit at $(w_0,\,w_a)=(-1,\,0)$. Across all three data combinations, theory-informed priors shift the inference toward $\Lambda$CDM and reduce the marginal preference for evolving dark energy.}
   \label{fig:ch11-three_pdfs}
 \end{figure*}
 Before examining our observational constraints in detail, it is instructive to consider a fundamental statistical challenge that affects both Bayesian and frequentist analyses of DE models within the CPL parametrization. As demonstrated in the previous section, many ($w_0,\,w_a$) combinations yield essentially the same expansion history (see e.g. Fig.~\ref{fig:ch11-1}), resulting in a likelihood surface that is nearly flat along this degeneracy direction when fitted to observational data. Therefore, extending the $\Lambda$CDM model with two additional CPL parameters increases the dimensionality of the parameter space  without substantially improving the model's ability to fit the data, since movements along the degeneracy direction leave the likelihood nearly unchanged.
@@ -253,7 +253,7 @@ For modeling cosmological observables, we employ the default CPL implementation 
 			\bottomrule
 		\end{tabularx}
 		\endgroup
-	\caption[Cosmological  constraints under uniform and theory-informed priors]{Summary table of key cosmological parameter constraints from DESI DR2 BAO in combination with {\it Planck} and additional supernova datasets, under different priors, in the $w_0 w_a$CDM model. Results quoted are the marginalized posterior means and their corresponding 68\% credible intervals, specifically for $w_0$, $w_a$, $H_0$ and $\Omega_m$. Together, these results show that theory-informed priors shift $(w_0,w_a)$ toward $(-1,0)$, reducing the apparent preference for evolving dark energy. See Tab.~\ref{tab:ch11-analysis_all} in the appendix for the complete set of parameter constraints.}
+	\caption[Constraints under uniform and theory priors]{Summary table of key cosmological parameter constraints from DESI DR2 BAO in combination with {\it Planck} and additional supernova datasets, under different priors, in the $w_0 w_a$CDM model. Results quoted are the marginalized posterior means and their corresponding 68\% credible intervals, specifically for $w_0$, $w_a$, $H_0$ and $\Omega_m$. Together, these results show that theory-informed priors shift $(w_0,w_a)$ toward $(-1,0)$, reducing the apparent preference for evolving dark energy. See Tab.~\ref{tab:ch11-analysis_all} in the appendix for the complete set of parameter constraints.}
 	\label{tab:ch11-table_post}
 \end{table*}
 
@@ -341,7 +341,7 @@ In conclusion, our reanalysis of DESI DR2 data with theory-informed priors demon
 \begin{figure}[!h]
     \centering
     \includegraphics[width=0.7\linewidth]{figures/ch11/fig_App4_v0.pdf}
-    \caption[Training and validation loss for the normalizing flow models]{The training (black) and validation (\textcolor{red}{red}) loss for our $\Lambda$CDM parameter conditioned normalizing flow for hilltop ({\it top panel}) and exponential ({\it bottom panel}) priors. The \textcolor{yellow!80!black}{yellow} shaded region marks the interval after the minimum validation loss was reached before early stopping was triggered.}
+    \caption[Training and validation loss for normalizing flows]{The training (black) and validation (\textcolor{red}{red}) loss for our $\Lambda$CDM parameter conditioned normalizing flow for hilltop ({\it top panel}) and exponential ({\it bottom panel}) priors. The \textcolor{yellow!80!black}{yellow} shaded region marks the interval after the minimum validation loss was reached before early stopping was triggered.}
     \label{fig:ch11-nf_loss}
 \end{figure}
 
@@ -359,13 +359,13 @@ using the Adam optimizer~\cite{Kingma:2014vow} with a learning rate of $3\times 
 \begin{figure}[ht!]
     \centering
     \includegraphics[width=0.7\linewidth]{figures/ch11/exponential_example_fit.pdf}
-    \caption[Inverse-variance weighted mapping from exponential quintessence to the $(w_0, w_a)$ plane]{Same as Fig.~\ref{fig:ch11-1} for an exponential quintessence model, Eq.~\eqref{eq:ch11-exp}, with $\lambda=0.6$.}
+    \caption[Exponential quintessence mapping to $(w_0, w_a)$]{Same as Fig.~\ref{fig:ch11-1} for an exponential quintessence model, Eq.~\eqref{eq:ch11-exp}, with $\lambda=0.6$.}
     \label{fig:ch11-A1}
 \end{figure}
 
 \begin{figure*}[ht!]
     \centering    \includegraphics[width=0.95\linewidth]{figures/ch11/fig_App1_v0.pdf}
-    \caption[Theory-informed prior distributions for exponential quintessence via normalizing flows]{Same as Fig.~\ref{fig:ch11-NF_priors} for an exponential quintessence model, Eq.~\eqref{eq:ch11-exp}. The normalizing flow (black lines) accurately reproduces the training data distributions, demonstrating robust learning across both quintessence model classes. As with the hilltop case, the mapped $(w_0, w_a)$ distributions are distinctly non-uniform despite originating from flat priors on $\lambda$. However, the exponential potential produces a broader peak around $(w_0, w_a) \approx (-1, 0)$, with the distribution extending more prominently toward smaller values of $w_0$ and more negative values of $w_a$, reflecting the fundamentally different thawing dynamics of exponential quintessence compared to hilltop models. }
+    \caption[Theory-informed priors for exponential quintessence]{Same as Fig.~\ref{fig:ch11-NF_priors} for an exponential quintessence model, Eq.~\eqref{eq:ch11-exp}. The normalizing flow (black lines) accurately reproduces the training data distributions, demonstrating robust learning across both quintessence model classes. As with the hilltop case, the mapped $(w_0, w_a)$ distributions are distinctly non-uniform despite originating from flat priors on $\lambda$. However, the exponential potential produces a broader peak around $(w_0, w_a) \approx (-1, 0)$, with the distribution extending more prominently toward smaller values of $w_0$ and more negative values of $w_a$, reflecting the fundamentally different thawing dynamics of exponential quintessence compared to hilltop models. }
     \label{fig:ch11-A2}
 \end{figure*}
 \clearpage
@@ -442,7 +442,7 @@ using the Adam optimizer~\cite{Kingma:2014vow} with a learning rate of $3\times 
 		\end{tabularx}
 		\endgroup
 
-	\caption[Complete cosmological parameter constraints under all prior choices]{Summary table of all cosmological parameter constraints from DESI DR2 BAO in combination with {\it Planck} and additional supernova datasets, under different priors, in the $w_0 w_a$CDM model. The table includes all varied parameters during the MCMC analyses as well as key derived parameters. Results quoted for all parameters are the marginalized posterior means and their corresponding 68\% credible intervals.}
+	\caption[Full parameter constraints under all priors]{Summary table of all cosmological parameter constraints from DESI DR2 BAO in combination with {\it Planck} and additional supernova datasets, under different priors, in the $w_0 w_a$CDM model. The table includes all varied parameters during the MCMC analyses as well as key derived parameters. Results quoted for all parameters are the marginalized posterior means and their corresponding 68\% credible intervals.}
 	\label{tab:ch11-analysis_all}
 \end{table*}
 
