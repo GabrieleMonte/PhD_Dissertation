@@ -2958,7 +2958,8 @@ M.~van~der Westhuizen, A.~Abebe and E.~Di~Valentino, \emph{{III. Interacting
 
 \bibitem{Herold:2025hkb}
 L.~Herold and T.~Karwal, \emph{{Bayesian and frequentist perspectives agree on
-  dynamical dark energy}},  6, 2025.
+  dynamical dark energy}},  \href{https://arxiv.org/abs/2506.12004}{{\ttfamily
+  2506.12004}}.
 
 \bibitem{2023JOSS....8.5361S}
 V.~{Stimper}, D.~{Liu}, A.~{Campbell}, V.~{Berenz}, L.~{Ryll},

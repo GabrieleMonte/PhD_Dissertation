@@ -28,8 +28,6 @@ Warning--entry type for "rosati_robert_2020_4708348" isn't style-file defined
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--entry type for "nflows" isn't style-file defined
 --line 17641 of file references.bib
-Warning--entry type for "Herold:2025hkb" isn't style-file defined
---line 18029 of file references.bib
 Warning--entry type for "2019ascl.soft10019T" isn't style-file defined
 --line 20205 of file references.bib
 Reallocated str_pool (elt_size=1) to 195000 items from 130000.
@@ -39,33 +37,33 @@ Warning--empty booktitle in Kingma:2014vow
 You've used 696 entries,
             2316 wiz_defined-function locations,
             5218 strings with 134729 characters,
-and the built_in function-call counts, 289968 in all, are:
+and the built_in function-call counts, 289946 in all, are:
 = -- 31235
 > -- 8906
 < -- 0
 + -- 2609
 - -- 1913
-* -- 28396
-:= -- 36090
+* -- 28399
+:= -- 36092
 add.period$ -- 699
 call.type$ -- 696
 change.case$ -- 684
 chr.to.int$ -- 0
 cite$ -- 699
-duplicate$ -- 22305
-empty$ -- 26084
+duplicate$ -- 22303
+empty$ -- 26074
 format.name$ -- 5739
-if$ -- 73353
+if$ -- 73345
 int.to.chr$ -- 0
 int.to.str$ -- 696
-missing$ -- 2509
+missing$ -- 2512
 newline$ -- 2097
 num.names$ -- 652
-pop$ -- 1465
+pop$ -- 1457
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 9798
+skip$ -- 9796
 stack$ -- 0
 substring$ -- 16691
 swap$ -- 5702

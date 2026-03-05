@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2024.11.5)  4 MAR 2026 22:16
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2024.11.5)  4 MAR 2026 23:12
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1177,8 +1177,8 @@ LaTeX Info: Redefining \c on input line 311.
 LaTeX Info: Redefining \d on input line 313.
 \c@tmpaEx=\count411
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 297.
-Package hyperref Info: Option `breaklinks' set `true' on input line 297.
+Package hyperref Info: Option `colorlinks' set `true' on input line 305.
+Package hyperref Info: Option `breaklinks' set `true' on input line 305.
 
 (/usr/share/texlive/texmf-dist/tex/latex/xcharter/XCharter.sty
 Package: XCharter 2023/07/21 v1.25
@@ -1598,18 +1598,18 @@ ode=base;script=math;language=dflt;+tlig;mathfontdimen=xetex;+ssty=1;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
-(Font)              scaled to size 11.78906pt on input line 302.
+(Font)              scaled to size 11.78906pt on input line 310.
 \sym__um_fam1=\mathgroup9
 LaTeX Font Info:    Overwriting symbol font `__um_fam1' in version `normal'
 (Font)                  TU/latinmodern-math.otf(0)/m/n --> TU/latinmodern-math.
-otf(0)/m/n on input line 302.
+otf(0)/m/n on input line 310.
 LaTeX Font Info:    Overwriting symbol font `__um_fam1' in version `bold'
 (Font)                  TU/latinmodern-math.otf(0)/m/n --> TU/latinmodern-math.
-otf(0)/b/n on input line 302.
+otf(0)/b/n on input line 310.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
-(Font)              scaled to size 8.25233pt on input line 302.
+(Font)              scaled to size 8.25233pt on input line 310.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
-(Font)              scaled to size 6.48398pt on input line 302.
+(Font)              scaled to size 6.48398pt on input line 310.
 luaotfload | aux : font no 74 (nil) does not define feature smcp for script latn
  with language dflt
 luaotfload | aux : font no 75 (nil) does not define feature smcp for script latn
@@ -1669,10 +1669,10 @@ e=dflt;+tlig;"
 
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 (Font)                  OT1/cmtt/m/n --> TU/lmmono10-regular.otf(1)/m/n on inpu
-t line 303.
+t line 311.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmmono10-regular.otf(1)/b/n on inpu
-t line 303.
+t line 311.
 luaotfload | aux : font no 84 (nil) does not define feature smcp for script latn
  with language dflt
 
@@ -1735,10 +1735,10 @@ guage=dflt;+tlig;"
 
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/cmss/m/n --> TU/SourceSansPro-Regular(1)/m/n on inp
-ut line 305.
+ut line 313.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/SourceSansPro-Regular(1)/b/n on in
-put line 305.
+put line 313.
 
 Package fontspec Info: Font family 'CharisSIL-Regular(0)' created for font
 (fontspec)             'CharisSIL-Regular' with options [Ligatures =
@@ -2320,27 +2320,27 @@ LaTeX Font Info:    Font shape `TU/XCharter(2)/m/sc' will be
  [5
 
 
-]
-(./chapters/00-abstract.tex) [6
+] [6]
+(./chapters/00-abstract.tex [7
 
 
-] (./main.toc
+]) [8] (./main.toc
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmmono10-regular.otf' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [7
+ [9
 
-] [8] [9])
+] [10] [11])
 \tf@toc=\write8
 
 \openout8 = main.toc
- [10] (./main.lot)
+ [12]
+(./main.lot)
 \tf@lot=\write9
 
 \openout9 = main.lot
-
-[11
+ [13
 
 ] (./main.lof
 LaTeX Font Info:    Font shape `TU/XCharter(1)/m/n' will be
@@ -2349,7 +2349,7 @@ LaTeX Font Info:    Font shape `TU/XCharter(1)/m/n' will be
 (Font)              scaled to size 8.4pt on input line 26.
 LaTeX Font Info:    Font shape `TU/XCharter(1)/m/n' will be
 (Font)              scaled to size 6.6pt on input line 26.
- [12
+ [14
 
 ]
 Underfull \hbox (badness 2452) in paragraph at lines 40--40
@@ -2363,7 +2363,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--54
 -tial 
  []
 
-[13])
+[15])
 \tf@lof=\write10
 
 \openout10 = main.lof
@@ -2376,7 +2376,16 @@ LaTeX Font Info:    Font shape `TU/XCharter(2)/m/n' will be
 [2
 
 
-] [3] [4] [5] [6]
+] [3] [4] [5]
+
+LaTeX Warning: Reference `part:dark-Universe' on page 6 undefined on input line
+ 20.
+
+
+LaTeX Warning: Reference `part:dark-Universe' on page 6 undefined on input line
+ 24.
+
+[6]
 
 Package fontspec Info: Font family 'XCharter(3)' created for font 'XCharter'
 (fontspec)             with options [Ligatures = TeX,Extension =
@@ -2443,17 +2452,17 @@ LaTeX Font Info:    Font shape `TU/XCharter(2)/b/n' will be
 (Font)              scaled to size 10.95pt on input line 61.
 ) [7] [8]
 LaTeX Font Info:    Font shape `TU/XCharter(2)/m/sc' will be
-(Font)              scaled to size 24.88pt on input line 62.
+(Font)              scaled to size 24.88pt on input line 76.
  [9
 
 
 
 ] (./chapters/part1-introduction.tex [10
 
-]
-[11]) [12]
+] [11]) [12]
 \openout2 = chapters/02-wi-scalar-field.aux
- (./chapters/02-wi-scalar-field.tex
+
+(./chapters/02-wi-scalar-field.tex
 Chapter 2:
 [13
 
@@ -2967,7 +2976,7 @@ _function \TU/XCharter(3)/m/n/12 mod-ule takes the back-ground and per-
  []
 
 [74] [75]
-<figures/ch04/GQ_comparison_with_literature_Qconst-vs-varying.png, id=2033, 346
+<figures/ch04/GQ_comparison_with_literature_Qconst-vs-varying.png, id=2039, 346
 .896pt x 274.626pt>
 File: figures/ch04/GQ_comparison_with_literature_Qconst-vs-varying.png Graphic 
 file (type png)
@@ -3364,7 +3373,7 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
 (Font)              scaled to size 5.89453pt on input line 424.
  [76] [77<./figures/ch04/GQ_comparison_with_literature_Qconst-vs-varying.png>] 
 [78]
-<figures/ch04/GQ_quartic_fits.png, id=2085, 325.215pt x 274.626pt>
+<figures/ch04/GQ_quartic_fits.png, id=2091, 325.215pt x 274.626pt>
 File: figures/ch04/GQ_quartic_fits.png Graphic file (type png)
 <use figures/ch04/GQ_quartic_fits.png>
 Package luatex.def Info: figures/ch04/GQ_quartic_fits.png  used on input line 4
@@ -3435,7 +3444,7 @@ n;language=dflt;+tlig;+cv01=0;+lnum;+tnum;+smcp;"
 LaTeX Font Info:    Font shape `TU/XCharter(5)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 469.
  [79] [80<./figures/ch04/GQ_quartic_fits.png>]
-<figures/ch04/GQ_fits_quartic-varying_m_study.png, id=2125, 325.215pt x 252.945
+<figures/ch04/GQ_fits_quartic-varying_m_study.png, id=2131, 325.215pt x 252.945
 pt>
 File: figures/ch04/GQ_fits_quartic-varying_m_study.png Graphic file (type png)
 <use figures/ch04/GQ_fits_quartic-varying_m_study.png>
@@ -3443,7 +3452,7 @@ Package luatex.def Info: figures/ch04/GQ_fits_quartic-varying_m_study.png  used
  on input line 497.
 (luatex.def)             Requested size: 433.62pt x 337.2849pt.
  [81] [82] [83<./figures/ch04/GQ_fits_quartic-varying_m_study.png>]
-<figures/ch04/GQ_fits_multiple_potentials.png, id=2157, 1208.515pt x 1896.08376
+<figures/ch04/GQ_fits_multiple_potentials.png, id=2164, 1208.515pt x 1896.08376
 pt>
 File: figures/ch04/GQ_fits_multiple_potentials.png Graphic file (type png)
 <use figures/ch04/GQ_fits_multiple_potentials.png>
@@ -3455,7 +3464,7 @@ input line 512.
 LaTeX Warning: Float too large for page by 49.59174pt on input line 515.
 
 [84]
-<figures/ch04/GQ_fits_quartic-Neinfl-vs-taumax_study.png, id=2178, 1237.62375pt
+<figures/ch04/GQ_fits_quartic-Neinfl-vs-taumax_study.png, id=2184, 1237.62375pt
  x 1512.65125pt>
 File: figures/ch04/GQ_fits_quartic-Neinfl-vs-taumax_study.png Graphic file (typ
 e png)
@@ -3485,14 +3494,14 @@ base;script=latn;language=dflt;!
 Missing character: There is no 𝜏 (U+1D70F) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
 [86]
-<figures/ch04/GQ_fits_quartic-MPs_study.png, id=2194, 325.215pt x 252.945pt>
+<figures/ch04/GQ_fits_quartic-MPs_study.png, id=2201, 325.215pt x 252.945pt>
 File: figures/ch04/GQ_fits_quartic-MPs_study.png Graphic file (type png)
 <use figures/ch04/GQ_fits_quartic-MPs_study.png>
 Package luatex.def Info: figures/ch04/GQ_fits_quartic-MPs_study.png  used on in
 put line 546.
 (luatex.def)             Requested size: 433.62pt x 337.2849pt.
  [87]
-<figures/ch04/DeltaR2_analytical_vs_numerical.png, id=2207, 325.215pt x 252.945
+<figures/ch04/DeltaR2_analytical_vs_numerical.png, id=2214, 325.215pt x 252.945
 pt>
 File: figures/ch04/DeltaR2_analytical_vs_numerical.png Graphic file (type png)
 <use figures/ch04/DeltaR2_analytical_vs_numerical.png>
@@ -3503,7 +3512,7 @@ Package luatex.def Info: figures/ch04/DeltaR2_analytical_vs_numerical.png  used
 figures/ch04/GQ_fits_quartic-Neinfl-vs-taumax_study.png>] [94<./figures/ch04/GQ_
 fits_quartic-MPs_study.png>] [95<./figures/ch04/DeltaR2_analytical_vs_numerical.
 png>]
-<figures/ch04/GQ_fits_monomial-parameters_study.png, id=2274, 325.215pt x 252.9
+<figures/ch04/GQ_fits_monomial-parameters_study.png, id=2280, 325.215pt x 252.9
 45pt>
 File: figures/ch04/GQ_fits_monomial-parameters_study.png Graphic file (type png
 )
@@ -3530,14 +3539,14 @@ oss-ing. Here, $\TU/XCharter-Math.otf(1)/m/n/12 𝑛[] =
  []
 
 [105] [106] [107] [108] [109] [110] [111] [112] [113] [114]
-<figures/ch05/r-ns_vs_Q_summary.png, id=2664, 346.896pt x 252.945pt>
+<figures/ch05/r-ns_vs_Q_summary.png, id=2670, 346.896pt x 252.945pt>
 File: figures/ch05/r-ns_vs_Q_summary.png Graphic file (type png)
 <use figures/ch05/r-ns_vs_Q_summary.png>
 Package luatex.def Info: figures/ch05/r-ns_vs_Q_summary.png  used on input line
  273.
 (luatex.def)             Requested size: 346.89514pt x 252.94438pt.
  [115]
-<figures/ch05/r-ns_plane_summary.png, id=2676, 346.896pt x 274.626pt>
+<figures/ch05/r-ns_plane_summary.png, id=2682, 346.896pt x 274.626pt>
 File: figures/ch05/r-ns_plane_summary.png Graphic file (type png)
 <use figures/ch05/r-ns_plane_summary.png>
 Package luatex.def Info: figures/ch05/r-ns_plane_summary.png  used on input lin
@@ -3546,7 +3555,7 @@ e 304.
  [116<./figures/ch05/r-ns_vs_Q_summary.png>] [117<./figures/ch05/r-ns_plane_summ
 ary.png>]
 [118]
-<figures/ch05/Q-HoverT_ev_summary.png, id=2705, 325.215pt x 216.81pt>
+<figures/ch05/Q-HoverT_ev_summary.png, id=2711, 325.215pt x 216.81pt>
 File: figures/ch05/Q-HoverT_ev_summary.png Graphic file (type png)
 <use figures/ch05/Q-HoverT_ev_summary.png>
 Package luatex.def Info: figures/ch05/Q-HoverT_ev_summary.png  used on input li
@@ -3570,7 +3579,7 @@ TU/XCharter-Math.otf(1)/m/n/12 𝑠 =
  []
 
 [129] [130] [131]
-<figures/ch06/Background_dynamics_letter.pdf, id=2899, 220.6391pt x 132.17766pt
+<figures/ch06/Background_dynamics_letter.pdf, id=2905, 220.6391pt x 132.17766pt
 >
 File: figures/ch06/Background_dynamics_letter.pdf Graphic file (type pdf)
 <use figures/ch06/Background_dynamics_letter.pdf>
@@ -3578,7 +3587,7 @@ Package luatex.def Info: figures/ch06/Background_dynamics_letter.pdf  used on i
 nput line 112.
 (luatex.def)             Requested size: 303.53267pt x 181.84666pt.
  [132<./figures/ch06/Background_dynamics_letter.pdf>]
-<figures/ch06/Yield_main_plot_letter_new.pdf, id=2940, 354.4296pt x 131.44814pt
+<figures/ch06/Yield_main_plot_letter_new.pdf, id=2946, 354.4296pt x 131.44814pt
 >
 File: figures/ch06/Yield_main_plot_letter_new.pdf Graphic file (type pdf)
 <use figures/ch06/Yield_main_plot_letter_new.pdf>
@@ -3586,7 +3595,7 @@ Package luatex.def Info: figures/ch06/Yield_main_plot_letter_new.pdf  used on i
 nput line 129.
 (luatex.def)             Requested size: 433.62pt x 160.82779pt.
  [133<./figures/ch06/Yield_main_plot_letter_new.pdf>] [134]
-<figures/ch06/Yield_Gain_semianalytic_vs_numerical_v3.pdf, id=2990, 243.58197pt
+<figures/ch06/Yield_Gain_semianalytic_vs_numerical_v3.pdf, id=2996, 243.58197pt
  x 120.31865pt>
 File: figures/ch06/Yield_Gain_semianalytic_vs_numerical_v3.pdf Graphic file (ty
 pe pdf)
@@ -3595,7 +3604,7 @@ Package luatex.def Info: figures/ch06/Yield_Gain_semianalytic_vs_numerical_v3.p
 df  used on input line 159.
 (luatex.def)             Requested size: 346.89731pt x 171.36401pt.
  [135] [136<./figures/ch06/Yield_Gain_semianalytic_vs_numerical_v3.pdf>]
-<figures/ch06/Yield_vs_mchi-Lambda_v3.pdf, id=3058, 330.52785pt x 184.90784pt>
+<figures/ch06/Yield_vs_mchi-Lambda_v3.pdf, id=3065, 330.52785pt x 184.90784pt>
 File: figures/ch06/Yield_vs_mchi-Lambda_v3.pdf Graphic file (type pdf)
 <use figures/ch06/Yield_vs_mchi-Lambda_v3.pdf>
 Package luatex.def Info: figures/ch06/Yield_vs_mchi-Lambda_v3.pdf  used on inpu
@@ -3612,7 +3621,7 @@ Chapter 7:
 
 
 ] [140] [141] [142] [143] [144] [145] [146] [147]
-<figures/ch07/WIFI_GW_example1.pdf, id=3245, 200.96509pt x 252.14621pt>
+<figures/ch07/WIFI_GW_example1.pdf, id=3253, 200.96509pt x 252.14621pt>
 File: figures/ch07/WIFI_GW_example1.pdf Graphic file (type pdf)
 <use figures/ch07/WIFI_GW_example1.pdf>
 Package luatex.def Info: figures/ch07/WIFI_GW_example1.pdf  used on input line 
@@ -3623,14 +3632,14 @@ Package luatex.def Info: figures/ch07/WIFI_GW_example1.pdf  used on input line
 LaTeX Warning: Text page 149 contains only floats.
 
 [149<./figures/ch07/WIFI_GW_example1.pdf>] [150] [151] [152] [153]
-<figures/ch07/OGW_vs_f_vF.pdf, id=3354, 201.63708pt x 132.38148pt>
+<figures/ch07/OGW_vs_f_vF.pdf, id=3360, 201.63708pt x 132.38148pt>
 File: figures/ch07/OGW_vs_f_vF.pdf Graphic file (type pdf)
 <use figures/ch07/OGW_vs_f_vF.pdf>
 Package luatex.def Info: figures/ch07/OGW_vs_f_vF.pdf  used on input line 225.
 (luatex.def)             Requested size: 303.53267pt x 199.2888pt.
  [154]
 [155<./figures/ch07/OGW_vs_f_vF.pdf>] [156]
-<figures/ch07/RGW_table_plot_new.pdf, id=3416, 201.22108pt x 145.0902pt>
+<figures/ch07/RGW_table_plot_new.pdf, id=3423, 201.22108pt x 145.0902pt>
 File: figures/ch07/RGW_table_plot_new.pdf Graphic file (type pdf)
 <use figures/ch07/RGW_table_plot_new.pdf>
 Package luatex.def Info: figures/ch07/RGW_table_plot_new.pdf  used on input lin
@@ -3641,7 +3650,7 @@ LaTeX Font Info:    Font shape `TU/XCharter(2)/m/n' will be
 LaTeX Font Info:    Font shape `TU/XCharter(2)/m/n' will be
 (Font)              scaled to size 6.0pt on input line 248.
  [157] [158<./figures/ch07/RGW_table_plot_new.pdf>] [159] [160] [161]
-<figures/ch07/dNeff_table_plot.pdf, id=3519, 200.25995pt x 145.3924pt>
+<figures/ch07/dNeff_table_plot.pdf, id=3525, 200.25995pt x 145.3924pt>
 File: figures/ch07/dNeff_table_plot.pdf Graphic file (type pdf)
 <use figures/ch07/dNeff_table_plot.pdf>
 Package luatex.def Info: figures/ch07/dNeff_table_plot.pdf  used on input line 
@@ -3697,7 +3706,7 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.18204pt}.
 
 [180]
-<figures/ch08/Yield_vs_x_v1_mDM_30MeV.png, id=3798, 197.538pt x 128.0785pt>
+<figures/ch08/Yield_vs_x_v1_mDM_30MeV.png, id=3804, 197.538pt x 128.0785pt>
 File: figures/ch08/Yield_vs_x_v1_mDM_30MeV.png Graphic file (type png)
 <use figures/ch08/Yield_vs_x_v1_mDM_30MeV.png>
 Package luatex.def Info: figures/ch08/Yield_vs_x_v1_mDM_30MeV.png  used on inpu
@@ -3713,7 +3722,7 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.18204pt}.
 
 [181<./figures/ch08/Yield_vs_x_v1_mDM_30MeV.png>]
-<figures/ch08/sigmaDDes_limit_plot_vG.png, id=3813, 198.0198pt x 154.8987pt>
+<figures/ch08/sigmaDDes_limit_plot_vG.png, id=3819, 198.0198pt x 154.8987pt>
 File: figures/ch08/sigmaDDes_limit_plot_vG.png Graphic file (type png)
 <use figures/ch08/sigmaDDes_limit_plot_vG.png>
 Package luatex.def Info: figures/ch08/sigmaDDes_limit_plot_vG.png  used on inpu
@@ -3729,7 +3738,7 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.18204pt}.
 
 [182]
-<figures/ch08/kappa_limit_plot.png, id=3837, 196.5744pt x 152.7306pt>
+<figures/ch08/kappa_limit_plot.png, id=3843, 196.5744pt x 152.7306pt>
 File: figures/ch08/kappa_limit_plot.png Graphic file (type png)
 <use figures/ch08/kappa_limit_plot.png>
 Package luatex.def Info: figures/ch08/kappa_limit_plot.png  used on input line 
@@ -3800,7 +3809,7 @@ base;script=latn;language=dflt;!
 Missing character: There is no 𝛾 (U+1D6FE) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
 [192]
-<figures/ch09/fs_cosmo_change_mDM10keV_v3.pdf, id=4006, 193.42052pt x 192.40727
+<figures/ch09/fs_cosmo_change_mDM10keV_v3.pdf, id=4012, 193.42052pt x 192.40727
 pt>
 File: figures/ch09/fs_cosmo_change_mDM10keV_v3.pdf Graphic file (type pdf)
 <use figures/ch09/fs_cosmo_change_mDM10keV_v3.pdf>
@@ -3808,7 +3817,7 @@ Package luatex.def Info: figures/ch09/fs_cosmo_change_mDM10keV_v3.pdf  used on
 input line 188.
 (luatex.def)             Requested size: 303.53267pt x 301.96265pt.
  [193] [194] [195]
-<figures/ch09/CLs_DM_decay_v1.pdf, id=4047, 401.80896pt x 132.38873pt>
+<figures/ch09/CLs_DM_decay_v1.pdf, id=4053, 401.80896pt x 132.38873pt>
 File: figures/ch09/CLs_DM_decay_v1.pdf Graphic file (type pdf)
 <use figures/ch09/CLs_DM_decay_v1.pdf>
 Package luatex.def Info: figures/ch09/CLs_DM_decay_v1.pdf  used on input line 2
@@ -3821,14 +3830,14 @@ Underfull \hbox (badness 1231) in paragraph at lines 242--245
  []
 
 [196] [197] [198]
-<figures/ch09/scalar_summary_bounds_plot_v0.pdf, id=4104, 199.47624pt x 147.553
+<figures/ch09/scalar_summary_bounds_plot_v0.pdf, id=4110, 199.47624pt x 147.553
 85pt>
 File: figures/ch09/scalar_summary_bounds_plot_v0.pdf Graphic file (type pdf)
 <use figures/ch09/scalar_summary_bounds_plot_v0.pdf>
 Package luatex.def Info: figures/ch09/scalar_summary_bounds_plot_v0.pdf  used o
 n input line 300.
 (luatex.def)             Requested size: 303.53267pt x 224.53183pt.
-<figures/ch09/pseudoscalar_summary_bounds_plot_v0.pdf, id=4119, 199.47624pt x 1
+<figures/ch09/pseudoscalar_summary_bounds_plot_v0.pdf, id=4125, 199.47624pt x 1
 45.2969pt>
 File: figures/ch09/pseudoscalar_summary_bounds_plot_v0.pdf Graphic file (type p
 df)
@@ -3837,7 +3846,7 @@ Package luatex.def Info: figures/ch09/pseudoscalar_summary_bounds_plot_v0.pdf
 used on input line 315.
 (luatex.def)             Requested size: 303.53267pt x 221.09744pt.
  [199]
-<figures/ch09/axion_summary_bounds_plot_v0.pdf, id=4164, 199.47624pt x 147.5538
+<figures/ch09/axion_summary_bounds_plot_v0.pdf, id=4170, 199.47624pt x 147.5538
 5pt>
 File: figures/ch09/axion_summary_bounds_plot_v0.pdf Graphic file (type pdf)
 <use figures/ch09/axion_summary_bounds_plot_v0.pdf>
@@ -3845,7 +3854,7 @@ Package luatex.def Info: figures/ch09/axion_summary_bounds_plot_v0.pdf  used on
  input line 333.
 (luatex.def)             Requested size: 303.53267pt x 224.53183pt.
  [200] [201]
-<figures/ch09/fs_cosmo_change_mDMs_v0.pdf, id=4221, 351.01137pt x 360.13129pt>
+<figures/ch09/fs_cosmo_change_mDMs_v0.pdf, id=4227, 351.01137pt x 360.13129pt>
 File: figures/ch09/fs_cosmo_change_mDMs_v0.pdf Graphic file (type pdf)
 <use figures/ch09/fs_cosmo_change_mDMs_v0.pdf>
 Package luatex.def Info: figures/ch09/fs_cosmo_change_mDMs_v0.pdf  used on inpu
@@ -3856,14 +3865,14 @@ t line 378.
 LaTeX Warning: Float too large for page by 46.70367pt on input line 381.
 
 [202]
-<figures/ch09/triangle_plot_mDM1e3.pdf, id=4234, 378.43474pt x 357.2385pt>
+<figures/ch09/triangle_plot_mDM1e3.pdf, id=4240, 378.43474pt x 357.2385pt>
 File: figures/ch09/triangle_plot_mDM1e3.pdf Graphic file (type pdf)
 <use figures/ch09/triangle_plot_mDM1e3.pdf>
 Package luatex.def Info: figures/ch09/triangle_plot_mDM1e3.pdf  used on input l
 ine 398.
 (luatex.def)             Requested size: 411.93767pt x 388.89163pt.
  [203]
-<figures/ch09/triangle_plot_PR4_FC_vs_PR3_CC_small.pdf, id=4245, 435.32957pt x 
+<figures/ch09/triangle_plot_PR4_FC_vs_PR3_CC_small.pdf, id=4251, 435.32957pt x 
 206.30536pt>
 File: figures/ch09/triangle_plot_PR4_FC_vs_PR3_CC_small.pdf Graphic file (type 
 pdf)
@@ -3914,7 +3923,7 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.18204pt}.
 
 [216]
-<figures/ch10/dMdt_SC_vs_smoothMB_letter_v1.pdf, id=4632, 199.16176pt x 154.406
+<figures/ch10/dMdt_SC_vs_smoothMB_letter_v1.pdf, id=4639, 199.16176pt x 154.406
 98pt>
 File: figures/ch10/dMdt_SC_vs_smoothMB_letter_v1.pdf Graphic file (type pdf)
 <use figures/ch10/dMdt_SC_vs_smoothMB_letter_v1.pdf>
@@ -3940,14 +3949,14 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.18204pt}.
 
 [218<./figures/ch10/dMdt_SC_vs_smoothMB_letter_v1.pdf>]
-<figures/ch10/tdEdt_SC_vs_smoothMB_letter_v1.pdf, id=4695, 185.93004pt x 154.40
+<figures/ch10/tdEdt_SC_vs_smoothMB_letter_v1.pdf, id=4701, 185.93004pt x 154.40
 698pt>
 File: figures/ch10/tdEdt_SC_vs_smoothMB_letter_v1.pdf Graphic file (type pdf)
 <use figures/ch10/tdEdt_SC_vs_smoothMB_letter_v1.pdf>
 Package luatex.def Info: figures/ch10/tdEdt_SC_vs_smoothMB_letter_v1.pdf  used 
 on input line 142.
 (luatex.def)             Requested size: 303.53267pt x 252.10052pt.
-<figures/ch10/fXfEM_combined_constraints_k2_v1.pdf, id=4710, 194.02248pt x 156.
+<figures/ch10/fXfEM_combined_constraints_k2_v1.pdf, id=4716, 194.02248pt x 156.
 66393pt>
 File: figures/ch10/fXfEM_combined_constraints_k2_v1.pdf Graphic file (type pdf)
 
@@ -4140,7 +4149,7 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.18204pt}.
 
 [224]
-<figures/ch10/fXfEM_combined_constraints_varying_delta_v1.pdf, id=4858, 377.792
+<figures/ch10/fXfEM_combined_constraints_varying_delta_v1.pdf, id=4864, 377.792
 1pt x 253.87956pt>
 File: figures/ch10/fXfEM_combined_constraints_varying_delta_v1.pdf Graphic file
  (type pdf)
@@ -4148,7 +4157,7 @@ File: figures/ch10/fXfEM_combined_constraints_varying_delta_v1.pdf Graphic file
 Package luatex.def Info: figures/ch10/fXfEM_combined_constraints_varying_delta_
 v1.pdf  used on input line 206.
 (luatex.def)             Requested size: 433.62pt x 291.40138pt.
-<figures/ch10/fXfEM_combined_constraints_varying_k_v1.pdf, id=4861, 194.02248pt
+<figures/ch10/fXfEM_combined_constraints_varying_k_v1.pdf, id=4867, 194.02248pt
  x 156.66393pt>
 File: figures/ch10/fXfEM_combined_constraints_varying_k_v1.pdf Graphic file (ty
 pe pdf)
@@ -4156,7 +4165,7 @@ pe pdf)
 Package luatex.def Info: figures/ch10/fXfEM_combined_constraints_varying_k_v1.p
 df  used on input line 216.
 (luatex.def)             Requested size: 303.53267pt x 245.11426pt.
-<figures/ch10/fXfEM_combined_constraints_varying_1mq_v1.pdf, id=4865, 377.44208
+<figures/ch10/fXfEM_combined_constraints_varying_1mq_v1.pdf, id=4871, 377.44208
 pt x 252.87956pt>
 File: figures/ch10/fXfEM_combined_constraints_varying_1mq_v1.pdf Graphic file (
 type pdf)
@@ -4211,27 +4220,27 @@ Chapter 11:
 
 
 ] [230]
-<figures/ch11/fig0_v0.pdf, id=5035, 253.56273pt x 205.51103pt>
+<figures/ch11/fig0_v0.pdf, id=5041, 253.56273pt x 205.51103pt>
 File: figures/ch11/fig0_v0.pdf Graphic file (type pdf)
 <use figures/ch11/fig0_v0.pdf>
 Package luatex.def Info: figures/ch11/fig0_v0.pdf  used on input line 41.
 (luatex.def)             Requested size: 303.53267pt x 246.04126pt.
  [231] [232<./figures/ch11/fig0_v0.pdf>] [233] [234] [235] [236]
 [237] [238]
-<figures/ch11/hilltop_example_fit.pdf, id=5199, 257.75146pt x 186.67348pt>
+<figures/ch11/hilltop_example_fit.pdf, id=5205, 257.75146pt x 186.67348pt>
 File: figures/ch11/hilltop_example_fit.pdf Graphic file (type pdf)
 <use figures/ch11/hilltop_example_fit.pdf>
 Package luatex.def Info: figures/ch11/hilltop_example_fit.pdf  used on input li
 ne 136.
 (luatex.def)             Requested size: 303.53267pt x 219.82841pt.
  [239] [240<./figures/ch11/hilltop_example_fit.pdf>]
-<figures/ch11/fig_1_v0.pdf, id=5275, 493.31775pt x 276.6206pt>
+<figures/ch11/fig_1_v0.pdf, id=5281, 493.31775pt x 276.6206pt>
 File: figures/ch11/fig_1_v0.pdf Graphic file (type pdf)
 <use figures/ch11/fig_1_v0.pdf>
 Package luatex.def Info: figures/ch11/fig_1_v0.pdf  used on input line 152.
 (luatex.def)             Requested size: 411.93767pt x 230.98793pt.
  [241] [242<./figures/ch11/fig_1_v0.pdf>] [243] [244]
-<figures/ch11/fig3_v0.pdf, id=5357, 477.59972pt x 166.99167pt>
+<figures/ch11/fig3_v0.pdf, id=5363, 477.59972pt x 166.99167pt>
 File: figures/ch11/fig3_v0.pdf Graphic file (type pdf)
 <use figures/ch11/fig3_v0.pdf>
 Package luatex.def Info: figures/ch11/fig3_v0.pdf  used on input line 186.
@@ -4259,7 +4268,7 @@ Underfull \hbox (badness 10000) in alignment at lines 254--254
 LaTeX Warning: Text page 248 contains only floats.
 
 [248] [249] [250] [251] [252] [253]
-<figures/ch11/fig_App4_v0.pdf, id=5527, 254.2278pt x 205.51103pt>
+<figures/ch11/fig_App4_v0.pdf, id=5533, 254.2278pt x 205.51103pt>
 File: figures/ch11/fig_App4_v0.pdf Graphic file (type pdf)
 <use figures/ch11/fig_App4_v0.pdf>
 Package luatex.def Info: figures/ch11/fig_App4_v0.pdf  used on input line 343.
@@ -4275,13 +4284,13 @@ Underfull \hbox (badness 2073) in paragraph at lines 353--355
  []
 
 [256]
-<figures/ch11/exponential_example_fit.pdf, id=5575, 257.75146pt x 186.67348pt>
+<figures/ch11/exponential_example_fit.pdf, id=5582, 257.75146pt x 186.67348pt>
 File: figures/ch11/exponential_example_fit.pdf Graphic file (type pdf)
 <use figures/ch11/exponential_example_fit.pdf>
 Package luatex.def Info: figures/ch11/exponential_example_fit.pdf  used on inpu
 t line 361.
 (luatex.def)             Requested size: 303.53267pt x 219.82841pt.
-<figures/ch11/fig_App1_v0.pdf, id=5580, 493.31775pt x 284.95683pt>
+<figures/ch11/fig_App1_v0.pdf, id=5587, 493.31775pt x 284.95683pt>
 File: figures/ch11/fig_App1_v0.pdf Graphic file (type pdf)
 <use figures/ch11/fig_App1_v0.pdf>
 Package luatex.def Info: figures/ch11/fig_App1_v0.pdf  used on input line 367.
@@ -4341,7 +4350,7 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.18204pt}.
 
 [268]
-<figures/ch12/1_phase-shift.pdf, id=5788, 455.7025pt x 277.035pt>
+<figures/ch12/1_phase-shift.pdf, id=5794, 455.7025pt x 277.035pt>
 File: figures/ch12/1_phase-shift.pdf Graphic file (type pdf)
 <use figures/ch12/1_phase-shift.pdf>
 Package luatex.def Info: figures/ch12/1_phase-shift.pdf  used on input line 49.
@@ -4402,13 +4411,13 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.18204pt}.
 
 [274]
-<figures/ch12/phase-shift_ee.pdf, id=5934, 452.69125pt x 279.0425pt>
+<figures/ch12/phase-shift_ee.pdf, id=5940, 452.69125pt x 279.0425pt>
 File: figures/ch12/phase-shift_ee.pdf Graphic file (type pdf)
 <use figures/ch12/phase-shift_ee.pdf>
 Package luatex.def Info: figures/ch12/phase-shift_ee.pdf  used on input line 94
 .
 (luatex.def)             Requested size: 433.62pt x 267.2859pt.
-<figures/ch12/phase-shift_te.pdf, id=5948, 452.69125pt x 279.0425pt>
+<figures/ch12/phase-shift_te.pdf, id=5954, 452.69125pt x 279.0425pt>
 File: figures/ch12/phase-shift_te.pdf Graphic file (type pdf)
 <use figures/ch12/phase-shift_te.pdf>
 Package luatex.def Info: figures/ch12/phase-shift_te.pdf  used on input line 10
@@ -4472,7 +4481,7 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.18204pt}.
 
 [280]
-<figures/ch12/2_sbt_template.pdf, id=6093, 320.19624pt x 203.76125pt>
+<figures/ch12/2_sbt_template.pdf, id=6099, 320.19624pt x 203.76125pt>
 File: figures/ch12/2_sbt_template.pdf Graphic file (type pdf)
 <use figures/ch12/2_sbt_template.pdf>
 Package luatex.def Info: figures/ch12/2_sbt_template.pdf  used on input line 16
@@ -4524,7 +4533,7 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.18204pt}.
 
 [285]
-<figures/ch12/phase-shift_perturbations.pdf, id=6186, 454.69875pt x 279.0425pt>
+<figures/ch12/phase-shift_perturbations.pdf, id=6192, 454.69875pt x 279.0425pt>
 
 File: figures/ch12/phase-shift_perturbations.pdf Graphic file (type pdf)
 <use figures/ch12/phase-shift_perturbations.pdf>
@@ -4550,7 +4559,7 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.18204pt}.
 
 [287<./figures/ch12/phase-shift_perturbations.pdf>]
-<figures/ch12/pbt_template.pdf, id=6243, 354.32375pt x 204.765pt>
+<figures/ch12/pbt_template.pdf, id=6250, 354.32375pt x 204.765pt>
 File: figures/ch12/pbt_template.pdf Graphic file (type pdf)
 <use figures/ch12/pbt_template.pdf>
 Package luatex.def Info: figures/ch12/pbt_template.pdf  used on input line 220.
@@ -4611,7 +4620,7 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.18204pt}.
 
 [293]
-<figures/ch12/sbt-pbt_validation.pdf, id=6359, 458.71375pt x 174.6525pt>
+<figures/ch12/sbt-pbt_validation.pdf, id=6365, 458.71375pt x 174.6525pt>
 File: figures/ch12/sbt-pbt_validation.pdf Graphic file (type pdf)
 <use figures/ch12/sbt-pbt_validation.pdf>
 Package luatex.def Info: figures/ch12/sbt-pbt_validation.pdf  used on input lin
@@ -4663,7 +4672,7 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.18204pt}.
 
 [298]
-<figures/ch12/sbt_neff.pdf, id=6455, 456.70625pt x 163.61125pt>
+<figures/ch12/sbt_neff.pdf, id=6461, 456.70625pt x 163.61125pt>
 File: figures/ch12/sbt_neff.pdf Graphic file (type pdf)
 <use figures/ch12/sbt_neff.pdf>
 Package luatex.def Info: figures/ch12/sbt_neff.pdf  used on input line 330.
@@ -4696,7 +4705,7 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.18204pt}.
 
 [301]
-<figures/ch12/sbt_neff-yp.pdf, id=6528, 454.69875pt x 190.7125pt>
+<figures/ch12/sbt_neff-yp.pdf, id=6534, 454.69875pt x 190.7125pt>
 File: figures/ch12/sbt_neff-yp.pdf Graphic file (type pdf)
 <use figures/ch12/sbt_neff-yp.pdf>
 Package luatex.def Info: figures/ch12/sbt_neff-yp.pdf  used on input line 360.
@@ -4711,12 +4720,12 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.18204pt}.
 
 [302<./figures/ch12/sbt_neff-yp.pdf>]
-<figures/ch12/3_pbt_neff.pdf, id=6573, 457.71pt x 164.615pt>
+<figures/ch12/3_pbt_neff.pdf, id=6579, 457.71pt x 164.615pt>
 File: figures/ch12/3_pbt_neff.pdf Graphic file (type pdf)
 <use figures/ch12/3_pbt_neff.pdf>
 Package luatex.def Info: figures/ch12/3_pbt_neff.pdf  used on input line 374.
 (luatex.def)             Requested size: 433.62pt x 155.95634pt.
-<figures/ch12/pbt_neff-yp.pdf, id=6577, 455.7025pt x 190.7125pt>
+<figures/ch12/pbt_neff-yp.pdf, id=6583, 455.7025pt x 190.7125pt>
 File: figures/ch12/pbt_neff-yp.pdf Graphic file (type pdf)
 <use figures/ch12/pbt_neff-yp.pdf>
 Package luatex.def Info: figures/ch12/pbt_neff-yp.pdf  used on input line 381.
@@ -4754,7 +4763,7 @@ Underfull \hbox (badness 4660) in paragraph at lines 414--415
 , we turn to the lat-est
  []
 
-<figures/ch12/sbt-pbt_planck.pdf, id=6677, 459.42119pt x 286.26447pt>
+<figures/ch12/sbt-pbt_planck.pdf, id=6683, 459.42119pt x 286.26447pt>
 File: figures/ch12/sbt-pbt_planck.pdf Graphic file (type pdf)
 <use figures/ch12/sbt-pbt_planck.pdf>
 Package luatex.def Info: figures/ch12/sbt-pbt_planck.pdf  used on input line 41
@@ -4879,7 +4888,7 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.18204pt}.
 
 [317]
-<figures/ch12/pbt_fit-parameters.pdf, id=6863, 451.6875pt x 281.05pt>
+<figures/ch12/pbt_fit-parameters.pdf, id=6870, 451.6875pt x 281.05pt>
 File: figures/ch12/pbt_fit-parameters.pdf Graphic file (type pdf)
 <use figures/ch12/pbt_fit-parameters.pdf>
 Package luatex.def Info: figures/ch12/pbt_fit-parameters.pdf  used on input lin
@@ -4904,7 +4913,7 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.18204pt}.
 
 [319<./figures/ch12/pbt_fit-parameters.pdf>]
-<figures/ch12/sbt-pbt_validation_2d.pdf, id=6917, 446.62106pt x 282.20584pt>
+<figures/ch12/sbt-pbt_validation_2d.pdf, id=6923, 446.62106pt x 282.20584pt>
 File: figures/ch12/sbt-pbt_validation_2d.pdf Graphic file (type pdf)
 <use figures/ch12/sbt-pbt_validation_2d.pdf>
 Package luatex.def Info: figures/ch12/sbt-pbt_validation_2d.pdf  used on input 
@@ -5019,7 +5028,7 @@ Chapter 13:
 
 
 ] [331] [332]
-<figures/ch13/paper_fig_KEE_SI.pdf, id=7138, 455.31485pt x 289.94272pt>
+<figures/ch13/paper_fig_KEE_SI.pdf, id=7144, 455.31485pt x 289.94272pt>
 File: figures/ch13/paper_fig_KEE_SI.pdf Graphic file (type pdf)
 <use figures/ch13/paper_fig_KEE_SI.pdf>
 Package luatex.def Info: figures/ch13/paper_fig_KEE_SI.pdf  used on input line 
@@ -5033,7 +5042,7 @@ se;script=latn;language=dflt;!
 Missing character: There is no ℓ (U+2113) in font [XCharter-Roman.otf]:mode=ba
 se;script=latn;language=dflt;!
 [335]
-<figures/ch13/paper_fig1_v3.pdf, id=7236, 492.19368pt x 190.43512pt>
+<figures/ch13/paper_fig1_v3.pdf, id=7242, 492.19368pt x 190.43512pt>
 File: figures/ch13/paper_fig1_v3.pdf Graphic file (type pdf)
 <use figures/ch13/paper_fig1_v3.pdf>
 Package luatex.def Info: figures/ch13/paper_fig1_v3.pdf  used on input line 90.
@@ -5056,7 +5065,7 @@ Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
 Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
-<figures/ch13/paper_fig2_v0.pdf, id=7382, 217.42021pt x 153.56749pt>
+<figures/ch13/paper_fig2_v0.pdf, id=7388, 217.42021pt x 153.56749pt>
 File: figures/ch13/paper_fig2_v0.pdf Graphic file (type pdf)
 <use figures/ch13/paper_fig2_v0.pdf>
 Package luatex.def Info: figures/ch13/paper_fig2_v0.pdf  used on input line 133
@@ -5079,7 +5088,7 @@ base;script=latn;language=dflt;!
 Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
 [343]
-<figures/ch13/paper_fig3_v0.pdf, id=7481, 478.7664pt x 169.1162pt>
+<figures/ch13/paper_fig3_v0.pdf, id=7487, 478.7664pt x 169.1162pt>
 File: figures/ch13/paper_fig3_v0.pdf Graphic file (type pdf)
 <use figures/ch13/paper_fig3_v0.pdf>
 Package luatex.def Info: figures/ch13/paper_fig3_v0.pdf  used on input line 182
@@ -5100,7 +5109,7 @@ LaTeX Font Info:    Font shape `TU/XCharter(1)/m/it' will be
 LaTeX Font Info:    Font shape `TU/XCharter(1)/m/it' will be
 (Font)              scaled to size 6.0pt on input line 226.
  [347] [348]
-<figures/ch13/paper_fig3_v21.pdf, id=7612, 255.10855pt x 178.68504pt>
+<figures/ch13/paper_fig3_v21.pdf, id=7618, 255.10855pt x 178.68504pt>
 File: figures/ch13/paper_fig3_v21.pdf Graphic file (type pdf)
 <use figures/ch13/paper_fig3_v21.pdf>
 Package luatex.def Info: figures/ch13/paper_fig3_v21.pdf  used on input line 24
@@ -5120,7 +5129,7 @@ base;script=latn;language=dflt;!
 Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
 [355] [356] [357]
-<figures/ch13/phase_shift_template_Nfluid_Neff.pdf, id=7801, 276.88815pt x 212.
+<figures/ch13/phase_shift_template_Nfluid_Neff.pdf, id=7808, 276.88815pt x 212.
 16676pt>
 File: figures/ch13/phase_shift_template_Nfluid_Neff.pdf Graphic file (type pdf)
 
@@ -5143,21 +5152,21 @@ base;script=latn;language=dflt;!
 [361]
 Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
-<figures/ch13/paper_figA1_v0.pdf, id=7894, 266.14636pt x 282.6592pt>
+<figures/ch13/paper_figA1_v0.pdf, id=7900, 266.14636pt x 282.6592pt>
 File: figures/ch13/paper_figA1_v0.pdf Graphic file (type pdf)
 <use figures/ch13/paper_figA1_v0.pdf>
 Package luatex.def Info: figures/ch13/paper_figA1_v0.pdf  used on input line 39
 2.
 (luatex.def)             Requested size: 303.53267pt x 322.39009pt.
 [362] [363<./figures/ch13/paper_figA1_v0.pdf>] [364]
-<figures/ch13/paper_fig2_v1.pdf, id=7982, 217.42021pt x 153.56749pt>
+<figures/ch13/paper_fig2_v1.pdf, id=7988, 217.42021pt x 153.56749pt>
 File: figures/ch13/paper_fig2_v1.pdf Graphic file (type pdf)
 <use figures/ch13/paper_fig2_v1.pdf>
 Package luatex.def Info: figures/ch13/paper_fig2_v1.pdf  used on input line 408
 .
 (luatex.def)             Requested size: 303.53267pt x 214.40248pt.
  [365<./figures/ch13/paper_fig2_v1.pdf>]
-<figures/ch13/paper_figA2_v0.pdf, id=8049, 260.49945pt x 180.80957pt>
+<figures/ch13/paper_figA2_v0.pdf, id=8055, 260.49945pt x 180.80957pt>
 File: figures/ch13/paper_figA2_v0.pdf Graphic file (type pdf)
 <use figures/ch13/paper_figA2_v0.pdf>
 Package luatex.def Info: figures/ch13/paper_figA2_v0.pdf  used on input line 42
@@ -5169,14 +5178,14 @@ base;script=latn;language=dflt;!
 Missing character: There is no 𝜈 (U+1D708) in font [XCharter-Roman.otf]:mode=
 base;script=latn;language=dflt;!
 [366] [367<./figures/ch13/paper_figA2_v0.pdf>] [368] [369]
-<figures/ch13/paper_figA4_v0.pdf, id=8149, 301.7196pt x 281.55765pt>
+<figures/ch13/paper_figA4_v0.pdf, id=8155, 301.7196pt x 281.55765pt>
 File: figures/ch13/paper_figA4_v0.pdf Graphic file (type pdf)
 <use figures/ch13/paper_figA4_v0.pdf>
 Package luatex.def Info: figures/ch13/paper_figA4_v0.pdf  used on input line 46
 3.
 (luatex.def)             Requested size: 303.53267pt x 283.24535pt.
  [370] [371<./figures/ch13/paper_figA4_v0.pdf>]
-<figures/ch13/paper_figA3_v0.pdf, id=8203, 301.7196pt x 283.42001pt>
+<figures/ch13/paper_figA3_v0.pdf, id=8209, 301.7196pt x 283.42001pt>
 File: figures/ch13/paper_figA3_v0.pdf Graphic file (type pdf)
 <use figures/ch13/paper_figA3_v0.pdf>
 Package luatex.def Info: figures/ch13/paper_figA3_v0.pdf  used on input line 50
@@ -5199,50 +5208,50 @@ with the up-dated
  []
 
 [377] [378] [379] [380]
-<figures/ch14/fig1_v30.pdf, id=8389, 450.302pt x 243.90182pt>
+<figures/ch14/fig1_v30.pdf, id=8395, 450.302pt x 243.90182pt>
 File: figures/ch14/fig1_v30.pdf Graphic file (type pdf)
 <use figures/ch14/fig1_v30.pdf>
 Package luatex.def Info: figures/ch14/fig1_v30.pdf  used on input line 99.
 (luatex.def)             Requested size: 433.62pt x 234.87625pt.
  [381] [382<./figures/ch14/fig1_v30.pdf>] [383] [384]
 [385] [386] [387] [388] [389] [390] [391]
-<figures/ch14/fig3_v0.pdf, id=8634, 237.22054pt x 178.19725pt>
+<figures/ch14/fig3_v0.pdf, id=8640, 237.22054pt x 178.19725pt>
 File: figures/ch14/fig3_v0.pdf Graphic file (type pdf)
 <use figures/ch14/fig3_v0.pdf>
 Package luatex.def Info: figures/ch14/fig3_v0.pdf  used on input line 217.
 (luatex.def)             Requested size: 303.53267pt x 228.01012pt.
  [392] [393<./figures/ch14/fig3_v0.pdf>]
-<figures/ch14/fig4_v20.pdf, id=8703, 450.67639pt x 279.22272pt>
+<figures/ch14/fig4_v20.pdf, id=8709, 450.67639pt x 279.22272pt>
 File: figures/ch14/fig4_v20.pdf Graphic file (type pdf)
 <use figures/ch14/fig4_v20.pdf>
 Package luatex.def Info: figures/ch14/fig4_v20.pdf  used on input line 230.
 (luatex.def)             Requested size: 433.62pt x 268.66428pt.
  [394] [395<./figures/ch14/fig4_v20.pdf>] [396]
-<figures/ch14/fig5_v5.pdf, id=8790, 479.14554pt x 207.98317pt>
+<figures/ch14/fig5_v5.pdf, id=8798, 479.14554pt x 207.98317pt>
 File: figures/ch14/fig5_v5.pdf Graphic file (type pdf)
 <use figures/ch14/fig5_v5.pdf>
 Package luatex.def Info: figures/ch14/fig5_v5.pdf  used on input line 256.
 (luatex.def)             Requested size: 433.62pt x 188.2272pt.
  [397] [398] [399<./figures/ch14/fig5_v5.pdf>] [400]
-<figures/ch14/fig7_v10.pdf, id=8889, 245.24841pt x 178.19725pt>
+<figures/ch14/fig7_v10.pdf, id=8895, 245.24841pt x 178.19725pt>
 File: figures/ch14/fig7_v10.pdf Graphic file (type pdf)
 <use figures/ch14/fig7_v10.pdf>
 Package luatex.def Info: figures/ch14/fig7_v10.pdf  used on input line 276.
 (luatex.def)             Requested size: 303.53267pt x 220.57076pt.
  [401] [402<./figures/ch14/fig7_v10.pdf>] [403] [404]
 [405] [406]
-<figures/ch14/figA1_v0.pdf, id=8992, 280.52867pt x 319.19203pt>
+<figures/ch14/figA1_v0.pdf, id=8999, 280.52867pt x 319.19203pt>
 File: figures/ch14/figA1_v0.pdf Graphic file (type pdf)
 <use figures/ch14/figA1_v0.pdf>
 Package luatex.def Info: figures/ch14/figA1_v0.pdf  used on input line 313.
 (luatex.def)             Requested size: 303.53267pt x 345.39925pt.
  [407] [408<./figures/ch14/figA1_v0.pdf>]
-<figures/ch14/fig5_v3.pdf, id=9077, 240.42899pt x 181.14864pt>
+<figures/ch14/fig5_v3.pdf, id=9083, 240.42899pt x 181.14864pt>
 File: figures/ch14/fig5_v3.pdf Graphic file (type pdf)
 <use figures/ch14/fig5_v3.pdf>
 Package luatex.def Info: figures/ch14/fig5_v3.pdf  used on input line 327.
 (luatex.def)             Requested size: 303.53267pt x 228.71283pt.
-<figures/ch14/figA3_v0.pdf, id=9078, 487.79778pt x 221.33148pt>
+<figures/ch14/figA3_v0.pdf, id=9084, 487.79778pt x 221.33148pt>
 File: figures/ch14/figA3_v0.pdf Graphic file (type pdf)
 <use figures/ch14/figA3_v0.pdf>
 Package luatex.def Info: figures/ch14/figA3_v0.pdf  used on input line 336.
@@ -5257,6 +5266,10 @@ Package luatex.def Info: figures/ch14/figA3_v0.pdf  used on input line 336.
 \openout2 = chapters/15-conclusions.aux
  (./chapters/15-conclusions.tex
 Chapter 15:
+
+LaTeX Warning: Reference `part:dark-Universe' on page 415 undefined on input li
+ne 9.
+
 [415
 
 
@@ -5291,24 +5304,24 @@ L3 programming layer <2024-01-22>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 1705F7D60B14C8C1FDDD554E2EE40B92;27224.
 )
 
 Here is how much of LuaTeX's memory you used:
- 47224 strings out of 476553
+ 47227 strings out of 476553
  156277,2373549 words of node,token memory allocated
  5601 words of node memory still in use:
    8 hlist, 2 vlist, 2 rule, 1 local_par, 116 glue, 4 kern, 1 penalty, 14 sub_ml
 ist, 1 margin_kern, 3 glyph, 757 attribute, 93 glue_spec, 757 attribute_list, 2 
 write, 170 pdf_action nodes
-   avail lists: 1:10,2:1906,3:1054,4:250,5:1470,6:64,7:13054,8:93,9:1886,10:28,1
-1:835
- 65601 multiletter control sequences out of 65536+600000
- 285 fonts using 69723583 bytes
- 95i,19n,122p,3060b,3260s stack positions out of 10000i,1000n,20000p,200000b,200000s
+   avail lists: 1:10,2:1906,3:1054,4:250,5:1468,6:64,7:13054,8:93,9:1886,10:28,1
+1:837
+ 65602 multiletter control sequences out of 65536+600000
+ 285 fonts using 69722875 bytes
+ 95i,19n,122p,3059b,3260s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/opentype/public/xcharter/XCharter-Italic.ot
 f></usr/share/texlive/texmf-dist/fonts/opentype/public/xcharter/XCharter-Bold.ot
 f></usr/share/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf></usr/sha
@@ -5322,10 +5335,10 @@ texmf-dist/fonts/opentype/public/xcharter/XCharter-Italic.otf></usr/share/texliv
 e/texmf-dist/fonts/opentype/public/xcharter/XCharter-Bold.otf></usr/share/texliv
 e/texmf-dist/fonts/opentype/public/xcharter/XCharter-Roman.otf></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb>
-Output written on main.pdf (501 pages, 32862484 bytes).
+Output written on main.pdf (503 pages, 32871846 bytes).
 
-PDF statistics: 11294 PDF objects out of 12825 (max. 8388607)
- 9745 compressed objects within 98 object streams
- 1958 named destinations out of 2073 (max. 131072)
+PDF statistics: 11300 PDF objects out of 12825 (max. 8388607)
+ 9749 compressed objects within 98 object streams
+ 1960 named destinations out of 2073 (max. 131072)
  904 words of extra memory for PDF output out of 10000 (max. 100000000)
 

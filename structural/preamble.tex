@@ -44,6 +44,14 @@
     \chaptermark{#1}%
     \@makeschapterhead{#1} \@afterheading}
 
+% No indent on first paragraph after chapter heading (JCAP convention)
+\def\chapter{%
+    \clearpage
+    \short@page \setcounter{regular@short}{0}
+    \default@spacing
+    \global\@topnum\z@ \@afterindentfalse
+    \secdef\@chapter\@schapter}
+
 % Section headings (from jcappub.sty)
 \renewcommand\section{\@startsection{section}{1}{\z@}%
                                    {-3.5ex \@plus -1.3ex \@minus -.7ex}%
