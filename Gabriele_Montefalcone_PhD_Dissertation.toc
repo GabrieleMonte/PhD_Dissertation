@@ -118,74 +118,74 @@
 \contentsline {section}{\numberline {11.A}Normalizing Flow Architecture \& Training}{254}{section.e.11.A}%
 \contentsline {section}{\numberline {11.B}Mapping to $(w_0,\,w_a)$ for Exponential Quintessence}{257}{section.e.11.B}%
 \contentsline {section}{\numberline {11.C}Comprehensive Summary of Cosmological Constraints}{259}{section.e.11.C}%
-\contentsline {chapter}{Conclusions of Part~II}{261}{appendix*.62}%
-\contentsline {part}{Part~III\hspace {1em}Cosmological Probes of Neutrinos and Free-Streaming Radiation}{264}{part.3}%
-\contentsline {chapter}{Introduction to Part~III}{265}{appendix*.63}%
-\contentsline {chapter}{Chapter 12:\hspace *{1em}Free-Streaming Neutrinos and Their Phase Shift in CMB Power Spectra}{267}{appendix.12}%
-\contentsline {section}{\numberline {12.1}Introduction}{267}{section.12.1}%
-\contentsline {section}{\numberline {12.2}Free-Streaming Neutrinos in the~CMB}{273}{section.12.2}%
-\contentsline {subsection}{\numberline {12.2.1}Theoretical Background}{273}{subsection.12.2.1}%
-\contentsline {subsection}{\numberline {12.2.2}Spectrum-Based Template}{280}{subsection.12.2.2}%
-\contentsline {subsubsection}{\numberline {12.2.2.1}Template Derivation from the Spectra}{280}{subsubsection.12.2.2.1}%
-\contentsline {subsubsection}{\numberline {12.2.2.2}Multipole Shifting the Spectra with Neff}{283}{subsubsection.12.2.2.2}%
-\contentsline {subsection}{\numberline {12.2.3}Perturbation-Based Template}{285}{subsection.12.2.3}%
-\contentsline {subsubsection}{\numberline {12.2.3.1}Template Derivation from the Perturbations}{286}{subsubsection.12.2.3.1}%
-\contentsline {subsubsection}{\numberline {12.2.3.2}Phase Shifting the Perturbations with Neff}{290}{subsubsection.12.2.3.2}%
-\contentsline {subsection}{\numberline {12.2.4}Mock-Data Validation of the Templates}{293}{subsection.12.2.4}%
-\contentsline {section}{\numberline {12.3}Data Analyses and Forecasts}{297}{section.12.3}%
-\contentsline {subsection}{\numberline {12.3.1}Spectrum-Based Analysis}{300}{subsection.12.3.1}%
-\contentsline {subsection}{\numberline {12.3.2}Perturbation-Based Analysis}{304}{subsection.12.3.2}%
-\contentsline {subsection}{\numberline {12.3.3}Comparison of the Analyses}{307}{subsection.12.3.3}%
-\contentsline {subsection}{\numberline {12.3.4}Forecasts}{311}{subsection.12.3.4}%
-\contentsline {section}{\numberline {12.4}Conclusions and Outlook}{315}{section.12.4}%
-\contentsline {section}{\numberline {12.A}Further Validation of the Analysis Pipeline}{318}{section.f.12.A}%
-\contentsline {subsection}{\numberline {12.A.1}Additional Details on the Perturbation-Based Template}{318}{subsection.f.12.A.1}%
-\contentsline {subsection}{\numberline {12.A.2}Marginalization over the Template Parameters}{319}{subsection.f.12.A.2}%
-\contentsline {subsection}{\numberline {12.A.3}Joint Mock-Data Constraints on Neff}{321}{subsection.f.12.A.3}%
-\contentsline {section}{\numberline {12.B}Comprehensive Analysis Results}{321}{section.f.12.B}%
-\contentsline {section}{\numberline {12.C}Details on the Forecasts}{325}{section.f.12.C}%
-\contentsline {chapter}{Chapter 13:\hspace *{1em}Directly Probing Neutrino Interactions through CMB Phase Shift Measurements}{331}{appendix.13}%
-\contentsline {section}{\numberline {13.1}Introduction}{331}{section.13.1}%
-\contentsline {section}{\numberline {13.2}Phase Shift Signatures of Neutrino Interactions}{335}{section.13.2}%
-\contentsline {subsection}{\numberline {13.2.1}Free-streaming Standard Model neutrinos}{336}{subsection.13.2.1}%
-\contentsline {subsection}{\numberline {13.2.2}Interacting Neutrinos}{338}{subsection.13.2.2}%
-\contentsline {subsubsection}{\numberline {13.2.2.1}Instantaneous decoupling approximation}{338}{subsubsection.13.2.2.1}%
-\contentsline {subsubsection}{\numberline {13.2.2.2}Gradual decoupling from realistic neutrino interactions}{339}{subsubsection.13.2.2.2}%
-\contentsline {section}{\numberline {13.3}Constraints from current CMB observations}{344}{section.13.3}%
-\contentsline {subsection}{\numberline {13.3.1}Analysis pipeline}{344}{subsection.13.3.1}%
-\contentsline {subsection}{\numberline {13.3.2}Data analysis and constraints}{345}{subsection.13.3.2}%
-\contentsline {subsubsection}{\numberline {13.3.2.1}Constraints on universal neutrino interactions}{349}{subsubsection.13.3.2.1}%
-\contentsline {subsubsection}{\numberline {13.3.2.2}Constraints on flavor-dependent neutrino interactions}{351}{subsubsection.13.3.2.2}%
-\contentsline {section}{\numberline {13.4}Discussion \& Summary}{353}{section.13.4}%
-\contentsline {section}{\numberline {13.A}\texttt {CLASS}-based implementation of neutrino interactions}{355}{section.g.13.A}%
-\contentsline {subsection}{\numberline {13.A.1}Neutrino-dark matter scattering}{356}{subsection.g.13.A.1}%
-\contentsline {subsection}{\numberline {13.A.2}Neutrino Self-Interactions}{357}{subsection.g.13.A.2}%
-\contentsline {section}{\numberline {13.B}Phase-shift template extraction and validation}{358}{section.g.13.B}%
-\contentsline {subsection}{\numberline {13.B.1}Generalized phase shift extraction from CMB power spectra}{359}{subsection.g.13.B.1}%
-\contentsline {subsubsection}{\numberline {13.B.1.1}Free-streaming neutrinos}{359}{subsubsection.g.13.B.1.1}%
-\contentsline {subsubsection}{\numberline {13.B.1.2}Interacting neutrinos}{361}{subsubsection.g.13.B.1.2}%
-\contentsline {subsection}{\numberline {13.B.2}Validation of the phase-shift template approximation}{363}{subsection.g.13.B.2}%
-\contentsline {subsubsection}{\numberline {13.B.2.1}Limits of the constant amplitude approximation}{363}{subsubsection.g.13.B.2.1}%
-\contentsline {subsubsection}{\numberline {13.B.2.2}Impact of the temperature power spectra on phase shift extraction}{366}{subsubsection.g.13.B.2.2}%
-\contentsline {section}{\numberline {13.C}Comparison of direct-phase-shift measurement methods}{367}{section.g.13.C}%
-\contentsline {section}{\numberline {13.D}Additional data analyses}{370}{section.g.13.D}%
-\contentsline {subsection}{\numberline {13.D.1}Comparison between {\it Planck} 2018 and {\it Planck} 2021 analyses}{370}{subsection.g.13.D.1}%
-\contentsline {subsection}{\numberline {13.D.2}Complementary dataset combinations}{371}{subsection.g.13.D.2}%
-\contentsline {chapter}{Chapter 14:\hspace *{1em}Tracing the Neutrino-Induced Phase Shift in the 21-cm Spectrum}{375}{appendix.14}%
-\contentsline {section}{\numberline {14.1}Introduction}{375}{section.14.1}%
-\contentsline {section}{\numberline {14.2}Free-streaming Neutrinos and the Phase Shift}{379}{section.14.2}%
-\contentsline {section}{\numberline {14.3}The 21-cm Signal and its Acoustic Features}{381}{section.14.3}%
-\contentsline {subsection}{\numberline {14.3.1}The Basics of the 21-cm Signal}{381}{subsection.14.3.1}%
-\contentsline {subsection}{\numberline {14.3.2}Acoustic Oscillations in the 21-cm Power Spectrum}{384}{subsection.14.3.2}%
-\contentsline {section}{\numberline {14.4}Extracting the Phase Shift in the 21-cm power spectrum}{389}{section.14.4}%
-\contentsline {subsection}{\numberline {14.4.1}The Phase Shift in the BAOs}{389}{subsection.14.4.1}%
-\contentsline {subsection}{\numberline {14.4.2}The Phase Shift in the VAOs}{391}{subsection.14.4.2}%
-\contentsline {subsection}{\numberline {14.4.3}The Phase Shift in the 21-cm Power Spectrum}{395}{subsection.14.4.3}%
-\contentsline {section}{\numberline {14.5}Discussion \& Conclusions}{405}{section.14.5}%
-\contentsline {section}{\numberline {14.A}Extended Tests}{408}{section.h.14.A}%
-\contentsline {subsection}{\numberline {14.A.1}Phase shift in the velocity power spectrum.}{408}{subsection.h.14.A.1}%
-\contentsline {subsection}{\numberline {14.A.2} Redshift evolution of the 21-cm phase-shift template.}{410}{subsection.h.14.A.2}%
-\contentsline {subsection}{\numberline {14.A.3} Impact of astrophysical parameters}{412}{subsection.h.14.A.3}%
-\contentsline {chapter}{Conclusions of Part~III}{414}{appendix*.113}%
-\contentsline {chapter}{Chapter 15:\hspace *{1em}Closing Remarks and Outlook}{416}{appendix.15}%
-\contentsline {chapter}{References}{418}{appendix.15}%
+\contentsline {chapter}{Conclusions of Part~II}{260}{appendix*.62}%
+\contentsline {part}{Part~III\hspace {1em}Cosmological Probes of Neutrinos and Free-Streaming Radiation}{263}{part.3}%
+\contentsline {chapter}{Introduction to Part~III}{264}{appendix*.63}%
+\contentsline {chapter}{Chapter 12:\hspace *{1em}Free-Streaming Neutrinos and Their Phase Shift in CMB Power Spectra}{266}{appendix.12}%
+\contentsline {section}{\numberline {12.1}Introduction}{266}{section.12.1}%
+\contentsline {section}{\numberline {12.2}Free-Streaming Neutrinos in the~CMB}{272}{section.12.2}%
+\contentsline {subsection}{\numberline {12.2.1}Theoretical Background}{272}{subsection.12.2.1}%
+\contentsline {subsection}{\numberline {12.2.2}Spectrum-Based Template}{279}{subsection.12.2.2}%
+\contentsline {subsubsection}{\numberline {12.2.2.1}Template Derivation from the Spectra}{279}{subsubsection.12.2.2.1}%
+\contentsline {subsubsection}{\numberline {12.2.2.2}Multipole Shifting the Spectra with Neff}{282}{subsubsection.12.2.2.2}%
+\contentsline {subsection}{\numberline {12.2.3}Perturbation-Based Template}{284}{subsection.12.2.3}%
+\contentsline {subsubsection}{\numberline {12.2.3.1}Template Derivation from the Perturbations}{285}{subsubsection.12.2.3.1}%
+\contentsline {subsubsection}{\numberline {12.2.3.2}Phase Shifting the Perturbations with Neff}{289}{subsubsection.12.2.3.2}%
+\contentsline {subsection}{\numberline {12.2.4}Mock-Data Validation of the Templates}{292}{subsection.12.2.4}%
+\contentsline {section}{\numberline {12.3}Data Analyses and Forecasts}{296}{section.12.3}%
+\contentsline {subsection}{\numberline {12.3.1}Spectrum-Based Analysis}{299}{subsection.12.3.1}%
+\contentsline {subsection}{\numberline {12.3.2}Perturbation-Based Analysis}{303}{subsection.12.3.2}%
+\contentsline {subsection}{\numberline {12.3.3}Comparison of the Analyses}{306}{subsection.12.3.3}%
+\contentsline {subsection}{\numberline {12.3.4}Forecasts}{310}{subsection.12.3.4}%
+\contentsline {section}{\numberline {12.4}Conclusions and Outlook}{314}{section.12.4}%
+\contentsline {section}{\numberline {12.A}Further Validation of the Analysis Pipeline}{317}{section.f.12.A}%
+\contentsline {subsection}{\numberline {12.A.1}Additional Details on the Perturbation-Based Template}{317}{subsection.f.12.A.1}%
+\contentsline {subsection}{\numberline {12.A.2}Marginalization over the Template Parameters}{318}{subsection.f.12.A.2}%
+\contentsline {subsection}{\numberline {12.A.3}Joint Mock-Data Constraints on Neff}{320}{subsection.f.12.A.3}%
+\contentsline {section}{\numberline {12.B}Comprehensive Analysis Results}{320}{section.f.12.B}%
+\contentsline {section}{\numberline {12.C}Details on the Forecasts}{324}{section.f.12.C}%
+\contentsline {chapter}{Chapter 13:\hspace *{1em}Directly Probing Neutrino Interactions through CMB Phase Shift Measurements}{330}{appendix.13}%
+\contentsline {section}{\numberline {13.1}Introduction}{330}{section.13.1}%
+\contentsline {section}{\numberline {13.2}Phase Shift Signatures of Neutrino Interactions}{334}{section.13.2}%
+\contentsline {subsection}{\numberline {13.2.1}Free-streaming Standard Model neutrinos}{335}{subsection.13.2.1}%
+\contentsline {subsection}{\numberline {13.2.2}Interacting Neutrinos}{337}{subsection.13.2.2}%
+\contentsline {subsubsection}{\numberline {13.2.2.1}Instantaneous decoupling approximation}{337}{subsubsection.13.2.2.1}%
+\contentsline {subsubsection}{\numberline {13.2.2.2}Gradual decoupling from realistic neutrino interactions}{338}{subsubsection.13.2.2.2}%
+\contentsline {section}{\numberline {13.3}Constraints from current CMB observations}{343}{section.13.3}%
+\contentsline {subsection}{\numberline {13.3.1}Analysis pipeline}{343}{subsection.13.3.1}%
+\contentsline {subsection}{\numberline {13.3.2}Data analysis and constraints}{344}{subsection.13.3.2}%
+\contentsline {subsubsection}{\numberline {13.3.2.1}Constraints on universal neutrino interactions}{348}{subsubsection.13.3.2.1}%
+\contentsline {subsubsection}{\numberline {13.3.2.2}Constraints on flavor-dependent neutrino interactions}{350}{subsubsection.13.3.2.2}%
+\contentsline {section}{\numberline {13.4}Discussion \& Summary}{352}{section.13.4}%
+\contentsline {section}{\numberline {13.A}\texttt {CLASS}-based implementation of neutrino interactions}{354}{section.g.13.A}%
+\contentsline {subsection}{\numberline {13.A.1}Neutrino-dark matter scattering}{355}{subsection.g.13.A.1}%
+\contentsline {subsection}{\numberline {13.A.2}Neutrino Self-Interactions}{356}{subsection.g.13.A.2}%
+\contentsline {section}{\numberline {13.B}Phase-shift template extraction and validation}{357}{section.g.13.B}%
+\contentsline {subsection}{\numberline {13.B.1}Generalized phase shift extraction from CMB power spectra}{358}{subsection.g.13.B.1}%
+\contentsline {subsubsection}{\numberline {13.B.1.1}Free-streaming neutrinos}{358}{subsubsection.g.13.B.1.1}%
+\contentsline {subsubsection}{\numberline {13.B.1.2}Interacting neutrinos}{360}{subsubsection.g.13.B.1.2}%
+\contentsline {subsection}{\numberline {13.B.2}Validation of the phase-shift template approximation}{362}{subsection.g.13.B.2}%
+\contentsline {subsubsection}{\numberline {13.B.2.1}Limits of the constant amplitude approximation}{362}{subsubsection.g.13.B.2.1}%
+\contentsline {subsubsection}{\numberline {13.B.2.2}Impact of the temperature power spectra on phase shift extraction}{365}{subsubsection.g.13.B.2.2}%
+\contentsline {section}{\numberline {13.C}Comparison of direct-phase-shift measurement methods}{366}{section.g.13.C}%
+\contentsline {section}{\numberline {13.D}Additional data analyses}{369}{section.g.13.D}%
+\contentsline {subsection}{\numberline {13.D.1}Comparison between {\it Planck} 2018 and {\it Planck} 2021 analyses}{369}{subsection.g.13.D.1}%
+\contentsline {subsection}{\numberline {13.D.2}Complementary dataset combinations}{370}{subsection.g.13.D.2}%
+\contentsline {chapter}{Chapter 14:\hspace *{1em}Tracing the Neutrino-Induced Phase Shift in the 21-cm Spectrum}{374}{appendix.14}%
+\contentsline {section}{\numberline {14.1}Introduction}{374}{section.14.1}%
+\contentsline {section}{\numberline {14.2}Free-streaming Neutrinos and the Phase Shift}{378}{section.14.2}%
+\contentsline {section}{\numberline {14.3}The 21-cm Signal and its Acoustic Features}{380}{section.14.3}%
+\contentsline {subsection}{\numberline {14.3.1}The Basics of the 21-cm Signal}{380}{subsection.14.3.1}%
+\contentsline {subsection}{\numberline {14.3.2}Acoustic Oscillations in the 21-cm Power Spectrum}{383}{subsection.14.3.2}%
+\contentsline {section}{\numberline {14.4}Extracting the Phase Shift in the 21-cm power spectrum}{388}{section.14.4}%
+\contentsline {subsection}{\numberline {14.4.1}The Phase Shift in the BAOs}{388}{subsection.14.4.1}%
+\contentsline {subsection}{\numberline {14.4.2}The Phase Shift in the VAOs}{390}{subsection.14.4.2}%
+\contentsline {subsection}{\numberline {14.4.3}The Phase Shift in the 21-cm Power Spectrum}{394}{subsection.14.4.3}%
+\contentsline {section}{\numberline {14.5}Discussion \& Conclusions}{404}{section.14.5}%
+\contentsline {section}{\numberline {14.A}Extended Tests}{407}{section.h.14.A}%
+\contentsline {subsection}{\numberline {14.A.1}Phase shift in the velocity power spectrum.}{407}{subsection.h.14.A.1}%
+\contentsline {subsection}{\numberline {14.A.2} Redshift evolution of the 21-cm phase-shift template.}{409}{subsection.h.14.A.2}%
+\contentsline {subsection}{\numberline {14.A.3} Impact of astrophysical parameters}{411}{subsection.h.14.A.3}%
+\contentsline {chapter}{Conclusions of Part~III}{413}{appendix*.113}%
+\contentsline {chapter}{Chapter 15:\hspace *{1em}Closing Remarks and Outlook}{415}{appendix.15}%
+\contentsline {chapter}{References}{417}{appendix.15}%

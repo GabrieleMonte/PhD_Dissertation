@@ -54,39 +54,39 @@
 \contentsline {figure}{\numberline {11.6}{\ignorespaces Exponential quintessence mapping to $(w_0, w_a)$}}{257}{figure.caption.59}%
 \contentsline {figure}{\numberline {11.7}{\ignorespaces Theory-informed priors for exponential quintessence}}{258}{figure.caption.60}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {12.1}{\ignorespaces Phase shift in CMB TT, EE and TE power spectra}}{271}{figure.caption.64}%
-\contentsline {figure}{\numberline {12.2}{\ignorespaces Phase shift isolation in the EE power spectrum}}{277}{figure.caption.65}%
-\contentsline {figure}{\numberline {12.3}{\ignorespaces Phase shift isolation in the TE cross-spectrum}}{278}{figure.caption.66}%
-\contentsline {figure}{\numberline {12.4}{\ignorespaces Spectrum-based multipole shift template}}{282}{figure.caption.68}%
-\contentsline {figure}{\numberline {12.5}{\ignorespaces Phase shift in photon-baryon perturbations}}{287}{figure.caption.69}%
-\contentsline {figure}{\numberline {12.6}{\ignorespaces Perturbation-based phase shift template}}{289}{figure.caption.70}%
-\contentsline {figure}{\numberline {12.7}{\ignorespaces Mock-data validation of the phase shift pipeline}}{296}{figure.caption.71}%
-\contentsline {figure}{\numberline {12.8}{\ignorespaces Spectrum-based phase shift constraints from CMB data}}{300}{figure.caption.72}%
-\contentsline {figure}{\numberline {12.9}{\ignorespaces Effect of helium fraction on spectrum-based analysis}}{303}{figure.caption.74}%
-\contentsline {figure}{\numberline {12.10}{\ignorespaces Perturbation-based phase shift constraints from CMB data}}{305}{figure.caption.75}%
-\contentsline {figure}{\numberline {12.11}{\ignorespaces Effect of helium fraction on perturbation-based analysis}}{305}{figure.caption.76}%
-\contentsline {figure}{\numberline {12.12}{\ignorespaces Comparison of SBT and PBT with Planck 2021 data}}{309}{figure.caption.78}%
-\contentsline {figure}{\numberline {12.13}{\ignorespaces Redshift evolution of template parameters}}{320}{figure.caption.83}%
-\contentsline {figure}{\numberline {12.14}{\ignorespaces Joint mock-data constraints on radiation and phase shift}}{322}{figure.caption.84}%
+\contentsline {figure}{\numberline {12.1}{\ignorespaces Phase shift in CMB TT, EE and TE power spectra}}{270}{figure.caption.64}%
+\contentsline {figure}{\numberline {12.2}{\ignorespaces Phase shift isolation in the EE power spectrum}}{276}{figure.caption.65}%
+\contentsline {figure}{\numberline {12.3}{\ignorespaces Phase shift isolation in the TE cross-spectrum}}{277}{figure.caption.66}%
+\contentsline {figure}{\numberline {12.4}{\ignorespaces Spectrum-based multipole shift template}}{281}{figure.caption.68}%
+\contentsline {figure}{\numberline {12.5}{\ignorespaces Phase shift in photon-baryon perturbations}}{286}{figure.caption.69}%
+\contentsline {figure}{\numberline {12.6}{\ignorespaces Perturbation-based phase shift template}}{288}{figure.caption.70}%
+\contentsline {figure}{\numberline {12.7}{\ignorespaces Mock-data validation of the phase shift pipeline}}{295}{figure.caption.71}%
+\contentsline {figure}{\numberline {12.8}{\ignorespaces Spectrum-based phase shift constraints from CMB data}}{299}{figure.caption.72}%
+\contentsline {figure}{\numberline {12.9}{\ignorespaces Effect of helium fraction on spectrum-based analysis}}{302}{figure.caption.74}%
+\contentsline {figure}{\numberline {12.10}{\ignorespaces Perturbation-based phase shift constraints from CMB data}}{304}{figure.caption.75}%
+\contentsline {figure}{\numberline {12.11}{\ignorespaces Effect of helium fraction on perturbation-based analysis}}{304}{figure.caption.76}%
+\contentsline {figure}{\numberline {12.12}{\ignorespaces Comparison of SBT and PBT with Planck 2021 data}}{308}{figure.caption.78}%
+\contentsline {figure}{\numberline {12.13}{\ignorespaces Redshift evolution of template parameters}}{319}{figure.caption.83}%
+\contentsline {figure}{\numberline {12.14}{\ignorespaces Joint mock-data constraints on radiation and phase shift}}{321}{figure.caption.84}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {13.1}{\ignorespaces Phase shift in undamped EE for interacting neutrinos}}{335}{figure.caption.88}%
-\contentsline {figure}{\numberline {13.2}{\ignorespaces Phase-shift templates for interacting neutrinos}}{337}{figure.caption.89}%
-\contentsline {figure}{\numberline {13.3}{\ignorespaces Phase-shift amplitude vs.\ decoupling redshift}}{341}{figure.caption.90}%
-\contentsline {figure}{\numberline {13.4}{\ignorespaces Posteriors for phase-shift amplitude and $z_{\mitnu ,\mathrm {dec}}$}}{346}{figure.caption.91}%
-\contentsline {figure}{\numberline {13.5}{\ignorespaces Decoupling constraints for flavor-dependent interactions}}{351}{figure.caption.93}%
-\contentsline {figure}{\numberline {13.6}{\ignorespaces Phase-shift templates: free-streaming vs.\ fluid}}{360}{figure.caption.95}%
-\contentsline {figure}{\numberline {13.7}{\ignorespaces Validating the constant-amplitude approximation}}{364}{figure.caption.96}%
-\contentsline {figure}{\numberline {13.8}{\ignorespaces Phase-shift amplitude from TE and EE spectra only}}{366}{figure.caption.97}%
-\contentsline {figure}{\numberline {13.9}{\ignorespaces Phase-shift constraints from different parameterizations}}{368}{figure.caption.98}%
-\contentsline {figure}{\numberline {13.10}{\ignorespaces Planck 2018 vs.\ 2021 phase-shift constraints}}{372}{figure.caption.99}%
-\contentsline {figure}{\numberline {13.11}{\ignorespaces Phase-shift constraints from CMB dataset combinations}}{374}{figure.caption.101}%
+\contentsline {figure}{\numberline {13.1}{\ignorespaces Phase shift in undamped EE for interacting neutrinos}}{334}{figure.caption.88}%
+\contentsline {figure}{\numberline {13.2}{\ignorespaces Phase-shift templates for interacting neutrinos}}{336}{figure.caption.89}%
+\contentsline {figure}{\numberline {13.3}{\ignorespaces Phase-shift amplitude vs.\ decoupling redshift}}{340}{figure.caption.90}%
+\contentsline {figure}{\numberline {13.4}{\ignorespaces Posteriors for phase-shift amplitude and $z_{\mitnu ,\mathrm {dec}}$}}{345}{figure.caption.91}%
+\contentsline {figure}{\numberline {13.5}{\ignorespaces Decoupling constraints for flavor-dependent interactions}}{350}{figure.caption.93}%
+\contentsline {figure}{\numberline {13.6}{\ignorespaces Phase-shift templates: free-streaming vs.\ fluid}}{359}{figure.caption.95}%
+\contentsline {figure}{\numberline {13.7}{\ignorespaces Validating the constant-amplitude approximation}}{363}{figure.caption.96}%
+\contentsline {figure}{\numberline {13.8}{\ignorespaces Phase-shift amplitude from TE and EE spectra only}}{365}{figure.caption.97}%
+\contentsline {figure}{\numberline {13.9}{\ignorespaces Phase-shift constraints from different parameterizations}}{367}{figure.caption.98}%
+\contentsline {figure}{\numberline {13.10}{\ignorespaces Planck 2018 vs.\ 2021 phase-shift constraints}}{371}{figure.caption.99}%
+\contentsline {figure}{\numberline {13.11}{\ignorespaces Phase-shift constraints from CMB dataset combinations}}{373}{figure.caption.101}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {14.1}{\ignorespaces Phase shift in matter and velocity spectra vs.\ $N_{\rm eff}$}}{383}{figure.caption.103}%
-\contentsline {figure}{\numberline {14.2}{\ignorespaces BAO and VAO phase-shift templates vs.\ wavenumber}}{394}{figure.caption.105}%
-\contentsline {figure}{\numberline {14.3}{\ignorespaces Phase shift in the 21-cm spectrum at $z=23$}}{396}{figure.caption.106}%
-\contentsline {figure}{\numberline {14.4}{\ignorespaces 21-cm phase-shift template across cosmic dawn}}{400}{figure.caption.107}%
-\contentsline {figure}{\numberline {14.5}{\ignorespaces Pop III star formation impact on the 21-cm phase shift}}{403}{figure.caption.109}%
-\contentsline {figure}{\numberline {14.6}{\ignorespaces Phase shift in the baryon-DM velocity spectrum}}{409}{figure.caption.110}%
-\contentsline {figure}{\numberline {14.7}{\ignorespaces 21-cm phase shift interpolations across cosmic dawn}}{410}{figure.caption.111}%
-\contentsline {figure}{\numberline {14.8}{\ignorespaces BAO and VAO amplitude evolution for Pop III models}}{411}{figure.caption.112}%
+\contentsline {figure}{\numberline {14.1}{\ignorespaces Phase shift in matter and velocity spectra vs.\ $N_{\rm eff}$}}{382}{figure.caption.103}%
+\contentsline {figure}{\numberline {14.2}{\ignorespaces BAO and VAO phase-shift templates vs.\ wavenumber}}{393}{figure.caption.105}%
+\contentsline {figure}{\numberline {14.3}{\ignorespaces Phase shift in the 21-cm spectrum at $z=23$}}{395}{figure.caption.106}%
+\contentsline {figure}{\numberline {14.4}{\ignorespaces 21-cm phase-shift template across cosmic dawn}}{399}{figure.caption.107}%
+\contentsline {figure}{\numberline {14.5}{\ignorespaces Pop III star formation impact on the 21-cm phase shift}}{402}{figure.caption.109}%
+\contentsline {figure}{\numberline {14.6}{\ignorespaces Phase shift in the baryon-DM velocity spectrum}}{408}{figure.caption.110}%
+\contentsline {figure}{\numberline {14.7}{\ignorespaces 21-cm phase shift interpolations across cosmic dawn}}{409}{figure.caption.111}%
+\contentsline {figure}{\numberline {14.8}{\ignorespaces BAO and VAO amplitude evolution for Pop III models}}{410}{figure.caption.112}%
 \addvspace {10pt}
