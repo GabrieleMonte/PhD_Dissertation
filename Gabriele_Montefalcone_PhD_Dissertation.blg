@@ -1,0 +1,78 @@
+This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Gabriele_Montefalcone_PhD_Dissertation.aux
+A level-1 auxiliary file: chapters/01-introduction.aux
+A level-1 auxiliary file: chapters/02-wi-scalar-field.aux
+A level-1 auxiliary file: chapters/03-wi-eternal.aux
+A level-1 auxiliary file: chapters/04-warmspy.aux
+A level-1 auxiliary file: chapters/05-wi-natural.aux
+A level-1 auxiliary file: chapters/06-wifi-dm.aux
+A level-1 auxiliary file: chapters/07-thermal-gravitons.aux
+A level-1 auxiliary file: chapters/08-minimal-dm-freezein.aux
+A level-1 auxiliary file: chapters/09-cmb-leptophilic-dm.aux
+A level-1 auxiliary file: chapters/10-pbh-memory-burden.aux
+A level-1 auxiliary file: chapters/11-desi-dark-energy.aux
+A level-1 auxiliary file: chapters/12-neutrino-phase-shift.aux
+A level-1 auxiliary file: chapters/13-neutrino-interactions.aux
+A level-1 auxiliary file: chapters/14-neutrino-21cm.aux
+A level-1 auxiliary file: chapters/15-conclusions.aux
+The style file: styles/JHEP.bst
+jhep is an illegal style-file command---line 1 of file styles/JHEP.bst
+ : jhep
+ :      bibliography style ver. 2.18
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated field_info (elt_size=4) to 25880 items from 5000.
+Database file #1: references.bib
+Warning--entry type for "rosati_robert_2020_4708348" isn't style-file defined
+--line 1113 of file references.bib
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Warning--entry type for "nflows" isn't style-file defined
+--line 17641 of file references.bib
+Warning--entry type for "2019ascl.soft10019T" isn't style-file defined
+--line 20205 of file references.bib
+Reallocated str_pool (elt_size=1) to 195000 items from 130000.
+Warning--empty author in PANCI2023137919
+Warning--empty booktitle in Trotta:2017wnx
+Warning--empty booktitle in Kingma:2014vow
+You've used 696 entries,
+            2316 wiz_defined-function locations,
+            5218 strings with 134797 characters,
+and the built_in function-call counts, 289946 in all, are:
+= -- 31235
+> -- 8906
+< -- 0
++ -- 2609
+- -- 1913
+* -- 28399
+:= -- 36092
+add.period$ -- 699
+call.type$ -- 696
+change.case$ -- 684
+chr.to.int$ -- 0
+cite$ -- 699
+duplicate$ -- 22303
+empty$ -- 26074
+format.name$ -- 5739
+if$ -- 73345
+int.to.chr$ -- 0
+int.to.str$ -- 696
+missing$ -- 2512
+newline$ -- 2097
+num.names$ -- 652
+pop$ -- 1457
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 9796
+stack$ -- 0
+substring$ -- 16691
+swap$ -- 5702
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 3
+while$ -- 3200
+width$ -- 699
+write$ -- 7047
+(There was 1 error message)
