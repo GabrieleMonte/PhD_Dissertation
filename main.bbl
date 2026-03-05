@@ -1,6 +1,90 @@
 
 \providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{100}
 
+\bibitem{Guth:1980zm}
+A.H.~Guth, \emph{{The Inflationary Universe: A Possible Solution to the Horizon
+  and Flatness Problems}},
+  \href{https://doi.org/10.1103/PhysRevD.23.347}{\emph{Phys. Rev. D} {\bfseries
+  23} (1981) 347}.
+
+\bibitem{Linde:1981mu}
+A.D.~Linde, \emph{{A New Inflationary Universe Scenario: A Possible Solution of
+  the Horizon, Flatness, Homogeneity, Isotropy and Primordial Monopole
+  Problems}}, \href{https://doi.org/10.1016/0370-2693(82)91219-9}{\emph{Phys.
+  Lett. B} {\bfseries 108} (1982) 389}.
+
+\bibitem{Albrecht:1982wi}
+A.~Albrecht and P.J.~Steinhardt, \emph{{Cosmology for Grand Unified Theories
+  with Radiatively Induced Symmetry Breaking}},
+  \href{https://doi.org/10.1103/PhysRevLett.48.1220}{\emph{Phys. Rev. Lett.}
+  {\bfseries 48} (1982) 1220}.
+
+\bibitem{Kazanas:1980tx}
+D.~Kazanas, \emph{{Dynamics of the Universe and Spontaneous Symmetry
+  Breaking}}, \href{https://doi.org/10.1086/183361}{\emph{Astrophys. J. Lett.}
+  {\bfseries 241} (1980) L59}.
+
+\bibitem{Starobinsky:1980te}
+A.A.~Starobinsky, \emph{{A New Type of Isotropic Cosmological Models Without
+  Singularity}},
+  \href{https://doi.org/10.1016/0370-2693(80)90670-X}{\emph{Phys. Lett. B}
+  {\bfseries 91} (1980) 99}.
+
+\bibitem{Sato:1981ds}
+K.~Sato, \emph{Cosmological baryon number domain structure and the first order
+  phase transition of a vacuum},
+  \href{https://doi.org/10.1016/0370-2693(81)90805-4}{\emph{Phys. Lett. B}
+  {\bfseries 99} (1981) 66}.
+
+\bibitem{Sato:1980yn}
+K.~Sato, \emph{{First Order Phase Transition of a Vacuum and Expansion of the
+  Universe}}, \href{https://doi.org/10.1093/mnras/195.3.467}{\emph{Mon. Not.
+  Roy. Astron. Soc.} {\bfseries 195} (1981) 467}.
+
+\bibitem{Mukhanov:1981xt}
+V.F.~Mukhanov and G.V.~Chibisov, \emph{{Quantum Fluctuations and a Nonsingular
+  Universe}}, {\emph{JETP Lett.} {\bfseries 33} (1981) 532}.
+
+\bibitem{Linde:1983gd}
+A.D.~Linde, \emph{{Chaotic Inflation}},
+  \href{https://doi.org/10.1016/0370-2693(83)90837-7}{\emph{Phys. Lett. B}
+  {\bfseries 129} (1983) 177}.
+
+\bibitem{Mukhanov:2003xw}
+V.~{Mukhanov}, \emph{{CMB, Quantum Fluctuations and the Predictive Power of
+  Inflation}}, {\emph{arXiv e-prints} (2003) astro}
+  [\href{https://arxiv.org/abs/astro-ph/0303077}{{\ttfamily
+  astro-ph/0303077}}].
+
+\bibitem{SupernovaCosmologyProject:1998vns}
+{\scshape Supernova Cosmology Project} collaboration, \emph{{Measurements of
+  $\Omega$ and $\Lambda$ from 42 High Redshift Supernovae}},
+  \href{https://doi.org/10.1086/307221}{\emph{Astrophys. J.} {\bfseries 517}
+  (1999) 565} [\href{https://arxiv.org/abs/astro-ph/9812133}{{\ttfamily
+  astro-ph/9812133}}].
+
+\bibitem{SupernovaSearchTeam:1998fmf}
+{\scshape Supernova Search Team} collaboration, \emph{{Observational evidence
+  from supernovae for an accelerating universe and a cosmological constant}},
+  \href{https://doi.org/10.1086/300499}{\emph{Astron. J.} {\bfseries 116}
+  (1998) 1009} [\href{https://arxiv.org/abs/astro-ph/9805201}{{\ttfamily
+  astro-ph/9805201}}].
+
+\bibitem{CosmoVerseNetwork:2025alb}
+{\scshape CosmoVerse Network} collaboration, \emph{{The CosmoVerse White Paper:
+  Addressing observational tensions in cosmology with systematics and
+  fundamental physics}},
+  \href{https://doi.org/10.1016/j.dark.2025.101965}{\emph{Phys. Dark Univ.}
+  {\bfseries 49} (2025) 101965}
+  [\href{https://arxiv.org/abs/2504.01669}{{\ttfamily 2504.01669}}].
+
+\bibitem{Berera:1995ie}
+A.~Berera, \emph{{Warm inflation}},
+  \href{https://doi.org/10.1103/PhysRevLett.75.3218}{\emph{Phys. Rev. Lett.}
+  {\bfseries 75} (1995) 3218}
+  [\href{https://arxiv.org/abs/astro-ph/9509049}{{\ttfamily
+  astro-ph/9509049}}].
+
 \bibitem{Das:2018hqy}
 S.~Das, \emph{{Note on single-field inflation and the swampland criteria}},
   \href{https://doi.org/10.1103/PhysRevD.99.083510}{\emph{Phys. Rev. D}
@@ -80,61 +164,6 @@ K.~Freese, J.A.~Frieman and A.V.~Olinto, \emph{{Natural inflation with pseudo -
   \href{https://doi.org/10.1103/PhysRevLett.65.3233}{\emph{Phys. Rev. Lett.}
   {\bfseries 65} (1990) 3233}.
 
-\bibitem{Guth:1980zm}
-A.H.~Guth, \emph{{The Inflationary Universe: A Possible Solution to the Horizon
-  and Flatness Problems}},
-  \href{https://doi.org/10.1103/PhysRevD.23.347}{\emph{Phys. Rev. D} {\bfseries
-  23} (1981) 347}.
-
-\bibitem{Linde:1981mu}
-A.D.~Linde, \emph{{A New Inflationary Universe Scenario: A Possible Solution of
-  the Horizon, Flatness, Homogeneity, Isotropy and Primordial Monopole
-  Problems}}, \href{https://doi.org/10.1016/0370-2693(82)91219-9}{\emph{Phys.
-  Lett. B} {\bfseries 108} (1982) 389}.
-
-\bibitem{Albrecht:1982wi}
-A.~Albrecht and P.J.~Steinhardt, \emph{{Cosmology for Grand Unified Theories
-  with Radiatively Induced Symmetry Breaking}},
-  \href{https://doi.org/10.1103/PhysRevLett.48.1220}{\emph{Phys. Rev. Lett.}
-  {\bfseries 48} (1982) 1220}.
-
-\bibitem{Kazanas:1980tx}
-D.~Kazanas, \emph{{Dynamics of the Universe and Spontaneous Symmetry
-  Breaking}}, \href{https://doi.org/10.1086/183361}{\emph{Astrophys. J. Lett.}
-  {\bfseries 241} (1980) L59}.
-
-\bibitem{Starobinsky:1980te}
-A.A.~Starobinsky, \emph{{A New Type of Isotropic Cosmological Models Without
-  Singularity}},
-  \href{https://doi.org/10.1016/0370-2693(80)90670-X}{\emph{Phys. Lett. B}
-  {\bfseries 91} (1980) 99}.
-
-\bibitem{Sato:1981ds}
-K.~Sato, \emph{Cosmological baryon number domain structure and the first order
-  phase transition of a vacuum},
-  \href{https://doi.org/10.1016/0370-2693(81)90805-4}{\emph{Phys. Lett. B}
-  {\bfseries 99} (1981) 66}.
-
-\bibitem{Sato:1980yn}
-K.~Sato, \emph{{First Order Phase Transition of a Vacuum and Expansion of the
-  Universe}}, \href{https://doi.org/10.1093/mnras/195.3.467}{\emph{Mon. Not.
-  Roy. Astron. Soc.} {\bfseries 195} (1981) 467}.
-
-\bibitem{Mukhanov:1981xt}
-V.F.~Mukhanov and G.V.~Chibisov, \emph{{Quantum Fluctuations and a Nonsingular
-  Universe}}, {\emph{JETP Lett.} {\bfseries 33} (1981) 532}.
-
-\bibitem{Linde:1983gd}
-A.D.~Linde, \emph{{Chaotic Inflation}},
-  \href{https://doi.org/10.1016/0370-2693(83)90837-7}{\emph{Phys. Lett. B}
-  {\bfseries 129} (1983) 177}.
-
-\bibitem{Mukhanov:2003xw}
-V.~{Mukhanov}, \emph{{CMB, Quantum Fluctuations and the Predictive Power of
-  Inflation}}, {\emph{arXiv e-prints} (2003) astro}
-  [\href{https://arxiv.org/abs/astro-ph/0303077}{{\ttfamily
-  astro-ph/0303077}}].
-
 \bibitem{Planck:2018nkj}
 {\scshape Planck} collaboration, \emph{Planck 2018 results. i. overview and the
   cosmological legacy of planck},
@@ -147,13 +176,6 @@ F.C.~Adams, K.~Freese and A.H.~Guth, \emph{{Constraints on the scalar field
   potential in inflationary models}},
   \href{https://doi.org/10.1103/PhysRevD.43.965}{\emph{Phys. Rev. D} {\bfseries
   43} (1991) 965}.
-
-\bibitem{Berera:1995ie}
-A.~Berera, \emph{{Warm inflation}},
-  \href{https://doi.org/10.1103/PhysRevLett.75.3218}{\emph{Phys. Rev. Lett.}
-  {\bfseries 75} (1995) 3218}
-  [\href{https://arxiv.org/abs/astro-ph/9509049}{{\ttfamily
-  astro-ph/9509049}}].
 
 \bibitem{Berera:1995wh}
 A.~Berera and L.-Z.~Fang, \emph{{Thermally induced density perturbations in the
@@ -4383,5 +4405,26 @@ A.~{Liu} and J.R.~{Shaw}, \emph{{Data Analysis for Precision 21 cm Cosmology}},
   \href{https://doi.org/10.1088/1538-3873/ab5bfd}{\emph{\pasp} {\bfseries 132}
   (2020) 062001} [\href{https://arxiv.org/abs/1907.08211}{{\ttfamily
   1907.08211}}].
+
+\bibitem{Craig:2016lyx}
+N.~Craig, S.~Koren and T.~Trott, \emph{{Cosmological Signals of a Mirror Twin
+  Higgs}}, \href{https://doi.org/10.1007/JHEP05(2017)038}{\emph{JHEP}
+  {\bfseries 05} (2017) 038}
+  [\href{https://arxiv.org/abs/1611.07977}{{\ttfamily 1611.07977}}].
+
+\bibitem{Green:2024xbb}
+D.~Green and J.~Meyers, \emph{{Cosmological preference for a negative neutrino
+  mass}}, \href{https://doi.org/10.1103/PhysRevD.111.083507}{\emph{Phys. Rev.
+  D} {\bfseries 111} (2025) 083507}
+  [\href{https://arxiv.org/abs/2407.07878}{{\ttfamily 2407.07878}}].
+
+\bibitem{Loverde:2024nfi}
+M.~Loverde and Z.J.~Weiner, \emph{{Massive neutrinos and cosmic composition}},
+  \href{https://doi.org/10.1088/1475-7516/2024/12/048}{\emph{JCAP} {\bfseries
+  12} (2024) 048} [\href{https://arxiv.org/abs/2410.00090}{{\ttfamily
+  2410.00090}}].
+
+\bibitem{Lynch:2025ine}
+G.P.~Lynch and L.~Knox, 3, 2025.
 
 \end{thebibliography}\endgroup

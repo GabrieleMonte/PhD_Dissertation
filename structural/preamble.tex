@@ -40,6 +40,9 @@
     {\LARGE\scshape #1}\par\nobreak\vskip 30pt}}
 \def\@makeschapterhead#1{{\parindent\z@ \raggedleft
     {\LARGE\scshape #1}\par\nobreak\vskip 30pt}}
+\def\@schapter#1{\thispagestyle{plain}
+    \chaptermark{#1}%
+    \@makeschapterhead{#1} \@afterheading}
 
 % Section headings (from jcappub.sty)
 \renewcommand\section{\@startsection{section}{1}{\z@}%
@@ -226,12 +229,16 @@
      \with@parts=1 \fi
     \@endpart}
 
-% ── Running headers (fancyhdr) ───────────────────────────────────
-\fancyhf{}
-\fancyhead[C]{\itshape\leftmark}
-\fancyfoot[C]{\thepage}
-\renewcommand{\headrulewidth}{0.4pt}
-\renewcommand{\footrulewidth}{0pt}
+% ── Running headers (fancyhdr v4+) ─────────────────────────────────
+% Both pagestyles must be defined explicitly so that \pagestyle{fancy}
+% restores \headrulewidth after \pagestyle{plain} sets it to 0pt.
+\fancypagestyle{fancy}{%
+  \fancyhf{}%
+  \fancyhead[C]{\itshape\leftmark}%
+  \fancyfoot[C]{\thepage}%
+  \renewcommand{\headrulewidth}{0.4pt}%
+  \renewcommand{\footrulewidth}{0pt}%
+}
 \fancypagestyle{plain}{%
   \fancyhf{}%
   \fancyfoot[C]{\thepage}%
@@ -311,6 +318,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \oneandonehalfspacing
 % \doublespacing
+\renewcommand{\arraystretch}{1.2}
 
 % Strong widow and orphan control - avoid any widows and orphans
 \clubpenalty10000
@@ -322,6 +330,9 @@
 % Avoid inline math and long captions protruding past the right margin
 \emergencystretch=2em
 \tolerance=1500
+\hfuzz=0.3pt
+\vfuzz=\hfuzz
+\raggedbottom
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	Some math support.					     %
@@ -345,6 +356,7 @@
 \newtheorem*{notation}{Notation}
 
 \numberwithin{equation}{chapter}
+\allowdisplaybreaks[0]
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -396,7 +408,7 @@
 
 % These values determine the numbering within the text and Table of Contents.
 \setcounter{secnumdepth}{3}    % Number subsections in the chapters.
-\setcounter{tocdepth}{1} % include subsections in the Table of Contents
+\setcounter{tocdepth}{1} % include sections in the Table of Contents
 
 % Captions (JCAP-style: small font, bold labels, justified text)
 \usepackage{caption}
