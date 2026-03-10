@@ -120,12 +120,25 @@
     \penalty\@highpenalty \endgroup}
 
 % ── Consistent front-matter headings (JCAP style) ────────────────
-% Abstract: use the same \shortchapter* heading as ToC / LoF / LoT
+% Abstract: UT Graduate School Format Guidelines (Sample E) require
+% title, "by", student name + degree abbreviation, university + year,
+% and SUPERVISOR line before the abstract text.
 \def\utabstract{\clearpage
     \short@page
     \setcounter{regular@short}{1}
     \pagestyle{plain}
     \shortchapter*{Abstract}
+    \begin{center}
+    \baselineskip=22.5pt plus .5pt minus .2pt
+    {\Large\bfseries\ti@tle}
+    \vspace{14pt}\\
+    by
+    \vspace{4pt}\\
+    \au@thor, \target@degree\\
+    The University of Texas at Austin, \graduation@year\\[4pt]
+    SUPERVISOR: \supervisora
+    \end{center}
+    \vspace{18pt}
     \default@spacing}
 
 % ToC (clean, no horizontal rules)
